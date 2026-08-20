@@ -40,6 +40,7 @@ class CfgPatches
             "Mich2001Helmet_URB",
             "Mich2001Helmet_USN",
             "Mich2001Helmet_USN2",
+            "LargeTanTent"
         };
         weapons[] = {};
         requiredVersion = 0.1;
@@ -1303,5 +1304,5 @@ class CfgVehicles
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagH_kufbk_co.paa",
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagF_kufbk_co.paa"
         };
-    };
+	};
 };

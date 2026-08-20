@@ -27,7 +27,7 @@ class CfgVehicles
     class TacticalShirt_ACU: TacticalShirt_ColorBase
     {
         scope = 2;
-        displayName = "UCP Shirt";
+        displayName = "UCP Cold-Weather Shirt";
         descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
         hiddenSelectionsTextures[] =
         {
@@ -39,7 +39,7 @@ class CfgVehicles
     class TacticalShirt_CAN: TacticalShirt_ColorBase
     {
         scope = 2;
-        displayName = "CADPAT Shirt";
+        displayName = "CADPAT Cold-Weather Shirt";
         descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
         hiddenSelectionsTextures[] =
         {
@@ -51,7 +51,7 @@ class CfgVehicles
     class TacticalShirt_CC: TacticalShirt_ColorBase
     {
         scope = 2;
-        displayName = "6-Color Desert Shirt";
+        displayName = "6-Color Desert Cold-Weather Shirt";
         descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
         hiddenSelectionsTextures[] =
         {
@@ -63,7 +63,7 @@ class CfgVehicles
     class TacticalShirt_DCU: TacticalShirt_ColorBase
     {
         scope = 2;
-        displayName = "DCU Shirt";
+        displayName = "DCU Cold-Weather Shirt";
         descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
         hiddenSelectionsTextures[] =
         {
@@ -75,7 +75,7 @@ class CfgVehicles
     class TacticalShirt_Multicam: TacticalShirt_ColorBase
     {
         scope = 2;
-        displayName = "Multicam Shirt";
+        displayName = "Multicam Cold-Weather Shirt";
         descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
         hiddenSelectionsTextures[] =
         {
@@ -87,7 +87,7 @@ class CfgVehicles
     class TacticalShirt_OP4: TacticalShirt_ColorBase
     {
         scope = 2;
-        displayName = "OPFOR Shirt";
+        displayName = "OPFOR Cold-Weather Shirt";
         descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
         hiddenSelectionsTextures[] =
         {
@@ -99,7 +99,7 @@ class CfgVehicles
     class TacticalShirt_Pink: TacticalShirt_ColorBase
     {
         scope = 2;
-        displayName = "Pink Camo Shirt";
+        displayName = "Pink Camo Cold-Weather Shirt";
         descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
         hiddenSelectionsTextures[] =
         {
@@ -111,7 +111,7 @@ class CfgVehicles
     class TacticalShirt_URB: TacticalShirt_ColorBase
     {
         scope = 2;
-        displayName = "Urban Camo Shirt";
+        displayName = "Urban Camo Cold-Weather Shirt";
         descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
         hiddenSelectionsTextures[] =
         {
@@ -123,7 +123,7 @@ class CfgVehicles
         class TacticalShirt_USN: TacticalShirt_ColorBase
     {
         scope = 2;
-        displayName = "NWU III Shirt";
+        displayName = "NWU III Cold-Weather Shirt";
         descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
         hiddenSelectionsTextures[] =
         {
@@ -923,9 +923,9 @@ class CfgVehicles
     class Shirt_ACU: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "UCP Uniform Shirt";
+        displayName = "UCP Hot-Weather Shirt";
         descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_acu_co.paa",
@@ -936,9 +936,9 @@ class CfgVehicles
     class Shirt_CAN: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "CADPAT Uniform Shirt";
+        displayName = "CADPAT Hot-Weather Shirt";
         descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_can_co.paa",
@@ -949,9 +949,9 @@ class CfgVehicles
     class Shirt_CC: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "6-Color Desert Uniform Shirt";
+        displayName = "6-Color Desert Hot-Weather Shirt";
         descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_cc_co.paa",
@@ -962,9 +962,9 @@ class CfgVehicles
     class Shirt_DCU: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "DCU Uniform Shirt";
+        displayName = "DCU Hot-Weather Shirt";
         descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_dcu_co.paa",
@@ -975,9 +975,9 @@ class CfgVehicles
     class Shirt_Digi: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "EMR Arid Uniform Shirt";
+        displayName = "EMR Arid Hot-Weather Shirt";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_digi_co.paa",
@@ -988,9 +988,9 @@ class CfgVehicles
     class Shirt_DST: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "Flat-Tan Uniform Shirt";
+        displayName = "Flat-Tan Hot-Weather Shirt";
         descriptionShort = "A uniform shirt with a Flat-Tan hue.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_dst_co.paa",
@@ -1001,9 +1001,9 @@ class CfgVehicles
     class Shirt_FLK: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "Flektarn Uniform Shirt";
+        displayName = "Flektarn Hot-Weather Shirt";
         descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_flk_co.paa",
@@ -1014,9 +1014,9 @@ class CfgVehicles
     class Shirt_Multicam: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "Multicam Uniform Shirt";
+        displayName = "Multicam Hot-Weather Shirt";
         descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_multicam_co.paa",
@@ -1027,9 +1027,9 @@ class CfgVehicles
     class Shirt_OP4: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "OPFOR Uniform Shirt";
+        displayName = "OPFOR Hot-Weather Shirt";
         descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_op4_co.paa",
@@ -1040,9 +1040,9 @@ class CfgVehicles
     class Shirt_Pink: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "Pink Camo Uniform Shirt";
+        displayName = "Pink Camo Hot-Weather Shirt";
         descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_pink_co.paa",
@@ -1053,9 +1053,9 @@ class CfgVehicles
     class Shirt_Rus: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "EMR Tsifra Uniform Shirt";
+        displayName = "EMR Tsifra Hot-Weather Shirt";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_rus_co.paa",
@@ -1066,9 +1066,9 @@ class CfgVehicles
     class Shirt_UKR: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "MM-14 Uniform Shirt";
+        displayName = "MM-14 Hot-Weather Shirt";
         descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_ukr_co.paa",
@@ -1079,9 +1079,9 @@ class CfgVehicles
     class Shirt_URB: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "Urban Camo Uniform Shirt";
+        displayName = "Urban Camo Hot-Weather Shirt";
         descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_urb_co.paa",
@@ -1092,9 +1092,9 @@ class CfgVehicles
     class Shirt_USN: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "Kamysh Uniform Shirt";
+        displayName = "Kamysh Hot-Weather Shirt";
         descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_usn_co.paa",
@@ -1105,9 +1105,9 @@ class CfgVehicles
     class Shirt_USN2: Shirt_Colorbase
     {
         scope = 2;
-        displayName = "NWU III Uniform Shirt";
+        displayName = "NWU III Hot-Weather Shirt";
         descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
-        itemsCargoSize[]={4,4};
+        itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_usn2_co.paa",
