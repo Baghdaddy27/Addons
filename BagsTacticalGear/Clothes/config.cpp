@@ -559,61 +559,6 @@ class CfgVehicles
         };
     };
 
-//T-Shirt
-    class TShirt_Colorbase;
-    class TShirt_BACK: TShirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Stay-Back T-Shirt";
-        descriptionShort = "A shirt with the wording of signs found on vehicles and around bases during the Global War on Terror.";
-        itemsCargoSize[]={4,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_back_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_back_co.paa"
-        };
-    };
-    class TShirt_CAT: TShirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Cat T-Shirt";
-        descriptionShort = "For people who really like cats, or for cats who know their place in the world.";
-        itemsCargoSize[]={4,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_cat_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_cat_co.paa"
-        };
-    };
-    class TShirt_Doge: TShirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Doge Meme T-Shirt";
-        descriptionShort = "The Doge meme features a Shiba Inu dog named Kabosu, and became popular in 2013.";
-        itemsCargoSize[]={4,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_doge_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_doge_co.paa"
-        };
-    };
-    class TShirt_NASA: TShirt_Colorbase
-    {
-        scope = 2;
-        displayName = "NASA T-Shirt";
-        descriptionShort = "The National Aeronautics and Space Administration is an independent agency of the U.S. federal government responsible for the United States' civil space program.";
-        itemsCargoSize[]={4,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_nasa_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_nasa_co.paa"
-        };
-    };
-
 
 //Cargo Pants Hot Weather
     class CargoPants_ColorBase;
@@ -1725,7 +1670,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_usn2_co.paa"
         };
     };
-    class BaseballCap_WW": BaseballCap_ColorBase
+    class BaseballCap_WW2": BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "WW2 Baseball Cap";

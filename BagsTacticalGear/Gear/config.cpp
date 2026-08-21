@@ -33,33 +33,46 @@ class CfgPatches
             "Tortillabag_UKR",
             "Tortillabag_CAN",
             "Tortillabag_CC",
+            "Tortillabag_CHN",
             "Tortillabag_DCU",
             "Tortillabag_Digi",
+            "Tortillabag_DST",
+            "Tortillabag_EGT",
             "Tortillabag_FLK",
             "Tortillabag_Multicam",
+            "Tortillabag_NK",
             "Tortillabag_OP4",
             "Tortillabag_Pink",
             "Tortillabag_RUS",
-            "Tortillabag_DST",
+            "Tortillabag_SAF",
+            "Tortillabag_SWD",
+            "Tortillabag_UKR",
             "Tortillabag_URB",
             "Tortillabag_USN",
             "Tortillabag_USN2",
             "Tortillabag_USCG",
+            "Tortillabag_WW2",
             "Mich2001Helmet_ACU",
-            "Mich2001Helmet_UKR",
             "Mich2001Helmet_CAN",
             "Mich2001Helmet_CC",
+            "Mich2001Helmet_CHN",
             "Mich2001Helmet_DCU",
             "Mich2001Helmet_Digi",
+            "Mich2001Helmet_DST",
             "Mich2001Helmet_FLK",
+            "Mich2001Helmet_EGT",
             "Mich2001Helmet_Multicam",
+            "Mich2001Helmet_NK",
             "Mich2001Helmet_OP4",
             "Mich2001Helmet_Pink",
             "Mich2001Helmet_RUS",
-            "Mich2001Helmet_DST",
+            "Mich2001Helmet_SAF",
+            "Mich2001Helmet_SWD",
+            "Mich2001Helmet_UKR",
             "Mich2001Helmet_URB",
             "Mich2001Helmet_USN",
             "Mich2001Helmet_USN2",
+            "Mich2001Helmet_WW2",
         };
         weapons[] = {};
         requiredVersion = 0.1;
@@ -816,7 +829,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "Ballistic Helmet PLA";
-        descriptionShort = "CChinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_chn_co.paa",
