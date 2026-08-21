@@ -21,8 +21,7 @@ class CfgPatches
 class CfgVehicles
 {
 
-
-    //TacticalShirt
+//Tactical Shirt
     class TacticalShirt_ColorBase;
     class TacticalShirt_ACU: TacticalShirt_ColorBase
     {
@@ -120,7 +119,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_urb_co.paa"
         };
     };
-        class TacticalShirt_USN: TacticalShirt_ColorBase
+    class TacticalShirt_USN: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "NWU III Cold-Weather Shirt";
@@ -132,14 +131,14 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_usn2_co.paa"
         };
     };
-        
 
-    //GorkaJacket
+
+//Gorka Jacket Hot Weather
     class GorkaEJacket_ColorBase;
     class GorkaEJacket_Digi: GorkaEJacket_ColorBase
     {
         scope = 2;
-        displayName = "EMR Arid Jacket";
+        displayName = "EMR Arid Hot-Weather Jacket";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
         hiddenSelectionsTextures[] =
         {
@@ -151,7 +150,7 @@ class CfgVehicles
     class GorkaEJacket_DST: GorkaEJacket_ColorBase
     {
         scope = 2;
-        displayName = "Gorka Flat-Tan Jacket";
+        displayName = "Gorka Flat-Tan Hot-Weather Jacket";
         descriptionShort = "A Soviet-style Patrol Jacket with a flat-tan hue.";
         hiddenSelectionsTextures[] =
         {
@@ -163,7 +162,7 @@ class CfgVehicles
     class GorkaEJacket_FLK: GorkaEJacket_ColorBase
     {
         scope = 2;
-        displayName = "Fletktarn Jacket";
+        displayName = "Fletktarn Hot-Weather Jacket";
         descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
         hiddenSelectionsTextures[] =
         {
@@ -175,7 +174,7 @@ class CfgVehicles
     class GorkaEJacket_RUS: GorkaEJacket_ColorBase
     {
         scope = 2;
-        displayName = "EMR Tsifra Jacket";
+        displayName = "EMR Tsifra Hot-Weather Jacket";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
         hiddenSelectionsTextures[] =
         {
@@ -187,7 +186,7 @@ class CfgVehicles
     class GorkaEJacket_UKR: GorkaEJacket_ColorBase
     {
         scope = 2;
-        displayName = "MM-14 Jacket";
+        displayName = "MM-14 Hot-Weather Jacket";
         descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
         hiddenSelectionsTextures[] =
         {
@@ -199,7 +198,7 @@ class CfgVehicles
     class GorkaEJacket_USN: GorkaEJacket_ColorBase
     {
         scope = 2;
-        displayName = "Kamysh Digital Jacket";
+        displayName = "Kamysh Digital Hot-Weather Jacket";
         descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
         hiddenSelectionsTextures[] =
         {
@@ -209,14 +208,350 @@ class CfgVehicles
         };
     };
 
+//Gorka Jacket Cold Weather
+    class GorkaEJacketCJacket_Digi: GorkaEJacket_ColorBase
+    {
+        scope = 2;
+        displayName = "EMR Arid Cold-Weather Jacket";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\gorka_up_g_digi_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_digi_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_digi_co.paa"
+        };
+    };
+    class GorkaEJacketCJacket_DST: GorkaEJacket_ColorBase
+    {
+        scope = 2;
+        displayName = "Gorka Flat-Tan Cold-Weather Jacket";
+        descriptionShort = "A Soviet-style Patrol Jacket with a flat-tan hue.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\gorka_up_g_dst_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_dst_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_dst_co.paa"
+        };
+    };
+    class GorkaEJacketCJacket_FLK: GorkaEJacket_ColorBase
+    {
+        scope = 2;
+        displayName = "Fletktarn Cold-Weather Jacket";
+        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\gorka_up_g_flk_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_flk_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_flk_co.paa"
+        };
+    };
+    class GorkaEJacketCJacket_RUS: GorkaEJacket_ColorBase
+    {
+        scope = 2;
+        displayName = "EMR Tsifra Cold-Weather Jacket";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\gorka_up_g_rus_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_rus_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_rus_co.paa"
+        };
+    };
+    class GorkaEJacketCJacket_UKR: GorkaEJacket_ColorBase
+    {
+        scope = 2;
+        displayName = "MM-14 Cold-Weather Jacket";
+        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\gorka_up_g_ukr_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_ukr_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_ukr_co.paa"
+        };
+    };
+    class GorkaEJacketCJacket_USN: GorkaEJacket_ColorBase
+    {
+        scope = 2;
+        displayName = "Kamysh Digital Cold-Weather Jacket";
+        descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\gorka_up_g_usn_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_usn_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\gorka_upper_usn_co.paa"
+        };
+    };
 
-    //CargoPants
+
+//Uniform Shirt
+    class Shirt_Colorbase;
+    class Shirt_ACU: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "UCP Hot-Weather Shirt";
+        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_acu_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_acu_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_acu_co.paa"
+        };
+    };
+    class Shirt_CAN: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "CADPAT Hot-Weather Shirt";
+        descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_can_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_can_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_can_co.paa"
+        };
+    };
+    class Shirt_CC: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "6-Color Desert Hot-Weather Shirt";
+        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_cc_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_cc_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_cc_co.paa"
+        };
+    };
+    class Shirt_DCU: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "DCU Hot-Weather Shirt";
+        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_dcu_co.paa"
+        };
+    };
+    class Shirt_Digi: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "EMR Arid Hot-Weather Shirt";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_digi_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_digi_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_digi_co.paa"
+        };
+    };
+    class Shirt_DST: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Flat-Tan Hot-Weather Shirt";
+        descriptionShort = "A uniform shirt with a Flat-Tan hue.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_dst_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_dst_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_dst_co.paa"
+        };
+    };
+    class Shirt_FLK: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Flektarn Hot-Weather Shirt";
+        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_flk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_flk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_flk_co.paa"
+        };
+    };
+    class Shirt_Multicam: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Multicam Hot-Weather Shirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_multicam_co.paa"
+        };
+    };
+    class Shirt_OP4: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "OPFOR Hot-Weather Shirt";
+        descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_op4_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_op4_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_op4_co.paa"
+        };
+    };
+    class Shirt_Pink: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Pink Camo Hot-Weather Shirt";
+        descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_pink_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_pink_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_pink_co.paa"
+        };
+    };
+    class Shirt_Rus: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "EMR Tsifra Hot-Weather Shirt";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_rus_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_rus_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_rus_co.paa"
+        };
+    };
+    class Shirt_UKR: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "MM-14 Hot-Weather Shirt";
+        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_ukr_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_ukr_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_ukr_co.paa"
+        };
+    };
+    class Shirt_URB: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Urban Camo Hot-Weather Shirt";
+        descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_urb_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_urb_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_urb_co.paa"
+        };
+    };
+    class Shirt_USN: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Kamysh Hot-Weather Shirt";
+        descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_usn_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_usn_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_usn_co.paa"
+        };
+    };
+    class Shirt_USN2: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "NWU III Hot-Weather Shirt";
+        descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_usn2_co.paa"
+        };
+    };
+
+
+//T-Shirt
+    class TShirt_Colorbase;
+    class TShirt_BACK: TShirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Stay-Back T-Shirt";
+        descriptionShort = "A shirt with the wording of signs found on vehicles and around bases during the Global War on Terror.";
+        itemsCargoSize[]={4,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_back_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_back_co.paa"
+        };
+    };
+    class TShirt_CAT: TShirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Cat T-Shirt";
+        descriptionShort = "For people who really like cats, or for cats who know their place in the world.";
+        itemsCargoSize[]={4,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_cat_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_cat_co.paa"
+        };
+    };
+    class TShirt_Doge: TShirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Doge Meme T-Shirt";
+        descriptionShort = "The Doge meme features a Shiba Inu dog named Kabosu, and became popular in 2013.";
+        itemsCargoSize[]={4,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_doge_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_doge_co.paa"
+        };
+    };
+    class TShirt_NASA: TShirt_Colorbase
+    {
+        scope = 2;
+        displayName = "NASA T-Shirt";
+        descriptionShort = "The National Aeronautics and Space Administration is an independent agency of the U.S. federal government responsible for the United States' civil space program.";
+        itemsCargoSize[]={4,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_nasa_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_nasa_co.paa"
+        };
+    };
+
+
+//Cargo Pants Hot Weather
     class CargoPants_ColorBase;
     class CargoPants_ACU: CargoPants_ColorBase
     {
         scope = 2;
-        displayName = "UCP Pants";
+        displayName = "UCP Hot-Weather Pants";
         descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+        heatIsolation=0.40000001;
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Pants\cargopants_g_acu_co.paa",
@@ -227,8 +562,9 @@ class CfgVehicles
     class CargoPants_CAN: CargoPants_ColorBase
     {
         scope = 2;
-        displayName = "CADPAT Pants";
+        displayName = "CADPAT Hot-Weather Pants";
         descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
+        heatIsolation=0.40000001;
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Pants\cargopants_g_can_co.paa",
@@ -239,8 +575,9 @@ class CfgVehicles
     class CargoPants_CC: CargoPants_ColorBase
     {
         scope = 2;
-        displayName = "6-Color Desert Pants";
+        displayName = "6-Color Desert Hot-Weather Pants";
         descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        heatIsolation=0.40000001;
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Pants\cargopants_g_cc_co.paa",
@@ -251,8 +588,9 @@ class CfgVehicles
     class CargoPants_DCU: CargoPants_ColorBase
     {
         scope = 2;
-        displayName = "DCU Pants";
+        displayName = "DCU Hot-Weather Pants";
         descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
+        heatIsolation=0.40000001;
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Pants\cargopants_g_dcu_co.paa",
@@ -263,8 +601,9 @@ class CfgVehicles
     class CargoPants_Multicam: CargoPants_ColorBase
     {
         scope = 2;
-        displayName = "Army Multicam Pants";
+        displayName = "Multicam Hot-Weather Pants";
         descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        heatIsolation=0.40000001;
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Pants\cargopants_g_multicam_co.paa",
@@ -275,8 +614,9 @@ class CfgVehicles
     class CargoPants_OP4: CargoPants_ColorBase
     {
         scope = 2;
-        displayName = "OPFOR Pants";
+        displayName = "OPFOR Hot-Weather Pants";
         descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
+        heatIsolation=0.40000001;
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Pants\cargopants_g_op4_co.paa",
@@ -287,8 +627,9 @@ class CfgVehicles
     class CargoPants_Pink: CargoPants_ColorBase
     {
         scope = 2;
-        displayName = "Pink Camo Pants";
+        displayName = "Pink Camo Hot-Weather Pants";
         descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
+        heatIsolation=0.40000001;
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Pants\cargopants_g_pink_co.paa",
@@ -299,8 +640,9 @@ class CfgVehicles
     class CargoPants_URB: CargoPants_ColorBase
     {
         scope = 2;
-        displayName = "Urban Camo Pants";
+        displayName = "Urban Camo Hot-Weather Pants";
         descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
+        heatIsolation=0.40000001;
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Pants\cargopants_g_urb_co.paa",
@@ -311,7 +653,119 @@ class CfgVehicles
     class CargoPants_USN2: CargoPants_ColorBase
     {
         scope = 2;
-        displayName = "NWU Pants II";
+        displayName = "NWU III Hot-Weather Pants";
+        descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
+        heatIsolation=0.40000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_usn2_co.paa"
+        };  
+    };
+
+
+//Cargo Pants Cold Weather
+    class CargoPantsC_ACU: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "UCP Cold-Weather Pants";
+        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_acu_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_acu_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_acu_co.paa"
+        };  
+    };
+    class CargoPantsC_CAN: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "CADPAT Cold-Weather Pants";
+        descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_can_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_can_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_can_co.paa"
+        };  
+    };
+    class CargoPantsC_CC: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "6-Color Desert Cold-Weather Pants";
+        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_cc_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_cc_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_cc_co.paa"
+        };  
+    };
+    class CargoPantsC_DCU: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "DCU Cold-Weather Pants";
+        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_dcu_co.paa"
+        };  
+    };
+    class CargoPantsC_Multicam: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Cold-Weather Pants";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_multicam_co.paa"
+        };  
+    };
+    class CargoPantsC_OP4: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "OPFOR Cold-Weather Pants";
+        descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_op4_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_op4_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_op4_co.paa"
+        };  
+    };
+    class CargoPantsC_Pink: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Pink Camo Cold-Weather Pants";
+        descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_pink_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_pink_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_pink_co.paa"
+        };  
+    };
+    class CargoPantsC_URB: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Urban Camo Cold-Weather Pants";
+        descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_urb_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_urb_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_urb_co.paa"
+        };  
+    };
+    class CargoPantsC_USN2: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "NWU III Cold-Weather Pants";
         descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
         hiddenSelectionsTextures[] =
         {
@@ -322,12 +776,12 @@ class CfgVehicles
     };
 
 
-    //GorkaPants
+//Gorka Pants Hot Weather
     class GorkaPants_ColorBase;
     class GorkaPants_Digi: GorkaPants_ColorBase
     {
         scope = 2;
-        displayName = "EMR Arid Pants";
+        displayName = "EMR Arid Hot-Weather Pants";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
         hiddenSelectionsTextures[] =
         {
@@ -339,7 +793,7 @@ class CfgVehicles
     class GorkaPants_DST: GorkaPants_ColorBase
     {
         scope = 2;
-        displayName = "Gorka Flat-Tan Pants";
+        displayName = "Gorka Flat-Tan Hot-Weather Pants";
         descriptionShort = "A Soviet-style Patrol Jacket with a flat-tan hue.";
         hiddenSelectionsTextures[] =
         {
@@ -351,7 +805,7 @@ class CfgVehicles
     class GorkaPants_FLK: GorkaPants_ColorBase
     {
         scope = 2;
-        displayName = "Flektarn Pants";
+        displayName = "Flektarn Hot-Weather Pants";
         descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
         hiddenSelectionsTextures[] =
         {
@@ -363,7 +817,7 @@ class CfgVehicles
     class GorkaPants_RUS: GorkaPants_ColorBase
     {
         scope = 2;
-        displayName = "EMR Tsifra Pants";
+        displayName = "EMR Tsifra Hot-Weather Pants";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
         hiddenSelectionsTextures[] =
         {
@@ -375,7 +829,7 @@ class CfgVehicles
     class GorkaPants_UKR: GorkaPants_ColorBase
     {
         scope = 2;
-        displayName = "MM-14 Pants";
+        displayName = "MM-14 Hot-Weather Pants";
         descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
         hiddenSelectionsTextures[] =
         {
@@ -387,7 +841,7 @@ class CfgVehicles
     class GorkaPants_USN: GorkaPants_ColorBase
     {
         scope = 2;
-        displayName = "Kamysh Pants";
+        displayName = "Kamysh Hot-Weather Pants";
         descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
         hiddenSelectionsTextures[] =
         {
@@ -397,7 +851,89 @@ class CfgVehicles
         };  
     };
 
-    //Boonie Hat
+
+//Gorka Pants Cold Weather
+    class GorkaPantsC_Digi: GorkaPants_ColorBase
+    {
+        scope = 2;
+        displayName = "EMR Arid Cold-Weather Pants";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\gorkapants_dropped_digi_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_digi_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_digi_co.paa"
+        };  
+    };
+    class GorkaPantsC_DST: GorkaPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Gorka Flat-Tan Cold-Weather Pants";
+        descriptionShort = "A Soviet-style Patrol Jacket with a flat-tan hue.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\gorkapants_dropped_dst_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_dst_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_dst_co.paa"
+        };  
+    };
+    class GorkaPantsC_FLK: GorkaPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Flektarn Cold-Weather Pants";
+        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\gorkapants_dropped_flk_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_flk_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_flk_co.paa"
+        };  
+    };
+    class GorkaPantsC_RUS: GorkaPants_ColorBase
+    {
+        scope = 2;
+        displayName = "EMR Tsifra Cold-Weather Pants";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\gorkapants_dropped_rus_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_rus_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_rus_co.paa"
+        };  
+    };
+    class GorkaPantsC_UKR: GorkaPants_ColorBase
+    {
+        scope = 2;
+        displayName = "MM-14 Cold-Weather Pants";
+        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\gorkapants_dropped_ukr_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_ukr_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_ukr_co.paa"
+        };  
+    };
+    class GorkaPantsC_USN: GorkaPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Kamysh Cold-Weather Pants";
+        descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
+        heatIsolation=0.80000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\gorkapants_dropped_usn_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_usn_co.paa",
+            "BagsTacticalGear\Clothes\Pants\gorka_pants_usn_co.paa"
+        };  
+    };
+
+
+//Boonie Hat
     class BoonieHat_ColorBase;
     class BoonieHat_ACU: BoonieHat_ColorBase
     {
@@ -568,7 +1104,8 @@ class CfgVehicles
         };
     };
 
-    //BaseballHat
+
+//Baseball Cap
     class BaseballCap_ColorBase;
     class BaseballCap_ACU: BaseballCap_ColorBase
     {
@@ -836,7 +1373,7 @@ class CfgVehicles
     };
 
 
-    //NBCGear    
+//NBC Gear    
     class NBCJacketBase;
     class NBCJacketERDL: NBCJacketBase
     {
@@ -856,7 +1393,6 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\NBC\nbc_jacket_erdl_co.paa"
         };
     };
-
     class NBCPantsBase;
     class NBCPantsERDL: NBCPantsBase
     {
@@ -876,7 +1412,6 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\NBC\nbc_pants_erdl_co.paa"
         };
     };
-
     class NBCHoodBase;
     class NBCHoodERDL: NBCHoodBase
     {
@@ -896,7 +1431,6 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\NBC\nbc_hood_erdl_co.paa"
         };
     };
-
     class NBCBootsBase;
     class NBCBootsERDL: NBCBootsBase
     {
@@ -916,261 +1450,4 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\NBC\nbc_boots_erdl_co.paa"
         };
     };
-
-
-    //Shirt
-    class Shirt_Colorbase;
-    class Shirt_ACU: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "UCP Hot-Weather Shirt";
-        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_acu_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_acu_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_acu_co.paa"
-        };
-    };
-    class Shirt_CAN: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "CADPAT Hot-Weather Shirt";
-        descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_can_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_can_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_can_co.paa"
-        };
-    };
-    class Shirt_CC: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "6-Color Desert Hot-Weather Shirt";
-        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_cc_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_cc_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_cc_co.paa"
-        };
-    };
-    class Shirt_DCU: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "DCU Hot-Weather Shirt";
-        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_dcu_co.paa"
-        };
-    };
-    class Shirt_Digi: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "EMR Arid Hot-Weather Shirt";
-        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_digi_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_digi_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_digi_co.paa"
-        };
-    };
-    class Shirt_DST: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Flat-Tan Hot-Weather Shirt";
-        descriptionShort = "A uniform shirt with a Flat-Tan hue.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_dst_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_dst_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_dst_co.paa"
-        };
-    };
-    class Shirt_FLK: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Flektarn Hot-Weather Shirt";
-        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_flk_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_flk_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_flk_co.paa"
-        };
-    };
-    class Shirt_Multicam: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Multicam Hot-Weather Shirt";
-        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_multicam_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_multicam_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_multicam_co.paa"
-        };
-    };
-    class Shirt_OP4: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "OPFOR Hot-Weather Shirt";
-        descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_op4_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_op4_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_op4_co.paa"
-        };
-    };
-    class Shirt_Pink: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Pink Camo Hot-Weather Shirt";
-        descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_pink_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_pink_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_pink_co.paa"
-        };
-    };
-    class Shirt_Rus: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "EMR Tsifra Hot-Weather Shirt";
-        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_rus_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_rus_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_rus_co.paa"
-        };
-    };
-    class Shirt_UKR: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "MM-14 Hot-Weather Shirt";
-        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_ukr_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_ukr_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_ukr_co.paa"
-        };
-    };
-    class Shirt_URB: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Urban Camo Hot-Weather Shirt";
-        descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_urb_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_urb_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_urb_co.paa"
-        };
-    };
-    class Shirt_USN: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Kamysh Hot-Weather Shirt";
-        descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_usn_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_usn_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_usn_co.paa"
-        };
-    };
-    class Shirt_USN2: Shirt_Colorbase
-    {
-        scope = 2;
-        displayName = "NWU III Hot-Weather Shirt";
-        descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\shirt_ground_usn2_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_usn2_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\shirt_usn2_co.paa"
-        };
-    };
-
-
-    //T Shirt
-    class TShirt_Colorbase;
-    class TShirt_BACK: TShirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Stay-Back T Shirt";
-        descriptionShort = "A shirt with the wording of signs found on vehicles and around bases during the Global War on Terror.";
-        itemsCargoSize[]={4,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_back_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_back_co.paa"
-        };
-    };
-    class TShirt_CAT: TShirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Cat Shirt";
-        descriptionShort = "For people who really like cats, or for cats who know their place in the world.";
-        itemsCargoSize[]={4,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_cat_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_cat_co.paa"
-        };
-    };
-    class TShirt_Doge: TShirt_Colorbase
-    {
-        scope = 2;
-        displayName = "Doge Meme T Shirt";
-        descriptionShort = "The Doge meme features a Shiba Inu dog named Kabosu, and became popular in 2013.";
-        itemsCargoSize[]={4,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_doge_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_doge_co.paa"
-        };
-    };
-    class TShirt_NASA: TShirt_Colorbase
-    {
-        scope = 2;
-        displayName = "NASA T Shirt";
-        descriptionShort = "The National Aeronautics and Space Administration is an independent agency of the U.S. federal government responsible for the United States' civil space program.";
-        itemsCargoSize[]={4,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_grey_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_nasa_co.paa",
-            "BagsTacticalGear\Clothes\Shirts\tshirt_nasa_co.paa"
-        };
-    };
-
-
 };

@@ -3,9 +3,33 @@ class CfgPatches
     class Gear
     {
         units[] = {
+            "Flag_Med",
+            "Flag_Peace",
+            "Flag_Plz",
+            "Flag_Poop",
+            "Flag_Snek",
+            "Flag_USAF",
+            "Flag_USArmy",
+            "Flag_USCG",
+            "Flag_USMC",
+            "Flag_USN",
+            "Flag_USSF",
+            "Flag_USSR",
             "Flag_KRG",
             "Flag_CAF",
             "Flag_Takistan",
+            "Armband_Med",
+            "Armband_Peace",
+            "Armband_Plz",
+            "Armband_Poop",
+            "Armband_Snek",
+            "Armband_USAF",
+            "Armband_USArmy",
+            "Armband_USCG",
+            "Armband_USMC",
+            "Armband_USN",
+            "Armband_USSF",
+            "Armband_USSR",
             "Armband_KRG",
             "Armband_CAF",
             "Armband_Takistan",
@@ -40,7 +64,6 @@ class CfgPatches
             "Mich2001Helmet_URB",
             "Mich2001Helmet_USN",
             "Mich2001Helmet_USN2",
-            "LargeTanTent"
         };
         weapons[] = {};
         requiredVersion = 0.1;
@@ -50,14 +73,10 @@ class CfgPatches
             "DZ_Characters",
             "DZ_Gear_Camping"
         };
-        author = "";
-        name = "";
-        url = "";
     };
 };
 class CfgVehicles
 {
-
 
     //Flags
     class Flag_Base;
@@ -93,6 +112,138 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_krg_co.paa"
         };
         color="KRG";
+    };
+    class Flag_Med: Flag_Base
+    {
+        scope = 2;
+        displayName = "Red Cross Flag";
+        descriptionShort = "For people who like to render aid to others.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa"
+        };
+        color="Med";
+    };
+    class Flag_Peace: Flag_Base
+    {
+        scope = 2;
+        displayName = "Goose Flag";
+        descriptionShort = "Peace was never an option.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa"
+        };
+        color="Peace";
+    };
+    class Flag_Plz: Flag_Base
+    {
+        scope = 2;
+        displayName = "Please Tred on Me Flag";
+        descriptionShort = "For people who want to be dominated. UwU.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa"
+        };
+        color="Plz";
+    };
+    class Flag_Snek: Flag_Base
+    {
+        scope = 2;
+        displayName = "Pride Snek Flag";
+        descriptionShort = "For people who like Snek and Pride.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa"
+        };
+        color="Snek";
+    };
+    class Flag_USAF: Flag_Base
+    {
+        scope = 2;
+        displayName = "US Air Force Flag";
+        descriptionShort = "The flag of the US Air Force. Pinky out fancy branch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa"
+        };
+        color="USAF";
+    };
+    class Flag_USArmy: Flag_Base
+    {
+        scope = 2;
+        displayName = "US Army Flag";
+        descriptionShort = "The flag of the US Army. Hooah, Hooah.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa"
+        };
+        color="USArmy";
+    };
+    class Flag_USCG: Flag_Base
+    {
+        scope = 2;
+        displayName = "US Coast Guard Flag";
+        descriptionShort = "The flag of the US Coast Guard. Puddle Pirates to the rescue!";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa"
+        };
+        color="USCG";
+    };
+    class Flag_USMC: Flag_Base
+    {
+        scope = 2;
+        displayName = "US Marine Corps Flag";
+        descriptionShort = "The flag of the USMC. Oorah Devil Dogs. Yut, Kill, Nut.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa"
+        };
+        color="USMC";
+    };
+    class Flag_USN: Flag_Base
+    {
+        scope = 2;
+        displayName = "US Navy Flag";
+        descriptionShort = "The flag of the US Navy. Ahoy there sailor, UwU!";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa"
+        };
+        color="USN";
+    };
+    class Flag_USSF: Flag_Base
+    {
+        scope = 2;
+        displayName = "US Space Force Flag";
+        descriptionShort = "The flag of the US Space Force. Robotic noises 01001010010011010";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa"
+        };
+        color="USSF";
+    };
+    class Flag_USSR: Flag_Base
+    {
+        scope = 2;
+        displayName = "USSR Flag";
+        descriptionShort = "The flag of the old arch enemy of the US. Added for OPFOR purposes. Something, something, communism. Something, something, dark side.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa"
+        };
+        color="USSR";
+    };
+    class Flag_Poop: Flag_Base
+    {
+        scope = 2;
+        displayName = "Poop Flag";
+        descriptionShort = "Instead of adding the third reich flag, I added this pile of shit which is a better representation. Why? Because fuck fascists, lol.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_pop_co.paa"
+        };
+        color="Poop";
     };
 
 
@@ -155,9 +306,237 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_caf_co.paa"
         };
     };
+    class Armband_Med: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Red Cross Armband";
+        descriptionShort = "For people who like to render aid to others.";
+        color="Med";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_med_co.paa"
+        };
+    };
+    class Armband_Peace: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Krieger Gaming Armband";
+        descriptionShort = "Peace was never an option.";
+        color="Peace";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_peace_co.paa"
+        };
+    };
+    class Armband_Plz: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Please Tred on Me Armband";
+        descriptionShort = "For people who want to be dominated. UwU.";
+        color="Plz";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_plz_co.paa"
+        };
+    };
+    class Armband_Snek: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Snek Armband";
+        descriptionShort = "For people who like Snek and Pride.";
+        color="Snek";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_snek_co.paa"
+        };
+    };
+    class Armband_USAF: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "US Air Force Armband";
+        descriptionShort = "The flag of the US Air Force. Pinky out fancy branch.";
+        color="USAF";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa"
+        };
+    };
+    class Armband_USArmy: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "US Army Armband";
+        descriptionShort = "The flag of the US Army. Hooah or whatever.";
+        color="USArmy";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa"
+        };
+    };
+    class Armband_USCG: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "US Coast Guard Armband";
+        descriptionShort = "The flag of the US Coast Guard. Puddle Pirates to the rescue!";
+        color="USCG";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa"
+        };
+    };
+    class Armband_USMC: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "US Marine Corps Armband";
+        descriptionShort = "The flag of the USMC. Oorah Devil Dogs. Yut, Kill, Nut.";
+        color="USMC";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa"
+        };
+    };
+    class Armband_USN: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "US Navy Armband";
+        descriptionShort = "The flag of the US Navy. Ahoy there sailor, UwU!";
+        color="USN";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_usn_co.paa"
+        };
+    };
+    class Armband_USSF: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "US Space Force Armband";
+        descriptionShort = "The flag of the US Space Force. Robotic noises 01001010010011010";
+        color="USSF";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa"
+        };
+    };
+    class Armband_USSR: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "USSR Armband";
+        descriptionShort = "The flag of the old arch enemy of the US. Added for OPFOR purposes. Something, something, communism. Something, something, dark side.";
+        color="USSR";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa"
+        };
+    };
+    class Armband_Poop: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Poop Armband";
+        descriptionShort = "Instead of adding the third reich flag, I added this pile of shit which is a better representation. Why? Because fuck fascists, lol.";
+        color="Poop";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa"
+        };
+    };
     
 
-    //PressVest
+    //Press Vest Camo
     class PressVest_ColorBase;
     class PressVest_ACU: PressVest_ColorBase
     {
@@ -352,7 +731,269 @@ class CfgVehicles
         };
     };
 
-        //BallisticHelmet
+
+    //Press Vest Black
+    class PressVest_BLK: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Black";
+        descriptionShort = "A flat-black ballistic vest.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa"
+        };
+    };
+    class PressVest_blkcan: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Black";
+        descriptionShort = "A flat-black ballistic vest with a Canadian Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_blkcan_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkcan_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkcan_co.paa"
+        };
+    };
+    class PressVest_blkgb: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Black";
+        descriptionShort = "A flat-black ballistic vest with a United Kingdom Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_blkgb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkgb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkgb_co.paa"
+        };
+    };
+    class PressVest_blkgrm: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Black";
+        descriptionShort = "A flat-black ballistic vest with a German Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_blkgrm_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkgrm_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkgrm_co.paa"
+        };
+    };
+    class PressVest_blkrus: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Black";
+        descriptionShort = "A flat-black ballistic vest with a Russian Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_blkrus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkrus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkrus_co.paa"
+        };
+    };
+    class PressVest_blkukr: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Black";
+        descriptionShort = "A flat-black ballistic vest with a Ukrainian Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_blkukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkukr_co.paa"
+        };
+    };
+    class PressVest_blkus: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Black";
+        descriptionShort = "A flat-black ballistic vest with a US Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_blkus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blkus_co.paa"
+        };
+    };
+
+
+    // Press Vest Olive
+    class PressVest_Olv: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Olive";
+        descriptionShort = "A flat-olive ballistic vest.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa"
+        };
+    };
+    class PressVest_olvcan: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Olive";
+        descriptionShort = "A flat-olive ballistic vest with a Canadian Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_olvcan_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvcan_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvcan_co.paa"
+        };
+    };
+    class PressVest_olvgb: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Olive";
+        descriptionShort = "A flat-olive ballistic vest with a United Kingdom Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_olvgb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvgb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvgb_co.paa"
+        };
+    };
+    class PressVest_olvgrm: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Olive";
+        descriptionShort = "A flat-olive ballistic vest with a German Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_olvgrm_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvgrm_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvgrm_co.paa"
+        };
+    };
+    class PressVest_olvrus: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Olive";
+        descriptionShort = "A flat-olive ballistic vest with a Russian Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_olvrus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvrus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvrus_co.paa"
+        };
+    };
+    class PressVest_olvukr: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Olive";
+        descriptionShort = "A flat-olive ballistic vest with a Ukrainian Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_olvukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvukr_co.paa"
+        };
+    };
+    class PressVest_olvus: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Olive";
+        descriptionShort = "A flat-olive ballistic vest with a US Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_olvus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olvus_co.paa"
+        };
+    };
+
+
+// Press Vest Tan
+    class PressVest_Dst: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Tan";
+        descriptionShort = "A flat-tan Ballistic Vest.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa"
+        };
+    };
+    class PressVest_dstcan: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Tan";
+        descriptionShort = "A flat-tan Ballistic Vest with a Canadian Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dstcan_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstcan_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstcan_co.paa"
+        };
+    };
+    class PressVest_dstgb: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Tan";
+        descriptionShort = "A flat-tan Ballistic Vest with a United Kingdom Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dstgb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstgb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstgb_co.paa"
+        };
+    };
+    class PressVest_dstgrm: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Tan";
+        descriptionShort = "A flat-tan Ballistic Vest with a German Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dstgrm_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstgrm_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstgrm_co.paa"
+        };
+    };
+    class PressVest_dstrus: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Tan";
+        descriptionShort = "A flat-tan Ballistic Vest with a Russian Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dstrus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstrus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstrus_co.paa"
+        };
+    };
+    class PressVest_dstukr: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Tan";
+        descriptionShort = "A flat-tan Ballistic Vest with a Ukrainian Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dstukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstukr_co.paa"
+        };
+    };
+    class PressVest_dstus: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Tan";
+        descriptionShort = "A flat-tan Ballistic Vest with a US Flag patch.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dstus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dstus_co.paa"
+        };
+    };
+
+
+    //BallisticHelmet
     class BallisticHelmet_ColorBase;
     class BallisticHelmet_ACU: BallisticHelmet_ColorBase
     {
@@ -525,7 +1166,7 @@ class CfgVehicles
     class BallisticHelmet_USN2: BallisticHelmet_ColorBase
     {
         scope = 2;
-        displayName = "Ballistic Helmet NWU II";
+        displayName = "Ballistic Helmet NWU III";
         descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
         hiddenSelectionsTextures[] =
         {
