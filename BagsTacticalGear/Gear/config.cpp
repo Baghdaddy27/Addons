@@ -781,9 +781,9 @@ class CfgVehicles
         descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa"
+            "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa"
         };
     };
 
