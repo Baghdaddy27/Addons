@@ -6,7 +6,6 @@ class CfgPatches
             "Flag_Med",
             "Flag_Peace",
             "Flag_Plz",
-            "Flag_Poop",
             "Flag_Snek",
             "Flag_USAF",
             "Flag_USArmy",
@@ -14,14 +13,12 @@ class CfgPatches
             "Flag_USMC",
             "Flag_USN",
             "Flag_USSF",
-            "Flag_USSR",
             "Flag_KRG",
             "Flag_CAF",
             "Flag_Takistan",
             "Armband_Med",
             "Armband_Peace",
             "Armband_Plz",
-            "Armband_Poop",
             "Armband_Snek",
             "Armband_USAF",
             "Armband_USArmy",
@@ -29,7 +26,6 @@ class CfgPatches
             "Armband_USMC",
             "Armband_USN",
             "Armband_USSF",
-            "Armband_USSR",
             "Armband_KRG",
             "Armband_CAF",
             "Armband_Takistan",
@@ -222,28 +218,6 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa"
         };
         color="USSF";
-    };
-    class Flag_USSR: Flag_Base
-    {
-        scope = 2;
-        displayName = "USSR Flag";
-        descriptionShort = "The flag of the old arch enemy of the US. Added for OPFOR purposes. Something, something, communism. Something, something, dark side.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa"
-        };
-        color="USSR";
-    };
-    class Flag_Poop: Flag_Base
-    {
-        scope = 2;
-        displayName = "Poop Flag";
-        descriptionShort = "Instead of adding the third reich flag, I added this pile of shit which is a better representation. Why? Because fuck fascists, lol.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Flags\flag_pop_co.paa"
-        };
-        color="Poop";
     };
 
 
@@ -495,48 +469,9 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
             "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa"
         };
-    };
-    class Armband_USSR: Armband_ColorBase
-    {
-        scope = 2;
-        displayName = "USSR Armband";
-        descriptionShort = "The flag of the old arch enemy of the US. Added for OPFOR purposes. Something, something, communism. Something, something, dark side.";
-        color="USSR";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_ussr_co.paa"
-        };
-    };
-    class Armband_Poop: Armband_ColorBase
-    {
-        scope = 2;
-        displayName = "Poop Armband";
-        descriptionShort = "Instead of adding the third reich flag, I added this pile of shit which is a better representation. Why? Because fuck fascists, lol.";
-        color="Poop";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa",
-            "BagsTacticalGear\Gear\Flags\flag_poop_co.paa"
-        };
-    };
-    
+    };    
 
-    //Press Vest Camo
+    //Press Vest
     class PressVest_ColorBase;
     class PressVest_ACU: PressVest_ColorBase
     {
@@ -548,6 +483,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa"
+        };
+    };
+    class PressVest_BLK: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Black";
+        descriptionShort = "A flat-black ballistic vest.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa"
         };
     };
     class PressVest_CAN: PressVest_ColorBase
@@ -574,6 +521,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa"
         };
     };
+    class PressVest_CHN: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest PLA";
+        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa"
+        };
+    };
     class PressVest_DCU: PressVest_ColorBase
     {
         scope = 2;
@@ -596,6 +555,30 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa"
+        };
+    };
+    class PressVest_DST: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Tan";
+        descriptionShort = "A flat-tan Ballistic Vest.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa"
+        };
+    };
+    class PressVest_EGT: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Egyptian";
+        descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa"
         };
     };
     class PressVest_ERDL: PressVest_ColorBase
@@ -634,6 +617,30 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa"
         };
     };
+    class PressVest_NK: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest KPA";
+        descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa"
+        };
+    };
+    class PressVest_OLV: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Olive";
+        descriptionShort = "A flat-olive ballistic vest.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa"
+        };
+    };
     class PressVest_OP4: PressVest_ColorBase
     {
         scope = 2;
@@ -670,6 +677,30 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa"
         };
     };
+    class PressVest_SAF: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest SANDF";
+        descriptionShort = "Soldier 2000 is a military camouflage pattern developed by the Council for Scientific and Industrial Research and is in use with the South African National Defence Force.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa"
+        };
+    };
+    class PressVest_SWD: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest SAF";
+        descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa"
+        };
+    };
     class PressVest_UKR: PressVest_ColorBase
     {
         scope = 2;
@@ -694,30 +725,6 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa"
         };
     };
-    class PressVest_USN: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Kamysh";
-        descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa"
-        };
-    };
-        class PressVest_USN2: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest NWU III";
-        descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa"
-        };
-    };
     class PressVest_USCG: PressVest_ColorBase
     {
         scope = 2;
@@ -730,268 +737,42 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa"
         };
     };
-
-
-    //Press Vest Black
-    class PressVest_BLK: PressVest_ColorBase
+    class PressVest_USN: PressVest_ColorBase
     {
         scope = 2;
-        displayName = "Ballistic Vest Black";
-        descriptionShort = "A flat-black ballistic vest.";
+        displayName = "Ballistic Vest Kamysh";
+        descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa"
+            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa"
         };
     };
-    class PressVest_blkcan: PressVest_ColorBase
+    class PressVest_USN2: PressVest_ColorBase
     {
         scope = 2;
-        displayName = "Ballistic Vest Black";
-        descriptionShort = "A flat-black ballistic vest with a Canadian Flag patch.";
+        displayName = "Ballistic Vest NWU III";
+        descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Gear\Vests\pressvest_blkcan_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkcan_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkcan_co.paa"
+            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa"
         };
     };
-    class PressVest_blkgb: PressVest_ColorBase
+    class PressVest_WW2: PressVest_ColorBase
     {
         scope = 2;
-        displayName = "Ballistic Vest Black";
-        descriptionShort = "A flat-black ballistic vest with a United Kingdom Flag patch.";
+        displayName = "Ballistic Vest WW2";
+        descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Gear\Vests\pressvest_blkgb_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkgb_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkgb_co.paa"
+            "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa"
         };
     };
-    class PressVest_blkgrm: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Black";
-        descriptionShort = "A flat-black ballistic vest with a German Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_blkgrm_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkgrm_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkgrm_co.paa"
-        };
-    };
-    class PressVest_blkrus: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Black";
-        descriptionShort = "A flat-black ballistic vest with a Russian Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_blkrus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkrus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkrus_co.paa"
-        };
-    };
-    class PressVest_blkukr: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Black";
-        descriptionShort = "A flat-black ballistic vest with a Ukrainian Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_blkukr_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkukr_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkukr_co.paa"
-        };
-    };
-    class PressVest_blkus: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Black";
-        descriptionShort = "A flat-black ballistic vest with a US Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_blkus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_blkus_co.paa"
-        };
-    };
-
-
-    // Press Vest Olive
-    class PressVest_Olv: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Olive";
-        descriptionShort = "A flat-olive ballistic vest.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa"
-        };
-    };
-    class PressVest_olvcan: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Olive";
-        descriptionShort = "A flat-olive ballistic vest with a Canadian Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_olvcan_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvcan_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvcan_co.paa"
-        };
-    };
-    class PressVest_olvgb: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Olive";
-        descriptionShort = "A flat-olive ballistic vest with a United Kingdom Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_olvgb_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvgb_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvgb_co.paa"
-        };
-    };
-    class PressVest_olvgrm: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Olive";
-        descriptionShort = "A flat-olive ballistic vest with a German Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_olvgrm_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvgrm_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvgrm_co.paa"
-        };
-    };
-    class PressVest_olvrus: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Olive";
-        descriptionShort = "A flat-olive ballistic vest with a Russian Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_olvrus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvrus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvrus_co.paa"
-        };
-    };
-    class PressVest_olvukr: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Olive";
-        descriptionShort = "A flat-olive ballistic vest with a Ukrainian Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_olvukr_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvukr_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvukr_co.paa"
-        };
-    };
-    class PressVest_olvus: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Olive";
-        descriptionShort = "A flat-olive ballistic vest with a US Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_olvus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_olvus_co.paa"
-        };
-    };
-
-
-// Press Vest Tan
-    class PressVest_Dst: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Tan";
-        descriptionShort = "A flat-tan Ballistic Vest.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa"
-        };
-    };
-    class PressVest_dstcan: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Tan";
-        descriptionShort = "A flat-tan Ballistic Vest with a Canadian Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_dstcan_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstcan_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstcan_co.paa"
-        };
-    };
-    class PressVest_dstgb: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Tan";
-        descriptionShort = "A flat-tan Ballistic Vest with a United Kingdom Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_dstgb_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstgb_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstgb_co.paa"
-        };
-    };
-    class PressVest_dstgrm: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Tan";
-        descriptionShort = "A flat-tan Ballistic Vest with a German Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_dstgrm_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstgrm_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstgrm_co.paa"
-        };
-    };
-    class PressVest_dstrus: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Tan";
-        descriptionShort = "A flat-tan Ballistic Vest with a Russian Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_dstrus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstrus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstrus_co.paa"
-        };
-    };
-    class PressVest_dstukr: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Tan";
-        descriptionShort = "A flat-tan Ballistic Vest with a Ukrainian Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_dstukr_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstukr_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstukr_co.paa"
-        };
-    };
-    class PressVest_dstus: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Tan";
-        descriptionShort = "A flat-tan Ballistic Vest with a US Flag patch.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_dstus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstus_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dstus_co.paa"
-        };
-    };
-
 
     //BallisticHelmet
     class BallisticHelmet_ColorBase;
@@ -1031,6 +812,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_cc_co.paa"
         };
     };
+    class BallisticHelmet_CHN: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet PLA";
+        descriptionShort = "CChinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_chn_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_chn_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_chn_co.paa"
+        };
+    };
     class BallisticHelmet_DCU: BallisticHelmet_ColorBase
     {
         scope = 2;
@@ -1067,11 +860,23 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa"
         };
     };
+    class BallisticHelmet_EGT: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet Egyptian";
+        descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_egt_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_egt_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_egt_co.paa"
+        };
+    };
     class BallisticHelmet_FLK: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Flektarn";
-        descriptionShort = "Ballistic Helmet Flektarn";
+        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_flk_co.paa",
@@ -1089,6 +894,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa"
+        };
+    };
+    class BallisticHelmet_NK: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet KPA";
+        descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_nk_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_nk_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_nk_co.paa"
         };
     };
     class BallisticHelmet_OP4: BallisticHelmet_ColorBase
@@ -1125,6 +942,30 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_rus_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_rus_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_rus_co.paa"
+        };
+    };
+    class BallisticHelmet_SAF: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet SANDF";
+        descriptionShort = "Soldier 2000 is a military camouflage pattern developed by the Council for Scientific and Industrial Research and is in use with the South African National Defence Force.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_saf_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_saf_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_saf_co.paa"
+        };
+    };
+    class BallisticHelmet_SWD: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet EMR Tsifra";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_swd_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_swd_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_swd_co.paa"
         };
     };
     class BallisticHelmet_UKR: BallisticHelmet_ColorBase
@@ -1173,6 +1014,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn2_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn2_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn2_co.paa"
+        };
+    };
+    class BallisticHelmet_WW2: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet WW2";
+        descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_ww2_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_ww2_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_ww2_co.paa"
         };
     };
 
@@ -1251,6 +1104,24 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_cc_co.paa"
         };
     };
+    class Mich2001Helmet_CHN: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet PLA";
+        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_chn_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_chn_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_chn_co.paa"
+        };
+    };
     class Mich2001Helmet_DCU: Mich2001Helmet
     {
         scope = 2;
@@ -1303,6 +1174,24 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_dst_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_dst_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_dst_co.paa"
+        };
+    };
+    class Mich2001Helmet_EGT: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet Egyptian";
+        descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_egt_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_egt_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_egt_co.paa"
         };
     };
     class Mich2001Helmet_FLK: Mich2001Helmet
@@ -1359,6 +1248,24 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_op4_co.paa"
         };
     };
+    class Mich2001Helmet_NK: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet KPA";
+        descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_nk_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_nk_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_nk_co.paa"
+        };
+    };
     class Mich2001Helmet_Pink: Mich2001Helmet
     {
         scope = 2;
@@ -1393,6 +1300,42 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_rus_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_rus_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_rus_co.paa"
+        };
+    };
+    class Mich2001Helmet_SAF: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet SANDF";
+        descriptionShort = "Soldier 2000 is a military camouflage pattern developed by the Council for Scientific and Industrial Research and is in use with the South African National Defence Force.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_saf_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_saf_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_saf_co.paa"
+        };
+    };
+        class Mich2001Helmet_SWD: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet MM-14";
+        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_swd_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_swd_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_swd_co.paa"
         };
     };
     class Mich2001Helmet_UKR: Mich2001Helmet
@@ -1465,6 +1408,24 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_usn2_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_usn2_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_usn2_co.paa"
+        };
+    };
+    class Mich2001Helmet_WW2: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet WW2";
+        descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_ww2_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_ww2_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_ww2_co.paa"
         };
     };
 
@@ -1543,6 +1504,24 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_cc.paa"
         };
     };
+    class Tortillabag_CHN: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag PLA";
+        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_chn.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_chn.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_chn.paa"
+        };
+    };
     class Tortillabag_DCU: TortillaBag
     {
         scope = 2;
@@ -1597,6 +1576,24 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_dst.paa"
         };
     };
+    class Tortillabag_EGT: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag Egyptian";
+        descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_egt.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_egt.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_egt.paa"
+        };
+    };
     class Tortillabag_FLK: TortillaBag
     {
         scope = 2;
@@ -1631,6 +1628,24 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_multicam.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_multicam.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_multicam.paa"
+        };
+    };
+    class Tortillabag_NK: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag KPA";
+        descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_nk.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_nk.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_nk.paa"
         };
     };
     class Tortillabag_OP4: TortillaBag
@@ -1685,6 +1700,42 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_rus.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_rus.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_rus.paa"
+        };
+    };
+    class Tortillabag_SAF: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag SANDF";
+        descriptionShort = "Soldier 2000 is a military camouflage pattern developed by the Council for Scientific and Industrial Research and is in use with the South African National Defence Force.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_saf.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_saf.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_saf.paa"
+        };
+    };
+    class Tortillabag_SWD: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag MM-14";
+        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_swd.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_swd.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_swd.paa"
         };
     };
     class Tortillabag_UKR: TortillaBag
@@ -1757,6 +1808,24 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_usn2.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_usn2.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_usn2.paa"
+        };
+    };
+    class Tortillabag_WW2: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag WW2";
+        descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_ww2.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_ww2.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_ww2.paa"
         };
     };
 
