@@ -1670,7 +1670,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_usn2_co.paa"
         };
     };
-    class BaseballCap_WW2": BaseballCap_ColorBase
+    class BaseballCap_WW2: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "WW2 Baseball Cap";
