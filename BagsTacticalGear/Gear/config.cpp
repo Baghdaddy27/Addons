@@ -972,8 +972,8 @@ class CfgVehicles
     class BallisticHelmet_SWD: BallisticHelmet_ColorBase
     {
         scope = 2;
-        displayName = "Ballistic Helmet EMR Tsifra";
-        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        displayName = "Ballistic Helmet SAF";
+        descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_swd_co.paa",
@@ -1336,8 +1336,8 @@ class CfgVehicles
         class Mich2001Helmet_SWD: Mich2001Helmet
     {
         scope = 2;
-        displayName = "Tactical Helmet MM-14";
-        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+        displayName = "Tactical Helmet SAF";
+        descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelections[]=
 		{
 			"camoGround",
@@ -1736,8 +1736,8 @@ class CfgVehicles
     class Tortillabag_SWD: TortillaBag
     {
         scope = 2;
-        displayName = "Tortillabag MM-14";
-        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+        displayName = "Tortillabag SAF";
+        descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelections[]=
 		{
 			"camoGround",
