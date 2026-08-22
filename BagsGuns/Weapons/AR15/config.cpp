@@ -24,7 +24,7 @@ class cfgWeapons
 {
 	class Rifle_Base;
 	class Launcher_Base;
-	class M4A1_Base: Rifle_Base
+	class AR15_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2276;
@@ -184,7 +184,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR15_54: M4A1_Base
+	class AR15_54: AR15_Base
 	{
 		scope=2;
 		displayName="AR15-54";
@@ -204,7 +204,7 @@ class cfgWeapons
 		spawnDamageRange[]={0,0.60000002};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\Weapons\AR15\ar15_body_co.paa"
+			"BagsTacticalGear\Weapons\AR15\ar15_body_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{

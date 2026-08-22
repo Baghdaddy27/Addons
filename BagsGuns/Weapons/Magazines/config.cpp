@@ -147,7 +147,7 @@ class CfgMagazines
         };
         hiddenSelectionsTextures[]=
         {
-            "BagsGuns\Weapons\Magazines\ar15_mag_co.paa"
+            "BagsTacticalGear\Weapons\Magazines\ar15_mag_co.paa"
         };
         class DamageSystem
         {
@@ -258,7 +258,7 @@ class CfgMagazines
         };
         hiddenSelectionsTextures[]=
         {
-            "BagsGuns\Weapons\Magazines\ar15_mag_co.paa"
+            "BagsTacticalGear\Weapons\Magazines\ar15_mag_co.paa"
         };
         class DamageSystem
         {
