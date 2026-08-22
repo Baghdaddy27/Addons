@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class BagsHMMV
+	class BagsGuns
 	{
 		units[] = {};
 		weapons[] = {};
@@ -8,8 +8,7 @@ class CfgPatches
 		requiredAddons[] = 
 		{
 			"DZ_Data",
-			"DZ_Vehicles_Parts",
-            "DZ_Vehicles_Wheeled"
+			"DZ_Weapons"
 		};
 	};
 };
@@ -17,18 +16,29 @@ class CfgMods
 {
 	class BagsM1025
 	{
-		dir = "BagsHMMV";
+		dir = "BagsGuns";
 		picture = "";
 		action = "";
 		hideName = 1;
 		hidePicture = 1;
-		name = "Bags-HMMV";
+		name = "Bags-Guns";
 		credits = "Baghdaddy27";
 		author = "Baghdaddy27";
 		authorID = "76561197977560525";
 		version = "1.0";
 		extra = 0;
 		type = "mod";
-		dependencies[] = {};
+		dependencies[] = {
+			"World"
+		};
+		class defs
+        {
+            class worldScriptModule
+            {
+                value = "";
+                files[] = { "BagsGuns/scripts/4_world" };
+            };
+
+        };
 	};
 };
