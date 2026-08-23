@@ -678,6 +678,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa"
         };
     };
+    class PressVest_TGR: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Tiger-Stripe";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa"
+        };
+    };
     class PressVest_RUS: PressVest_ColorBase
     {
         scope = 2;
@@ -799,7 +811,8 @@ class CfgVehicles
         };
     };
 
-    //BallisticHelmet
+
+//BallisticHelmet
     class BallisticHelmet_ColorBase;
     class BallisticHelmet_ACU: BallisticHelmet_ColorBase
     {
@@ -957,6 +970,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_pink_co.paa"
         };
     };
+    class BallisticHelmet_TGR: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet Tiger-Stripe";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa"
+        };
+    };
     class BallisticHelmet_RUS: BallisticHelmet_ColorBase
     {
         scope = 2;
@@ -1055,7 +1080,7 @@ class CfgVehicles
     };
 
 
-    //Mich2001Helmet
+//Mich2001Helmet
     class Mich2001Helmet;
     class Mich2001Helmet_ACU: Mich2001Helmet
     {
@@ -1309,6 +1334,24 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_pink_co.paa"
         };
     };
+    class Mich2001Helmet_TGR: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet Tiger-Stripe";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_tgr_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_tgr_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_tgr_co.paa"
+        };
+    };
     class Mich2001Helmet_RUS: Mich2001Helmet
     {
         scope = 2;
@@ -1455,7 +1498,7 @@ class CfgVehicles
     };
 
 
-    // Bags
+// Bags
     class TortillaBag;
     class Tortillabag_ACU: TortillaBag
     {
@@ -1707,6 +1750,24 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_pink.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_pink.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_pink.paa"
+        };
+    };
+    class Tortillabag_TGR: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag Tiger-Stripe";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_tgr.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_tgr.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_tgr.paa"
         };
     };
     class Tortillabag_RUS: TortillaBag

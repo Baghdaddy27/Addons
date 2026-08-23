@@ -107,6 +107,18 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_pink_co.paa"
         };
     };
+    class TacticalShirt_TGR: TacticalShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Tiger-Stripe Camo Cold-Weather Shirt";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_ground_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_tgr_co.paa"
+        };
+    };
     class TacticalShirt_URB: TacticalShirt_ColorBase
     {
         scope = 2;
@@ -223,6 +235,19 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_pink_co.paa",
             "BagsTacticalGear\Clothes\Shirts\shirt_pink_co.paa",
             "BagsTacticalGear\Clothes\Shirts\shirt_pink_co.paa"
+        };
+    };
+    class Shirt_TGR: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Tiger-Stripe Hot-Weather Shirt";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_tgr_co.paa"
         };
     };
     class Shirt_URB: Shirt_Colorbase
@@ -653,6 +678,19 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_pink_co.paa"
         };  
     };
+    class CargoPants_TGR: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Tiger-Stripe Hot-Weather Pants";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        heatIsolation=0.40000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_tgr_co.paa"
+        };  
+    };
     class CargoPants_URB: CargoPants_ColorBase
     {
         scope = 2;
@@ -764,6 +802,18 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_g_pink_co.paa",
             "BagsTacticalGear\Clothes\Pants\cargopants_pink_co.paa",
             "BagsTacticalGear\Clothes\Pants\cargopants_pink_co.paa"
+        };  
+    };
+    class CargoPantsC_TGR: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Tiger-Stripe Cold-Weather Pants";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_tgr_co.paa"
         };  
     };
     class CargoPantsC_URB: CargoPants_ColorBase
@@ -1244,7 +1294,19 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_pink_co.paa",
             "BagsTacticalGear\Clothes\Hats\booniehat_pink_co.paa"
         };
-    };    
+    };   
+    class BoonieHat_TGR: BoonieHat_ColorBase
+    {
+        scope = 2;
+        displayName = "Tiger-Stripe Booniehat";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\booniehat_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_tgr_co.paa"
+        };
+    };  
     class BoonieHat_RUS: BoonieHat_ColorBase
     {
         scope = 2;
@@ -1343,13 +1405,62 @@ class CfgVehicles
         };
     };
 
+
 //Military Cap
     class MilitaryCap_ColorBase;
-    class MilitaryCap_MultiCam: MilitaryCap_ColorBase
+    class BaseballCap_ACU: MilitaryCap_ColorBase
     {
         scope = 2;
-        displayName = "Test";
-        descriptionShort = "Test";
+        displayName = "UCP Patrol Cap";
+        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_acu_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_acu_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_acu_co.paa"
+        };
+    };
+    class BaseballCap_CC: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "6-Color Desert Patrol Cap";
+        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_cc_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_cc_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_cc_co.paa"
+        };
+    };
+    class BaseballCap_CHN: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "PLA Patrol Cap";
+        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_chn_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_chn_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_chn_co.paa"
+        };
+    };
+    class BaseballCap_DCU: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "DCU Patrol Cap";
+        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_dcu_co.paa"
+        };
+    };
+    class BaseballCap_Multicam: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Patrol Cap";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Hats\militarycap_multicam_co.paa",
@@ -1357,20 +1468,34 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_multicam_co.paa"
         };
     };
-//Baseball Cap
-    class BaseballCap_ColorBase;
-    class BaseballCap_ACU: BaseballCap_ColorBase
+    class BaseballCap_Rus: MilitaryCap_ColorBase
     {
         scope = 2;
-        displayName = "UCP Baseball Cap";
-        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+        displayName = "EMR Tsifra Patrol Cap";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_acu_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_acu_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_acu_co.paa"
+            "BagsTacticalGear\Clothes\Hats\militarycap_rus_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_rus_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_rus_co.paa"
         };
     };
+    class BaseballCap_TGR: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "Tiger-Stripe Patrol Cap";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_tgr_co.paa"
+        };
+    };
+
+
+//Baseball Cap
+    class BaseballCap_ColorBase;
     class BaseballCap_CAF: BaseballCap_ColorBase
     {
         scope = 2;
@@ -1393,42 +1518,6 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_can_co.paa",
             "BagsTacticalGear\Clothes\Hats\baseballcapii_can_co.paa",
             "BagsTacticalGear\Clothes\Hats\baseballcapii_can_co.paa"
-        };
-    };
-    class BaseballCap_CC: BaseballCap_ColorBase
-    {
-        scope = 2;
-        displayName = "6-Color Desert Baseball Cap";
-        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_cc_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_cc_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_cc_co.paa"
-        };
-    };
-    class BaseballCap_CHN: BaseballCap_ColorBase
-    {
-        scope = 2;
-        displayName = "PLA Baseball Cap";
-        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_chn_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_chn_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_chn_co.paa"
-        };
-    };
-    class BaseballCap_DCU: BaseballCap_ColorBase
-    {
-        scope = 2;
-        displayName = "DCU Baseball Cap";
-        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_dcu_co.paa"
         };
     };
     class BaseballCap_Deez: BaseballCap_ColorBase
@@ -1503,18 +1592,6 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_mj_co.paa"
         };
     };
-    class BaseballCap_Multicam: BaseballCap_ColorBase
-    {
-        scope = 2;
-        displayName = "Multicam Baseball Cap";
-        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_multicam_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_multicam_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_multicam_co.paa"
-        };
-    };
     class BaseballCap_NK: BaseballCap_ColorBase
     {
         scope = 2;
@@ -1573,18 +1650,6 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_prd_co.paa",
             "BagsTacticalGear\Clothes\Hats\baseballcapii_prd_co.paa",
             "BagsTacticalGear\Clothes\Hats\baseballcapii_prd_co.paa"
-        };
-    };
-    class BaseballCap_Rus: BaseballCap_ColorBase
-    {
-        scope = 2;
-        displayName = "EMR Tsifra Baseball Cap";
-        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_rus_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_rus_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_rus_co.paa"
         };
     };
     class BaseballCap_SAF: BaseballCap_ColorBase
