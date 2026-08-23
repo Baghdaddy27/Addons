@@ -702,6 +702,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa"
         };
     };
+    class PressVest_SPN: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Policia Nacional";
+        descriptionShort = "A vest stylized after the Policia Nacional or National Police of Spain.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_spn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_spn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_spn_co.paa"
+        };
+    };
     class PressVest_SWD: PressVest_ColorBase
     {
         scope = 2;

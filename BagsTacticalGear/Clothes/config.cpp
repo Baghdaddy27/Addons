@@ -1343,7 +1343,20 @@ class CfgVehicles
         };
     };
 
-
+//Military Cap
+    class MilitaryCap_ColorBase;
+    class MilitaryCap_MultiCam: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "Test";
+        descriptionShort = "Test";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_multicam_co.paa"
+        };
+    };
 //Baseball Cap
     class BaseballCap_ColorBase;
     class BaseballCap_ACU: BaseballCap_ColorBase
