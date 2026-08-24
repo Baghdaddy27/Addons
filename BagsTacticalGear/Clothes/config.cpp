@@ -1447,13 +1447,25 @@ class CfgVehicles
     class BaseballCap_DCU: MilitaryCap_ColorBase
     {
         scope = 2;
-        displayName = "DCU Patrol Cap";
+        displayName = "EMR Arid Patrol Cap";
         descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Hats\militarycap_dcu_co.paa",
             "BagsTacticalGear\Clothes\Hats\militarycap_dcu_co.paa",
             "BagsTacticalGear\Clothes\Hats\militarycap_dcu_co.paa"
+        };
+    };
+    class BaseballCap_Digi: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "DCU Patrol Cap";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_digi_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_digi_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_digi_co.paa"
         };
     };
     class BaseballCap_Multicam: MilitaryCap_ColorBase
@@ -1530,18 +1542,6 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_deez_co.paa",
             "BagsTacticalGear\Clothes\Hats\baseballcapii_deez_co.paa",
             "BagsTacticalGear\Clothes\Hats\baseballcapii_deez_co.paa"
-        };
-    };
-    class BaseballCap_Digi: BaseballCap_ColorBase
-    {
-        scope = 2;
-        displayName = "EMR Arid Baseball Cap";
-        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_digi_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_digi_co.paa",
-            "BagsTacticalGear\Clothes\Hats\baseballcapii_digi_co.paa"
         };
     };
     class BaseballCap_EGT: BaseballCap_ColorBase

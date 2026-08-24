@@ -16,6 +16,10 @@ class CfgPatches
             "Flag_KRG",
             "Flag_CAF",
             "Flag_Takistan",
+            "Flag_Ally",
+            "Flag_USSR",
+            "Flag_GDI",
+            "Flag_NOD",
             "Armband_Med",
             "Armband_Peace",
             "Armband_Plz",
@@ -29,6 +33,10 @@ class CfgPatches
             "Armband_KRG",
             "Armband_CAF",
             "Armband_Takistan",
+            "Armband_Ally",
+            "Armband_USSR",
+            "Armband_GDI",
+            "Armband_NOD",
             "Tortillabag_ACU",
             "Tortillabag_UKR",
             "Tortillabag_CAN",
@@ -52,6 +60,7 @@ class CfgPatches
             "Tortillabag_USN2",
             "Tortillabag_USCG",
             "Tortillabag_WW2",
+            "Tortillabag_TGR",
             "Mich2001Helmet_ACU",
             "Mich2001Helmet_CAN",
             "Mich2001Helmet_CC",
@@ -73,6 +82,7 @@ class CfgPatches
             "Mich2001Helmet_USN",
             "Mich2001Helmet_USN2",
             "Mich2001Helmet_WW2",
+            "Mich2001Helmet_TGR",
         };
         weapons[] = {};
         requiredVersion = 0.1;
@@ -231,6 +241,50 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa"
         };
         color="USSF";
+    };
+    class Flag_Ally: Flag_Base
+    {
+        scope = 2;
+        displayName = "Allies Flag";
+        descriptionShort = "The flag of the Allies from Red Alert.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa"
+        };
+        color="Ally";
+    };
+    class Flag_USSR: Flag_Base
+    {
+        scope = 2;
+        displayName = "USSR Flag";
+        descriptionShort = "The flag of the USSR from Red Alert.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa"
+        };
+        color="USSR";
+    };
+    class Flag_GDI: Flag_Base
+    {
+        scope = 2;
+        displayName = "GDI Flag";
+        descriptionShort = "The flag of the Global Defense Initiative (GDI) from Tiberian Sun.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa"
+        };
+        color="GDI";
+    };
+    class Flag_NOD: Flag_Base
+    {
+        scope = 2;
+        displayName = "NOD Flag";
+        descriptionShort = "The flag of the Nrotherhood of Nod from Tiberian Sun.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa"
+        };
+        color="NOD";
     };
 
 
@@ -481,6 +535,82 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
             "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa",
             "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa"
+        };
+    }; 
+    class Armband_Ally: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Allies Armband";
+        descriptionShort = "The armband of the Allies from Red Alert.";
+        color="Ally";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_ally_co.paa"
+        };
+    };
+    class Armband_USSR: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "USSR Armband";
+        descriptionShort = "The armband of the Soviets from Red Alert.";
+        color="USSR";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_svt_co.paa"
+        };
+    }; 
+    class Armband_GDI: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "GDI Armband";
+        descriptionShort = "The flag of the Global Defense Initiaive (GDI) from Tiberian Sun.";
+        color="GDI";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa"
+        };
+    };
+    class Armband_NOD: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "NOD Armband";
+        descriptionShort = "The flag of the Brotherhood of Nod from Tiberian Sun.";
+        color="Nod";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_nod_co.paa"
         };
     };    
 
@@ -1943,7 +2073,7 @@ class CfgVehicles
     class Shemag_KufiyaWhiteRed: Shemag_ColorBase
     {
         scope = 2;
-        displayName = "Kufiyah White and Red";
+        displayName = "Kufiyah White, Green, and Red";
         descriptionShort = "The kufiya, also known as a keffiyeh, is a traditional Arabic scarf that is typically square and made of cotton.";
         heatIsolation=0.40000001;
         hiddenSelections[]=
