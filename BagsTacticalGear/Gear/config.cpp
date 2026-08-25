@@ -664,6 +664,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa"
         };
     };
+    class PressVest_CCI: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Iraqi";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa"
+        };
+    };
     class PressVest_CHN: PressVest_ColorBase
     {
         scope = 2;
@@ -844,6 +856,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa"
         };
     };
+    class PressVest_TRK: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest M2008";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa"
+        };
+    };
     class PressVest_RUS: PressVest_ColorBase
     {
         scope = 2;
@@ -1004,6 +1028,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_cc_co.paa"
         };
     };
+    class BallisticHelmet_CCI: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet Iraqi";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_irq_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_irq_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_irq_co.paa"
+        };
+    };
     class BallisticHelmet_CHN: BallisticHelmet_ColorBase
     {
         scope = 2;
@@ -1158,6 +1194,18 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa"
+        };
+    };
+    class BallisticHelmet_TRK: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet M2008";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_trk_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_trk_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_trk_co.paa"
         };
     };
     class BallisticHelmet_RUS: BallisticHelmet_ColorBase
@@ -1330,6 +1378,24 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_cc_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_cc_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_cc_co.paa"
+        };
+    };
+    class Mich2001Helmet_CCI: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet Iraqi";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_irq_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_irq_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_irq_co.paa"
         };
     };
     class Mich2001Helmet_CHN: Mich2001Helmet
@@ -1566,6 +1632,24 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_tgr_co.paa"
         };
     };
+    class Mich2001Helmet_TRK: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet M2008";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_trk_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_trk_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_trk_co.paa"
+        };
+    };
     class Mich2001Helmet_RUS: Mich2001Helmet
     {
         scope = 2;
@@ -1784,6 +1868,24 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_cc.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_cc.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_cc.paa"
+        };
+    };
+    class Tortillabag_CCI: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag Iraqi";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_irq.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_irq.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_irq.paa"
         };
     };
     class Tortillabag_CHN: TortillaBag
@@ -2018,6 +2120,24 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_tgr.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_tgr.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_tgr.paa"
+        };
+    };
+    class Tortillabag_TRK: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag M2008";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_trk.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_trk.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_trk.paa"
         };
     };
     class Tortillabag_RUS: TortillaBag

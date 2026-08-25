@@ -31,9 +31,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_acu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_acu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_acu_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_acu_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_acu_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_acu_co.paa"
         };
     };
     class TShirt_CAN: TShirt_ColorBase
@@ -44,9 +44,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_can_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_can_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_can_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_can_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_can_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_can_co.paa"
         };
     };
     class TShirt_CC: TShirt_ColorBase
@@ -57,9 +57,22 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_cc_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_cc_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_cc_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_cc_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_cc_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_cc_co.paa"
+        };
+    };
+    class TShirt_CCI: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Iraqi Cargo TShirt";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_irq_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_irq_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_irq_co.paa"
         };
     };
     class TShirt_CHN: TShirt_ColorBase
@@ -70,9 +83,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_cc_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_cc_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_cc_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_chn_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_chn_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_chn_co.paa"
         };
     };
     class TShirt_DCU: TShirt_ColorBase
@@ -83,9 +96,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_dcu_co.paa"
         };
     };
     class TShirt_Digi: TShirt_ColorBase
@@ -96,9 +109,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_digi_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_digi_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_digi_co.paa"
         };
     };
     class TShirt_EGT: TShirt_ColorBase
@@ -109,9 +122,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_egt_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_egt_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_egt_co.paa"
         };
     };
     class TShirt_FLK: TShirt_ColorBase
@@ -122,35 +135,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa"
-        };
-    };
-    class TShirt_Multicam: TShirt_ColorBase
-    {
-        scope = 2;
-        displayName = "Multicam Cargo TShirt";
-        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_multicam_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_multicam_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_multicam_co.paa"
-        };
-    };
-    class TShirt_MultiG: TShirt_ColorBase
-    {
-        scope = 2;
-        displayName = "Multicam Green Cargo TShirt";
-        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
-        itemsCargoSize[]={6,4};
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_multig_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_multig_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_multig_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_flk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_flk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_flk_co.paa"
         };
     };
     class TShirt_MultiB: TShirt_ColorBase
@@ -161,9 +148,35 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_multib_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_multib_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_multib_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_multib_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_multib_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_multib_co.paa"
+        };
+    };
+    class TShirt_Multicam: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Cargo TShirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_multicam_co.paa"
+        };
+    };
+    class TShirt_MultiG: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Green Cargo TShirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_multig_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_multig_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_multig_co.paa"
         };
     };
     class TShirt_NK: TShirt_ColorBase
@@ -174,9 +187,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_bmulti_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_bmulti_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_bmulti_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_nk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_nk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_nk_co.paa"
         };
     };
     class TShirt_OP4: TShirt_ColorBase
@@ -187,9 +200,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_op4_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_op4_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_op4_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_op4_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_op4_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_op4_co.paa"
         };
     };
     class TShirt_Pink: TShirt_ColorBase
@@ -200,9 +213,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_pink_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_pink_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_pink_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_pink_co.paa"
         };
     };
     class TShirt_RUS: TShirt_ColorBase
@@ -213,9 +226,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_pink_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_rus_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_rus_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_rus_co.paa"
         };
     };
     class TShirt_SAF: TShirt_ColorBase
@@ -226,9 +239,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_pink_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_saf_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_saf_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_saf_co.paa"
         };
     };
     class TShirt_SWD: TShirt_ColorBase
@@ -239,9 +252,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_pink_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_swd_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_swd_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_swd_co.paa"
         };
     };
     class TShirt_TGR: TShirt_ColorBase
@@ -252,9 +265,22 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_tgr_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_tgr_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_tgr_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_tgr_co.paa"
+        };
+    };
+    class TShirt_TRK: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "M2008 TShirt";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_trk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_trk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_trk_co.paa"
         };
     };
     class TShirt_UKR: TShirt_ColorBase
@@ -265,9 +291,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_tgr_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_tgr_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_tgr_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_ukr_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ukr_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ukr_co.paa"
         };
     };
     class TShirt_URB: TShirt_ColorBase
@@ -278,9 +304,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_urb_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_urb_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_urb_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_urb_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_urb_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_urb_co.paa"
         };
     };
     class TShirt_USN: TShirt_ColorBase
@@ -291,9 +317,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_usn2_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_usn_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_usn_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_usn_co.paa"
         };
     };
     class TShirt_USN2: TShirt_ColorBase
@@ -304,9 +330,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_usn2_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_usn2_co.paa"
         };
     };
     class TShirt_WW2: TShirt_ColorBase
@@ -317,9 +343,9 @@ class CfgVehicles
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_usn2_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa",
-            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa"
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ground_ww2_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ww2_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\tshirt_ww2_co.paa"
         };
     };
 
@@ -360,6 +386,18 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_ground_cc_co.paa",
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_cc_co.paa",
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_cc_co.paa"
+        };
+    };
+    class TacticalShirt_CCI: TacticalShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Iraqi Cold-Weather Shirt";
+        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_ground_irq_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_irq_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_irq_co.paa"
         };
     };
     class TacticalShirt_DCU: TacticalShirt_ColorBase
@@ -446,6 +484,18 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_tgr_co.paa"
         };
     };
+    class TacticalShirt_TRK: TacticalShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "M2008 Cold-Weather Shirt";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_ground_trk_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_trk_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_trk_co.paa"
+        };
+    };
     class TacticalShirt_URB: TacticalShirt_ColorBase
     {
         scope = 2;
@@ -510,6 +560,19 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_cc_co.paa",
             "BagsTacticalGear\Clothes\Shirts\shirt_cc_co.paa",
             "BagsTacticalGear\Clothes\Shirts\shirt_cc_co.paa"
+        };
+    };
+    class Shirt_CCI: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Iraqi Hot-Weather Shirt";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_irq_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_irq_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_irq_co.paa"
         };
     };
     class Shirt_DCU: Shirt_Colorbase
@@ -601,6 +664,19 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_tgr_co.paa",
             "BagsTacticalGear\Clothes\Shirts\shirt_tgr_co.paa",
             "BagsTacticalGear\Clothes\Shirts\shirt_tgr_co.paa"
+        };
+    };
+    class Shirt_TRK: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "M2008 Hot-Weather Shirt";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_trk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_trk_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_trk_co.paa"
         };
     };
     class Shirt_URB: Shirt_Colorbase
@@ -979,6 +1055,19 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_cc_co.paa"
         };  
     };
+    class CargoPants_CCI: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Iraqi Hot-Weather Pants";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        heatIsolation=0.40000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_irq_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_irq_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_irq_co.paa"
+        };  
+    };
     class CargoPants_DCU: CargoPants_ColorBase
     {
         scope = 2;
@@ -1070,6 +1159,19 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_tgr_co.paa"
         };  
     };
+    class CargoPants_TRK: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "M2008 Hot-Weather Pants";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        heatIsolation=0.40000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_trk_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_trk_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_trk_co.paa"
+        };  
+    };
     class CargoPants_URB: CargoPants_ColorBase
     {
         scope = 2;
@@ -1133,6 +1235,18 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_g_cc_co.paa",
             "BagsTacticalGear\Clothes\Pants\cargopants_cc_co.paa",
             "BagsTacticalGear\Clothes\Pants\cargopants_cc_co.paa"
+        };  
+    };
+    class CargoPantsC_CCI: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Iraqi Cold-Weather Pants";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_irq_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_irq_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_irq_co.paa"
         };  
     };
     class CargoPantsC_DCU: CargoPants_ColorBase
@@ -1217,6 +1331,18 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_g_tgr_co.paa",
             "BagsTacticalGear\Clothes\Pants\cargopants_tgr_co.paa",
             "BagsTacticalGear\Clothes\Pants\cargopants_tgr_co.paa"
+        };  
+    };
+    class CargoPantsC_TRK: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "M2008 Cold-Weather Pants";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_trk_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_trk_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_trk_co.paa"
         };  
     };
     class CargoPantsC_URB: CargoPants_ColorBase
@@ -1589,7 +1715,19 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_cc_co.paa",
             "BagsTacticalGear\Clothes\Hats\booniehat_cc_co.paa"
         };
-    };   
+    };  
+    class BoonieHat_CCI: BoonieHat_ColorBase
+    {
+        scope = 2;
+        displayName = "Iraqi Booniehat";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\booniehat_irq_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_irq_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_irq_co.paa"
+        };
+    }; 
     class BoonieHat_CHN: BoonieHat_ColorBase
     {
         scope = 2;
@@ -1734,6 +1872,18 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_tgr_co.paa"
         };
     };  
+    class BoonieHat_TRK: BoonieHat_ColorBase
+    {
+        scope = 2;
+        displayName = "M2008 Booniehat";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\booniehat_trk_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_trk_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_trk_co.paa"
+        };
+    }; 
     class BoonieHat_RUS: BoonieHat_ColorBase
     {
         scope = 2;
@@ -1859,6 +2009,18 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_cc_co.paa"
         };
     };
+    class BaseballCap_CCI: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "Iraqi Patrol Cap";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_irq_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_irq_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_irq_co.paa"
+        };
+    };
     class BaseballCap_CHN: MilitaryCap_ColorBase
     {
         scope = 2;
@@ -1953,6 +2115,18 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_tgr_co.paa",
             "BagsTacticalGear\Clothes\Hats\militarycap_tgr_co.paa",
             "BagsTacticalGear\Clothes\Hats\militarycap_tgr_co.paa"
+        };
+    };
+    class BaseballCap_TRK: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "M2008 Patrol Cap";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_trk_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_trk_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_trk_co.paa"
         };
     };
 
