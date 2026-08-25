@@ -21,6 +21,309 @@ class CfgPatches
 class CfgVehicles
 {
 
+//TShirt
+    class TShirt_ColorBase;
+    class TShirt_ACU: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "UCP Cargo TShirt";
+        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_acu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_acu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_acu_co.paa"
+        };
+    };
+    class TShirt_CAN: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "CADPAT Cargo TShirt";
+        descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_can_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_can_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_can_co.paa"
+        };
+    };
+    class TShirt_CC: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "6-Color Desert Cargo TShirt";
+        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_cc_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_cc_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_cc_co.paa"
+        };
+    };
+    class TShirt_CHN: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "PLA Cargo TShirt";
+        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_cc_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_cc_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_cc_co.paa"
+        };
+    };
+    class TShirt_DCU: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "DCU Cargo TShirt";
+        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa"
+        };
+    };
+    class TShirt_Digi: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "EMR Arid Cargo TShirt";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa"
+        };
+    };
+    class TShirt_EGT: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Egyptian Cargo TShirt";
+        descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa"
+        };
+    };
+    class TShirt_FLK: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Flektarn Cargo TShirt";
+        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_dcu_co.paa"
+        };
+    };
+    class TShirt_Multicam: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Cargo TShirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_multicam_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_multicam_co.paa"
+        };
+    };
+    class TShirt_MultiG: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Green Cargo TShirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_multig_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_multig_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_multig_co.paa"
+        };
+    };
+    class TShirt_MultiB: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Black Cargo TShirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_multib_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_multib_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_multib_co.paa"
+        };
+    };
+    class TShirt_NK: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "KPA Cargo TShirt";
+        descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_bmulti_co.paa"
+        };
+    };
+    class TShirt_OP4: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "OPFOR Cargo TShirt";
+        descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_op4_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_op4_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_op4_co.paa"
+        };
+    };
+    class TShirt_Pink: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Pink Cargo TShirt";
+        descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_pink_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa"
+        };
+    };
+    class TShirt_RUS: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "EMR Tsfira Cargo TShirt";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_pink_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa"
+        };
+    };
+    class TShirt_SAF: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "SANDF Cargo TShirt";
+        descriptionShort = "Soldier 2000 is a military camouflage pattern developed by the Council for Scientific and Industrial Research and is in use with the South African National Defence Force.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_pink_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa"
+        };
+    };
+    class TShirt_SWD: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "SAF Cargo TShirt";
+        descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_pink_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_pink_co.paa"
+        };
+    };
+    class TShirt_TGR: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Tiger-Stripe Cargo TShirt";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_tgr_co.paa"
+        };
+    };
+    class TShirt_UKR: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "MM-14 Cargo TShirt";
+        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_tgr_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_tgr_co.paa"
+        };
+    };
+    class TShirt_URB: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Urban Camo Cargo TShirt";
+        descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_urb_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_urb_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_urb_co.paa"
+        };
+    };
+    class TShirt_USN: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Kamysh TShirt";
+        descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa"
+        };
+    };
+    class TShirt_USN2: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "NWU III Cargo TShirt";
+        descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa"
+        };
+    };
+    class TShirt_WW2: TShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "NWU III Cargo TShirt";
+        descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\tshirt_ground_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\tshirt_usn2_co.paa"
+        };
+    };
+
+
 //Tactical Shirt
     class TacticalShirt_ColorBase;
     class TacticalShirt_ACU: TacticalShirt_ColorBase
@@ -81,6 +384,30 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_ground_multicam_co.paa",
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_multicam_co.paa",
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_multicam_co.paa"
+        };
+    };
+    class TacticalShirt_MultiG: TacticalShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Green Cold-Weather Shirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_ground_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_gmulti_co.paa"
+        };
+    };
+    class TacticalShirt_MultiB: TacticalShirt_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Black Cold-Weather Shirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_ground_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Jackets\pcu5jacket_bmulti_co.paa"
         };
     };
     class TacticalShirt_OP4: TacticalShirt_ColorBase
@@ -209,6 +536,32 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_ground_multicam_co.paa",
             "BagsTacticalGear\Clothes\Shirts\shirt_multicam_co.paa",
             "BagsTacticalGear\Clothes\Shirts\shirt_multicam_co.paa"
+        };
+    };
+    class Shirt_MulticamG: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Multicam Green Hot-Weather Shirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_gmulti_co.paa"
+        };
+    };
+    class Shirt_MulticamB: Shirt_Colorbase
+    {
+        scope = 2;
+        displayName = "Multicam Black Hot-Weather Shirt";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        itemsCargoSize[]={6,4};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Shirts\shirt_ground_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Shirts\shirt_bmulti_co.paa"
         };
     };
     class Shirt_OP4: Shirt_Colorbase
@@ -652,6 +1005,32 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_multicam_co.paa"
         };  
     };
+    class CargoPants_MulticamG: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Green Hot-Weather Pants";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        heatIsolation=0.40000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_gmulti_co.paa"
+        };  
+    };
+    class CargoPants_MulticamB: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Black Hot-Weather Pants";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        heatIsolation=0.40000001;
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_bmulti_co.paa"
+        };  
+    };
     class CargoPants_OP4: CargoPants_ColorBase
     {
         scope = 2;
@@ -778,6 +1157,30 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_g_multicam_co.paa",
             "BagsTacticalGear\Clothes\Pants\cargopants_multicam_co.paa",
             "BagsTacticalGear\Clothes\Pants\cargopants_multicam_co.paa"
+        };  
+    };
+    class CargoPantsC_MulticamG: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Green Cold-Weather Pants";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_gmulti_co.paa"
+        };  
+    };
+    class CargoPantsC_MulticamB: CargoPants_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Black Cold-Weather Pants";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Pants\cargopants_g_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Pants\cargopants_bmulti_co.paa"
         };  
     };
     class CargoPantsC_OP4: CargoPants_ColorBase
@@ -1258,8 +1661,32 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_multicam_co.paa",
             "BagsTacticalGear\Clothes\Hats\booniehat_multicam_co.paa"
         };
+    }; 
+    class BoonieHat_MulticamG: BoonieHat_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Green Booniehat";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\booniehat_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_gmulti_co.paa"
+        };
     };  
-        class BoonieHat_NK: BoonieHat_ColorBase
+    class BoonieHat_MulticamB: BoonieHat_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Black Booniehat";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\booniehat_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Hats\booniehat_bmulti_co.paa"
+        };
+    };   
+    class BoonieHat_NK: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "KPA Booniehat";
@@ -1478,6 +1905,30 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_multicam_co.paa",
             "BagsTacticalGear\Clothes\Hats\militarycap_multicam_co.paa",
             "BagsTacticalGear\Clothes\Hats\militarycap_multicam_co.paa"
+        };
+    };
+    class BaseballCap_MulticamG: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Green Patrol Cap";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_gmulti_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_gmulti_co.paa"
+        };
+    };
+    class BaseballCap_MulticamB: MilitaryCap_ColorBase
+    {
+        scope = 2;
+        displayName = "Multicam Black Patrol Cap";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\Hats\militarycap_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_bmulti_co.paa",
+            "BagsTacticalGear\Clothes\Hats\militarycap_bmulti_co.paa"
         };
     };
     class BaseballCap_Rus: MilitaryCap_ColorBase

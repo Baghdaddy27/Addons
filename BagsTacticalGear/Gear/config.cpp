@@ -760,6 +760,30 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa"
         };
     };
+    class PressVest_MulticamG: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Multicam Green";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa"
+        };
+    };
+    class PressVest_MulticamB: PressVest_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Multicam Black";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa"
+        };
+    };
     class PressVest_NK: PressVest_ColorBase
     {
         scope = 2;
@@ -1056,12 +1080,36 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "Ballistic Helmet Multicam";
-        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa"
+        };
+    };
+    class BallisticHelmet_MulticamG: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet Multicam Green";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_gmulti_co.paa"
+        };
+    };
+    class BallisticHelmet_MulticamB: BallisticHelmet_ColorBase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet Multicam Black";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_bmulti_co.paa"
         };
     };
     class BallisticHelmet_NK: BallisticHelmet_ColorBase
@@ -1408,6 +1456,42 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_multicam_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_multicam_co.paa",
             "BagsTacticalGear\Gear\Helmets\mich2001_multicam_co.paa"
+        };
+    };
+    class Mich2001Helmet_MulticamG: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet Multicam Green";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_gmulti_co.paa"
+        };
+    };
+    class Mich2001Helmet_MulticamB: Mich2001Helmet
+    {
+        scope = 2;
+        displayName = "Tactical Helmet Multicam Black";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\mich2001_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Helmets\mich2001_bmulti_co.paa"
         };
     };
     class Mich2001Helmet_OP4: Mich2001Helmet
@@ -1826,6 +1910,42 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_multicam.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_multicam.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_multicam.paa"
+        };
+    };
+    class Tortillabag_MulticamG: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag Multicam Green";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_gmulti.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_gmulti.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_gmulti.paa"
+        };
+    };
+    class Tortillabag_MulticamB: TortillaBag
+    {
+        scope = 2;
+        displayName = "Tortillabag Multicam Black";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+        hiddenSelectionsTextures[] =
+        {
+            "\BagsTacticalGear\Gear\Bags\tortilla_bmulti.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_bmulti.paa",
+            "\BagsTacticalGear\Gear\Bags\tortilla_bmulti.paa"
         };
     };
     class Tortillabag_NK: TortillaBag
