@@ -21,6 +21,7 @@ __pycache__/
 *.tmp
 *.tga
 *.png
+*.code-workspace
 *~
 deploy-backups/
 deploy-output.log
@@ -33,3 +34,4 @@ storage_2
 Thumbs.db
 Types_Input
 Types_Output
+Addon_Images
