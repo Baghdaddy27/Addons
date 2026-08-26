@@ -33,9 +33,8 @@ class cfgVehicles
     class Offroad_tan_Hood;
     class Offroad_tan_Trunk;
 
-    // Tan M1025
-    class CarDoor;
-	class Offroad_Tan_Door_1_1: CarDoor
+    // tan
+	class Offroad_tan_Door_1_1: CarDoor
 	{
 		scope=2;
 		displayName="M1025 Tan Driver Door";
@@ -346,8 +345,6 @@ class cfgVehicles
 			};
 		};
 	};
-    
-    class CarScript
 	class Offroad_tan: CarScript
 	{
 		scope=2;
