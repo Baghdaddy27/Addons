@@ -907,7 +907,7 @@ class CfgVehicles
     class PressVest_SWD: PressVest_ColorBase
     {
         scope = 2;
-        displayName = "Ballistic Vest SAF";
+        displayName = "Ballistic Vest M90";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelectionsTextures[] =
         {
@@ -1235,7 +1235,7 @@ class CfgVehicles
     class BallisticHelmet_SWD: BallisticHelmet_ColorBase
     {
         scope = 2;
-        displayName = "Ballistic Helmet SAF";
+        displayName = "Ballistic Helmet M90";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelectionsTextures[] =
         {
@@ -1689,7 +1689,7 @@ class CfgVehicles
         class Mich2001Helmet_SWD: Mich2001Helmet
     {
         scope = 2;
-        displayName = "Tactical Helmet SAF";
+        displayName = "Tactical Helmet M90";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelections[]=
 		{
@@ -2179,7 +2179,7 @@ class CfgVehicles
     class Tortillabag_SWD: TortillaBag
     {
         scope = 2;
-        displayName = "Tortillabag SAF";
+        displayName = "Tortillabag M90";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelections[]=
 		{

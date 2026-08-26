@@ -247,7 +247,7 @@ class CfgVehicles
     class TShirt_SWD: TShirt_ColorBase
     {
         scope = 2;
-        displayName = "SAF Cargo TShirt";
+        displayName = "M90 Cargo TShirt";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         itemsCargoSize[]={6,4};
         hiddenSelectionsTextures[] =
@@ -808,7 +808,7 @@ class CfgVehicles
     class GorkaEJacket_SWD: GorkaEJacket_ColorBase
     {
         scope = 2;
-        displayName = "SAF Hot-Weather Jacket";
+        displayName = "M90 Hot-Weather Jacket";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelectionsTextures[] =
         {
@@ -963,7 +963,7 @@ class CfgVehicles
     class GorkaEJacketCJacket_SWD: GorkaEJacket_ColorBase
     {
         scope = 2;
-        displayName = "SAF Cold-Weather Jacket";
+        displayName = "M90 Cold-Weather Jacket";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         heatIsolation=0.80000001;
         hiddenSelectionsTextures[] =
@@ -1163,7 +1163,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "M2008 Hot-Weather Pants";
-        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
         heatIsolation=0.40000001;
         hiddenSelectionsTextures[] =
         {
@@ -1337,7 +1337,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "M2008 Cold-Weather Pants";
-        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Pants\cargopants_g_trk_co.paa",
@@ -1472,7 +1472,7 @@ class CfgVehicles
     class GorkaPants_SWD: GorkaPants_ColorBase
     {
         scope = 2;
-        displayName = "SAF Hot-Weather Pants";
+        displayName = "M90 Hot-Weather Pants";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelectionsTextures[] =
         {
@@ -1627,7 +1627,7 @@ class CfgVehicles
     class GorkaPantsC_SWD: GorkaPants_ColorBase
     {
         scope = 2;
-        displayName = "SAF Cold-Weather Pants";
+        displayName = "M90 Cold-Weather Pants";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         heatIsolation=0.80000001;
         hiddenSelectionsTextures[] =
@@ -1911,7 +1911,7 @@ class CfgVehicles
     class BoonieHat_SWD: BoonieHat_ColorBase
     {
         scope = 2;
-        displayName = "SAF Booniehat";
+        displayName = "M90 Booniehat";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelectionsTextures[] =
         {
@@ -2036,7 +2036,7 @@ class CfgVehicles
     class BaseballCap_DCU: MilitaryCap_ColorBase
     {
         scope = 2;
-        displayName = "EMR Arid Patrol Cap";
+        displayName = "DCU Patrol Cap";
         descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
         hiddenSelectionsTextures[] =
         {
@@ -2048,7 +2048,7 @@ class CfgVehicles
     class BaseballCap_Digi: MilitaryCap_ColorBase
     {
         scope = 2;
-        displayName = "DCU Patrol Cap";
+        displayName = "EMR Arid Patrol Cap";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
         hiddenSelectionsTextures[] =
         {
@@ -2121,7 +2121,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "M2008 Patrol Cap";
-        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Hats\militarycap_trk_co.paa",
@@ -2269,7 +2269,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "Pride Baseball Cap";
-        descriptionShort = "Pride. A noun eaning a sense of one's own proper dignity or value; self-respect.";
+        descriptionShort = "Pride. A noun meaning a sense of one's own proper dignity or value; self-respect.";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Clothes\Hats\baseballcapii_prd_co.paa",
@@ -2292,7 +2292,7 @@ class CfgVehicles
     class BaseballCap_SWD: BaseballCap_ColorBase
     {
         scope = 2;
-        displayName = "SAF Baseball Cap";
+        displayName = "M90 Baseball Cap";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
         hiddenSelectionsTextures[] =
         {
