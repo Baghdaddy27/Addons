@@ -400,7 +400,7 @@ class CfgMagazines
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\Magazines\magazine_scarl_30rnd_co.paa"
+			"BagsGuns\data\Magazines\magazine_scarx_30rnd_co.paa"
 		};
 		class DamageSystem
 		{

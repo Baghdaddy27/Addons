@@ -51,7 +51,6 @@ class cfgWeapons
 		};
 		magazines[]=
 		{
-			"Mag_AR15_20Rnd",
 			"Mag_AR15_30Rnd"
 		};
 		magazineSwitchTime=0.5;
@@ -80,26 +79,26 @@ class cfgWeapons
 		{
 			soundSetShot[]=
 			{
-				"M4A1_Shot_1st_SoundSet",
-				"M4A1_Shot_1st_iterior_SoundSet",
-				"M4A1_Tail_SoundSet",
-				"M4A1_InteriorTail_SoundSet",
-				"M4A1_Slapback_SoundSet",
-				"M4A1_Tail_2D_SoundSet"
+				"Famas_Shot_1st_SoundSet",
+				"Famas_Shot_1st_iterior_SoundSet",
+				"Famas_Tail_SoundSet",
+				"Famas_InteriorTail_SoundSet",
+				"Famas_Slapback_SoundSet",
+				"Famas_Tail_2D_SoundSet"
 			};
 			soundSetShotExt[]=
 			{
 				
 				{
-					"M4A1_1st_silencer_SoundSet",
-					"M4A1_silencerTail_SoundSet",
-					"M4A1_silencerInteriorTail_SoundSet"
+					"Famas_1st_silencer_SoundSet",
+					"Famas_silencerTail_SoundSet",
+					"Famas_silencerInteriorTail_SoundSet"
 				},
 				
 				{
-					"M4A1_1st_silencerHomeMade_SoundSet",
-					"M4A1_silencerHomeMadeTail_SoundSet",
-					"M4A1_silencerInteriorHomeMadeTail_SoundSet"
+					"Famas_1st_silencerHomeMade_SoundSet",
+					"Famas_silencerHomeMadeTail_SoundSet",
+					"Famas_silencerInteriorHomeMadeTail_SoundSet"
 				}
 			};
 			reloadTime=0.12;
@@ -112,44 +111,44 @@ class cfgWeapons
 		{
 			soundSetShot1st[]=
 			{
-				"M4A1_Shot_1st_SoundSet",
-				"M4A1_Shot_1st_iterior_SoundSet"
+				"Famas_Shot_1st_SoundSet",
+				"Famas_Shot_1st_iterior_SoundSet"
 			};
 			soundSetShot[]=
 			{
-				"M4A1_Shot_SoundSet",
-				"M4A1_Shot_iterior_SoundSet",
-				"M4A1_Tail_SoundSet",
-				"M4A1_InteriorTail_SoundSet",
-				"M4A1_Slapback_SoundSet",
-				"M4A1_Tail_2D_SoundSet"
+				"Famas_Shot_SoundSet",
+				"Famas_Shot_iterior_SoundSet",
+				"Famas_Tail_SoundSet",
+				"Famas_InteriorTail_SoundSet",
+				"Famas_Slapback_SoundSet",
+				"Famas_Tail_2D_SoundSet"
 			};
 			soundSetShotExt1st[]=
 			{
 				
 				{
-					"M4A1_1st_silencer_SoundSet"
+					"Famas_1st_silencer_SoundSet"
 				},
 				
 				{
-					"M4A1_1st_silencerHomeMade_SoundSet"
+					"Famas_1st_silencerHomeMade_SoundSet"
 				}
 			};
 			soundSetShotExt[]=
 			{
 				
 				{
-					"M4A1_silencer_SoundSet",
-					"M4A1_silencerTail_SoundSet",
-					"M4A1_silencerInteriorTail_SoundSet"
+					"Famas_silencer_SoundSet",
+					"Famas_silencerTail_SoundSet",
+					"Famas_silencerInteriorTail_SoundSet"
 				},
 				
 				{
-					"M4A1_silencerHomeMade_SoundSet",
-					"M4A1_silencerHomeMadeTail_SoundSet",
-					"M4A1_silencerInteriorHomeMadeTail_SoundSet"
+					"Famas_silencerHomeMade_SoundSet",
+					"Famas_silencerHomeMadeTail_SoundSet",
+					"Famas_silencerInteriorHomeMadeTail_SoundSet"
 				}
-			};
+			};			
 			reloadTime=0.064999998;
 			recoil="recoil_m4";
 			recoilProne="recoil_m4_prone";
@@ -183,7 +182,7 @@ class cfgWeapons
 	class AR15: AR15_Base
 	{
 		scope=2;
-		displayName="AR15-54";
+		displayName="AR15";
 		descriptionShort="A custom AR15 chambered in 5.45x39.";
 		model="\dz\weapons\firearms\m4\m4a1.p3d";
 		attachments[]=
