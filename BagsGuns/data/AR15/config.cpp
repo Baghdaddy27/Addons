@@ -1,18 +1,13 @@
 class CfgPatches
 {
-	class AR15_54
+	class AR15
 	{
-		units[]=
-		{
-			"AR15_54"
+		units[]={};
+		weapons[]={
+			"AR15"
 		};
-		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]=
-		{
-			"DZ_Data",
-			"DZ_Weapons_Firearms"
-		};
+		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
 	};
 };
 class Mode_Safe;
@@ -184,7 +179,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR15_54: AR15_Base
+	class AR15: AR15_Base
 	{
 		scope=2;
 		displayName="AR15-54";
@@ -204,7 +199,7 @@ class cfgWeapons
 		spawnDamageRange[]={0,0.60000002};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsTacticalGear\Weapons\AR15\ar15_body_co.paa"
+			"BagsGuns\data\AR15\ar15_body_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{

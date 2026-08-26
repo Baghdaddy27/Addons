@@ -1,33 +1,40 @@
 class CfgPatches
 {
-	class BagsTacticalGear
+	class BagsGuns
 	{
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = 
 		{
-			"DZ_Data",
-			"DZ_Characters"
+			"DZ_Data"
 		};
 	};
 };
 class CfgMods
 {
-	class BagsGear
+	class BagsWeapons
 	{
-		dir = "BagsTacticalGear";
+		dir = "BagsGuns";
 		picture = "";
 		action = "";
 		hideName = 1;
 		hidePicture = 1;
-		name = "Bags-Tactical-Gear";
+		name = "Bags-Guns";
 		credits = "Baghdaddy27";
 		author = "Baghdaddy27";
 		authorID = "76561197977560525";
-		version = "1.4";
+		version = "1.1";
 		extra = 0;
 		type = "mod";
-		dependencies[] = {};
+		dependencies[] = {"World"};
+		class defs
+		{
+			class worldScriptModule
+			{
+				value = "";
+				files[] = {"BagsGuns\scripts\4_world"};
+			};
+		};
 	};
 };
