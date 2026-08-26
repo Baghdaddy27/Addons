@@ -4,7 +4,9 @@ class CfgPatches
 	{
 		units[]={};
 		weapons[]={
+
 			"AR15"
+			
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -18,7 +20,6 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class Launcher_Base;
 	class AR15_Base: Rifle_Base
 	{
 		scope=0;
@@ -340,87 +341,6 @@ class cfgWeapons
 					overridePoint="Nabojnicestart";
 				};
 			};
-		};
-	};
-	class UnderSlugGrenadeM4: Launcher_Base
-	{
-		scope=2;
-		displayName="$STR_cfgWeapons_UnderSlugGrenadeM40";
-		descriptionShort="$STR_cfgWeapons_UnderSlugGrenadeM41";
-		model="\DZ\weapons\firearms\ots14\ots14_launcher.p3d";
-		handheld="true";
-		armAction="Disarm";
-		rotationFlags=12;
-		inventorySlot[]=
-		{
-			"weaponUnderSlugM4"
-		};
-		simulation="undersluglauncher";
-		weight=1954;
-		itemSize[]={3,2};
-		dispersionModifier=-0.00019999999;
-		dispersionCondition="true";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"dz\weapons\firearms\ots14\data\ots14_launcher_co.paa"
-		};
-		class Melee
-		{
-			range=1;
-			swingTime=0.5;
-			action="MeleeKnifeSlash";
-			ammo="MeleeLightBlunt";
-			useCursor=0;
-		};
-		chamberSize=1;
-		chamberedRound="";
-		magazines[]={};
-		chamberableFrom[]=
-		{
-			"Ammo_GrenadeM4"
-		};
-		ejectType=2;
-		recoilModifier[]={1,1,1};
-		modes[]=
-		{
-			"Single"
-		};
-		class Single: Mode_SemiAuto
-		{
-			begin1[]=
-			{
-				"dz\sounds\weapons\firearms\CZ75\CZ75_single_0",
-				3.1622777,
-				1,
-				1000
-			};
-			begin2[]=
-			{
-				"dz\sounds\weapons\firearms\CZ75\CZ75_single_1",
-				3.1622777,
-				1,
-				1000
-			};
-			soundBegin[]=
-			{
-				"begin1",
-				0.33333001,
-				"begin2",
-				0.33333001,
-				"begin1",
-				0.33333001,
-				"begin2",
-				0.33333001
-			};
-			reloadTime=0.13;
-			recoil="recoil_flaregun";
-			recoilProne="recoil_flaregun_prone";
-			dispersion=0.029999999;
-			magazineSlot="magazine";
 		};
 	};
 };

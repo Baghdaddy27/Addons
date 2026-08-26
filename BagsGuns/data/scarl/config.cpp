@@ -1,18 +1,15 @@
 class CfgPatches
 {
-	class DZ_Weapons_Firearms_SCARH
+	class SCARL
 	{
-		units[]=
-		{
-			"SCARH"
+		units[]={};
+		weapons[]={
+
+			"SCARL"
+		
 		};
-		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]=
-		{
-			"DZ_Data",
-			"DZ_Weapons_Firearms"
-		};
+		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
 	};
 };
 class Mode_Safe;
@@ -23,10 +20,10 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class SCARH_Base: Rifle_Base
+	class SCARL_Base: Rifle_Base
 	{
 		scope=0;
-		weight=3700;
+		weight=3500;
 		absorbency=0;
 		repairableWithKits[]={1};
 		repairCosts[]={25};
@@ -39,13 +36,12 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_308Win",
-			"Ammo_308WinTracer"
+			"Ammo_556x45",
+			"Ammo_556x45Tracer"
 		};
 		magazines[]=
 		{
-			"Mag_SCARH_20Rnd",
-			"Mag_SCARH_20Rnd_Black"
+			"Mag_SCARL_30Rnd",
 		};
 		magazineSwitchTime=0.44999999;
 		ejectType=1;
@@ -129,8 +125,8 @@ class cfgWeapons
 				}
 			};
 			reloadTime=0.097999997;
-			recoil="recoil_fal";
-			recoilProne="recoil_fal_prone";
+			recoil="recoil_m4";
+			recoilProne="recoil_m4_prone";
 			dispersion=0.0020000001;
 			magazineSlot="magazine";
 		};
@@ -244,11 +240,11 @@ class cfgWeapons
 			};
 		};
 	};
-	class SCARH: SCARH_Base
+	class SCARL: SCARL_Base
 	{
 		scope=2;
-		displayName="$STR_cfgWeapons_SCARH0";
-		descriptionShort="$STR_cfgWeapons_SCARH1";
+		displayName="SCARL";
+		descriptionShort="A SCAR Rifle chambered in 5.56x45.";
 		model="\DZ\weapons\firearms\SCARH\ScarH.p3d";
 		attachments[]=
 		{
@@ -267,8 +263,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"dz\weapons\firearms\scarh\data\scarh_mat1_co.paa",
-			"dz\weapons\firearms\scarh\data\scarh_mat2_co.paa"
+			"BagsGuns\data\scarl\scarl_co.paa",
+			"BagsGuns\data\scarl\scarl_2.paa",
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -333,159 +329,5 @@ class cfgWeapons
 				};
 			};
 		};
-	};
-	class SCARH_Black: SCARH
-	{
-		scope=2;
-		hiddenSelectionsTextures[]=
-		{
-			"DZ\weapons\firearms\SCARH\data\scarh_mat1_black_co.paa",
-			"DZ\weapons\firearms\SCARH\data\scarh_mat2_black_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"DZ\weapons\firearms\SCARH\data\scarh_mat1_black.rvmat",
-			"DZ\weapons\firearms\SCARH\data\scarh_mat2_black.rvmat"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					RefTexsMats[]=
-					{
-						"dz\weapons\firearms\scarh\data\scarh_mat1.rvmat",
-						"dz\weapons\firearms\scarh\data\scarh_mat2.rvmat"
-					};
-					hitpoints=250;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"dz\weapons\firearms\scarh\data\scarh_mat1_black.rvmat",
-								"dz\weapons\firearms\scarh\data\scarh_mat2_black.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"dz\weapons\firearms\scarh\data\scarh_mat1_black.rvmat",
-								"dz\weapons\firearms\scarh\data\scarh_mat2_black.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"dz\weapons\firearms\scarh\data\scarh_mat1_black_damage.rvmat",
-								"dz\weapons\firearms\scarh\data\scarh_mat2_black_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"dz\weapons\firearms\scarh\data\scarh_mat1_black_damage.rvmat",
-								"dz\weapons\firearms\scarh\data\scarh_mat2_black_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"dz\weapons\firearms\scarh\data\scarh_mat1_black_destruct.rvmat",
-								"dz\weapons\firearms\scarh\data\scarh_mat2_black_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-		};
-	};
-};
-class cfgVehicles
-{
-	class Inventory_Base;
-	class Scarh_Front_Sight: Inventory_Base
-	{
-		scope=2;
-		model="\DZ\weapons\firearms\SCARH\proxy\ScarH_FrontSight.p3d";
-		weight=1;
-		inventorySlot[]=
-		{
-			"Scarh_FrontSight"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=100;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"DZ\weapons\firearms\SCARH\data\scar_frontsight.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"DZ\weapons\firearms\SCARH\data\scar_frontsight.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"DZ\weapons\firearms\SCARH\data\scar_frontsight_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"DZ\weapons\firearms\SCARH\data\scar_frontsight_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"DZ\weapons\firearms\SCARH\data\scar_frontsight_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-		};
-	};
-};
-class CfgNonAIVehicles
-{
-	class ProxyAttachment;
-	class ProxyScarH_FrontSight: ProxyAttachment
-	{
-		scope=0;
-		inventorySlot="Scarh_FrontSight";
-		model="\dz\weapons\firearms\scarh\proxy\ScarH_FrontSight.p3d";
 	};
 };

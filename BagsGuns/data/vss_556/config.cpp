@@ -1,18 +1,15 @@
 class CfgPatches
 {
-	class DZ_Weapons_Firearms_VSS
+	class VAL556
 	{
-		units[]=
-		{
-			"VSS"
+		units[]={};
+		weapons[]={
+
+			"VAL556"
+			
 		};
-		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]=
-		{
-			"DZ_Data",
-			"DZ_Weapons_Firearms"
-		};
+		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
 	};
 };
 class Mode_Safe;
@@ -23,7 +20,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class VSS_Base: Rifle_Base
+	class VAL556_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2600;
@@ -36,14 +33,12 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_9x39",
-			"Ammo_9x39AP"
+			"Ammo_556x45",
+			"Ammo_556x45Tracer"
 		};
 		magazines[]=
 		{
-			"Mag_VSS_10Rnd",
-			"Mag_VAL_20Rnd",
-			"Mag_Vikhr_30Rnd"
+			"Mag_Val556_30Rnd"
 		};
 		magazineSwitchTime=0.38;
 		ejectType=1;
@@ -77,8 +72,8 @@ class cfgWeapons
 			};
 			envShootingDecrease=0.050000001;
 			reloadTime=0.12;
-			recoil="recoil_VSS";
-			recoilProne="recoil_VSS_prone";
+			recoil="recoil_m4";
+			recoilProne="recoil_m4_prone";
 			dispersion=0.0020000001;
 			magazineSlot="magazine";
 		};
@@ -187,87 +182,11 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
 	};
-	class VSS: VSS_Base
+	class VAL556: VAL556_Base
 	{
 		scope=2;
-		displayName="$STR_cfgWeapons_VSS0";
-		descriptionShort="$STR_cfgWeapons_VSS1";
-		model="\dz\weapons\firearms\VSS\VSS.p3d";
-		attachments[]=
-		{
-			"weaponWrap",
-			"weaponOpticsAK"
-		};
-		itemSize[]={8,3};
-		WeaponLength=0.87;
-		ObstructionDistance=0.69599998;
-		hiddenSelectionsTextures[]=
-		{
-			"dz\weapons\firearms\VSS\data\vss_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"dz\weapons\firearms\VSS\data\vss.rvmat"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=250;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vss.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vss.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vss_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vss_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vss_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-		};
-	};
-	class ASVAL: VSS_Base
-	{
-		scope=2;
-		displayName="$STR_cfgWeapons_ASVAL0";
-		descriptionShort="$STR_cfgWeapons_ASVAL1";
+		displayName="VAL 556";
+		descriptionShort="An import version of the VAL chambered in 5.56x45.";
 		model="\dz\weapons\firearms\VSS\VAL.p3d";
 		PPDOFProperties[]={1,0.5,50,180.10001,4,10};
 		attachments[]=
@@ -278,9 +197,7 @@ class cfgWeapons
 		};
 		magazines[]=
 		{
-			"Mag_VSS_10Rnd",
-			"Mag_VAL_20Rnd",
-			"Mag_Vikhr_30Rnd"
+			"Mag_Val556_30Rnd"
 		};
 		WeaponLength=0.89999998;
 		ObstructionDistance=0.67799997;
@@ -292,7 +209,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"dz\weapons\firearms\VSS\data\val_co.paa",
+			"BagsGuns\data\vss\val_co.paa",
 			"dz\weapons\firearms\VSS\data\val_rails_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
@@ -358,231 +275,5 @@ class cfgWeapons
 				};
 			};
 		};
-		class OpticsInfo: OpticsInfoRifle
-		{
-			discreteDistance[]={50,100,200};
-			discreteDistanceInitIndex=1;
-			modelOptics="-";
-			distanceZoomMin=160;
-			distanceZoomMax=160;
-		};
-		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
-	};
-	class Vikhr: VSS_Base
-	{
-		scope=2;
-		weight=2200;
-		displayName="$STR_cfgWeapons_Vikhr0";
-		descriptionShort="$STR_cfgWeapons_Vikhr1";
-		model="\dz\weapons\firearms\VSS\Vikhr.p3d";
-		WeaponLength=0.63999999;
-		ObstructionDistance=0.41999999;
-		PPDOFProperties[]={1,0.5,50,180.10001,4,10};
-		attachments[]=
-		{
-			"weaponWrap",
-			"weaponOpticsAK",
-			"suppressorImpro"
-		};
-		magazines[]=
-		{
-			"Mag_VSS_10Rnd",
-			"Mag_VAL_20Rnd",
-			"Mag_Vikhr_30Rnd"
-		};
-		itemSize[]={6,3};
-		hiddenSelectionsTextures[]=
-		{
-			"dz\weapons\firearms\VSS\data\vikhr_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"dz\weapons\firearms\VSS\data\vikhr.rvmat"
-		};
-		class NoiseShoot
-		{
-			strength=60;
-			type="shot";
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=250;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vikhr.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vikhr.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vikhr_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vikhr_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"DZ\weapons\firearms\VSS\data\vikhr_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-		};
-		class OpticsInfo: OpticsInfoRifle
-		{
-			discreteDistance[]={100,200};
-			discreteDistanceInitIndex=0;
-			modelOptics="-";
-			distanceZoomMin=160;
-			distanceZoomMax=160;
-		};
-		class SemiAuto: Mode_SemiAuto
-		{
-			soundSetShot[]=
-			{
-				"Vikhr_Shot_1st_SoundSet",
-				"Vikhr_Shot_1st_iterior_SoundSet",
-				"Vikhr_Tail_SoundSet",
-				"Vikhr_InteriorTail_SoundSet",
-				"Vikhr_Slapback_SoundSet",
-				"Vikhr_Tail_2D_SoundSet"
-			};
-			soundSetShotExt[]=
-			{
-				
-				{
-					"Vikhr_1st_silencerHomeMade_SoundSet",
-					"Vikhr_silencerHomeMadeTail_SoundSet",
-					"Vikhr_silencerInteriorHomeMadeTail_SoundSet"
-				}
-			};
-			envShootingDecrease=0.050000001;
-			reloadTime=0.12;
-			recoil="recoil_VSS";
-			recoilProne="recoil_VSS_prone";
-			dispersion=0.0020000001;
-			magazineSlot="magazine";
-		};
-		class FullAuto: Mode_FullAuto
-		{
-			soundSetShot1st[]=
-			{
-				"Vikhr_Shot_1st_SoundSet",
-				"Vikhr_Shot_1st_iterior_SoundSet"
-			};
-			soundSetShot[]=
-			{
-				"Vikhr_Shot_SoundSet",
-				"Vikhr_Shot_iterior_SoundSet",
-				"Vikhr_Tail_SoundSet",
-				"Vikhr_InteriorTail_SoundSet",
-				"Vikhr_Slapback_SoundSet",
-				"Vikhr_Tail_2D_SoundSet"
-			};
-			soundSetShotExt1st[]=
-			{
-				
-				{
-					"Vikhr_1st_silencerHomeMade_SoundSet"
-				}
-			};
-			soundSetShotExt[]=
-			{
-				
-				{
-					"Vikhr_silencerHomeMade_SoundSet",
-					"Vikhr_silencerHomeMadeTail_SoundSet",
-					"Vikhr_silencerInteriorHomeMadeTail_SoundSet"
-				}
-			};
-			reloadTime=0.064999998;
-			recoil="recoil_VSS";
-			recoilProne="recoil_VSS_prone";
-			dispersion=0.0022;
-			magazineSlot="magazine";
-		};
-		class Particles
-		{
-			class OnFire
-			{
-				class MuzzleFlash
-				{
-					overrideParticle="weapon_shot_fnx_01";
-					ignoreIfSuppressed=1;
-					illuminateWorld=1;
-					positionOffset[]={-0.050000001,0,0};
-				};
-			};
-			class OnOverheating
-			{
-				maxOverheatingValue=8;
-				shotsToStartOverheating=4;
-				overheatingDecayInterval=0.69999999;
-				class SmokingBarrel1
-				{
-					overrideParticle="smoking_barrel_small";
-					onlyWithinOverheatLimits[]={0,0.5};
-					positionOffset[]={0,0,0};
-					onlyWithinRainLimits[]={0,0.2};
-				};
-				class SmokingBarrel2
-				{
-					overrideParticle="smoking_barrel";
-					onlyWithinOverheatLimits[]={0.5,1};
-					positionOffset[]={0,0,0};
-					onlyWithinRainLimits[]={0,0.2};
-				};
-				class SmokingBarrelHotSteamSmall
-				{
-					overrideParticle="smoking_barrel_steam_small";
-					positionOffset[]={0,0,0};
-					onlyWithinRainLimits[]={0.30000001,1};
-				};
-				class OpenChamberSmoke
-				{
-					onlyIfBoltIsOpen=1;
-					overrideParticle="smoking_barrel_small";
-					overridePoint="Nabojnicestart";
-				};
-			};
-			class OnBulletCasingEject
-			{
-				class ChamberSmokeRaise
-				{
-					overrideParticle="weapon_shot_chamber_smoke";
-					overridePoint="Nabojnicestart";
-				};
-			};
-		};
-		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
 	};
 };
