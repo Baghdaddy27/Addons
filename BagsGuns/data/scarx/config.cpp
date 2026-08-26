@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class SCARL
+	class SCARX
 	{
 		units[]={};
 		weapons[]={
 
-			"SCARL"
+			"SCARX"
 		
 		};
 		requiredVersion=0.1;
@@ -20,7 +20,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class SCARL_Base: Rifle_Base
+	class SCARX_Base: Rifle_Base
 	{
 		scope=0;
 		weight=3500;
@@ -36,12 +36,12 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_556x45",
-			"Ammo_556x45Tracer"
+			"Ammo_762x39",
+			"Ammo_762x39Tracer"
 		};
 		magazines[]=
 		{
-			"Mag_SCARL_30Rnd",
+			"Mag_SCARX_30Rnd",
 		};
 		magazineSwitchTime=0.44999999;
 		ejectType=1;
@@ -70,31 +70,31 @@ class cfgWeapons
 		{
 			soundSetShot[]=
 			{
-				"AK74_Shot_1st_SoundSet",
-				"AK74_Shot_1st_iterior_SoundSet",
-				"AK74_Tail_SoundSet",
-				"AK74_InteriorTail_SoundSet",
-				"AK74_Slapback_SoundSet",
-				"AK74_Tail_2D_SoundSet"
+				"AKM_Shot_1st_SoundSet",
+				"AKM_Shot_1st_iterior_SoundSet",
+				"AKM_Tail_SoundSet",
+				"AKM_InteriorTail_SoundSet",
+				"AKM_Slapback_SoundSet",
+				"AKM_Tail_2D_SoundSet"
 			};
 			soundSetShotExt[]=
 			{
 				
 				{
-					"AK74_1st_silencer_SoundSet",
-					"AK74_silencerTail_SoundSet",
-					"AK74_silencerInteriorTail_SoundSet"
+					"AKM_1st_silencer_SoundSet",
+					"AKM_silencerTail_SoundSet",
+					"AKM_silencerInteriorTail_SoundSet"
 				},
 				
 				{
-					"AK74_1st_silencerHomeMade_SoundSet",
-					"AK74_silencerHomeMadeTail_SoundSet",
-					"AK74_silencerInteriorHomeMadeTail_SoundSet"
+					"AKM_1st_silencerHomeMade_SoundSet",
+					"AKM_silencerHomeMadeTail_SoundSet",
+					"AKM_silencerInteriorHomeMadeTail_SoundSet"
 				}
 			};
 			reloadTime=0.12;
-			recoil="recoil_m4";
-			recoilProne="recoil_m4_prone";
+			recoil="recoil_fal";
+			recoilProne="recoil_fal_prone";
 			dispersion=0.0020000001;
 			magazineSlot="magazine";
 		};
@@ -102,47 +102,45 @@ class cfgWeapons
 		{
 			soundSetShot1st[]=
 			{
-				"AK74_Shot_1st_SoundSet",
-				"AK74_Shot_1st_iterior_SoundSet"
+				"AKM_Shot_1st_SoundSet",
+				"AKM_Shot_1st_iterior_SoundSet"
 			};
 			soundSetShot[]=
 			{
-				"AK74_Shot_SoundSet",
-				"AK74_Shot_iterior_SoundSet",
-				"AK74_Tail_SoundSet",
-				"AK74_InteriorTail_SoundSet",
-				"AK74_Slapback_SoundSet",
-				"AK74_Tail_2D_SoundSet"
+				"AKM_Shot_SoundSet",
+				"AKM_Shot_iterior_SoundSet",
+				"AKM_Tail_SoundSet",
+				"AKM_InteriorTail_SoundSet",
+				"AKM_Slapback_SoundSet",
+				"AKM_Tail_2D_SoundSet"
 			};
 			soundSetShotExt1st[]=
 			{
-				
 				{
-					"AK74_1st_silencer_SoundSet"
+					"AKM_1st_silencer_SoundSet"
 				},
 				
 				{
-					"AK74_1st_silencerHomeMade_SoundSet"
+					"AKM_1st_silencerHomeMade_SoundSet"
 				}
 			};
 			soundSetShotExt[]=
-			{
-				
+			{				
 				{
-					"AK74_silencer_SoundSet",
-					"AK74_silencerTail_SoundSet",
-					"AK74_silencerInteriorTail_SoundSet"
+					"AKM_silencer_SoundSet",
+					"AKM_silencerTail_SoundSet",
+					"AKM_silencerInteriorTail_SoundSet"
 				},
 				
 				{
-					"AK74_silencerHomeMade_SoundSet",
-					"AK74_silencerHomeMadeTail_SoundSet",
-					"AK74_silencerInteriorHomeMadeTail_SoundSet"
+					"AKM_silencerHomeMade_SoundSet",
+					"AKM_silencerHomeMadeTail_SoundSet",
+					"AKM_silencerInteriorHomeMadeTail_SoundSet"
 				}
 			};
 			reloadTime=0.097999997;
-			recoil="recoil_m4";
-			recoilProne="recoil_m4_prone";
+			recoil="recoil_fal";
+			recoilProne="recoil_fal_prone";
 			dispersion=0.0020000001;
 			magazineSlot="magazine";
 		};
@@ -256,11 +254,11 @@ class cfgWeapons
 			};
 		};
 	};
-	class SCARL: SCARL_Base
+	class SCARX: SCARX_Base
 	{
 		scope=2;
-		displayName="SCARL";
-		descriptionShort="A SCAR Rifle chambered in 5.56x45.";
+		displayName="SCARX";
+		descriptionShort="A SCAR Rifle chambered in 7.62x39.";
 		model="\DZ\weapons\firearms\SCARH\ScarH.p3d";
 		attachments[]=
 		{
@@ -279,8 +277,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\scarl\scarl_co.paa",
-			"BagsGuns\data\scarl\scarl_2.paa",
+			"BagsGuns\data\SCARX\SCARX_co.paa",
+			"BagsGuns\data\SCARX\SCARX_2.paa",
 		};
 		hiddenSelectionsMaterials[]=
 		{
