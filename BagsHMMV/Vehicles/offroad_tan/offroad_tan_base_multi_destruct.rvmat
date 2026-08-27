@@ -88,7 +88,7 @@ class TexGen7: TexGen2
 };
 class Stage0
 {
-	texture="dz\vehicles\wheeled\offroad_02\data\offroad_02_base_co.paa";
+	texture="BagsHMMV\Vehicles\offroad_tan\offroad_tan_base.paa";
 	texGen="0";
 };
 class Stage1
@@ -133,7 +133,7 @@ class Stage8
 };
 class Stage9
 {
-	texture="BagHMMV\Vehicles\offroad_tan\offroad_tan_base.paa";
+	texture="BagsHMMV\Vehicles\offroad_tan\offroad_tan_base.paa";
 	texGen="4";
 };
 class Stage10

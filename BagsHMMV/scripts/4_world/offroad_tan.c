@@ -15,8 +15,8 @@ class Offroad_Tan extends CarScript
 		m_EngineStop			= "Offroad_02_engine_stop_SoundSet";
 		m_EngineStopFuel		= "offroad_engine_stop_fuel_SoundSet";
 
-		m_CarDoorOpenSound		= "offroad_02_door_open_SoundSet";
-		m_CarDoorCloseSound		= "offroad_02_door_close_SoundSet";
+		m_CarDoorOpenSound		= "Offroad_02_door_open_SoundSet";
+		m_CarDoorCloseSound		= "Offroad_02_door_close_SoundSet";
 		
 		m_CarHornShortSoundName = "Offroad_02_Horn_Short_SoundSet";
 		m_CarHornLongSoundName	= "Offroad_02_Horn_SoundSet";
@@ -112,13 +112,13 @@ class Offroad_Tan extends CarScript
 	// Override for car-specific light type
 	override CarLightBase CreateFrontLight()
 	{
-		return CarLightBase.Cast(ScriptedLightBase.CreateLight(Offroad_02FrontLight));
+		return CarLightBase.Cast(ScriptedLightBase.CreateLight(Offroad_TanFrontLight));
 	}
 	
 	// Override for car-specific light type
 	override CarRearLightBase CreateRearLight()
 	{
-		return CarRearLightBase.Cast(ScriptedLightBase.CreateLight(Offroad_02RearLight));
+		return CarRearLightBase.Cast(ScriptedLightBase.CreateLight(Offroad_TanRearLight));
 	}
 	
 	override bool CanReleaseAttachment( EntityAI attachment )
@@ -132,14 +132,14 @@ class Offroad_Tan extends CarScript
 		switch (attType)
 		{
 		case "CarBattery": 
-			if (GetCarDoorsState("Offroad_02_Hood") == CarDoorState.DOORS_CLOSED || EngineIsOn())
+			if (GetCarDoorsState("Offroad_Tan_Hood") == CarDoorState.DOORS_CLOSED || EngineIsOn())
 			{
 				return false;
 			}
 			break;
 
 		case "GlowPlug":
-			if (GetCarDoorsState("Offroad_02_Hood") == CarDoorState.DOORS_CLOSED || EngineIsOn())
+			if (GetCarDoorsState("Offroad_Tan_Hood") == CarDoorState.DOORS_CLOSED || EngineIsOn())
 			{
 				return false;
 			}
@@ -151,7 +151,7 @@ class Offroad_Tan extends CarScript
 
 	override protected bool CanManipulateSpareWheel(string slotSelectionName)
 	{
-		return GetCarDoorsState("Offroad_02_Trunk") != CarDoorState.DOORS_CLOSED;
+		return GetCarDoorsState("Offroad_Tan_Trunk") != CarDoorState.DOORS_CLOSED;
 	}
 
 	override bool CanDisplayAttachmentCategory(string category_name)
@@ -164,7 +164,7 @@ class Offroad_Tan extends CarScript
 		category_name.ToLower();
 		if (category_name.Contains("engine"))
 		{
-			if (GetCarDoorsState("Offroad_02_Hood") == CarDoorState.DOORS_CLOSED)
+			if (GetCarDoorsState("Offroad_Tan_Hood") == CarDoorState.DOORS_CLOSED)
 			{
 				return false;
 			}
@@ -178,7 +178,7 @@ class Offroad_Tan extends CarScript
 		if ( !super.CanDisplayCargo() )
 			return false;
 		
-		if ( GetCarDoorsState("Offroad_02_Trunk") == CarDoorState.DOORS_CLOSED )
+		if ( GetCarDoorsState("Offroad_Tan_Trunk") == CarDoorState.DOORS_CLOSED )
 			return false;
 		
 		return true;
@@ -196,22 +196,22 @@ class Offroad_Tan extends CarScript
 	
 		switch (slotType)
 		{
-		case "Offroad_02_Door_1_1":
+		case "Offroad_Tan_Door_1_1":
 			return TranslateAnimationPhaseToCarDoorState("DoorsDriver");
 			
-		case "Offroad_02_Door_2_1":
+		case "Offroad_Tan_Door_2_1":
 			return TranslateAnimationPhaseToCarDoorState("DoorsCoDriver");
 		
-		case "Offroad_02_Door_1_2":
+		case "Offroad_Tan_Door_1_2":
 			return TranslateAnimationPhaseToCarDoorState("DoorsCargo1");
 		
-		case "Offroad_02_Door_2_2":
+		case "Offroad_Tan_Door_2_2":
 			return TranslateAnimationPhaseToCarDoorState("DoorsCargo2");
 		
-		case "Offroad_02_Hood":
+		case "Offroad_Tan_Hood":
 			return TranslateAnimationPhaseToCarDoorState("DoorsHood");
 
-		case "Offroad_02_Trunk":
+		case "Offroad_Tan_Trunk":
 			return TranslateAnimationPhaseToCarDoorState("DoorsTrunk");
 		}
 
@@ -224,28 +224,28 @@ class Offroad_Tan extends CarScript
 		switch( posIdx )
 		{
 			case 0:
-				if ( GetCarDoorsState("Offroad_02_Door_1_1") == CarDoorState.DOORS_CLOSED )
+				if ( GetCarDoorsState("Offroad_Tan_Door_1_1") == CarDoorState.DOORS_CLOSED )
 					return false;
 
 				return true;
 			break;
 			
 			case 1:
-				if ( GetCarDoorsState("Offroad_02_Door_2_1") == CarDoorState.DOORS_CLOSED )
+				if ( GetCarDoorsState("Offroad_Tan_Door_2_1") == CarDoorState.DOORS_CLOSED )
 					return false;
 
 				return true;
 			break;
 
 			case 2:
-				if ( GetCarDoorsState("Offroad_02_Door_1_2") == CarDoorState.DOORS_CLOSED )
+				if ( GetCarDoorsState("Offroad_Tan_Door_1_2") == CarDoorState.DOORS_CLOSED )
 					return false;
 
 				return true;
 			break;
 
 			case 3:
-				if ( GetCarDoorsState("Offroad_02_Door_2_2") == CarDoorState.DOORS_CLOSED )
+				if ( GetCarDoorsState("Offroad_Tan_Door_2_2") == CarDoorState.DOORS_CLOSED )
 					return false;
 
 				return true;
@@ -281,13 +281,13 @@ class Offroad_Tan extends CarScript
 		switch (posIdx)
 		{
 			case 0:
-				return "Offroad_02_Door_1_1";
+				return "Offroad_Tan_Door_1_1";
 			case 1:
-				return "Offroad_02_Door_2_1";
+				return "Offroad_Tan_Door_2_1";
 			case 2:
-				return "Offroad_02_Door_1_2";
+				return "Offroad_Tan_Door_1_2";
 			case 3:
-				return "Offroad_02_Door_2_2";
+				return "Offroad_Tan_Door_2_2";
 		}
 		
 		return super.GetDoorInvSlotNameFromSeatPos(posIdx);
@@ -299,22 +299,22 @@ class Offroad_Tan extends CarScript
 		{
 		case CarSoundCtrl.DOORS:
 			float newValue = 0;
-			if (GetCarDoorsState("Offroad_02_Door_1_1") == CarDoorState.DOORS_CLOSED)
+			if (GetCarDoorsState("Offroad_Tan_Door_1_1") == CarDoorState.DOORS_CLOSED)
 			{
 				newValue += 0.25;
 			}
 
-			if (GetCarDoorsState("Offroad_02_Door_2_1") == CarDoorState.DOORS_CLOSED)
+			if (GetCarDoorsState("Offroad_Tan_Door_2_1") == CarDoorState.DOORS_CLOSED)
 			{
 				newValue += 0.25;
 			}
 		
-			if (GetCarDoorsState("Offroad_02_Door_1_2") == CarDoorState.DOORS_CLOSED)
+			if (GetCarDoorsState("Offroad_Tan_Door_1_2") == CarDoorState.DOORS_CLOSED)
 			{
 				newValue += 0.25;
 			}
 
-			if (GetCarDoorsState("Offroad_02_Door_2_2") == CarDoorState.DOORS_CLOSED)
+			if (GetCarDoorsState("Offroad_Tan_Door_2_2") == CarDoorState.DOORS_CLOSED)
 			{
 				newValue += 0.25;
 			}
@@ -403,10 +403,10 @@ class Offroad_Tan extends CarScript
 		FillUpCarFluids();
 
 		GameInventory inventory = GetInventory();
-		inventory.CreateInInventory("Offroad_02_Wheel");
-		inventory.CreateInInventory("Offroad_02_Wheel");
-		inventory.CreateInInventory("Offroad_02_Wheel");
-		inventory.CreateInInventory("Offroad_02_Wheel");
+		inventory.CreateInInventory("Offroad_Tan_Wheel");
+		inventory.CreateInInventory("Offroad_Tan_Wheel");
+		inventory.CreateInInventory("Offroad_Tan_Wheel");
+		inventory.CreateInInventory("Offroad_Tan_Wheel");
 
 		inventory.CreateInInventory("Offroad_tan_Door_1_1");
 		inventory.CreateInInventory("Offroad_tan_Door_1_2");
@@ -416,7 +416,7 @@ class Offroad_Tan extends CarScript
 		inventory.CreateInInventory("Offroad_tan_Trunk");
 
 		//-----IN CAR CARGO
-		inventory.CreateInInventory("Offroad_02_Wheel");
-		inventory.CreateInInventory("Offroad_02_Wheel");
+		inventory.CreateInInventory("Offroad_Tan_Wheel");
+		inventory.CreateInInventory("Offroad_Tan_Wheel");
 	}
 }
