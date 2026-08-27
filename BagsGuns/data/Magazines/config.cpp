@@ -5,6 +5,8 @@ class CfgPatches
         units[]=
         {
 			"Mag_AR15_30Rnd",
+			"Mag_AR10_20Rnd",
+			"Mag_UMP9mm_30Rnd",
 			"Mag_SCARL_30Rnd",
 			"Mag_SCARX_30Rnd"
         };
@@ -135,8 +137,8 @@ class CfgMagazines
         ammo="Bullet_545x39";
         ammoItems[]=
         {
-            "Ammo_545x39",
-            "Ammo_545x39Tracer"
+			"Ammo_545x39",
+			"Ammo_545x39Tracer"
         };
         tracersEvery=0;
         hiddenSelections[]=
@@ -235,8 +237,8 @@ class CfgMagazines
 	class Mag_SCARL_30Rnd: Magazine_Base
 	{
 		scope=2;
-		displayName="SCARL Magazine";
-		descriptionShort="A 30 round magazine for the SCARL.";
+		displayName="SCAR-L Magazine";
+		descriptionShort="A 30 round SCAR-L magazine for 5.56x45 NATO.";
 		model="dz\weapons\attachments\magazine\magazine_SCARH_20rnd.p3d";
 		weight=275;
 		weightPerQuantityUnit=10;
@@ -255,7 +257,7 @@ class CfgMagazines
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\Magazines\magazine_scarl_30rnd_co.paa"
+			"BagsGuns\data\Magazines\magazine_scar_30rnd_co.paa"
 		};
 		class DamageSystem
 		{
@@ -381,7 +383,7 @@ class CfgMagazines
 	{
 		scope=2;
 		displayName="SCARX Magazine";
-		descriptionShort="A 30 round magazine for the SCARX.";
+		descriptionShort="A 30 round SCARX magazine for 7.62x39 WARSAW.";
 		model="dz\weapons\attachments\magazine\magazine_SCARH_20rnd.p3d";
 		weight=275;
 		weightPerQuantityUnit=10;
@@ -400,7 +402,7 @@ class CfgMagazines
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\Magazines\magazine_scarx_30rnd_co.paa"
+			"BagsGuns\data\Magazines\magazine_scar_30rnd_co.paa"
 		};
 		class DamageSystem
 		{
@@ -455,6 +457,290 @@ class CfgMagazines
 				};
 			};
 		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class MagRifle_fill_in
+				{
+					soundSet="MagRifle_fill_in_SoundSet";
+					id=1;
+				};
+				class MagRifle_fill_loop
+				{
+					soundSet="MagRifle_fill_loop_SoundSet";
+					id=2;
+				};
+				class MagRifle_fill_out
+				{
+					soundSet="MagRifle_fill_out_SoundSet";
+					id=3;
+				};
+				class MagRifle_empty_in
+				{
+					soundSet="MagRifle_empty_in_SoundSet";
+					id=4;
+				};
+				class MagRifle_empty_loop
+				{
+					soundSet="MagRifle_empty_loop_SoundSet";
+					id=5;
+				};
+				class MagRifle_empty_out
+				{
+					soundSet="MagRifle_empty_out_SoundSet";
+					id=6;
+				};
+				class MagPistol_fill_in
+				{
+					soundSet="MagPistol_fill_in_SoundSet";
+					id=7;
+				};
+				class MagPistol_fill_loop
+				{
+					soundSet="MagPistol_fill_loop_SoundSet";
+					id=8;
+				};
+				class MagPistol_fill_out
+				{
+					soundSet="MagPistol_fill_out_SoundSet";
+					id=9;
+				};
+				class MagPistol_empty_in
+				{
+					soundSet="MagPistol_empty_in_SoundSet";
+					id=10;
+				};
+				class MagPistol_empty_loop
+				{
+					soundSet="MagPistol_empty_loop_SoundSet";
+					id=11;
+				};
+				class MagPistol_empty_out
+				{
+					soundSet="MagPistol_empty_out_SoundSet";
+					id=12;
+				};
+			};
+		};
+	};
+	class Mag_AR10_20Rnd: Magazine_Base
+	{
+		scope=2;
+		displayName="AR10 20 round Magazine";
+		descriptionShort="An AR10 magazine in chambered in 357 Magnum.";
+		model="\DZ\weapons\attachments\magazine\magazine_val.p3d";
+		weight=550;
+		weightPerQuantityUnit=16;
+		itemSize[]={1,2};
+		count=20;
+		ammo="Bullet_357";
+		ammoItems[]=
+		{
+			"Ammo_357"
+		};
+		tracersEvery=0;
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"dz\weapons\attachments\magazine\data\val_mag_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"dz\weapons\attachments\magazine\data\val_mag.rvmat"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=100;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\val_mag.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\val_mag.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\val_mag_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\val_mag_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\val_mag_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class MagRifle_fill_in
+				{
+					soundSet="MagRifle_fill_in_SoundSet";
+					id=1;
+				};
+				class MagRifle_fill_loop
+				{
+					soundSet="MagRifle_fill_loop_SoundSet";
+					id=2;
+				};
+				class MagRifle_fill_out
+				{
+					soundSet="MagRifle_fill_out_SoundSet";
+					id=3;
+				};
+				class MagRifle_empty_in
+				{
+					soundSet="MagRifle_empty_in_SoundSet";
+					id=4;
+				};
+				class MagRifle_empty_loop
+				{
+					soundSet="MagRifle_empty_loop_SoundSet";
+					id=5;
+				};
+				class MagRifle_empty_out
+				{
+					soundSet="MagRifle_empty_out_SoundSet";
+					id=6;
+				};
+				class MagPistol_fill_in
+				{
+					soundSet="MagPistol_fill_in_SoundSet";
+					id=7;
+				};
+				class MagPistol_fill_loop
+				{
+					soundSet="MagPistol_fill_loop_SoundSet";
+					id=8;
+				};
+				class MagPistol_fill_out
+				{
+					soundSet="MagPistol_fill_out_SoundSet";
+					id=9;
+				};
+				class MagPistol_empty_in
+				{
+					soundSet="MagPistol_empty_in_SoundSet";
+					id=10;
+				};
+				class MagPistol_empty_loop
+				{
+					soundSet="MagPistol_empty_loop_SoundSet";
+					id=11;
+				};
+				class MagPistol_empty_out
+				{
+					soundSet="MagPistol_empty_out_SoundSet";
+					id=12;
+				};
+			};
+		};
+	};
+	class Mag_UMP9mm_30Rnd: Magazine_Base
+	{
+		scope=2;
+		displayName="UMP9mm Magazine";
+		descriptionShort="A 30 round magazine for the UMP chambered in 9mm.";
+		model="\DZ\weapons\attachments\magazine\magazine_ump45_25rnd.p3d";
+		weight=350;
+		weightPerQuantityUnit=12;
+		itemSize[]={1,3};
+		count=30;
+		ammo="Bullet_9x19";
+		ammoItems[]=
+		{
+			"Ammo_9x19"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=100;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\ump45_magazine.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\ump45_magazine.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\ump45_magazine_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\ump45_magazine_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\ump45_magazine_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		tracersEvery=0;
 		class AnimEvents
 		{
 			class SoundWeapon

@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class AR15
+	class AR10
 	{
 		units[]={};
 		weapons[]={
 
-			"AR15"
+			"AR10"
 			
 		};
 		requiredVersion=0.1;
@@ -20,7 +20,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class AR15_Base: Rifle_Base
+	class AR10_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2276;
@@ -46,15 +46,11 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_545x39",
-			"Ammo_545x39Tracer"
+			"Ammo_357"
 		};
 		magazines[]=
 		{
-			"Mag_AR15_30Rnd",
-			"Mag_AK74_30Rnd",
-			"Mag_AK74_30Rnd_Black",
-			"Mag_AK74_30Rnd_Green"
+			"Mag_AR10_20Rnd"
 		};
 		magazineSwitchTime=0.5;
 		ejectType=1;
@@ -75,84 +71,28 @@ class cfgWeapons
 		};
 		modes[]=
 		{
-			"SemiAuto",
-			"FullAuto"
+			"SemiAuto"
 		};
 		class SemiAuto: Mode_SemiAuto
 		{
 			soundSetShot[]=
 			{
-				"Famas_Shot_1st_SoundSet",
-				"Famas_Shot_1st_iterior_SoundSet",
-				"Famas_Tail_SoundSet",
-				"Famas_InteriorTail_SoundSet",
-				"Famas_Slapback_SoundSet",
-				"Famas_Tail_2D_SoundSet"
+				"Repeater_Shot_SoundSet",
+				"Repeater_Shot_iterior_SoundSet",
+				"Repeater_Tail_SoundSet",
+				"Repeater_InteriorTail_SoundSet",
+				"Repeater_Tail_2D_SoundSet"
 			};
 			soundSetShotExt[]=
 			{
 				
 				{
-					"Famas_1st_silencer_SoundSet",
-					"Famas_silencerTail_SoundSet",
-					"Famas_silencerInteriorTail_SoundSet"
-				},
-				
-				{
-					"Famas_1st_silencerHomeMade_SoundSet",
-					"Famas_silencerHomeMadeTail_SoundSet",
-					"Famas_silencerInteriorHomeMadeTail_SoundSet"
+					"Repeater_silencerHomeMade_SoundSet",
+					"Repeater_silencerHomeMadeTail_SoundSet",
+					"Repeater_silencerInteriorHomeMadeTail_SoundSet"
 				}
 			};
 			reloadTime=0.12;
-			recoil="recoil_m4";
-			recoilProne="recoil_m4_prone";
-			dispersion=0.0020000001;
-			magazineSlot="magazine";
-		};
-		class FullAuto: Mode_FullAuto
-		{
-			soundSetShot1st[]=
-			{
-				"Famas_Shot_1st_SoundSet",
-				"Famas_Shot_1st_iterior_SoundSet"
-			};
-			soundSetShot[]=
-			{
-				"Famas_Shot_SoundSet",
-				"Famas_Shot_iterior_SoundSet",
-				"Famas_Tail_SoundSet",
-				"Famas_InteriorTail_SoundSet",
-				"Famas_Slapback_SoundSet",
-				"Famas_Tail_2D_SoundSet"
-			};
-			soundSetShotExt1st[]=
-			{
-				
-				{
-					"Famas_1st_silencer_SoundSet"
-				},
-				
-				{
-					"Famas_1st_silencerHomeMade_SoundSet"
-				}
-			};
-			soundSetShotExt[]=
-			{
-				
-				{
-					"Famas_silencer_SoundSet",
-					"Famas_silencerTail_SoundSet",
-					"Famas_silencerInteriorTail_SoundSet"
-				},
-				
-				{
-					"Famas_silencerHomeMade_SoundSet",
-					"Famas_silencerHomeMadeTail_SoundSet",
-					"Famas_silencerInteriorHomeMadeTail_SoundSet"
-				}
-			};			
-			reloadTime=0.064999998;
 			recoil="recoil_m4";
 			recoilProne="recoil_m4_prone";
 			dispersion=0.0020000001;
@@ -182,11 +122,11 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR15: AR15_Base
+	class AR10: AR10_Base
 	{
 		scope=2;
-		displayName="AR15";
-		descriptionShort="A custom AR15 chambered in 5.45x39. An AR-15 style rifle is a lightweight semi-automatic rifle based on or similar to the Colt AR-15 design.";
+		displayName="AR15 Magnum";
+		descriptionShort="A custom AR15 chambered in .357 Magnum. An AR-15 style rifle is a lightweight semi-automatic rifle based on or similar to the Colt AR-15 design.";
 		model="\dz\weapons\firearms\m4\m4a1.p3d";
 		attachments[]=
 		{
@@ -202,7 +142,7 @@ class cfgWeapons
 		spawnDamageRange[]={0,0.60000002};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR15\ar15_black_co.paa"
+			"BagsGuns\data\AR10\ar10_black_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -345,24 +285,24 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR15_Green: AR15
+	class AR10_Green: AR10
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR15\ar15_green_co.paa"
+			"BagsGuns\data\AR10\ar10_green_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
 			"dz\weapons\firearms\m4\data\m4_body.rvmat"
 		};
 	};
-	class AR15_Tan: AR15
+	class AR10_Tan: AR10
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR15\ar15_tan_co.paa"
+			"BagsGuns\data\AR10\ar10_tan_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{

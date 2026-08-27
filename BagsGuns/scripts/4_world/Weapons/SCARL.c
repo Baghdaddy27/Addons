@@ -91,7 +91,7 @@ class SCARL_Base : RifleBoltLock_Base
         inventory.CreateInInventory( "M4_T3NRDSOptic" );
         inventory.CreateInInventory( "Battery9V" );
 
-        SpawnAttachedMagazine("Mag_SCARL_30Rnd");
+        SpawnAttachedMagazine("Mag_CMAG_30Rnd");
     }
 };
 

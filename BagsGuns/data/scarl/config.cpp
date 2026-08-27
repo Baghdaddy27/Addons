@@ -6,7 +6,6 @@ class CfgPatches
 		weapons[]={
 
 			"SCARL"
-		
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -41,7 +40,18 @@ class cfgWeapons
 		};
 		magazines[]=
 		{
-			"Mag_SCARL_30Rnd",
+			"Mag_CMAG_10Rnd",
+			"Mag_CMAG_20Rnd",
+			"Mag_CMAG_30Rnd",
+			"Mag_CMAG_40Rnd",
+			"Mag_CMAG_10Rnd_Green",
+			"Mag_CMAG_20Rnd_Green",
+			"Mag_CMAG_30Rnd_Green",
+			"Mag_CMAG_40Rnd_Green",
+			"Mag_CMAG_10Rnd_Black",
+			"Mag_CMAG_20Rnd_Black",
+			"Mag_CMAG_30Rnd_Black",
+			"Mag_CMAG_40Rnd_Black"
 		};
 		magazineSwitchTime=0.44999999;
 		ejectType=1;
@@ -259,8 +269,8 @@ class cfgWeapons
 	class SCARL: SCARL_Base
 	{
 		scope=2;
-		displayName="SCARL";
-		descriptionShort="A SCAR Rifle chambered in 5.56x45.";
+		displayName="SCAR-L";
+		descriptionShort="A custom SCAR chambered in 5.56x45 NATO. The FN SCAR Combat Assault Rifle is a family of gas-operated short-stroke gas piston automatic rifles developed by Belgian manufacturer FN Herstal in 2004.";
 		model="\DZ\weapons\firearms\SCARH\ScarH.p3d";
 		attachments[]=
 		{
@@ -279,8 +289,157 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\scarl\scarl_co.paa",
-			"BagsGuns\data\scarl\scarl_2.paa",
+			"BagsGuns\data\scarl\scarl_mat1_co.paa",
+			"BagsGuns\data\scarl\scarl_mat2_co.paa",
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"dz\weapons\firearms\scarh\data\scarh_mat1.rvmat",
+			"dz\weapons\firearms\scarh\data\scarh_mat2.rvmat"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=300;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1_damage.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1_damage.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1_destruct.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+	};
+	class SCARL_Black: SCARL
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"DZ\weapons\firearms\SCARH\data\scarh_mat1_black_co.paa",
+			"DZ\weapons\firearms\SCARH\data\scarh_mat2_black_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"DZ\weapons\firearms\SCARH\data\scarh_mat1_black.rvmat",
+			"DZ\weapons\firearms\SCARH\data\scarh_mat2_black.rvmat"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					RefTexsMats[]=
+					{
+						"dz\weapons\firearms\scarh\data\scarh_mat1.rvmat",
+						"dz\weapons\firearms\scarh\data\scarh_mat2.rvmat"
+					};
+					hitpoints=250;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1_black.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2_black.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1_black.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2_black.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1_black_damage.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2_black_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1_black_damage.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2_black_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"dz\weapons\firearms\scarh\data\scarh_mat1_black_destruct.rvmat",
+								"dz\weapons\firearms\scarh\data\scarh_mat2_black_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+	};
+	class SCARL_Tan: SCARL
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"dz\weapons\firearms\scarh\data\scarh_mat1_co.paa",
+			"dz\weapons\firearms\scarh\data\scarh_mat2_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
