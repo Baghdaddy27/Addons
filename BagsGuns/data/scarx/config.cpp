@@ -277,8 +277,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\scarx\scarx_mat1_co.paa",
-			"BagsGuns\data\scarx\scarl_mat2_co.paa",
+			"BagsGuns\data\scarl\scarl_mat1_co.paa",
+			"BagsGuns\data\scarl\scarl_mat2_co.paa",
 		};
 		hiddenSelectionsMaterials[]=
 		{

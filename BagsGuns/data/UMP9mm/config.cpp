@@ -76,31 +76,31 @@ class cfgWeapons
 		{
 			soundSetShot[]=
 			{
-				"UMP45_Shot_1st_SoundSet",
-				"UMP45_Shot_1st_iterior_SoundSet",
-				"UMP45_Tail_SoundSet",
-				"UMP45_InteriorTail_SoundSet",
-				"UMP45_Slapback_SoundSet",
-				"UMP45_Tail_2D_SoundSet"
+				"PP19_Shot_1st_SoundSet",
+				"PP19_Shot_1st_iterior_SoundSet",
+				"PP19_Tail_SoundSet",
+				"PP19_InteriorTail_SoundSet",
+				"PP19_Slapback_SoundSet",
+				"PP19_Tail_2D_SoundSet"
 			};
 			soundSetShotExt[]=
 			{
 				
 				{
-					"UMP45_1st_silencer_SoundSet",
-					"UMP45_silencerTail_SoundSet",
-					"UMP45_silencerInteriorTail_SoundSet"
+					"PP19_1st_silencer_SoundSet",
+					"PP19_silencerTail_SoundSet",
+					"PP19_silencerInteriorTail_SoundSet"
 				},
 				
 				{
-					"UMP45_1st_silencerHomeMade_SoundSet",
-					"UMP45_silencerHomeMadeTail_SoundSet",
-					"UMP45_silencerInteriorHomeMadeTail_SoundSet"
+					"PP19_1st_silencerHomeMade_SoundSet",
+					"PP19_silencerHomeMadeTail_SoundSet",
+					"PP19_silencerInteriorHomeMadeTail_SoundSet"
 				}
 			};
 			reloadTime=0.12;
-			recoil="recoil_auto_primary_7outof10";
-			recoilProne="recoil_auto_primary_prone_7outof10";
+			recoil="recoil_cz61";
+			recoilProne="recoil_cz61_prone";
 			dispersion=0.003;
 			magazineSlot="magazine";
 		};
@@ -108,50 +108,50 @@ class cfgWeapons
 		{
 			soundSetShot1st[]=
 			{
-				"UMP45_Shot_1st_SoundSet",
-				"UMP45_Shot_1st_iterior_SoundSet"
+				"PP19_Shot_1st_SoundSet",
+				"PP19_Shot_1st_iterior_SoundSet"
 			};
 			soundSetShot[]=
 			{
-				"UMP45_Shot_SoundSet",
-				"UMP45_Shot_iterior_SoundSet",
-				"UMP45_Tail_SoundSet",
-				"UMP45_InteriorTail_SoundSet",
-				"UMP45_Slapback_SoundSet",
-				"UMP45_Tail_2D_SoundSet"
+				"PP19_Shot_SoundSet",
+				"PP19_Shot_iterior_SoundSet",
+				"PP19_Tail_SoundSet",
+				"PP19_InteriorTail_SoundSet",
+				"PP19_Slapback_SoundSet",
+				"PP19_Tail_2D_SoundSet"
 			};
 			soundSetShotExt1st[]=
 			{
 				
 				{
-					"UMP45_1st_silencer_SoundSet"
+					"PP19_1st_silencer_SoundSet"
 				},
 				
 				{
-					"UMP45_1st_silencerHomeMade_SoundSet"
+					"PP19_1st_silencerHomeMade_SoundSet"
 				}
 			};
 			soundSetShotExt[]=
 			{
 				
 				{
-					"UMP45_silencer_SoundSet",
-					"UMP45_silencerTail_SoundSet",
-					"UMP45_silencerInteriorTail_SoundSet"
+					"PP19_silencer_SoundSet",
+					"PP19_silencerTail_SoundSet",
+					"PP19_silencerInteriorTail_SoundSet"
 				},
 				
 				{
-					"UMP45_silencerHomeMade_SoundSet",
-					"UMP45_silencerHomeMadeTail_SoundSet",
-					"UMP45_silencerInteriorHomeMadeTail_SoundSet"
+					"PP19_silencerHomeMade_SoundSet",
+					"PP19_silencerHomeMadeTail_SoundSet",
+					"PP19_silencerInteriorHomeMadeTail_SoundSet"
 				}
 			};
 			reloadTime=0.097999997;
-			recoil="recoil_auto_primary_7outof10";
-			recoilProne="recoil_auto_primary_prone_7outof10";
+			recoil="recoil_cz61";
+			recoilProne="recoil_cz61_prone";
 			dispersion=0.003;
 			magazineSlot="magazine";
-		};
+		};		
 		class OpticsInfo: OpticsInfoRifle
 		{
 			memoryPointCamera="eye";
@@ -256,158 +256,6 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"dz\weapons\firearms\UMP45\data\ump45_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=250;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-		};
-	};
-	class UMP9mm_Green: UMP9mm_Base
-	{
-		scope=2;
-		displayName="UMP-9MM";
-		descriptionShort="A UMP chambered in 9x19 MM. The Heckler & Koch UMP is a submachine gun developed and manufactured by Heckler & Koch. Heckler & Koch developed the UMP as a lighter and cheaper successor to the MP5.";
-		model="\dz\weapons\firearms\UMP45\ump.p3d";
-		attachments[]=
-		{
-			"weaponWrap",
-			"weaponOptics",
-			"weaponFlashlight",
-			"pistolMuzzle"
-		};
-		itemSize[]={6,3};
-		hiddenSelectionsTextures[]=
-		{
-			"BagsGuns\data\UMP9mm\ump9mm_green_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=250;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"DZ\weapons\firearms\UMP45\data\ump45_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-		};
-	};
-	class UMP9mm_Tan: UMP9mm_Base
-	{
-		scope=2;
-		displayName="UMP-9MM";
-		descriptionShort="A UMP chambered in 9x19 MM. The Heckler & Koch UMP is a submachine gun developed and manufactured by Heckler & Koch. Heckler & Koch developed the UMP as a lighter and cheaper successor to the MP5.";
-		model="\dz\weapons\firearms\UMP45\ump.p3d";
-		attachments[]=
-		{
-			"weaponWrap",
-			"weaponOptics",
-			"weaponFlashlight",
-			"pistolMuzzle"
-		};
-		itemSize[]={6,3};
-		hiddenSelectionsTextures[]=
-		{
-			"BagsGuns\data\UMP9mm\ump9mm_tan_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{

@@ -201,8 +201,9 @@ class cfgWeapons
 		itemSize[]={8,3};
 		spawnDamageRange[]={0,0.60000002};
 		hiddenSelectionsTextures[]=
+		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR15\ar15_black_co.paa"
+			"BagsGuns\data\AR10\ar10_black_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -350,7 +351,7 @@ class cfgWeapons
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR15\ar15_green_co.paa"
+			"BagsGuns\data\AR10\ar10_green_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -362,7 +363,7 @@ class cfgWeapons
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR15\ar15_tan_co.paa"
+			"BagsGuns\data\AR10\ar10_tan_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{

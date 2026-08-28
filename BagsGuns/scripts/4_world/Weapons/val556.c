@@ -5,25 +5,18 @@ class VAL556_Base : RifleBoltFree_Base
 		return new VSSRecoil(this);
 	}
 	
+	//Debug menu Spawn Ground Special
 	override void OnDebugSpawn()
 	{
-		EntityAI entity;
-		if ( Class.CastTo(entity, this) )
-		{
-			entity.GetInventory().CreateInInventory( "PSO1Optic" );	
-			entity.GetInventory().CreateInInventory( "Battery9V" );
-			SpawnAttachedMagazine("Mag_Vikhr_30Rnd");
-		}
+		GameInventory inventory = GetInventory();
+		inventory.CreateInInventory( "PistolSuppressor" );
+		inventory.CreateInInventory( "ReflexOptic" );
+		inventory.CreateInInventory( "UniversalLight" );
+		inventory.CreateInInventory( "Battery9V" );
+		inventory.CreateInInventory( "Battery9V" );
+		
+		SpawnAttachedMagazine("Mag_CMAG_30Rnd");
 	}
 };
 
-class VAL556 : VAL556_Base
-{
-	override bool CanEnterIronsights()
-	{
-		ItemOptics optic = GetAttachedOptics();
-		if (optic && PSO1Optic.Cast(optic)
-			return true;
-		return super.CanEnterIronsights();
-	}
-};
+class VAL556 : VAL556_Base {};

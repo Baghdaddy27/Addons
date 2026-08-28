@@ -1,24 +1,24 @@
 class CfgPatches
 {
-	class Mini14
+	class M14_Extension
 	{
-		units[]={};
-		weapons[]={
-			"Mini14"
+		units[]={
+			"M14_Black",
+			"M14_Tan",
+			"M14_Wood"
 		};
+		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
 	};
 };
 class Mode_Safe;
 class Mode_SemiAuto;
-class Mode_Burst;
-class Mode_FullAuto;
 class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class Mini14_Base: Rifle_Base
+	class M14_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2700;
@@ -34,23 +34,13 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_556x45",
-			"Ammo_556x45Tracer"
+			"Ammo_308Win",
+			"Ammo_308WinTracer"
 		};
 		magazines[]=
 		{
-			"Mag_CMAG_10Rnd",
-			"Mag_CMAG_20Rnd",
-			"Mag_CMAG_30Rnd",
-			"Mag_CMAG_40Rnd",
-			"Mag_CMAG_10Rnd_Green",
-			"Mag_CMAG_20Rnd_Green",
-			"Mag_CMAG_30Rnd_Green",
-			"Mag_CMAG_40Rnd_Green",
-			"Mag_CMAG_10Rnd_Black",
-			"Mag_CMAG_20Rnd_Black",
-			"Mag_CMAG_30Rnd_Black",
-			"Mag_CMAG_40Rnd_Black"
+			"Mag_M14_10Rnd",
+			"Mag_M14_20Rnd"
 		};
 		magazineSwitchTime=0.44999999;
 		ejectType=1;
@@ -58,7 +48,7 @@ class cfgWeapons
 		swayModifier[]={2.4000001,2.4000001,0.89999998};
 		class NoiseShoot
 		{
-			strength=80;
+			strength=100;
 			type="shot";
 		};
 		hiddenSelections[]=
@@ -78,33 +68,26 @@ class cfgWeapons
 		{
 			soundSetShot[]=
 			{
-				"M16A2_Shot_SoundSet",
-				"M16A2_Shot_iterior_SoundSet",
-				"M16A2_Tail_SoundSet",
-				"M16A2_InteriorTail_SoundSet",
-				"M16A2_Slapback_SoundSet",
-				"M16A2_Tail_2D_SoundSet"
+				"M14_Shot_SoundSet",
+				"M14_Shot_iterior_SoundSet",
+				"M14_Tail_SoundSet",
+				"M14_InteriorTail_SoundSet",
+				"M14_Tail_2D_SoundSet"
 			};
 			soundSetShotExt[]=
 			{
 				
 				{
-					"M16A2_silencer_SoundSet",
-					"M16A2_silencerTail_SoundSet",
-					"M16A2_silencerInteriorTail_SoundSet"
-				},
-				
-				{
-					"M16A2_silencerHomeMade_SoundSet",
-					"M16A2_silencerHomeMadeTail_SoundSet",
-					"M16A2_silencerInteriorHomeMadeTail_SoundSet"
+					"M14_silencerHomeMade_SoundSet",
+					"M14_silencerHomeMadeTail_SoundSet",
+					"M14_silencerInteriorHomeMadeTail_SoundSet"
 				}
 			};
 			envShootingDecrease=0.80000001;
 			envShootingDecreaseExt[]={0.050000001,0.050000001};
 			reloadTime=0.12;
-			recoil="recoil_m16a2";
-			recoilProne="recoil_m16a2";
+			recoil="recoil_m14";
+			recoilProne="recoil_m14";
 			dispersion=0.00044999999;
 			magazineSlot="magazine";
 		};
@@ -201,94 +184,11 @@ class cfgWeapons
 			};
 		};
 	};
-	class Mini14: Mini14_Base
+	class M14_Black: M14_Base
 	{
 		scope=2;
-		displayName="M14-556";
-		descriptionShort="The M14-556 is a lightweight semi-automatic rifle manufactured by Sturm, Ruger & Co. Introduced in 1973, the design was outwardly similar to the M14 rifle.";
-		model="\dz\weapons\firearms\m14\m14.p3d";
-		attachments[]=
-		{
-			"weaponWrap",
-			"weaponOptics",
-			"suppressorImpro"
-		};
-		itemSize[]={9,3};
-		spawnDamageRange[]={0,0.60000002};
-		hiddenSelectionsTextures[]=
-		{
-			"dz\weapons\firearms\m14\data\m14_metal_co.paa",
-			"dz\weapons\firearms\m14\data\m14_synth_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"dz\weapons\firearms\m14\data\m14_metal.rvmat",
-			"dz\weapons\firearms\m14\data\m14_synth.rvmat"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=250;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"DZ\weapons\firearms\M14\Data\m14_metal.rvmat",
-								"DZ\weapons\firearms\M14\Data\m14_synth.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"DZ\weapons\firearms\M14\Data\m14_metal.rvmat",
-								"DZ\weapons\firearms\M14\Data\m14_synth.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"DZ\weapons\firearms\M14\Data\m14_metal_damage.rvmat",
-								"DZ\weapons\firearms\M14\Data\m14_synth_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"DZ\weapons\firearms\M14\Data\m14_metal_damage.rvmat",
-								"DZ\weapons\firearms\M14\Data\m14_synth_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"DZ\weapons\firearms\M14\Data\m14_metal_destruct.rvmat",
-								"DZ\weapons\firearms\M14\Data\m14_synth_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-		};
-	};
-	class Mini14_Black: Mini14_Base
-	{
-		scope=2;
-		displayName="M14-556";
-		descriptionShort="The M14-556 is a lightweight semi-automatic rifle manufactured by Sturm, Ruger & Co. Introduced in 1973, the design was outwardly similar to the M14 rifle.";
+		displayName="$STR_cfgWeapons_M140";
+		descriptionShort="$STR_cfgWeapons_M141";
 		model="\dz\weapons\firearms\m14\m14.p3d";
 		attachments[]=
 		{
@@ -367,11 +267,11 @@ class cfgWeapons
 			};
 		};
 	};
-	class Mini14_Tan: Mini14_Base
+	class M14_Tan: M14_Base
 	{
 		scope=2;
-		displayName="M14-556";
-		descriptionShort="The M14-556 is a lightweight semi-automatic rifle manufactured by Sturm, Ruger & Co. Introduced in 1973, the design was outwardly similar to the M14 rifle.";
+		displayName="$STR_cfgWeapons_M140";
+		descriptionShort="$STR_cfgWeapons_M141";
 		model="\dz\weapons\firearms\m14\m14.p3d";
 		attachments[]=
 		{
@@ -450,11 +350,11 @@ class cfgWeapons
 			};
 		};
 	};
-	class Mini14_Wood: Mini14_Base
+	class M14_Wood: M14_Base
 	{
 		scope=2;
-		displayName="M14-556";
-		descriptionShort="The M14-556 is a lightweight semi-automatic rifle manufactured by Sturm, Ruger & Co. Introduced in 1973, the design was outwardly similar to the M14 rifle.";
+		displayName="$STR_cfgWeapons_M140";
+		descriptionShort="$STR_cfgWeapons_M141";
 		model="\dz\weapons\firearms\m14\m14.p3d";
 		attachments[]=
 		{
@@ -532,5 +432,6 @@ class cfgWeapons
 				};
 			};
 		};
+
 	};
 };

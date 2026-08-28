@@ -17,5 +17,7 @@ modded class ModItemRegisterCallbacks
   		
 		pType.AddItemInHandsProfileIK("Mini14_Base", "DZ/anims/workspaces/player/player_main/weapons/player_main_m14.asi", pBehavior, "dz/anims/anm/player/ik/weapons/m14_ik.anm", "dz/anims/anm/player/reloads/m14/w_m14_states.anm");	 
 
+		pType.AddItemInHandsProfileIK("VAL556_Base", "DZ/anims/workspaces/player/player_main/weapons/player_main_as_val.asi", pBehavior, "dz/anims/anm/player/ik/weapons/val.anm", "dz/anims/anm/player/reloads/m14/w_val_states.anm");	 
+
 	}		
 };
