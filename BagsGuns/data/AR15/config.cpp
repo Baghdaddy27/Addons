@@ -6,7 +6,6 @@ class CfgPatches
 		weapons[]={
 
 			"AR15"
-			
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -51,7 +50,6 @@ class cfgWeapons
 		};
 		magazines[]=
 		{
-			"Mag_AR15_30Rnd",
 			"Mag_AK74_30Rnd",
 			"Mag_AK74_30Rnd_Black",
 			"Mag_AK74_30Rnd_Green"
@@ -200,7 +198,6 @@ class cfgWeapons
 		};
 		itemSize[]={8,3};
 		spawnDamageRange[]={0,0.60000002};
-		hiddenSelectionsTextures[]=
 		hiddenSelectionsTextures[]=
 		{
 			"BagsGuns\data\AR10\ar10_black_co.paa"

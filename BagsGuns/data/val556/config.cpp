@@ -4,6 +4,7 @@ class CfgPatches
 	{
 		units[]={};
 		weapons[]={
+			
 			"VAL556"
 		};
 		requiredVersion=0.1;
