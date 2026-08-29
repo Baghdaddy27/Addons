@@ -36,8 +36,7 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_762x39",
-			"Ammo_762x39Tracer"
+			"Ammo_65GR"
 		};
 		magazines[]=
 		{

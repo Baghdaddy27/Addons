@@ -1,0 +1,1 @@
+class Mag_Sample_SCARH_30rnd: MagazineStorage {};

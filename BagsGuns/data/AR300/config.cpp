@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class AR10
+	class AR300
 	{
 		units[]={};
 		weapons[]={
 
-			"AR10"
+			"AR300"
 			
 		};
 		requiredVersion=0.1;
@@ -20,7 +20,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class AR10_Base: Rifle_Base
+	class AR300_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2276;
@@ -46,11 +46,11 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_357"
+			"Ammo_300BK"
 		};
 		magazines[]=
 		{
-			"Mag_AR10_20Rnd"
+			"Mag_AR300_30Rnd"
 		};
 		magazineSwitchTime=0.5;
 		ejectType=1;
@@ -122,11 +122,11 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR10: AR10_Base
+	class AR300: AR300_Base
 	{
 		scope=2;
-		displayName="AR15-357 Magnum";
-		descriptionShort="A custom AR15 chambered in .357 Magnum. An AR-15 style rifle is a lightweight semi-automatic rifle based on or similar to the Colt AR-15 design.";
+		displayName="AR15-300";
+		descriptionShort="A custom AR15 chambered in .300 Blackout. An AR-15 style rifle is a lightweight semi-automatic rifle based on or similar to the Colt AR-15 design.";
 		model="\dz\weapons\firearms\m4\m4a1.p3d";
 		attachments[]=
 		{
@@ -285,7 +285,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR10_Green: AR10
+	class AR300_Green: AR300
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -297,7 +297,7 @@ class cfgWeapons
 			"dz\weapons\firearms\m4\data\m4_body.rvmat"
 		};
 	};
-	class AR10_Tan: AR10
+	class AR300_Tan: AR300
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
