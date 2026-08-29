@@ -3,10 +3,10 @@ class CfgPatches
     class Bags_Clothes
     {
         units[] = {
-            "NBCJacketERDL",
-            "NBCPantsERDL",
-            "NBCHoodERDL",
-            "NBCBootsERDL"
+            "Bags_NBCJacketERDL",
+            "Bags_NBCPantsERDL",
+            "Bags_NBCHoodERDL",
+            "Bags_NBCBootsERDL"
 
         };
         weapons[] = {};
