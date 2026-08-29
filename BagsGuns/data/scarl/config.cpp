@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class SCARL
+	class Bags_SCARL
 	{
 		units[]={};
 		weapons[]={
 
-			"SCARL"
+			"Bags_SCARL"
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -19,7 +19,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class SCARL_Base: Rifle_Base
+	class Bags_SCARL_Base: Rifle_Base
 	{
 		scope=0;
 		weight=3500;
@@ -266,7 +266,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class SCARL: SCARL_Base
+	class Bags_SCARL: Bags_SCARL_Base
 	{
 		scope=2;
 		displayName="SCAR-L";
@@ -356,7 +356,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class SCARL_Black: SCARL
+	class Bags_SCARL_Black: Bags_SCARL
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -433,7 +433,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class SCARL_Tan: SCARL
+	class Bags_SCARL_Tan: Bags_SCARL
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=

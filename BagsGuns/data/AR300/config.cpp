@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class AR300
+	class Bags_AR300
 	{
 		units[]={};
 		weapons[]={
 
-			"AR300"
+			"Bags_AR300"
 			
 		};
 		requiredVersion=0.1;
@@ -20,7 +20,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class AR300_Base: Rifle_Base
+	class Bags_AR300_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2276;
@@ -46,11 +46,11 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_300BK"
+			"Bags_Ammo_300BK"
 		};
 		magazines[]=
 		{
-			"Mag_AR300_30Rnd"
+			"Bags_Mag_AR300_30Rnd"
 		};
 		magazineSwitchTime=0.5;
 		ejectType=1;
@@ -162,7 +162,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR300: AR300_Base
+	class Bags_AR300: Bags_AR300_Base
 	{
 		scope=2;
 		displayName="AR15-300";
@@ -325,7 +325,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR300_Green: AR300
+	class Bags_AR300_Green: Bags_AR300
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -337,7 +337,7 @@ class cfgWeapons
 			"dz\weapons\firearms\m4\data\m4_body.rvmat"
 		};
 	};
-	class AR300_Tan: AR300
+	class Bags_AR300_Tan: Bags_AR300
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=

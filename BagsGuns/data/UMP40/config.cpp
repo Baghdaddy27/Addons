@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class UMP40
+	class Bags_UMP40
 	{
 		units[]={};
 		weapons[]=
 		{
-			"UMP40"
+			"Bags_UMP40"
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -19,7 +19,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class UMP40_Base: Rifle_Base
+	class Bags_UMP40_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2500;
@@ -43,11 +43,11 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_40CAL"
+			"Bags_Ammo_40CAL"
 		};
 		magazines[]=
 		{
-			"Mag_UMP40_30Rnd",
+			"Bags_Mag_UMP40_30Rnd",
 		};
 		magazineSwitchTime=0.44999999;
 		ejectType=1;
@@ -239,7 +239,7 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\UMP45\w_UMP45_states.anm";
 	};	
-	class UMP40: UMP40_Base
+	class Bags_UMP40: Bags_UMP40_Base
 	{
 		scope=2;
 		displayName="UMP-40";
@@ -315,7 +315,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class UMP40_Green: UMP40_Base
+	class Bags_UMP40_Green: Bags_UMP40_Base
 	{
 		scope=2;
 		displayName="UMP-40";
@@ -395,7 +395,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class UMP40_Tan: UMP40_Base
+	class Bags_UMP40_Tan: Bags_UMP40_Base
 	{
 		scope=2;
 		displayName="UMP-40";

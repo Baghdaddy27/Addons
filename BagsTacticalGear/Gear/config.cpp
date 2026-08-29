@@ -3,86 +3,40 @@ class CfgPatches
     class Gear
     {
         units[] = {
-            "Flag_Med",
-            "Flag_Peace",
-            "Flag_Plz",
-            "Flag_Snek",
-            "Flag_USAF",
-            "Flag_USArmy",
-            "Flag_USCG",
-            "Flag_USMC",
-            "Flag_USN",
-            "Flag_USSF",
-            "Flag_KRG",
-            "Flag_CAF",
-            "Flag_Takistan",
-            "Flag_Ally",
-            "Flag_USSR",
-            "Flag_GDI",
-            "Flag_NOD",
-            "Armband_Med",
-            "Armband_Peace",
-            "Armband_Plz",
-            "Armband_Snek",
-            "Armband_USAF",
-            "Armband_USArmy",
-            "Armband_USCG",
-            "Armband_USMC",
-            "Armband_USN",
-            "Armband_USSF",
-            "Armband_KRG",
-            "Armband_CAF",
-            "Armband_Takistan",
-            "Armband_Ally",
-            "Armband_USSR",
-            "Armband_GDI",
-            "Armband_NOD",
-            "Tortillabag_ACU",
-            "Tortillabag_UKR",
-            "Tortillabag_CAN",
-            "Tortillabag_CC",
-            "Tortillabag_CHN",
-            "Tortillabag_DCU",
-            "Tortillabag_Digi",
-            "Tortillabag_DST",
-            "Tortillabag_EGT",
-            "Tortillabag_FLK",
-            "Tortillabag_Multicam",
-            "Tortillabag_NK",
-            "Tortillabag_OP4",
-            "Tortillabag_Pink",
-            "Tortillabag_RUS",
-            "Tortillabag_SAF",
-            "Tortillabag_SWD",
-            "Tortillabag_UKR",
-            "Tortillabag_URB",
-            "Tortillabag_USN",
-            "Tortillabag_USN2",
-            "Tortillabag_USCG",
-            "Tortillabag_WW2",
-            "Tortillabag_TGR",
-            "Mich2001Helmet_ACU",
-            "Mich2001Helmet_CAN",
-            "Mich2001Helmet_CC",
-            "Mich2001Helmet_CHN",
-            "Mich2001Helmet_DCU",
-            "Mich2001Helmet_Digi",
-            "Mich2001Helmet_DST",
-            "Mich2001Helmet_FLK",
-            "Mich2001Helmet_EGT",
-            "Mich2001Helmet_Multicam",
-            "Mich2001Helmet_NK",
-            "Mich2001Helmet_OP4",
-            "Mich2001Helmet_Pink",
-            "Mich2001Helmet_RUS",
-            "Mich2001Helmet_SAF",
-            "Mich2001Helmet_SWD",
-            "Mich2001Helmet_UKR",
-            "Mich2001Helmet_URB",
-            "Mich2001Helmet_USN",
-            "Mich2001Helmet_USN2",
-            "Mich2001Helmet_WW2",
-            "Mich2001Helmet_TGR",
+            "Bags_Armband_Ally",
+            "Bags_Armband_CAF",
+            "Bags_Armband_GDI",
+            "Bags_Armband_KRG",
+            "Bags_Armband_Med",
+            "Bags_Armband_NOD",
+            "Bags_Armband_Peace",
+            "Bags_Armband_Plz",
+            "Bags_Armband_Snek",
+            "Bags_Armband_Takistan",
+            "Bags_Armband_USAF",
+            "Bags_Armband_USArmy",
+            "Bags_Armband_USCG",
+            "Bags_Armband_USMC",
+            "Bags_Armband_USN",
+            "Bags_Armband_USSF",
+            "Bags_Armband_USSR",
+            "Bags_Flag_Ally",
+            "Bags_Flag_CAF",
+            "Bags_Flag_GDI",
+            "Bags_Flag_KRG",
+            "Bags_Flag_Med",
+            "Bags_Flag_NOD",
+            "Bags_Flag_Peace",
+            "Bags_Flag_Plz",
+            "Bags_Flag_Snek",
+            "Bags_Flag_Takistan",
+            "Bags_Flag_USAF",
+            "Bags_Flag_USArmy",
+            "Bags_Flag_USCG",
+            "Bags_Flag_USMC",
+            "Bags_Flag_USN",
+            "Bags_Flag_USSF",
+            "Bags_Flag_USSR"
         };
         weapons[] = {};
         requiredVersion = 0.1;
@@ -99,7 +53,7 @@ class CfgVehicles
 
     //Flags
     class Flag_Base;
-    class Flag_Takistan: Flag_Base
+    class Bags_Flag_Takistan: Flag_Base
     {
         scope = 2;
         displayName = "Takistan Flag";
@@ -110,7 +64,7 @@ class CfgVehicles
         };
         color="Takistan";
     };
-    class Flag_CAF: Flag_Base
+    class Bags_Flag_CAF: Flag_Base
     {
         scope = 2;
         displayName = "CAF Flag";
@@ -121,7 +75,7 @@ class CfgVehicles
         };
         color="CAF";
     };
-    class Flag_KRG: Flag_Base
+    class Bags_Flag_KRG: Flag_Base
     {
         scope = 2;
         displayName = "Krieger Gaming Flag";
@@ -132,7 +86,7 @@ class CfgVehicles
         };
         color="KRG";
     };
-    class Flag_Med: Flag_Base
+    class Bags_Flag_Med: Flag_Base
     {
         scope = 2;
         displayName = "Red Cross Flag";
@@ -143,7 +97,7 @@ class CfgVehicles
         };
         color="Med";
     };
-    class Flag_Peace: Flag_Base
+    class Bags_Flag_Peace: Flag_Base
     {
         scope = 2;
         displayName = "Goose Flag";
@@ -154,7 +108,7 @@ class CfgVehicles
         };
         color="Peace";
     };
-    class Flag_Plz: Flag_Base
+    class Bags_Flag_Plz: Flag_Base
     {
         scope = 2;
         displayName = "Please Tred on Me Flag";
@@ -165,7 +119,7 @@ class CfgVehicles
         };
         color="Plz";
     };
-    class Flag_Snek: Flag_Base
+    class Bags_Flag_Snek: Flag_Base
     {
         scope = 2;
         displayName = "Pride Snek Flag";
@@ -176,7 +130,7 @@ class CfgVehicles
         };
         color="Snek";
     };
-    class Flag_USAF: Flag_Base
+    class Bags_Flag_USAF: Flag_Base
     {
         scope = 2;
         displayName = "US Air Force Flag";
@@ -187,7 +141,7 @@ class CfgVehicles
         };
         color="USAF";
     };
-    class Flag_USArmy: Flag_Base
+    class Bags_Flag_USArmy: Flag_Base
     {
         scope = 2;
         displayName = "US Army Flag";
@@ -198,7 +152,7 @@ class CfgVehicles
         };
         color="USArmy";
     };
-    class Flag_USCG: Flag_Base
+    class Bags_Flag_USCG: Flag_Base
     {
         scope = 2;
         displayName = "US Coast Guard Flag";
@@ -209,7 +163,7 @@ class CfgVehicles
         };
         color="USCG";
     };
-    class Flag_USMC: Flag_Base
+    class Bags_Flag_USMC: Flag_Base
     {
         scope = 2;
         displayName = "US Marine Corps Flag";
@@ -220,7 +174,7 @@ class CfgVehicles
         };
         color="USMC";
     };
-    class Flag_USN: Flag_Base
+    class Bags_Flag_USN: Flag_Base
     {
         scope = 2;
         displayName = "US Navy Flag";
@@ -231,7 +185,7 @@ class CfgVehicles
         };
         color="USN";
     };
-    class Flag_USSF: Flag_Base
+    class Bags_Flag_USSF: Flag_Base
     {
         scope = 2;
         displayName = "US Space Force Flag";
@@ -242,7 +196,7 @@ class CfgVehicles
         };
         color="USSF";
     };
-    class Flag_Ally: Flag_Base
+    class Bags_Flag_Ally: Flag_Base
     {
         scope = 2;
         displayName = "Allies Flag";
@@ -253,7 +207,7 @@ class CfgVehicles
         };
         color="Ally";
     };
-    class Flag_USSR: Flag_Base
+    class Bags_Flag_USSR: Flag_Base
     {
         scope = 2;
         displayName = "USSR Flag";
@@ -264,7 +218,7 @@ class CfgVehicles
         };
         color="USSR";
     };
-    class Flag_GDI: Flag_Base
+    class Bags_Flag_GDI: Flag_Base
     {
         scope = 2;
         displayName = "GDI Flag";
@@ -275,7 +229,7 @@ class CfgVehicles
         };
         color="GDI";
     };
-    class Flag_NOD: Flag_Base
+    class Bags_Flag_NOD: Flag_Base
     {
         scope = 2;
         displayName = "NOD Flag";
@@ -290,7 +244,7 @@ class CfgVehicles
 
     //Armbands
     class Armband_ColorBase;
-    class Armband_Takistan: Armband_ColorBase
+    class Bags_Armband_Takistan: Armband_ColorBase
     {
         scope = 2;
         displayName = "Takistan Armband";
@@ -309,7 +263,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_takistan_co.paa"
         };
     };
-    class Armband_KRG: Armband_ColorBase
+    class Bags_Armband_KRG: Armband_ColorBase
     {
         scope = 2;
         displayName = "Krieger Gaming Armband";
@@ -328,7 +282,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_krg_co.paa"
         };
     };
-    class Armband_CAF: Armband_ColorBase
+    class Bags_Armband_CAF: Armband_ColorBase
     {
         scope = 2;
         displayName = "CAF Armband";
@@ -347,7 +301,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_caf_co.paa"
         };
     };
-    class Armband_Med: Armband_ColorBase
+    class Bags_Armband_Med: Armband_ColorBase
     {
         scope = 2;
         displayName = "Red Cross Armband";
@@ -366,7 +320,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_med_co.paa"
         };
     };
-    class Armband_Peace: Armband_ColorBase
+    class Bags_Armband_Peace: Armband_ColorBase
     {
         scope = 2;
         displayName = "Krieger Gaming Armband";
@@ -385,7 +339,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_peace_co.paa"
         };
     };
-    class Armband_Plz: Armband_ColorBase
+    class Bags_Armband_Plz: Armband_ColorBase
     {
         scope = 2;
         displayName = "Please Tred on Me Armband";
@@ -404,7 +358,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_plz_co.paa"
         };
     };
-    class Armband_Snek: Armband_ColorBase
+    class Bags_Armband_Snek: Armband_ColorBase
     {
         scope = 2;
         displayName = "Snek Armband";
@@ -423,7 +377,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_snek_co.paa"
         };
     };
-    class Armband_USAF: Armband_ColorBase
+    class Bags_Armband_USAF: Armband_ColorBase
     {
         scope = 2;
         displayName = "US Air Force Armband";
@@ -442,7 +396,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_usaf_co.paa"
         };
     };
-    class Armband_USArmy: Armband_ColorBase
+    class Bags_Armband_USArmy: Armband_ColorBase
     {
         scope = 2;
         displayName = "US Army Armband";
@@ -461,7 +415,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_usarmy_co.paa"
         };
     };
-    class Armband_USCG: Armband_ColorBase
+    class Bags_Armband_USCG: Armband_ColorBase
     {
         scope = 2;
         displayName = "US Coast Guard Armband";
@@ -480,7 +434,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_uscg_co.paa"
         };
     };
-    class Armband_USMC: Armband_ColorBase
+    class Bags_Armband_USMC: Armband_ColorBase
     {
         scope = 2;
         displayName = "US Marine Corps Armband";
@@ -499,7 +453,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_usmc_co.paa"
         };
     };
-    class Armband_USN: Armband_ColorBase
+    class Bags_Armband_USN: Armband_ColorBase
     {
         scope = 2;
         displayName = "US Navy Armband";
@@ -518,7 +472,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_usn_co.paa"
         };
     };
-    class Armband_USSF: Armband_ColorBase
+    class Bags_Armband_USSF: Armband_ColorBase
     {
         scope = 2;
         displayName = "US Space Force Armband";
@@ -537,7 +491,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_ussf_co.paa"
         };
     }; 
-    class Armband_Ally: Armband_ColorBase
+    class Bags_Armband_Ally: Armband_ColorBase
     {
         scope = 2;
         displayName = "Allies Armband";
@@ -556,7 +510,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_ally_co.paa"
         };
     };
-    class Armband_USSR: Armband_ColorBase
+    class Bags_Armband_USSR: Armband_ColorBase
     {
         scope = 2;
         displayName = "USSR Armband";
@@ -575,7 +529,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_svt_co.paa"
         };
     }; 
-    class Armband_GDI: Armband_ColorBase
+    class Bags_Armband_GDI: Armband_ColorBase
     {
         scope = 2;
         displayName = "GDI Armband";
@@ -594,7 +548,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_gdi_co.paa"
         };
     };
-    class Armband_NOD: Armband_ColorBase
+    class Bags_Armband_NOD: Armband_ColorBase
     {
         scope = 2;
         displayName = "NOD Armband";
@@ -616,7 +570,7 @@ class CfgVehicles
 
     //Press Vest
     class PressVest_ColorBase;
-    class PressVest_ACU: PressVest_ColorBase
+    class Bags_PressVest_ACU: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest UCP";
@@ -628,7 +582,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa"
         };
     };
-    class PressVest_BLK: PressVest_ColorBase
+    class Bags_PressVest_BLK: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Black";
@@ -640,7 +594,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa"
         };
     };
-    class PressVest_CAN: PressVest_ColorBase
+    class Bags_PressVest_CAN: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest CADPAT";
@@ -652,7 +606,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa"
         };
     };
-    class PressVest_CC: PressVest_ColorBase
+    class Bags_PressVest_CC: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest 6-Color Desert";
@@ -664,7 +618,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa"
         };
     };
-    class PressVest_CCI: PressVest_ColorBase
+    class Bags_PressVest_CCI: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Iraqi";
@@ -676,7 +630,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa"
         };
     };
-    class PressVest_CHN: PressVest_ColorBase
+    class Bags_PressVest_CHN: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest PLA";
@@ -688,7 +642,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa"
         };
     };
-    class PressVest_DCU: PressVest_ColorBase
+    class Bags_PressVest_DCU: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest DCU";
@@ -700,7 +654,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa"
         };
     };
-    class PressVest_Digi: PressVest_ColorBase
+    class Bags_PressVest_Digi: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest EMR Arid";
@@ -712,7 +666,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa"
         };
     };
-    class PressVest_DST: PressVest_ColorBase
+    class Bags_PressVest_DST: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Tan";
@@ -724,7 +678,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa"
         };
     };
-    class PressVest_EGT: PressVest_ColorBase
+    class Bags_PressVest_EGT: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Egyptian";
@@ -736,7 +690,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa"
         };
     };
-    class PressVest_ERDL: PressVest_ColorBase
+    class Bags_PressVest_ERDL: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Woodland";
@@ -748,7 +702,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_erdl_co.paa"
         };
     };
-    class PressVest_FLK: PressVest_ColorBase
+    class Bags_PressVest_FLK: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Flektarn";
@@ -760,7 +714,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa"
         };
     };
-    class PressVest_Multicam: PressVest_ColorBase
+    class Bags_PressVest_Multicam: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Multicam";
@@ -772,7 +726,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa"
         };
     };
-    class PressVest_MulticamG: PressVest_ColorBase
+    class Bags_PressVest_MulticamG: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Multicam Green";
@@ -784,7 +738,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa"
         };
     };
-    class PressVest_MulticamB: PressVest_ColorBase
+    class Bags_PressVest_MulticamB: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Multicam Black";
@@ -796,7 +750,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa"
         };
     };
-    class PressVest_NK: PressVest_ColorBase
+    class Bags_PressVest_NK: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest KPA";
@@ -808,7 +762,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa"
         };
     };
-    class PressVest_OLV: PressVest_ColorBase
+    class Bags_PressVest_OLV: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Olive";
@@ -820,7 +774,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa"
         };
     };
-    class PressVest_OP4: PressVest_ColorBase
+    class Bags_PressVest_OP4: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest OPFOR";
@@ -832,7 +786,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa"
         };
     };
-    class PressVest_Pink: PressVest_ColorBase
+    class Bags_PressVest_Pink: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Pink";
@@ -844,7 +798,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa"
         };
     };
-    class PressVest_TGR: PressVest_ColorBase
+    class Bags_PressVest_TGR: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Tiger-Stripe";
@@ -856,7 +810,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa"
         };
     };
-    class PressVest_TRK: PressVest_ColorBase
+    class Bags_PressVest_TRK: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest M2008";
@@ -868,7 +822,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa"
         };
     };
-    class PressVest_RUS: PressVest_ColorBase
+    class Bags_PressVest_RUS: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest EMR Tsifra";
@@ -880,7 +834,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa"
         };
     };
-    class PressVest_SAF: PressVest_ColorBase
+    class Bags_PressVest_SAF: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest SANDF";
@@ -892,7 +846,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa"
         };
     };
-    class PressVest_SPN: PressVest_ColorBase
+    class Bags_PressVest_SPN: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Policia Nacional";
@@ -904,7 +858,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_spn_co.paa"
         };
     };
-    class PressVest_SWD: PressVest_ColorBase
+    class Bags_PressVest_SWD: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest M90";
@@ -916,7 +870,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa"
         };
     };
-    class PressVest_UKR: PressVest_ColorBase
+    class Bags_PressVest_UKR: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest MM-14";
@@ -928,7 +882,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa"
         };
     };
-    class PressVest_URB: PressVest_ColorBase
+    class Bags_PressVest_URB: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Urban";
@@ -940,7 +894,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa"
         };
     };
-    class PressVest_USCG: PressVest_ColorBase
+    class Bags_PressVest_USCG: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest USCG";
@@ -952,7 +906,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa"
         };
     };
-    class PressVest_USN: PressVest_ColorBase
+    class Bags_PressVest_USN: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Kamysh";
@@ -964,7 +918,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa"
         };
     };
-    class PressVest_USN2: PressVest_ColorBase
+    class Bags_PressVest_USN2: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest NWU III";
@@ -976,7 +930,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa"
         };
     };
-    class PressVest_WW2: PressVest_ColorBase
+    class Bags_PressVest_WW2: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest WW2";
@@ -992,7 +946,7 @@ class CfgVehicles
 
 //BallisticHelmet
     class BallisticHelmet_ColorBase;
-    class BallisticHelmet_ACU: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_ACU: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet UCP";
@@ -1004,7 +958,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_acu_co.paa"
         };
     };
-    class BallisticHelmet_CAN: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_CAN: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet CADPAT";
@@ -1016,7 +970,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_can_co.paa"
         };
     };
-    class BallisticHelmet_CC: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_CC: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet 6-Color Desert";
@@ -1028,7 +982,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_cc_co.paa"
         };
     };
-    class BallisticHelmet_CCI: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_CCI: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Iraqi";
@@ -1040,7 +994,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_irq_co.paa"
         };
     };
-    class BallisticHelmet_CHN: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_CHN: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet PLA";
@@ -1052,7 +1006,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_chn_co.paa"
         };
     };
-    class BallisticHelmet_DCU: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_DCU: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet DCU";
@@ -1064,7 +1018,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_dcu_co.paa"
         };
     };
-    class BallisticHelmet_Digi: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_Digi: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet EMR Arid";
@@ -1076,7 +1030,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_digi_co.paa"
         };
     };
-    class BallisticHelmet_DST: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_DST: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Flat-Tan";
@@ -1088,7 +1042,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa"
         };
     };
-    class BallisticHelmet_EGT: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_EGT: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Egyptian";
@@ -1100,7 +1054,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_egt_co.paa"
         };
     };
-    class BallisticHelmet_FLK: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_FLK: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Flektarn";
@@ -1112,7 +1066,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_flk_co.paa"
         };
     };
-    class BallisticHelmet_Multicam: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_Multicam: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Multicam";
@@ -1124,7 +1078,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa"
         };
     };
-    class BallisticHelmet_MulticamG: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_MulticamG: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Multicam Green";
@@ -1136,7 +1090,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_gmulti_co.paa"
         };
     };
-    class BallisticHelmet_MulticamB: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_MulticamB: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Multicam Black";
@@ -1148,7 +1102,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_bmulti_co.paa"
         };
     };
-    class BallisticHelmet_NK: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_NK: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet KPA";
@@ -1160,7 +1114,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_nk_co.paa"
         };
     };
-    class BallisticHelmet_OP4: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_OP4: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet OPFOR";
@@ -1172,7 +1126,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_op4_co.paa"
         };
     };
-    class BallisticHelmet_Pink: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_Pink: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Pink";
@@ -1184,7 +1138,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_pink_co.paa"
         };
     };
-    class BallisticHelmet_TGR: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_TGR: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Tiger-Stripe";
@@ -1196,7 +1150,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa"
         };
     };
-    class BallisticHelmet_TRK: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_TRK: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet M2008";
@@ -1208,7 +1162,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_trk_co.paa"
         };
     };
-    class BallisticHelmet_RUS: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_RUS: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet EMR Tsifra";
@@ -1220,7 +1174,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_rus_co.paa"
         };
     };
-    class BallisticHelmet_SAF: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_SAF: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet SANDF";
@@ -1232,7 +1186,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_saf_co.paa"
         };
     };
-    class BallisticHelmet_SWD: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_SWD: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet M90";
@@ -1244,7 +1198,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_swd_co.paa"
         };
     };
-    class BallisticHelmet_UKR: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_UKR: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet MM-14";
@@ -1256,7 +1210,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_ukr_co.paa"
         };
     };
-    class BallisticHelmet_URB: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_URB: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Urban";
@@ -1268,7 +1222,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_urb_co.paa"
         };
     };
-    class BallisticHelmet_USN: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_USN: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet Kamysh Digital";
@@ -1280,7 +1234,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn_co.paa"
         };
     };
-    class BallisticHelmet_USN2: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_USN2: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet NWU III";
@@ -1292,7 +1246,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn2_co.paa"
         };
     };
-    class BallisticHelmet_WW2: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_WW2: BallisticHelmet_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Helmet WW2";
@@ -1308,7 +1262,7 @@ class CfgVehicles
 
 //Mich2001Helmet
     class Mich2001Helmet;
-    class Mich2001Helmet_ACU: Mich2001Helmet
+    class Bags_Mich2001Helmet_ACU: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet UCP";
@@ -1326,7 +1280,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_acu_co.paa"
         };
     };
-    class Mich2001Helmet_BLK: Mich2001Helmet
+    class Bags_Mich2001Helmet_BLK: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Black";
@@ -1344,7 +1298,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_blk_co.paa"
         };
     };
-    class Mich2001Helmet_CAN: Mich2001Helmet
+    class Bags_Mich2001Helmet_CAN: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet CADPAT";
@@ -1362,7 +1316,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_can_co.paa"
         };
     };
-    class Mich2001Helmet_CC: Mich2001Helmet
+    class Bags_Mich2001Helmet_CC: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet 6-Color Desert";
@@ -1380,7 +1334,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_cc_co.paa"
         };
     };
-    class Mich2001Helmet_CCI: Mich2001Helmet
+    class Bags_Mich2001Helmet_CCI: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Iraqi";
@@ -1398,7 +1352,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_irq_co.paa"
         };
     };
-    class Mich2001Helmet_CHN: Mich2001Helmet
+    class Bags_Mich2001Helmet_CHN: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet PLA";
@@ -1416,7 +1370,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_chn_co.paa"
         };
     };
-    class Mich2001Helmet_DCU: Mich2001Helmet
+    class Bags_Mich2001Helmet_DCU: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet DCU";
@@ -1434,7 +1388,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_dcu_co.paa"
         };
     };
-    class Mich2001Helmet_Digi: Mich2001Helmet
+    class Bags_Mich2001Helmet_Digi: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet EMR Arid";
@@ -1452,7 +1406,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_digi_co.paa"
         };
     };
-    class Mich2001Helmet_DST: Mich2001Helmet
+    class Bags_Mich2001Helmet_DST: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Flat Tan";
@@ -1470,7 +1424,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_dst_co.paa"
         };
     };
-    class Mich2001Helmet_EGT: Mich2001Helmet
+    class Bags_Mich2001Helmet_EGT: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Egyptian";
@@ -1488,7 +1442,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_egt_co.paa"
         };
     };
-    class Mich2001Helmet_FLK: Mich2001Helmet
+    class Bags_Mich2001Helmet_FLK: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Flektarn";
@@ -1506,7 +1460,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_flk_co.paa"
         };
     };
-    class Mich2001Helmet_Multicam: Mich2001Helmet
+    class Bags_Mich2001Helmet_Multicam: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Multicam";
@@ -1524,7 +1478,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_multicam_co.paa"
         };
     };
-    class Mich2001Helmet_MulticamG: Mich2001Helmet
+    class Bags_Mich2001Helmet_MulticamG: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Multicam Green";
@@ -1542,7 +1496,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_gmulti_co.paa"
         };
     };
-    class Mich2001Helmet_MulticamB: Mich2001Helmet
+    class Bags_Mich2001Helmet_MulticamB: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Multicam Black";
@@ -1560,7 +1514,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_bmulti_co.paa"
         };
     };
-    class Mich2001Helmet_OP4: Mich2001Helmet
+    class Bags_Mich2001Helmet_OP4: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet OPFOR";
@@ -1578,7 +1532,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_op4_co.paa"
         };
     };
-    class Mich2001Helmet_NK: Mich2001Helmet
+    class Bags_Mich2001Helmet_NK: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet KPA";
@@ -1596,7 +1550,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_nk_co.paa"
         };
     };
-    class Mich2001Helmet_Pink: Mich2001Helmet
+    class Bags_Mich2001Helmet_Pink: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Pink";
@@ -1614,7 +1568,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_pink_co.paa"
         };
     };
-    class Mich2001Helmet_TGR: Mich2001Helmet
+    class Bags_Mich2001Helmet_TGR: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Tiger-Stripe";
@@ -1632,7 +1586,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_tgr_co.paa"
         };
     };
-    class Mich2001Helmet_TRK: Mich2001Helmet
+    class Bags_Mich2001Helmet_TRK: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet M2008";
@@ -1650,7 +1604,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_trk_co.paa"
         };
     };
-    class Mich2001Helmet_RUS: Mich2001Helmet
+    class Bags_Mich2001Helmet_RUS: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet EMR Tsifra";
@@ -1668,7 +1622,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_rus_co.paa"
         };
     };
-    class Mich2001Helmet_SAF: Mich2001Helmet
+    class Bags_Mich2001Helmet_SAF: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet SANDF";
@@ -1686,7 +1640,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_saf_co.paa"
         };
     };
-        class Mich2001Helmet_SWD: Mich2001Helmet
+        class Bags_Mich2001Helmet_SWD: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet M90";
@@ -1704,7 +1658,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_swd_co.paa"
         };
     };
-    class Mich2001Helmet_UKR: Mich2001Helmet
+    class Bags_Mich2001Helmet_UKR: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet MM-14";
@@ -1722,7 +1676,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_ukr_co.paa"
         };
     };
-    class Mich2001Helmet_URB: Mich2001Helmet
+    class Bags_Mich2001Helmet_URB: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Urban";
@@ -1740,7 +1694,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_urb_co.paa"
         };
     };
-    class Mich2001Helmet_USN: Mich2001Helmet
+    class Bags_Mich2001Helmet_USN: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet Kamysch Digital";
@@ -1758,7 +1712,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_usn_co.paa"
         };
     };
-    class Mich2001Helmet_USN2: Mich2001Helmet
+    class Bags_Mich2001Helmet_USN2: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet NWU III";
@@ -1776,7 +1730,7 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\mich2001_usn2_co.paa"
         };
     };
-    class Mich2001Helmet_WW2: Mich2001Helmet
+    class Bags_Mich2001Helmet_WW2: Mich2001Helmet
     {
         scope = 2;
         displayName = "Tactical Helmet WW2";
@@ -1798,7 +1752,7 @@ class CfgVehicles
 
 // Bags
     class TortillaBag;
-    class Tortillabag_ACU: TortillaBag
+    class Bags_Tortillabag_ACU: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag UCP";
@@ -1816,7 +1770,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_acu.paa"
         };
     };
-    class Tortillabag_BLK: TortillaBag
+    class Bags_Tortillabag_BLK: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Black";
@@ -1834,7 +1788,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_blk.paa"
         };
     };
-    class Tortillabag_CAN: TortillaBag
+    class Bags_Tortillabag_CAN: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag CADPAT";
@@ -1852,7 +1806,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_can.paa"
         };
     };
-    class Tortillabag_CC: TortillaBag
+    class Bags_Tortillabag_CC: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag 6-Color Desert";
@@ -1870,7 +1824,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_cc.paa"
         };
     };
-    class Tortillabag_CCI: TortillaBag
+    class Bags_Tortillabag_CCI: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Iraqi";
@@ -1888,7 +1842,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_irq.paa"
         };
     };
-    class Tortillabag_CHN: TortillaBag
+    class Bags_Tortillabag_CHN: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag PLA";
@@ -1906,7 +1860,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_chn.paa"
         };
     };
-    class Tortillabag_DCU: TortillaBag
+    class Bags_Tortillabag_DCU: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag DCU";
@@ -1924,7 +1878,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_dcu.paa"
         };
     };
-    class Tortillabag_Digi: TortillaBag
+    class Bags_Tortillabag_Digi: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag EMR Arid";
@@ -1942,7 +1896,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_digi.paa"
         };
     };
-    class Tortillabag_DST: TortillaBag
+    class Bags_Tortillabag_DST: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Flat-Tan";
@@ -1960,7 +1914,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_dst.paa"
         };
     };
-    class Tortillabag_EGT: TortillaBag
+    class Bags_Tortillabag_EGT: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Egyptian";
@@ -1978,7 +1932,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_egt.paa"
         };
     };
-    class Tortillabag_FLK: TortillaBag
+    class Bags_Tortillabag_FLK: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Flektarn";
@@ -1996,7 +1950,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_flk.paa"
         };
     };
-    class Tortillabag_Multicam: TortillaBag
+    class Bags_Tortillabag_Multicam: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Multicam";
@@ -2014,7 +1968,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_multicam.paa"
         };
     };
-    class Tortillabag_MulticamG: TortillaBag
+    class Bags_Tortillabag_MulticamG: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Multicam Green";
@@ -2032,7 +1986,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_gmulti.paa"
         };
     };
-    class Tortillabag_MulticamB: TortillaBag
+    class Bags_Tortillabag_MulticamB: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Multicam Black";
@@ -2050,7 +2004,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_bmulti.paa"
         };
     };
-    class Tortillabag_NK: TortillaBag
+    class Bags_Tortillabag_NK: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag KPA";
@@ -2068,7 +2022,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_nk.paa"
         };
     };
-    class Tortillabag_OP4: TortillaBag
+    class Bags_Tortillabag_OP4: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag OPFOR";
@@ -2086,7 +2040,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_op4.paa"
         };
     };
-    class Tortillabag_Pink: TortillaBag
+    class Bags_Tortillabag_Pink: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Pink";
@@ -2104,7 +2058,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_pink.paa"
         };
     };
-    class Tortillabag_TGR: TortillaBag
+    class Bags_Tortillabag_TGR: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Tiger-Stripe";
@@ -2122,7 +2076,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_tgr.paa"
         };
     };
-    class Tortillabag_TRK: TortillaBag
+    class Bags_Tortillabag_TRK: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag M2008";
@@ -2140,7 +2094,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_trk.paa"
         };
     };
-    class Tortillabag_RUS: TortillaBag
+    class Bags_Tortillabag_RUS: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag EMR Tsifra";
@@ -2158,7 +2112,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_rus.paa"
         };
     };
-    class Tortillabag_SAF: TortillaBag
+    class Bags_Tortillabag_SAF: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag SANDF";
@@ -2176,7 +2130,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_saf.paa"
         };
     };
-    class Tortillabag_SWD: TortillaBag
+    class Bags_Tortillabag_SWD: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag M90";
@@ -2194,7 +2148,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_swd.paa"
         };
     };
-    class Tortillabag_UKR: TortillaBag
+    class Bags_Tortillabag_UKR: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag MM-14";
@@ -2212,7 +2166,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_ukr.paa"
         };
     };
-    class Tortillabag_URB: TortillaBag
+    class Bags_Tortillabag_URB: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Urban";
@@ -2230,7 +2184,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_urb.paa"
         };
     };
-    class Tortillabag_USN: TortillaBag
+    class Bags_Tortillabag_USN: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag Kamysh";
@@ -2248,7 +2202,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_usn.paa"
         };
     };
-    class Tortillabag_USN2: TortillaBag
+    class Bags_Tortillabag_USN2: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag NWU III";
@@ -2266,7 +2220,7 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_usn2.paa"
         };
     };
-    class Tortillabag_WW2: TortillaBag
+    class Bags_Tortillabag_WW2: TortillaBag
     {
         scope = 2;
         displayName = "Tortillabag WW2";
@@ -2287,7 +2241,7 @@ class CfgVehicles
 
     // Shemaghs
 	class Shemag_ColorBase;
-	class Shemag_Kufiya: Shemag_ColorBase
+	class Bags_Shemag_Kufiya: Shemag_ColorBase
     {
         scope = 2;
         displayName = "Kufiyah White";
@@ -2310,7 +2264,7 @@ class CfgVehicles
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagF_kufw_co.paa"
         };
     };
-    class Shemag_KufiyaWhiteRed: Shemag_ColorBase
+    class Bags_Shemag_KufiyaWhiteRed: Shemag_ColorBase
     {
         scope = 2;
         displayName = "Kufiyah White, Green, and Red";
@@ -2333,7 +2287,7 @@ class CfgVehicles
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagF_wr_co.paa"
         };
     };
-    class Shemag_KufiyaRed: Shemag_ColorBase
+    class Bags_Shemag_KufiyaRed: Shemag_ColorBase
     {
         scope = 2;
         displayName = "Kufiyah Red";
@@ -2356,7 +2310,7 @@ class CfgVehicles
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagF_kufr_co.paa"
         };
     };
-    class Shemag_KufiyaBlue: Shemag_ColorBase
+    class Bags_Shemag_KufiyaBlue: Shemag_ColorBase
     {
         scope = 2;
         displayName = "Kufiyah Blue";
@@ -2379,7 +2333,7 @@ class CfgVehicles
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagF_kufb_co.paa"
         };
     };
-    class Shemag_KufiyaGreen: Shemag_ColorBase
+    class Bags_Shemag_KufiyaGreen: Shemag_ColorBase
     {
         scope = 2;
         displayName = "Kufiyah Green";
@@ -2402,7 +2356,7 @@ class CfgVehicles
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagF_kufg_co.paa"
         };
     };
-    class Shemag_KufiyaTan: Shemag_ColorBase
+    class Bags_Shemag_KufiyaTan: Shemag_ColorBase
     {
         scope = 2;
         displayName = "Kufiyah Beige";
@@ -2425,7 +2379,7 @@ class CfgVehicles
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagF_kuft_co.paa"
         };
     };
-    class Shemag_KufiyaOrange: Shemag_ColorBase
+    class Bags_Shemag_KufiyaOrange: Shemag_ColorBase
     {
         scope = 2;
         displayName = "Kufiyah Orange";
@@ -2448,7 +2402,7 @@ class CfgVehicles
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagF_kufo_co.paa"
         };
     };
-    class Shemag_KufiyaGrey: Shemag_ColorBase
+    class Bags_Shemag_KufiyaGrey: Shemag_ColorBase
     {
         scope = 2;
         displayName = "Kufiyah Grey";

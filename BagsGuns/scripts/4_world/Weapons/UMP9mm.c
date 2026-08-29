@@ -1,4 +1,4 @@
-class UMP9mm_Base : RifleBoltLock_Base
+class Bags_UMP9mm_Base : RifleBoltLock_Base
 { 
 	override RecoilBase SpawnRecoilObject()
 	{
@@ -19,4 +19,4 @@ class UMP9mm_Base : RifleBoltLock_Base
 	}
 };
 
-class UMP9mm : UMP9mm_Base {};
+class Bags_UMP9mm : Bags_UMP9mm_Base {};

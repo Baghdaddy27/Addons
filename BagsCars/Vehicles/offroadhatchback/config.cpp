@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class BagsOffroadHatchback
+    class Bags_Ada
     {
         units[] = {};
         weapons[] = {};
@@ -25,7 +25,7 @@ class cfgVehicles
     class HatchbackTrunk;
  
     // Black
-    class OffroadGHatchback_Black: OffroadHatchback
+    class Bags_Ada_Black: OffroadHatchback
     {
         scope = 2;
         displayName = "ADA 4x4 Black";
@@ -217,7 +217,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class HatchbackDoors_Driver_Black: HatchbackDoors_Driver
+    class Bags_Ada_Doors_Driver_Black: HatchbackDoors_Driver
     {
         scope = 2;
         displayName = "ADA 4x4 Driver Door Black";
@@ -253,7 +253,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class HatchbackDoors_CoDriver_Black: HatchbackDoors_CoDriver
+    class Bags_Ada_Doors_CoDriver_Black: HatchbackDoors_CoDriver
     {
         scope = 2;
         displayName = "ADA 4x4 Co-Driver Door Black";
@@ -289,7 +289,7 @@ class cfgVehicles
     };
 
     // Hood
-    class HatchbackHood_Black: HatchbackHood
+    class Bags_Ada_Hood_Black: HatchbackHood
     {
         scope = 2;
         displayName = "ADA 4x4 Hood Black";
@@ -317,7 +317,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class HatchbackTrunk_Black: HatchbackTrunk
+    class Bags_Ada_Trunk_Black: HatchbackTrunk
     {
         scope = 2;
         displayName = "ADA 4x4 Trunk Black";
@@ -545,7 +545,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class HatchbackDoors_Driver_CC: HatchbackDoors_Driver
+    class Bags_Ada_Doors_Driver_CC: HatchbackDoors_Driver
     {
         scope = 2;
         displayName = "ADA 4x4 Driver Door CC";
@@ -581,7 +581,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class HatchbackDoors_CoDriver_CC: HatchbackDoors_CoDriver
+    class Bags_Ada_Doors_CoDriver_CC: HatchbackDoors_CoDriver
     {
         scope = 2;
         displayName = "ADA 4x4 Co-Driver Door CC";
@@ -617,7 +617,7 @@ class cfgVehicles
     };
 
     // Hood
-    class HatchbackHood_CC: HatchbackHood
+    class Bags_Ada_Hood_CC: HatchbackHood
     {
         scope = 2;
         displayName = "ADA 4x4 Hood CC";
@@ -645,7 +645,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class HatchbackTrunk_CC: HatchbackTrunk
+    class Bags_Ada_Trunk_CC: HatchbackTrunk
     {
         scope = 2;
         displayName = "ADA 4x4 Trunk CC";
@@ -681,7 +681,7 @@ class cfgVehicles
     };
 
     // ERDL
-    class OffroadGHatchback_ERDL: OffroadHatchback
+    class Bags_Ada_ERDL: OffroadHatchback
     {
         scope = 2;
         displayName = "ADA 4x4 Woodland (ERDL)";
@@ -873,7 +873,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class HatchbackDoors_Driver_ERDL: HatchbackDoors_Driver
+    class Bags_Ada_Doors_Driver_ERDL: HatchbackDoors_Driver
     {
         scope = 2;
         displayName = "ADA 4x4 Driver Door ERDL";
@@ -909,7 +909,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class HatchbackDoors_CoDriver_ERDL: HatchbackDoors_CoDriver
+    class Bags_Ada_Doors_CoDriver_ERDL: HatchbackDoors_CoDriver
     {
         scope = 2;
         displayName = "ADA 4x4 Co-Driver Door ERDL";
@@ -945,7 +945,7 @@ class cfgVehicles
     };
 
     // Hood
-    class HatchbackHood_ERDL: HatchbackHood
+    class Bags_Ada_Hood_ERDL: HatchbackHood
     {
         scope = 2;
         displayName = "ADA 4x4 Hood ERDL";
@@ -973,7 +973,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class HatchbackTrunk_ERDL: HatchbackTrunk
+    class Bags_Ada_Trunk_ERDL: HatchbackTrunk
     {
         scope = 2;
         displayName = "ADA 4x4 Trunk ERDL";
@@ -1009,7 +1009,7 @@ class cfgVehicles
     };
 
     // Orange
-    class OffroadGHatchback_Orange: OffroadHatchback
+    class Bags_Ada_Orange: OffroadHatchback
     {
         scope = 2;
         displayName = "ADA 4x4 Orange";
@@ -1201,7 +1201,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class HatchbackDoors_Driver_Orange: HatchbackDoors_Driver
+    class Bags_Ada_Doors_Driver_Orange: HatchbackDoors_Driver
     {
         scope = 2;
         displayName = "ADA 4x4 Driver Door Orange";
@@ -1237,7 +1237,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class HatchbackDoors_CoDriver_Orange: HatchbackDoors_CoDriver
+    class Bags_Ada_Doors_CoDriver_Orange: HatchbackDoors_CoDriver
     {
         scope = 2;
         displayName = "ADA 4x4 Co-Driver Door Orange";
@@ -1273,7 +1273,7 @@ class cfgVehicles
     };
 
     // Hood
-    class HatchbackHood_Orange: HatchbackHood
+    class Bags_Ada_Hood_Orange: HatchbackHood
     {
         scope = 2;
         displayName = "ADA 4x4 Hood Orange";
@@ -1301,7 +1301,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class HatchbackTrunk_Orange: HatchbackTrunk
+    class Bags_Ada_Trunk_Orange: HatchbackTrunk
     {
         scope = 2;
         displayName = "ADA 4x4 Trunk Orange";
@@ -1337,7 +1337,7 @@ class cfgVehicles
     };
 
      // Pink
-    class OffroadGHatchback_Pink: OffroadHatchback
+    class Bags_Ada_Pink: OffroadHatchback
     {
         scope = 2;
         displayName = "ADA 4x4 Pink";
@@ -1529,7 +1529,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class HatchbackDoors_Driver_Pink: HatchbackDoors_Driver
+    class Bags_Ada_Doors_Driver_Pink: HatchbackDoors_Driver
     {
         scope = 2;
         displayName = "ADA 4x4 Driver Door Pink";
@@ -1565,7 +1565,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class HatchbackDoors_CoDriver_Pink: HatchbackDoors_CoDriver
+    class Bags_Ada_Doors_CoDriver_Pink: HatchbackDoors_CoDriver
     {
         scope = 2;
         displayName = "ADA 4x4 Co-Driver Door Pink";
@@ -1601,7 +1601,7 @@ class cfgVehicles
     };
 
     // Hood
-    class HatchbackHood_Pink: HatchbackHood
+    class Bags_Ada_Hood_Pink: HatchbackHood
     {
         scope = 2;
         displayName = "ADA 4x4 Hood Pink";
@@ -1629,7 +1629,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class HatchbackTrunk_Pink: HatchbackTrunk
+    class Bags_Ada_Trunk_Pink: HatchbackTrunk
     {
         scope = 2;
         displayName = "ADA 4x4 Trunk Pink";
@@ -1665,7 +1665,7 @@ class cfgVehicles
     };
 
     // Red
-    class OffroadGHatchback_Red: OffroadHatchback
+    class Bags_Ada_Red: OffroadHatchback
     {
         scope = 2;
         displayName = "ADA 4x4 Red";
@@ -1857,7 +1857,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class HatchbackDoors_Driver_Red: HatchbackDoors_Driver
+    class Bags_Ada_Doors_Driver_Red: HatchbackDoors_Driver
     {
         scope = 2;
         displayName = "ADA 4x4 Driver Door Red";
@@ -1893,7 +1893,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class HatchbackDoors_CoDriver_Red: HatchbackDoors_CoDriver
+    class Bags_Ada_Doors_CoDriver_Red: HatchbackDoors_CoDriver
     {
         scope = 2;
         displayName = "ADA 4x4 Co-Driver Door Red";
@@ -1929,7 +1929,7 @@ class cfgVehicles
     };
 
     // Hood
-    class HatchbackHood_Red: HatchbackHood
+    class Bags_Ada_Hood_Red: HatchbackHood
     {
         scope = 2;
         displayName = "ADA 4x4 Hood Red";
@@ -1957,7 +1957,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class HatchbackTrunk_Red: HatchbackTrunk
+    class Bags_Ada_Trunk_Red: HatchbackTrunk
     {
         scope = 2;
         displayName = "ADA 4x4 Trunk Red";
@@ -1993,7 +1993,7 @@ class cfgVehicles
     };
 
     // Teal
-    class OffroadGHatchback_Teal: OffroadHatchback
+    class Bags_Ada_Teal: OffroadHatchback
     {
         scope = 2;
         displayName = "ADA 4x4 Teal";
@@ -2185,7 +2185,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class HatchbackDoors_Driver_Teal: HatchbackDoors_Driver
+    class Bags_Ada_Doors_Driver_Teal: HatchbackDoors_Driver
     {
         scope = 2;
         displayName = "ADA 4x4 Driver Door Teal";
@@ -2221,7 +2221,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class HatchbackDoors_CoDriver_Teal: HatchbackDoors_CoDriver
+    class Bags_Ada_Doors_CoDriver_Teal: HatchbackDoors_CoDriver
     {
         scope = 2;
         displayName = "ADA 4x4 Co-Driver Door Teal";
@@ -2257,7 +2257,7 @@ class cfgVehicles
     };
 
     // Hood
-    class HatchbackHood_Teal: HatchbackHood
+    class Bags_Ada_Hood_Teal: HatchbackHood
     {
         scope = 2;
         displayName = "ADA 4x4 Hood Teal";
@@ -2285,7 +2285,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class HatchbackTrunk_Teal: HatchbackTrunk
+    class Bags_Ada_Trunk_Teal: HatchbackTrunk
     {
         scope = 2;
         displayName = "ADA 4x4 Trunk Teal";
@@ -2321,7 +2321,7 @@ class cfgVehicles
     };
 
     // URB
-    class OffroadGHatchback_URB: OffroadHatchback
+    class Bags_Ada_URB: OffroadHatchback
     {
         scope = 2;
         displayName = "ADA 4x4 Urban";
@@ -2513,7 +2513,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class HatchbackDoors_Driver_URB: HatchbackDoors_Driver
+    class Bags_Ada_Doors_Driver_URB: HatchbackDoors_Driver
     {
         scope = 2;
         displayName = "ADA 4x4 Driver Door URB";
@@ -2549,7 +2549,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class HatchbackDoors_CoDriver_URB: HatchbackDoors_CoDriver
+    class Bags_Ada_Doors_CoDriver_URB: HatchbackDoors_CoDriver
     {
         scope = 2;
         displayName = "ADA 4x4 Co-Driver Door URB";
@@ -2585,7 +2585,7 @@ class cfgVehicles
     };
 
     // Hood
-    class HatchbackHood_URB: HatchbackHood
+    class Bags_Ada_Hood_URB: HatchbackHood
     {
         scope = 2;
         displayName = "ADA 4x4 Hood URB";
@@ -2613,7 +2613,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class HatchbackTrunk_URB: HatchbackTrunk
+    class Bags_Ada_Trunk_URB: HatchbackTrunk
     {
         scope = 2;
         displayName = "ADA 4x4 Trunk URB";
@@ -2649,7 +2649,7 @@ class cfgVehicles
     };
 
     // Yellow
-    class OffroadGHatchback_Yellow: OffroadHatchback
+    class Bags_Ada_Yellow: OffroadHatchback
     {
         scope = 2;
         displayName = "ADA 4x4 Yellow";
@@ -2841,7 +2841,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class HatchbackDoors_Driver_Yellow: HatchbackDoors_Driver
+    class Bags_Ada_Doors_Driver_Yellow: HatchbackDoors_Driver
     {
         scope = 2;
         displayName = "ADA 4x4 Driver Door Yellow";
@@ -2877,7 +2877,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class HatchbackDoors_CoDriver_Yellow: HatchbackDoors_CoDriver
+    class Bags_Ada_Doors_CoDriver_Yellow: HatchbackDoors_CoDriver
     {
         scope = 2;
         displayName = "ADA 4x4 Co-Driver Door Yellow";
@@ -2913,7 +2913,7 @@ class cfgVehicles
     };
 
     // Hood
-    class HatchbackHood_Yellow: HatchbackHood
+    class Bags_Ada_Hood_Yellow: HatchbackHood
     {
         scope = 2;
         displayName = "ADA 4x4 Hood Yellow";
@@ -2941,7 +2941,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class HatchbackTrunk_Yellow: HatchbackTrunk
+    class Bags_Ada_Trunk_Yellow: HatchbackTrunk
     {
         scope = 2;
         displayName = "ADA 4x4 Trunk Yellow";

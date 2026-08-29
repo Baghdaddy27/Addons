@@ -1,4 +1,4 @@
-class SCARX_Base : RifleBoltLock_Base
+class Bags_SCARX_Base : RifleBoltLock_Base
 {
     override void EEInit()
     {
@@ -95,4 +95,4 @@ class SCARX_Base : RifleBoltLock_Base
 };
 
 
-class SCARX : SCARX_Base {};
+class Bags_SCARX : Bags_SCARX_Base {};

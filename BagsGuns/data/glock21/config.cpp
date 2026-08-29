@@ -1,10 +1,10 @@
 class CfgPatches
 {
-	class Glock21
+	class Bags_Glock21
 	{
 		units[]=
 		{
-			"Glock21"
+			"Bags_Glock21"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -23,7 +23,7 @@ class OpticsInfoPistol;
 class cfgWeapons
 {
 	class Pistol_Base;
-	class Glock21_Base: Pistol_Base
+	class Bags_Glock21_Base: Pistol_Base
 	{
 		scope=0;
 		weight=1000;
@@ -39,11 +39,11 @@ class cfgWeapons
 		chamberedRound="";
 		magazines[]=
 		{
-			"Mag_Glock21_15Rnd"
+			"Bags_Mag_Glock21_15Rnd"
 		};
 		chamberableFrom[]=
 		{
-			"Ammo_40CAL"
+			"Bags_Ammo_40CAL"
 		};
 		ejectType=1;
 		recoilModifier[]={1,1,1};
@@ -99,7 +99,7 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\Glock\w_Glock19_states.anm";
 	};
-	class Glock21: Glock21_Base
+	class Bags_Glock21: Bags_Glock21_Base
 	{
 		scope=2;
 		displayName="Glock-21";
@@ -210,7 +210,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Glock21_Green: Glock21_Base
+	class Bags_Glock21_Green: Bags_Glock21_Base
 	{
 		scope=2;
 		displayName="Glock-21";
@@ -329,7 +329,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Glock21_Tan: Glock21_Base
+	class Bags_Glock21_Tan: Bags_Glock21_Base
 	{
 		scope=2;
 		displayName="Glock-21";

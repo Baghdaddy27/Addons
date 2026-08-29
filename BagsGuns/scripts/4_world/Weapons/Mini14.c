@@ -1,4 +1,4 @@
-class Mini14_Base : RifleBoltLock_Base
+class Bags_Mini14_Base : RifleBoltLock_Base
 {
 	override RecoilBase SpawnRecoilObject()
 	{
@@ -17,4 +17,4 @@ class Mini14_Base : RifleBoltLock_Base
 	}
 };
 
-class Mini14 : Mini14_Base {};
+class Bags_Mini14 : Bags_Mini14_Base {};

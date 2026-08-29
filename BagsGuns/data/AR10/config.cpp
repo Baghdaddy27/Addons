@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class AR10
+	class Bags_AR10
 	{
 		units[]={};
 		weapons[]={
 
-			"AR10"
+			"Bags_AR10"
 			
 		};
 		requiredVersion=0.1;
@@ -20,7 +20,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class AR10_Base: Rifle_Base
+	class Bags_AR10_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2276;
@@ -50,7 +50,7 @@ class cfgWeapons
 		};
 		magazines[]=
 		{
-			"Mag_AR10_20Rnd"
+			"Bags_Mag_AR10_20Rnd"
 		};
 		magazineSwitchTime=0.5;
 		ejectType=1;
@@ -122,7 +122,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR10: AR10_Base
+	class Bags_AR10: Bags_AR10_Base
 	{
 		scope=2;
 		displayName="AR15-357 Magnum";
@@ -285,7 +285,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR10_Green: AR10
+	class Bags_AR10_Green: Bags_AR10
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -297,7 +297,7 @@ class cfgWeapons
 			"dz\weapons\firearms\m4\data\m4_body.rvmat"
 		};
 	};
-	class AR10_Tan: AR10
+	class Bags_AR10_Tan: Bags_AR10
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=

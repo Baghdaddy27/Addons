@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class VAL556
+	class Bags_VAL556
 	{
 		units[]={};
 		weapons[]={
 			
-			"VAL556"
+			"Bags_VAL556"
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -19,7 +19,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class VAL556_Base: Rifle_Base
+	class Bags_VAL556_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2600;
@@ -192,7 +192,7 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
 	};
-	class VAL556: VAL556_Base
+	class Bags_VAL556: Bags_VAL556_Base
 	{
 		scope=2;
 		displayName="VAL-556";
@@ -306,37 +306,13 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
 	};
-	class VAL556_Tan: VAL556_Base
+	class Bags_VAL556_Tan: Bags_VAL556_Base
 	{
 		scope=2;
 		displayName="VAL-556";
 		descriptionShort="AN ASVAL Chambered in 5.56x45.";
 		model="\dz\weapons\firearms\VSS\VAL.p3d";
 		PPDOFProperties[]={1,0.5,50,180.10001,4,10};
-		attachments[]=
-		{
-			"weaponWrap",
-			"WeaponOptics",
-			"weaponFlashlight"
-		};
-		magazines[]=
-		{
-			"Mag_CMAG_10Rnd",
-			"Mag_CMAG_20Rnd",
-			"Mag_CMAG_30Rnd",
-			"Mag_CMAG_40Rnd",
-			"Mag_CMAG_10Rnd_Green",
-			"Mag_CMAG_20Rnd_Green",
-			"Mag_CMAG_30Rnd_Green",
-			"Mag_CMAG_40Rnd_Green",
-			"Mag_CMAG_10Rnd_Black",
-			"Mag_CMAG_20Rnd_Black",
-			"Mag_CMAG_30Rnd_Black",
-			"Mag_CMAG_40Rnd_Black"
-		};
-		WeaponLength=0.89999998;
-		ObstructionDistance=0.67799997;
-		itemSize[]={8,3};
 		hiddenSelections[]=
 		{
 			"camo",
@@ -420,38 +396,12 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
 	};
-
-	class VAL556_Green: VAL556_Base
+	class Bags_VAL556_Green: Bags_VAL556_Base
 	{
 		scope=2;
 		displayName="VAL-556";
 		descriptionShort="AN ASVAL Chambered in 5.56x45.";
 		model="\dz\weapons\firearms\VSS\VAL.p3d";
-		PPDOFProperties[]={1,0.5,50,180.10001,4,10};
-		attachments[]=
-		{
-			"weaponWrap",
-			"WeaponOptics",
-			"weaponFlashlight"
-		};
-		magazines[]=
-		{
-			"Mag_CMAG_10Rnd",
-			"Mag_CMAG_20Rnd",
-			"Mag_CMAG_30Rnd",
-			"Mag_CMAG_40Rnd",
-			"Mag_CMAG_10Rnd_Green",
-			"Mag_CMAG_20Rnd_Green",
-			"Mag_CMAG_30Rnd_Green",
-			"Mag_CMAG_40Rnd_Green",
-			"Mag_CMAG_10Rnd_Black",
-			"Mag_CMAG_20Rnd_Black",
-			"Mag_CMAG_30Rnd_Black",
-			"Mag_CMAG_40Rnd_Black"
-		};
-		WeaponLength=0.89999998;
-		ObstructionDistance=0.67799997;
-		itemSize[]={8,3};
 		hiddenSelections[]=
 		{
 			"camo",

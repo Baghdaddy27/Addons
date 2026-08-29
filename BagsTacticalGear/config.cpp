@@ -17,7 +17,7 @@ class CfgPatches
 };
 class CfgMods
 {
-	class BagsClothes
+	class BagsGear
 	{
 		dir = "BagsTacticalGear";
 		picture = "";

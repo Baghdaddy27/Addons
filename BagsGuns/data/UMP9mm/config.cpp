@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class UMP9mm
+	class Bags_UMP9mm
 	{
 		units[]={};
 		weapons[]=
 		{
-			"UMP9mm"
+			"Bags_UMP9mm"
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -19,7 +19,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class UMP9mm_Base: Rifle_Base
+	class Bags_UMP9mm_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2500;
@@ -47,7 +47,7 @@ class cfgWeapons
 		};
 		magazines[]=
 		{
-			"Mag_UMP9mm_30Rnd",
+			"Bags_Mag_UMP9mm_30Rnd",
 		};
 		magazineSwitchTime=0.44999999;
 		ejectType=1;
@@ -239,7 +239,7 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\UMP45\w_UMP45_states.anm";
 	};	
-	class UMP9mm: UMP9mm_Base
+	class Bags_UMP9mm: Bags_UMP9mm_Base
 	{
 		scope=2;
 		displayName="UMP-9MM";
@@ -315,7 +315,7 @@ class cfgWeapons
 			};
 		};
 	};
-		class UMP9mm_Green: UMP9mm_Base
+		class Bags_UMP9mm_Green: Bags_UMP9mm_Base
 	{
 		scope=2;
 		displayName="UMP-9MM";
@@ -396,7 +396,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class UMP9mm_Tan: UMP9mm_Base
+	class Bags_UMP9mm_Tan: Bags_UMP9mm_Base
 	{
 		scope=2;
 		displayName="UMP-9MM";

@@ -1,4 +1,4 @@
-class Offroad_Tan extends CarScript
+class Bags_Offroad_Tan extends CarScript
 {
 	protected ref UniversalTemperatureSource m_UTSource;
 	protected ref UniversalTemperatureSourceSettings m_UTSSettings;
@@ -420,3 +420,5 @@ class Offroad_Tan extends CarScript
 		inventory.CreateInInventory("Offroad_Tan_Wheel");
 	}
 }
+
+class Bags_Offroad_Tan : Bags_Offroad_Tan_Base {};

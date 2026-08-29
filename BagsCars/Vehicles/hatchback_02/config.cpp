@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class BagsHatchback
+    class Bags_Gunter
     {
         units[] = {};
         weapons[] = {};
@@ -27,7 +27,7 @@ class cfgVehicles
     class Hatchback_02_Trunk;
     
     // Yellow
-    class Hatchback_02_Yellow: Hatchback_02
+    class Bags_Gunter_Yellow: Hatchback_02
     {
         scope = 2;
         displayName = "Gunter Yellow";
@@ -210,7 +210,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Hatchback_02_Yellow_Door_1_1: Hatchback_02_Door_1_1
+    class Bags_Gunter_Yellow_Door_1_1: Hatchback_02_Door_1_1
     {
         scope = 2;
         displayName = "Gunter Driver Door Yellow";
@@ -246,7 +246,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Hatchback_02_Yellow_Door_2_1: Hatchback_02_Door_2_1
+    class Bags_Gunter_Yellow_Door_2_1: Hatchback_02_Door_2_1
     {
         scope = 2;
         displayName = "Gunter CoDriver Door Yellow";
@@ -282,7 +282,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Hatchback_02_Yellow_Door_1_2: Hatchback_02_Door_1_2
+    class Bags_Gunter_Yellow_Door_1_2: Hatchback_02_Door_1_2
     {
         scope = 2;
         displayName = "Gunter Back Left Door Yellow";
@@ -318,7 +318,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Hatchback_02_Yellow_Door_2_2: Hatchback_02_Door_2_2
+    class Bags_Gunter_Yellow_Door_2_2: Hatchback_02_Door_2_2
     {
         scope = 2;
         displayName = "Gunter Back Right Door Yellow";
@@ -354,7 +354,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Hatchback_02_Hood_Yellow: Hatchback_02_Hood
+    class Bags_Gunter_Hood_Yellow: Hatchback_02_Hood
     {
         scope = 2;
         displayName = "Gunter Hood Yellow";
@@ -382,7 +382,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Hatchback_02_Trunk_Yellow: Hatchback_02_Trunk
+    class Bags_Gunter_Trunk_Yellow: Hatchback_02_Trunk
     {
         scope = 2;
         displayName = "Gunter Trunk Yellow";
@@ -418,7 +418,7 @@ class cfgVehicles
     };  
     
     // White
-    class Hatchback_02_White: Hatchback_02
+    class Bags_Gunter_White: Hatchback_02
     {
         scope = 2;
         displayName = "Gunter White";
@@ -601,7 +601,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Hatchback_02_White_Door_1_1: Hatchback_02_Door_1_1
+    class Bags_Gunter_White_Door_1_1: Hatchback_02_Door_1_1
     {
         scope = 2;
         displayName = "Gunter Driver Door White";
@@ -637,7 +637,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Hatchback_02_White_Door_2_1: Hatchback_02_Door_2_1
+    class Bags_Gunter_White_Door_2_1: Hatchback_02_Door_2_1
     {
         scope = 2;
         displayName = "Gunter CoDriver Door White";
@@ -673,7 +673,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Hatchback_02_White_Door_1_2: Hatchback_02_Door_1_2
+    class Bags_Gunter_White_Door_1_2: Hatchback_02_Door_1_2
     {
         scope = 2;
         displayName = "Gunter Back Left Door White";
@@ -709,7 +709,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Hatchback_02_White_Door_2_2: Hatchback_02_Door_2_2
+    class Bags_Gunter_White_Door_2_2: Hatchback_02_Door_2_2
     {
         scope = 2;
         displayName = "Gunter Back Right Door White";
@@ -745,7 +745,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Hatchback_02_Hood_White: Hatchback_02_Hood
+    class Bags_Gunter_Hood_White: Hatchback_02_Hood
     {
         scope = 2;
         displayName = "Gunter Hood White";
@@ -773,7 +773,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Hatchback_02_Trunk_White: Hatchback_02_Trunk
+    class Bags_Gunter_Trunk_White: Hatchback_02_Trunk
     {
         scope = 2;
         displayName = "Gunter Trunk White";
@@ -809,7 +809,7 @@ class cfgVehicles
     };        
     
     // Urb
-    class Hatchback_02_Urb: Hatchback_02
+    class Bags_Gunter_Urb: Hatchback_02
     {
         scope = 2;
         displayName = "Gunter Urban";
@@ -992,7 +992,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Hatchback_02_Urb_Door_1_1: Hatchback_02_Door_1_1
+    class Bags_Gunter_Urb_Door_1_1: Hatchback_02_Door_1_1
     {
         scope = 2;
         displayName = "Gunter Driver Door Urb";
@@ -1028,7 +1028,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Hatchback_02_Urb_Door_2_1: Hatchback_02_Door_2_1
+    class Bags_Gunter_Urb_Door_2_1: Hatchback_02_Door_2_1
     {
         scope = 2;
         displayName = "Gunter CoDriver Door Urb";
@@ -1064,7 +1064,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Hatchback_02_Urb_Door_1_2: Hatchback_02_Door_1_2
+    class Bags_Gunter_Urb_Door_1_2: Hatchback_02_Door_1_2
     {
         scope = 2;
         displayName = "Gunter Back Left Door Urb";
@@ -1100,7 +1100,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Hatchback_02_Urb_Door_2_2: Hatchback_02_Door_2_2
+    class Bags_Gunter_Urb_Door_2_2: Hatchback_02_Door_2_2
     {
         scope = 2;
         displayName = "Gunter Back Right Door Urb";
@@ -1136,7 +1136,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Hatchback_02_Hood_Urb: Hatchback_02_Hood
+    class Bags_Gunter_Hood_Urb: Hatchback_02_Hood
     {
         scope = 2;
         displayName = "Gunter Hood Urb";
@@ -1164,7 +1164,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Hatchback_02_Trunk_Urb: Hatchback_02_Trunk
+    class Bags_Gunter_Trunk_Urb: Hatchback_02_Trunk
     {
         scope = 2;
         displayName = "Gunter Trunk Urb";
@@ -1200,7 +1200,7 @@ class cfgVehicles
     };  
     
     // Teal
-    class Hatchback_02_Teal: Hatchback_02
+    class Bags_Gunter_Teal: Hatchback_02
     {
         scope = 2;
         displayName = "Gunter Teal";
@@ -1383,7 +1383,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Hatchback_02_Teal_Door_1_1: Hatchback_02_Door_1_1
+    class Bags_Gunter_Teal_Door_1_1: Hatchback_02_Door_1_1
     {
         scope = 2;
         displayName = "Gunter Driver Door Teal";
@@ -1419,7 +1419,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Hatchback_02_Teal_Door_2_1: Hatchback_02_Door_2_1
+    class Bags_Gunter_Teal_Door_2_1: Hatchback_02_Door_2_1
     {
         scope = 2;
         displayName = "Gunter CoDriver Door Teal";
@@ -1455,7 +1455,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Hatchback_02_Teal_Door_1_2: Hatchback_02_Door_1_2
+    class Bags_Gunter_Teal_Door_1_2: Hatchback_02_Door_1_2
     {
         scope = 2;
         displayName = "Gunter Back Left Door Teal";
@@ -1491,7 +1491,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Hatchback_02_Teal_Door_2_2: Hatchback_02_Door_2_2
+    class Bags_Gunter_Teal_Door_2_2: Hatchback_02_Door_2_2
     {
         scope = 2;
         displayName = "Gunter Back Right Door Teal";
@@ -1527,7 +1527,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Hatchback_02_Hood_Teal: Hatchback_02_Hood
+    class Bags_Gunter_Hood_Teal: Hatchback_02_Hood
     {
         scope = 2;
         displayName = "Gunter Hood Teal";
@@ -1555,7 +1555,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Hatchback_02_Trunk_Teal: Hatchback_02_Trunk
+    class Bags_Gunter_Trunk_Teal: Hatchback_02_Trunk
     {
         scope = 2;
         displayName = "Gunter Trunk Teal";
@@ -1591,7 +1591,7 @@ class cfgVehicles
     };
 
     // Pink
-    class Hatchback_02_Pink: Hatchback_02
+    class Bags_Gunter_Pink: Hatchback_02
     {
         scope = 2;
         displayName = "Gunter Pink";
@@ -1774,7 +1774,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Hatchback_02_Pink_Door_1_1: Hatchback_02_Door_1_1
+    class Bags_Gunter_Pink_Door_1_1: Hatchback_02_Door_1_1
     {
         scope = 2;
         displayName = "Gunter Driver Door Pink";
@@ -1810,7 +1810,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Hatchback_02_Pink_Door_2_1: Hatchback_02_Door_2_1
+    class Bags_Gunter_Pink_Door_2_1: Hatchback_02_Door_2_1
     {
         scope = 2;
         displayName = "Gunter CoDriver Door Pink";
@@ -1846,7 +1846,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Hatchback_02_Pink_Door_1_2: Hatchback_02_Door_1_2
+    class Bags_Gunter_Pink_Door_1_2: Hatchback_02_Door_1_2
     {
         scope = 2;
         displayName = "Gunter Back Left Door Pink";
@@ -1882,7 +1882,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Hatchback_02_Pink_Door_2_2: Hatchback_02_Door_2_2
+    class Bags_Gunter_Pink_Door_2_2: Hatchback_02_Door_2_2
     {
         scope = 2;
         displayName = "Gunter Back Right Door Pink";
@@ -1918,7 +1918,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Hatchback_02_Hood_Pink: Hatchback_02_Hood
+    class Bags_Gunter_Hood_Pink: Hatchback_02_Hood
     {
         scope = 2;
         displayName = "Gunter Hood Pink";
@@ -1946,7 +1946,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Hatchback_02_Trunk_Pink: Hatchback_02_Trunk
+    class Bags_Gunter_Trunk_Pink: Hatchback_02_Trunk
     {
         scope = 2;
         displayName = "Gunter Trunk Pink";
@@ -1982,7 +1982,7 @@ class cfgVehicles
     };
 
     // Orange
-    class Hatchback_02_Orange: Hatchback_02
+    class Bags_Gunter_Orange: Hatchback_02
     {
         scope = 2;
         displayName = "Gunter Orange";
@@ -2165,7 +2165,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Hatchback_02_Orange_Door_1_1: Hatchback_02_Door_1_1
+    class Bags_Gunter_Orange_Door_1_1: Hatchback_02_Door_1_1
     {
         scope = 2;
         displayName = "Gunter Driver Door Orange";
@@ -2201,7 +2201,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Hatchback_02_Orange_Door_2_1: Hatchback_02_Door_2_1
+    class Bags_Gunter_Orange_Door_2_1: Hatchback_02_Door_2_1
     {
         scope = 2;
         displayName = "Gunter CoDriver Door Orange";
@@ -2237,7 +2237,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Hatchback_02_Orange_Door_1_2: Hatchback_02_Door_1_2
+    class Bags_Gunter_Orange_Door_1_2: Hatchback_02_Door_1_2
     {
         scope = 2;
         displayName = "Gunter Back Left Door Orange";
@@ -2273,7 +2273,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Hatchback_02_Orange_Door_2_2: Hatchback_02_Door_2_2
+    class Bags_Gunter_Orange_Door_2_2: Hatchback_02_Door_2_2
     {
         scope = 2;
         displayName = "Gunter Back Right Door Orange";
@@ -2309,7 +2309,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Hatchback_02_Hood_Orange: Hatchback_02_Hood
+    class Bags_Gunter_Hood_Orange: Hatchback_02_Hood
     {
         scope = 2;
         displayName = "Gunter Hood Orange";
@@ -2337,7 +2337,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Hatchback_02_Trunk_Orange: Hatchback_02_Trunk
+    class Bags_Gunter_Trunk_Orange: Hatchback_02_Trunk
     {
         scope = 2;
         displayName = "Gunter Trunk Orange";
@@ -2373,7 +2373,7 @@ class cfgVehicles
     };
 
     // Green
-    class Hatchback_02_Green: Hatchback_02
+    class Bags_Gunter_Green: Hatchback_02
     {
         scope = 2;
         displayName = "Gunter Green";
@@ -2556,7 +2556,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Hatchback_02_Green_Door_1_1: Hatchback_02_Door_1_1
+    class Bags_Gunter_Green_Door_1_1: Hatchback_02_Door_1_1
     {
         scope = 2;
         displayName = "Gunter Driver Door Green";
@@ -2592,7 +2592,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Hatchback_02_Green_Door_2_1: Hatchback_02_Door_2_1
+    class Bags_Gunter_Green_Door_2_1: Hatchback_02_Door_2_1
     {
         scope = 2;
         displayName = "Gunter CoDriver Door Green";
@@ -2628,7 +2628,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Hatchback_02_Green_Door_1_2: Hatchback_02_Door_1_2
+    class Bags_Gunter_Green_Door_1_2: Hatchback_02_Door_1_2
     {
         scope = 2;
         displayName = "Gunter Back Left Door Green";
@@ -2664,7 +2664,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Hatchback_02_Green_Door_2_2: Hatchback_02_Door_2_2
+    class Bags_Gunter_Green_Door_2_2: Hatchback_02_Door_2_2
     {
         scope = 2;
         displayName = "Gunter Back Right Door Green";
@@ -2700,7 +2700,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Hatchback_02_Hood_Green: Hatchback_02_Hood
+    class Bags_Gunter_Hood_Green: Hatchback_02_Hood
     {
         scope = 2;
         displayName = "Gunter Hood Green";
@@ -2728,7 +2728,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Hatchback_02_Trunk_Green: Hatchback_02_Trunk
+    class Bags_Gunter_Trunk_Green: Hatchback_02_Trunk
     {
         scope = 2;
         displayName = "Gunter Trunk Green";
@@ -2764,7 +2764,7 @@ class cfgVehicles
     };    
         
     // ERDL
-    class Hatchback_02_ERDL: Hatchback_02
+    class Bags_Gunter_ERDL: Hatchback_02
     {
         scope = 2;
         displayName = "Gunter Woodland (ERDL)";
@@ -2947,7 +2947,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Hatchback_02_ERDL_Door_1_1: Hatchback_02_Door_1_1
+    class Bags_Gunter_ERDL_Door_1_1: Hatchback_02_Door_1_1
     {
         scope = 2;
         displayName = "Gunter Driver Door ERDL";
@@ -2983,7 +2983,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Hatchback_02_ERDL_Door_2_1: Hatchback_02_Door_2_1
+    class Bags_Gunter_ERDL_Door_2_1: Hatchback_02_Door_2_1
     {
         scope = 2;
         displayName = "Gunter CoDriver Door ERDL";
@@ -3019,7 +3019,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Hatchback_02_ERDL_Door_1_2: Hatchback_02_Door_1_2
+    class Bags_Gunter_ERDL_Door_1_2: Hatchback_02_Door_1_2
     {
         scope = 2;
         displayName = "Gunter Back Left Door ERDL";
@@ -3055,7 +3055,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Hatchback_02_ERDL_Door_2_2: Hatchback_02_Door_2_2
+    class Bags_Gunter_ERDL_Door_2_2: Hatchback_02_Door_2_2
     {
         scope = 2;
         displayName = "Gunter Back Right Door ERDL";
@@ -3091,7 +3091,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Hatchback_02_Hood_ERDL: Hatchback_02_Hood
+    class Bags_Gunter_Hood_ERDL: Hatchback_02_Hood
     {
         scope = 2;
         displayName = "Gunter Hood ERDL";
@@ -3119,7 +3119,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Hatchback_02_Trunk_ERDL: Hatchback_02_Trunk
+    class Bags_Gunter_Trunk_ERDL: Hatchback_02_Trunk
     {
         scope = 2;
         displayName = "Gunter Trunk ERDL";
@@ -3155,7 +3155,7 @@ class cfgVehicles
     };
 
     // CC
-    class Hatchback_02_CC: Hatchback_02
+    class Bags_Gunter_CC: Hatchback_02
     {
         scope = 2;
         displayName = "Gunter Desert (CC)";
@@ -3338,7 +3338,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Hatchback_02_CC_Door_1_1: Hatchback_02_Door_1_1
+    class Bags_Gunter_CC_Door_1_1: Hatchback_02_Door_1_1
     {
         scope = 2;
         displayName = "Gunter Driver Door CC";
@@ -3374,7 +3374,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Hatchback_02_CC_Door_2_1: Hatchback_02_Door_2_1
+    class Bags_Gunter_CC_Door_2_1: Hatchback_02_Door_2_1
     {
         scope = 2;
         displayName = "Gunter CoDriver Door CC";
@@ -3410,7 +3410,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Hatchback_02_CC_Door_1_2: Hatchback_02_Door_1_2
+    class Bags_Gunter_CC_Door_1_2: Hatchback_02_Door_1_2
     {
         scope = 2;
         displayName = "Gunter Back Left Door CC";
@@ -3446,7 +3446,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Hatchback_02_CC_Door_2_2: Hatchback_02_Door_2_2
+    class Bags_Gunter_CC_Door_2_2: Hatchback_02_Door_2_2
     {
         scope = 2;
         displayName = "Gunter Back Right Door CC";
@@ -3482,7 +3482,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Hatchback_02_Hood_CC: Hatchback_02_Hood
+    class Bags_Gunter_Hood_CC: Hatchback_02_Hood
     {
         scope = 2;
         displayName = "Gunter Hood CC";
@@ -3510,7 +3510,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Hatchback_02_Trunk_CC: Hatchback_02_Trunk
+    class Bags_Gunter_Trunk_CC: Hatchback_02_Trunk
     {
         scope = 2;
         displayName = "Gunter Trunk CC";

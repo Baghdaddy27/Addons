@@ -1,4 +1,4 @@
-class VAL556_Base : RifleBoltFree_Base
+class Bags_VAL556_Base : RifleBoltFree_Base
 {
 	override RecoilBase SpawnRecoilObject()
 	{
@@ -19,4 +19,4 @@ class VAL556_Base : RifleBoltFree_Base
 	}
 };
 
-class VAL556 : VAL556_Base {};
+class Bags_VAL556 : Bags_VAL556_Base {};

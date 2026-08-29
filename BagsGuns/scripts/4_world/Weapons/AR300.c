@@ -1,4 +1,4 @@
-class AR300_Base : RifleBoltLock_Base
+class Bags_AR300_Base : RifleBoltLock_Base
 {
 	override RecoilBase SpawnRecoilObject()
 	{
@@ -21,4 +21,4 @@ class AR300_Base : RifleBoltLock_Base
 	}
 };
 
-class AR300 : AR300_Base {};
+class Bags_AR300 : Bags_AR300_Base {};

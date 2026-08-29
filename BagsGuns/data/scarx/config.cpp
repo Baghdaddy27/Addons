@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class SCARX
+	class Bags_SCARX
 	{
 		units[]={};
 		weapons[]={
 
-			"SCARX"
+			"Bags_SCARX"
 		
 		};
 		requiredVersion=0.1;
@@ -20,7 +20,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class SCARX_Base: Rifle_Base
+	class Bags_SCARX_Base: Rifle_Base
 	{
 		scope=0;
 		weight=3500;
@@ -36,11 +36,11 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_65GR"
+			"Bags_Ammo_65GR"
 		};
 		magazines[]=
 		{
-			"Mag_SCARX_30Rnd",
+			"Bags_Mag_SCARX_30Rnd",
 		};
 		magazineSwitchTime=0.44999999;
 		ejectType=1;
@@ -253,11 +253,11 @@ class cfgWeapons
 			};
 		};
 	};
-	class SCARX: SCARX_Base
+	class Bags_SCARX: Bags_SCARX_Base
 	{
 		scope=2;
 		displayName="SCAR-X";
-		descriptionShort="A custom SCAR chambered in 7.62x39 WARSAW. The FN SCAR Combat Assault Rifle is a family of gas-operated short-stroke gas piston automatic rifles developed by Belgian manufacturer FN Herstal in 2004.";
+		descriptionShort="A custom SCAR chambered in 6.5mm Grendel. The FN SCAR Combat Assault Rifle is a family of gas-operated short-stroke gas piston automatic rifles developed by Belgian manufacturer FN Herstal in 2004.";
 		model="\DZ\weapons\firearms\SCARH\ScarH.p3d";
 		attachments[]=
 		{
@@ -343,7 +343,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class SCARX_Black: SCARX
+	class Bags_SCARX_Black: Bags_SCARX
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -420,7 +420,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class SCARX_Tan: SCARX
+	class Bags_SCARX_Tan: Bags_SCARX
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=

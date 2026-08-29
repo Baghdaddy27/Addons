@@ -1,10 +1,10 @@
 class CfgPatches
 {
-	class M16A2_Exntesion
+	class Bags_M16A2_Exntesion
 	{
 		units[]=
 		{
-			"M16A2"
+			"Bags_M16A2_NCR"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -325,7 +325,7 @@ class cfgWeapons
 		displayName="$STR_M16A2_0";
 		descriptionShort="$STR_M16A2_1";
 	};
-	class M16A2_NCR: M16A2_Base
+	class Bags_M16A2_NCR: M16A2_Base
 	{
 		scope=2;
 		displayName="M16A2-NCR";

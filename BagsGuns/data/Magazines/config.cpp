@@ -4,12 +4,12 @@ class CfgPatches
     {
         units[]=
         {
-			"Mag_AR300_30Rnd",
-			"Mag_UMP9mm_30Rnd",
-			"Mag_Glock21_15Rnd",
-			"Mag_AR10_20Rnd",
-			"Mag_UMP40_30Rnd",
-			"Mag_SCARX_30Rnd"
+			"Bags_Mag_AR300_30Rnd",
+			"Bags_Mag_UMP9mm_30Rnd",
+			"Bags_Mag_Glock21_15Rnd",
+			"Bags_Mag_AR10_20Rnd",
+			"Bags_Mag_UMP40_30Rnd",
+			"Bags_Mag_SCARX_30Rnd"
         };
         weapons[]={};
         requiredVersion=0.1;
@@ -125,7 +125,7 @@ class CfgMagazines
 	};
 
 	// MAGS
-	class Mag_SCARX_30Rnd: Magazine_Base
+	class Bags_Mag_SCARX_30Rnd: Magazine_Base
 	{
 		scope=2;
 		displayName="SCAR-X Magazine";
@@ -135,10 +135,10 @@ class CfgMagazines
 		weightPerQuantityUnit=10;
 		itemSize[]={1,2};
 		count=30;
-		ammo="Bullet_65GR";
+		ammo="Bags_Bullet_65GR";
 		ammoItems[]=
 		{
-			"Ammo_65GR"
+			"Bags_Ammo_65GR"
 		};
 		tracersEvery=0;
 		hiddenSelections[]=
@@ -269,7 +269,7 @@ class CfgMagazines
 			};
 		};
 	};
-	class Mag_AR10_20Rnd: Magazine_Base
+	class Bags_Mag_AR10_20Rnd: Magazine_Base
 	{
 		scope=2;
 		displayName="AR15-357 Magazine";
@@ -417,7 +417,7 @@ class CfgMagazines
 			};
 		};
 	};
-	class Mag_AR300_30Rnd: Magazine_Base
+	class Bags_Mag_AR300_30Rnd: Magazine_Base
 	{
 		scope=2;
 		displayName="AR15-300 Blackout Magazine";
@@ -427,10 +427,10 @@ class CfgMagazines
 		weightPerQuantityUnit=16;
 		itemSize[]={1,2};
 		count=30;
-		ammo="Bullet_300BK";
+		ammo="Bags_Bullet_300BK";
 		ammoItems[]=
 		{
-			"Ammo_300BK"
+			"Bags_Ammo_300BK"
 		};
 		tracersEvery=0;
 		hiddenSelections[]=
@@ -565,7 +565,7 @@ class CfgMagazines
 			};
 		};
 	};
-	class Mag_UMP9mm_30Rnd: Magazine_Base
+	class Bags_Mag_UMP9mm_30Rnd: Magazine_Base
 	{
 		scope=2;
 		displayName="UMP-9mm Magazine";
@@ -701,7 +701,7 @@ class CfgMagazines
 			};
 		};
 	};
-	class Mag_UMP40_30Rnd: Magazine_Base
+	class Bags_Mag_UMP40_30Rnd: Magazine_Base
 	{
 		scope=2;
 		displayName="UMP-40 Magazine";
@@ -719,10 +719,10 @@ class CfgMagazines
 		weightPerQuantityUnit=12;
 		itemSize[]={1,3};
 		count=30;
-		ammo="Bullet_40CAL";
+		ammo="Bags_Bullet_40CAL";
 		ammoItems[]=
 		{
-			"Ammo_40CAL"
+			"Bags_Ammo_40CAL"
 		};
 		class DamageSystem
 		{
@@ -845,7 +845,7 @@ class CfgMagazines
 			};
 		};
 	};
-	class Mag_GLOCK21_15Rnd: Magazine_Base
+	class Bags_Mag_GLOCK21_15Rnd: Magazine_Base
 	{
 		scope=2;
 		displayName="Glock-21 Magazine";
@@ -863,10 +863,10 @@ class CfgMagazines
 		weightPerQuantityUnit=8;
 		itemSize[]={1,2};
 		count=15;
-		ammo="Bullet_40CAL";
+		ammo="Bags_Bullet_40CAL";
 		ammoItems[]=
 		{
-			"Ammo_40CAL"
+			"Bags_Ammo_40CAL"
 		};
 		tracersEvery=0;
 		mass=10;

@@ -1,10 +1,10 @@
 class CfgPatches
 {
-	class SV98_EXtension
+	class Bags_SV98_EXtension
 	{
 		units[]={
-			"SV98_Black",
-			"SV98_Tan"
+			"Bags_SV98_Black",
+			"Bags_SV98_Tan"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -200,7 +200,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class SV98_Black: SV98
+	class Bags_SV98_Black: SV98
 	{
 		scope=2;
 		displayName="$STR_cfgweapons_SV980";
@@ -213,7 +213,7 @@ class cfgWeapons
 			""
 		};
 	};
-	class SV98_Tan: SV98
+	class Bags_SV98_Tan: SV98
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=

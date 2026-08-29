@@ -1,10 +1,10 @@
 class CfgPatches
 {
-	class Mini14
+	class Bags_Mini14
 	{
 		units[]={};
 		weapons[]={
-			"Mini14"
+			"Bags_Mini14"
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -18,7 +18,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class Mini14_Base: Rifle_Base
+	class Bags_Mini14_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2700;
@@ -201,7 +201,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Mini14: Mini14_Base
+	class Bags_Mini14: Bags_Mini14_Base
 	{
 		scope=2;
 		displayName="M14-556";
@@ -284,7 +284,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Mini14_Black: Mini14_Base
+	class Bags_Mini14_Black: Bags_Mini14_Base
 	{
 		scope=2;
 		displayName="M14-556";
@@ -367,7 +367,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Mini14_Tan: Mini14_Base
+	class Bags_Mini14_Tan: Bags_Mini14_Base
 	{
 		scope=2;
 		displayName="M14-556";
@@ -450,7 +450,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Mini14_Wood: Mini14_Base
+	class Bags_Mini14_Wood: Bags_Mini14_Base
 	{
 		scope=2;
 		displayName="M14-556";

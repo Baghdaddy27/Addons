@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class BagsSedan_02
+    class Bags_Sarka
     {
         units[] = {};
         weapons[] = {};
@@ -27,7 +27,7 @@ class cfgVehicles
     class Sedan_02_Trunk;
  
     // Black
-    class Sedan_02_Black: Sedan_02
+    class Bags_Sarka_Black: Sedan_02
     {
         scope = 2;
         displayName = "Sarka Black";
@@ -217,7 +217,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Sedan_02_Black_Door_1_1: Sedan_02_Door_1_1
+    class Bags_Sarka_Black_Door_1_1: Sedan_02_Door_1_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Black";
@@ -253,7 +253,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Sedan_02_Black_Door_2_1: Sedan_02_Door_2_1
+    class Bags_Sarka_Black_Door_2_1: Sedan_02_Door_2_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Black";
@@ -289,7 +289,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Sedan_02_Black_Door_1_2: Sedan_02_Door_1_2
+    class Bags_Sarka_Black_Door_1_2: Sedan_02_Door_1_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Black";
@@ -325,7 +325,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Sedan_02_Black_Door_2_2: Sedan_02_Door_2_2
+    class Bags_Sarka_Black_Door_2_2: Sedan_02_Door_2_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Black";
@@ -361,7 +361,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Sedan_02_Hood_Black: Sedan_02_Hood
+    class Bags_Sarka_Hood_Black: Sedan_02_Hood
     {
         scope = 2;
         displayName = "Sarka Hood Black";
@@ -389,7 +389,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Sedan_02_Trunk_Black: Sedan_02_Trunk
+    class Bags_Sarka_Trunk_Black: Sedan_02_Trunk
     {
         scope = 2;
         displayName = "Sarka Trunk Black";
@@ -425,7 +425,7 @@ class cfgVehicles
     }; 
 
     // Blue
-    class Sedan_02_Blue: Sedan_02
+    class Bags_Sarka_Blue: Sedan_02
     {
         scope = 2;
         displayName = "Sarka Blue";
@@ -615,7 +615,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Sedan_02_Blue_Door_1_1: Sedan_02_Door_1_1
+    class Bags_Sarka_Blue_Door_1_1: Sedan_02_Door_1_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Blue";
@@ -651,7 +651,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Sedan_02_Blue_Door_2_1: Sedan_02_Door_2_1
+    class Bags_Sarka_Blue_Door_2_1: Sedan_02_Door_2_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Blue";
@@ -687,7 +687,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Sedan_02_Blue_Door_1_2: Sedan_02_Door_1_2
+    class Bags_Sarka_Blue_Door_1_2: Sedan_02_Door_1_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Blue";
@@ -723,7 +723,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Sedan_02_Blue_Door_2_2: Sedan_02_Door_2_2
+    class Bags_Sarka_Blue_Door_2_2: Sedan_02_Door_2_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Blue";
@@ -759,7 +759,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Sedan_02_Hood_Blue: Sedan_02_Hood
+    class Bags_Sarka_Hood_Blue: Sedan_02_Hood
     {
         scope = 2;
         displayName = "Sarka Hood Blue";
@@ -787,7 +787,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Sedan_02_Trunk_Blue: Sedan_02_Trunk
+    class Bags_Sarka_Trunk_Blue: Sedan_02_Trunk
     {
         scope = 2;
         displayName = "Sarka Trunk Blue";
@@ -823,7 +823,7 @@ class cfgVehicles
     }; 
 
     // CC
-    class Sedan_02_CC: Sedan_02
+    class Bags_Sarka_CC: Sedan_02
     {
         scope = 2;
         displayName = "Sarka Desert (CC)";
@@ -1013,7 +1013,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Sedan_02_CC_Door_1_1: Sedan_02_Door_1_1
+    class Bags_Sarka_CC_Door_1_1: Sedan_02_Door_1_1
     {
         scope = 2;
         displayName = "Sarka Driver Door CC";
@@ -1049,7 +1049,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Sedan_02_CC_Door_2_1: Sedan_02_Door_2_1
+    class Bags_Sarka_CC_Door_2_1: Sedan_02_Door_2_1
     {
         scope = 2;
         displayName = "Sarka Driver Door CC";
@@ -1085,7 +1085,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Sedan_02_CC_Door_1_2: Sedan_02_Door_1_2
+    class Bags_Sarka_CC_Door_1_2: Sedan_02_Door_1_2
     {
         scope = 2;
         displayName = "Sarka Driver Door CC";
@@ -1121,7 +1121,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Sedan_02_CC_Door_2_2: Sedan_02_Door_2_2
+    class Bags_Sarka_CC_Door_2_2: Sedan_02_Door_2_2
     {
         scope = 2;
         displayName = "Sarka Driver Door CC";
@@ -1157,7 +1157,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Sedan_02_Hood_CC: Sedan_02_Hood
+    class Bags_Sarka_Hood_CC: Sedan_02_Hood
     {
         scope = 2;
         displayName = "Sarka Hood CC";
@@ -1185,7 +1185,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Sedan_02_Trunk_CC: Sedan_02_Trunk
+    class Bags_Sarka_Trunk_CC: Sedan_02_Trunk
     {
         scope = 2;
         displayName = "Sarka Trunk CC";
@@ -1221,7 +1221,7 @@ class cfgVehicles
     }; 
        
     // ERDL
-    class Sedan_02_ERDL: Sedan_02
+    class Bags_Sarka_ERDL: Sedan_02
     {
         scope = 2;
         displayName = "Sarka Woodland (ERDL)";
@@ -1411,7 +1411,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Sedan_02_ERDL_Door_1_1: Sedan_02_Door_1_1
+    class Bags_Sarka_ERDL_Door_1_1: Sedan_02_Door_1_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Woodland";
@@ -1447,7 +1447,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Sedan_02_ERDL_Door_2_1: Sedan_02_Door_2_1
+    class Bags_Sarka_ERDL_Door_2_1: Sedan_02_Door_2_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Woodland";
@@ -1483,7 +1483,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Sedan_02_Woodland_Door_1_2: Sedan_02_Door_1_2
+    class Bags_Sarka_Woodland_Door_1_2: Sedan_02_Door_1_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Woodland";
@@ -1519,7 +1519,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Sedan_02_Woodland_Door_2_2: Sedan_02_Door_2_2
+    class Bags_Sarka_Woodland_Door_2_2: Sedan_02_Door_2_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Woodland";
@@ -1555,7 +1555,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Sedan_02_Hood_Woodland: Sedan_02_Hood
+    class Bags_Sarka_Hood_Woodland: Sedan_02_Hood
     {
         scope = 2;
         displayName = "Sarka Hood Woodland";
@@ -1583,7 +1583,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Sedan_02_Trunk_Woodland: Sedan_02_Trunk
+    class Bags_Sarka_Trunk_Woodland: Sedan_02_Trunk
     {
         scope = 2;
         displayName = "Sarka Trunk Woodland";
@@ -1619,7 +1619,7 @@ class cfgVehicles
     }; 
         
     // Green
-    class Sedan_02_Green: Sedan_02
+    class Bags_Sarka_Green: Sedan_02
     {
         scope = 2;
         displayName = "Sarka Green";
@@ -1809,7 +1809,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Sedan_02_Green_Door_1_1: Sedan_02_Door_1_1
+    class Bags_Sarka_Green_Door_1_1: Sedan_02_Door_1_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Green";
@@ -1845,7 +1845,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Sedan_02_Green_Door_2_1: Sedan_02_Door_2_1
+    class Bags_Sarka_Green_Door_2_1: Sedan_02_Door_2_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Green";
@@ -1881,7 +1881,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Sedan_02_Green_Door_1_2: Sedan_02_Door_1_2
+    class Bags_Sarka_Green_Door_1_2: Sedan_02_Door_1_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Green";
@@ -1917,7 +1917,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Sedan_02_Green_Door_2_2: Sedan_02_Door_2_2
+    class Bags_Sarka_Green_Door_2_2: Sedan_02_Door_2_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Green";
@@ -1953,7 +1953,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Sedan_02_Hood_Green: Sedan_02_Hood
+    class Bags_Sarka_Hood_Green: Sedan_02_Hood
     {
         scope = 2;
         displayName = "Sarka Hood Green";
@@ -1981,7 +1981,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Sedan_02_Trunk_Green: Sedan_02_Trunk
+    class Bags_Sarka_Trunk_Green: Sedan_02_Trunk
     {
         scope = 2;
         displayName = "Sarka Trunk Green";
@@ -2017,7 +2017,7 @@ class cfgVehicles
     }; 
 
     // Orange
-    class Sedan_02_Orange: Sedan_02
+    class Bags_Sarka_Orange: Sedan_02
     {
         scope = 2;
         displayName = "Sarka Orange";
@@ -2207,7 +2207,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Sedan_02_Orange_Door_1_1: Sedan_02_Door_1_1
+    class Bags_Sarka_Orange_Door_1_1: Sedan_02_Door_1_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Orange";
@@ -2243,7 +2243,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Sedan_02_Orange_Door_2_1: Sedan_02_Door_2_1
+    class Bags_Sarka_Orange_Door_2_1: Sedan_02_Door_2_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Orange";
@@ -2279,7 +2279,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Sedan_02_Orange_Door_1_2: Sedan_02_Door_1_2
+    class Bags_Sarka_Orange_Door_1_2: Sedan_02_Door_1_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Orange";
@@ -2315,7 +2315,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Sedan_02_Orange_Door_2_2: Sedan_02_Door_2_2
+    class Bags_Sarka_Orange_Door_2_2: Sedan_02_Door_2_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Orange";
@@ -2351,7 +2351,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Sedan_02_Hood_Orange: Sedan_02_Hood
+    class Bags_Sarka_Hood_Orange: Sedan_02_Hood
     {
         scope = 2;
         displayName = "Sarka Hood Orange";
@@ -2379,7 +2379,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Sedan_02_Trunk_Orange: Sedan_02_Trunk
+    class Bags_Sarka_Trunk_Orange: Sedan_02_Trunk
     {
         scope = 2;
         displayName = "Sarka Trunk Orange";
@@ -2415,7 +2415,7 @@ class cfgVehicles
     }; 
    
     // Pink
-    class Sedan_02_Pink: Sedan_02
+    class Bags_Sarka_Pink: Sedan_02
     {
         scope = 2;
         displayName = "Sarka Pink";
@@ -2605,7 +2605,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Sedan_02_Pink_Door_1_1: Sedan_02_Door_1_1
+    class Bags_Sarka_Pink_Door_1_1: Sedan_02_Door_1_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Pink";
@@ -2641,7 +2641,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Sedan_02_Pink_Door_2_1: Sedan_02_Door_2_1
+    class Bags_Sarka_Pink_Door_2_1: Sedan_02_Door_2_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Pink";
@@ -2677,7 +2677,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Sedan_02_Pink_Door_1_2: Sedan_02_Door_1_2
+    class Bags_Sarka_Pink_Door_1_2: Sedan_02_Door_1_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Pink";
@@ -2713,7 +2713,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Sedan_02_Pink_Door_2_2: Sedan_02_Door_2_2
+    class Bags_Sarka_Pink_Door_2_2: Sedan_02_Door_2_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Pink";
@@ -2749,7 +2749,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Sedan_02_Hood_Pink: Sedan_02_Hood
+    class Bags_Sarka_Hood_Pink: Sedan_02_Hood
     {
         scope = 2;
         displayName = "Sarka Hood Pink";
@@ -2777,7 +2777,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Sedan_02_Trunk_Pink: Sedan_02_Trunk
+    class Bags_Sarka_Trunk_Pink: Sedan_02_Trunk
     {
         scope = 2;
         displayName = "Sarka Trunk Pink";
@@ -2813,7 +2813,7 @@ class cfgVehicles
     }; 
         
     // Teal
-    class Sedan_02_Teal: Sedan_02
+    class Bags_Sarka_Teal: Sedan_02
     {
         scope = 2;
         displayName = "Sarka Teal";
@@ -3003,7 +3003,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Sedan_02_Teal_Door_1_1: Sedan_02_Door_1_1
+    class Bags_Sarka_Teal_Door_1_1: Sedan_02_Door_1_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Teal";
@@ -3039,7 +3039,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Sedan_02_Teal_Door_2_1: Sedan_02_Door_2_1
+    class Bags_Sarka_Teal_Door_2_1: Sedan_02_Door_2_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Teal";
@@ -3075,7 +3075,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Sedan_02_Teal_Door_1_2: Sedan_02_Door_1_2
+    class Bags_Sarka_Teal_Door_1_2: Sedan_02_Door_1_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Teal";
@@ -3111,7 +3111,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Sedan_02_Teal_Door_2_2: Sedan_02_Door_2_2
+    class Bags_Sarka_Teal_Door_2_2: Sedan_02_Door_2_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Teal";
@@ -3147,7 +3147,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Sedan_02_Hood_Teal: Sedan_02_Hood
+    class Bags_Sarka_Hood_Teal: Sedan_02_Hood
     {
         scope = 2;
         displayName = "Sarka Hood Teal";
@@ -3175,7 +3175,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Sedan_02_Trunk_Teal: Sedan_02_Trunk
+    class Bags_Sarka_Trunk_Teal: Sedan_02_Trunk
     {
         scope = 2;
         displayName = "Sarka Trunk Teal";
@@ -3211,7 +3211,7 @@ class cfgVehicles
     }; 
 
     // Urb
-    class Sedan_02_Urb: Sedan_02
+    class Bags_Sarka_Urb: Sedan_02
     {
         scope = 2;
         displayName = "Sarka Urban";
@@ -3401,7 +3401,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class Sedan_02_Urb_Door_1_1: Sedan_02_Door_1_1
+    class Bags_Sarka_Urb_Door_1_1: Sedan_02_Door_1_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Urb";
@@ -3437,7 +3437,7 @@ class cfgVehicles
     };
 
     // CoDriver Door
-    class Sedan_02_Urb_Door_2_1: Sedan_02_Door_2_1
+    class Bags_Sarka_Urb_Door_2_1: Sedan_02_Door_2_1
     {
         scope = 2;
         displayName = "Sarka Driver Door Urb";
@@ -3473,7 +3473,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class Sedan_02_Urb_Door_1_2: Sedan_02_Door_1_2
+    class Bags_Sarka_Urb_Door_1_2: Sedan_02_Door_1_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Urb";
@@ -3509,7 +3509,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class Sedan_02_Urb_Door_2_2: Sedan_02_Door_2_2
+    class Bags_Sarka_Urb_Door_2_2: Sedan_02_Door_2_2
     {
         scope = 2;
         displayName = "Sarka Driver Door Urb";
@@ -3545,7 +3545,7 @@ class cfgVehicles
     };
 
     // Hood
-    class Sedan_02_Hood_Urb: Sedan_02_Hood
+    class Bags_Sarka_Hood_Urb: Sedan_02_Hood
     {
         scope = 2;
         displayName = "Sarka Hood Urb";
@@ -3573,7 +3573,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class Sedan_02_Trunk_Urb: Sedan_02_Trunk
+    class Bags_Sarka_Trunk_Urb: Sedan_02_Trunk
     {
         scope = 2;
         displayName = "Sarka Trunk Urb";

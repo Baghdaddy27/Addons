@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class M14_Extension
+	class Bags_M14_Extension
 	{
 		units[]={
-			"M14_Black",
-			"M14_Tan",
-			"M14_Wood"
+			"Bags_M14_Black",
+			"Bags_M14_Tan",
+			"Bags_M14_Wood"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -184,7 +184,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class M14_Black: M14_Base
+	class Bags_M14_Black: M14_Base
 	{
 		scope=2;
 		displayName="$STR_cfgWeapons_M140";
@@ -267,7 +267,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class M14_Tan: M14_Base
+	class Bags_M14_Tan: M14_Base
 	{
 		scope=2;
 		displayName="$STR_cfgWeapons_M140";
@@ -350,7 +350,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class M14_Wood: M14_Base
+	class Bags_M14_Wood: M14_Base
 	{
 		scope=2;
 		displayName="$STR_cfgWeapons_M140";

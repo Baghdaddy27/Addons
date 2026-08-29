@@ -1,4 +1,4 @@
-class Glock21_Base : Pistol_Base
+class Bags_Glock21_Base : Pistol_Base
 { 
 	override RecoilBase SpawnRecoilObject()
 	{
@@ -21,4 +21,4 @@ class Glock21_Base : Pistol_Base
 	}
 };
 
-class Glock21 : Glock21_Base {};
+class Bags_Glock21 : Bags_Glock21_Base {};

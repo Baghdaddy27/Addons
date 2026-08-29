@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class Clothes
+    class Bags_Clothes
     {
         units[] = {
             "NBCJacketERDL",
@@ -23,7 +23,7 @@ class CfgVehicles
 
 //TShirt
     class TShirt_ColorBase;
-    class TShirt_ACU: TShirt_ColorBase
+    class Bags_TShirt_ACU: TShirt_ColorBase
     {
         scope = 2;
         displayName = "UCP Cargo TShirt";
@@ -36,7 +36,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_acu_co.paa"
         };
     };
-    class TShirt_CAN: TShirt_ColorBase
+    class Bags_TShirt_CAN: TShirt_ColorBase
     {
         scope = 2;
         displayName = "CADPAT Cargo TShirt";
@@ -49,7 +49,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_can_co.paa"
         };
     };
-    class TShirt_CC: TShirt_ColorBase
+    class Bags_TShirt_CC: TShirt_ColorBase
     {
         scope = 2;
         displayName = "6-Color Desert Cargo TShirt";
@@ -62,7 +62,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_cc_co.paa"
         };
     };
-    class TShirt_CCI: TShirt_ColorBase
+    class Bags_TShirt_CCI: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Iraqi Cargo TShirt";
@@ -75,7 +75,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_irq_co.paa"
         };
     };
-    class TShirt_CHN: TShirt_ColorBase
+    class Bags_TShirt_CHN: TShirt_ColorBase
     {
         scope = 2;
         displayName = "PLA Cargo TShirt";
@@ -88,7 +88,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_chn_co.paa"
         };
     };
-    class TShirt_DCU: TShirt_ColorBase
+    class Bags_TShirt_DCU: TShirt_ColorBase
     {
         scope = 2;
         displayName = "DCU Cargo TShirt";
@@ -101,7 +101,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_dcu_co.paa"
         };
     };
-    class TShirt_Digi: TShirt_ColorBase
+    class Bags_TShirt_Digi: TShirt_ColorBase
     {
         scope = 2;
         displayName = "EMR Arid Cargo TShirt";
@@ -114,7 +114,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_digi_co.paa"
         };
     };
-    class TShirt_EGT: TShirt_ColorBase
+    class Bags_TShirt_EGT: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Egyptian Cargo TShirt";
@@ -127,7 +127,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_egt_co.paa"
         };
     };
-    class TShirt_FLK: TShirt_ColorBase
+    class Bags_TShirt_FLK: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Flektarn Cargo TShirt";
@@ -140,7 +140,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_flk_co.paa"
         };
     };
-    class TShirt_MultiB: TShirt_ColorBase
+    class Bags_TShirt_MultiB: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Multicam Black Cargo TShirt";
@@ -153,7 +153,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_multib_co.paa"
         };
     };
-    class TShirt_Multicam: TShirt_ColorBase
+    class Bags_TShirt_Multicam: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Multicam Cargo TShirt";
@@ -166,7 +166,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_multicam_co.paa"
         };
     };
-    class TShirt_MultiG: TShirt_ColorBase
+    class Bags_TShirt_MultiG: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Multicam Green Cargo TShirt";
@@ -179,7 +179,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_multig_co.paa"
         };
     };
-    class TShirt_NK: TShirt_ColorBase
+    class Bags_TShirt_NK: TShirt_ColorBase
     {
         scope = 2;
         displayName = "KPA Cargo TShirt";
@@ -192,7 +192,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_nk_co.paa"
         };
     };
-    class TShirt_OP4: TShirt_ColorBase
+    class Bags_TShirt_OP4: TShirt_ColorBase
     {
         scope = 2;
         displayName = "OPFOR Cargo TShirt";
@@ -205,7 +205,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_op4_co.paa"
         };
     };
-    class TShirt_Pink: TShirt_ColorBase
+    class Bags_TShirt_Pink: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Pink Cargo TShirt";
@@ -218,7 +218,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_pink_co.paa"
         };
     };
-    class TShirt_RUS: TShirt_ColorBase
+    class Bags_TShirt_RUS: TShirt_ColorBase
     {
         scope = 2;
         displayName = "EMR Tsfira Cargo TShirt";
@@ -231,7 +231,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_rus_co.paa"
         };
     };
-    class TShirt_SAF: TShirt_ColorBase
+    class Bags_TShirt_SAF: TShirt_ColorBase
     {
         scope = 2;
         displayName = "SANDF Cargo TShirt";
@@ -244,7 +244,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_saf_co.paa"
         };
     };
-    class TShirt_SWD: TShirt_ColorBase
+    class Bags_TShirt_SWD: TShirt_ColorBase
     {
         scope = 2;
         displayName = "M90 Cargo TShirt";
@@ -257,7 +257,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_swd_co.paa"
         };
     };
-    class TShirt_TGR: TShirt_ColorBase
+    class Bags_TShirt_TGR: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Tiger-Stripe Cargo TShirt";
@@ -270,7 +270,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_tgr_co.paa"
         };
     };
-    class TShirt_TRK: TShirt_ColorBase
+    class Bags_TShirt_TRK: TShirt_ColorBase
     {
         scope = 2;
         displayName = "M2008 TShirt";
@@ -283,7 +283,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_trk_co.paa"
         };
     };
-    class TShirt_UKR: TShirt_ColorBase
+    class Bags_TShirt_UKR: TShirt_ColorBase
     {
         scope = 2;
         displayName = "MM-14 Cargo TShirt";
@@ -296,7 +296,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_ukr_co.paa"
         };
     };
-    class TShirt_URB: TShirt_ColorBase
+    class Bags_TShirt_URB: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Urban Camo Cargo TShirt";
@@ -309,7 +309,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_urb_co.paa"
         };
     };
-    class TShirt_USN: TShirt_ColorBase
+    class Bags_TShirt_USN: TShirt_ColorBase
     {
         scope = 2;
         displayName = "Kamysh TShirt";
@@ -322,7 +322,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_usn_co.paa"
         };
     };
-    class TShirt_USN2: TShirt_ColorBase
+    class Bags_TShirt_USN2: TShirt_ColorBase
     {
         scope = 2;
         displayName = "NWU III Cargo TShirt";
@@ -335,7 +335,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\tshirt_usn2_co.paa"
         };
     };
-    class TShirt_WW2: TShirt_ColorBase
+    class Bags_TShirt_WW2: TShirt_ColorBase
     {
         scope = 2;
         displayName = "NWU III Cargo TShirt";
@@ -352,7 +352,7 @@ class CfgVehicles
 
 //Tactical Shirt
     class TacticalShirt_ColorBase;
-    class TacticalShirt_ACU: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_ACU: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "UCP Cold-Weather Shirt";
@@ -364,7 +364,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_acu_co.paa"
         };
     };
-    class TacticalShirt_CAN: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_CAN: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "CADPAT Cold-Weather Shirt";
@@ -376,7 +376,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_can_co.paa"
         };
     };
-    class TacticalShirt_CC: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_CC: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "6-Color Desert Cold-Weather Shirt";
@@ -388,7 +388,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_cc_co.paa"
         };
     };
-    class TacticalShirt_CCI: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_CCI: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "Iraqi Cold-Weather Shirt";
@@ -400,7 +400,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_irq_co.paa"
         };
     };
-    class TacticalShirt_DCU: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_DCU: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "DCU Cold-Weather Shirt";
@@ -412,7 +412,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_dcu_co.paa"
         };
     };
-    class TacticalShirt_Multicam: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_Multicam: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "Multicam Cold-Weather Shirt";
@@ -424,7 +424,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_multicam_co.paa"
         };
     };
-    class TacticalShirt_MultiG: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_MultiG: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "Multicam Green Cold-Weather Shirt";
@@ -436,7 +436,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_gmulti_co.paa"
         };
     };
-    class TacticalShirt_MultiB: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_MultiB: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "Multicam Black Cold-Weather Shirt";
@@ -448,7 +448,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_bmulti_co.paa"
         };
     };
-    class TacticalShirt_OP4: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_OP4: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "OPFOR Cold-Weather Shirt";
@@ -460,7 +460,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_op4_co.paa"
         };
     };
-    class TacticalShirt_Pink: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_Pink: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "Pink Camo Cold-Weather Shirt";
@@ -472,7 +472,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_pink_co.paa"
         };
     };
-    class TacticalShirt_TGR: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_TGR: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "Tiger-Stripe Camo Cold-Weather Shirt";
@@ -484,7 +484,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_tgr_co.paa"
         };
     };
-    class TacticalShirt_TRK: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_TRK: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "M2008 Cold-Weather Shirt";
@@ -496,7 +496,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_trk_co.paa"
         };
     };
-    class TacticalShirt_URB: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_URB: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "Urban Camo Cold-Weather Shirt";
@@ -508,7 +508,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\pcu5jacket_urb_co.paa"
         };
     };
-    class TacticalShirt_USN: TacticalShirt_ColorBase
+    class Bags_TacticalShirt_USN: TacticalShirt_ColorBase
     {
         scope = 2;
         displayName = "NWU III Cold-Weather Shirt";
@@ -523,7 +523,7 @@ class CfgVehicles
 
 //Uniform Shirt
     class Shirt_Colorbase;
-    class Shirt_ACU: Shirt_Colorbase
+    class Bags_Shirt_ACU: Shirt_Colorbase
     {
         scope = 2;
         displayName = "UCP Hot-Weather Shirt";
@@ -536,7 +536,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_acu_co.paa"
         };
     };
-    class Shirt_CAN: Shirt_Colorbase
+    class Bags_Shirt_CAN: Shirt_Colorbase
     {
         scope = 2;
         displayName = "CADPAT Hot-Weather Shirt";
@@ -549,7 +549,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_can_co.paa"
         };
     };
-    class Shirt_CC: Shirt_Colorbase
+    class Bags_Shirt_CC: Shirt_Colorbase
     {
         scope = 2;
         displayName = "6-Color Desert Hot-Weather Shirt";
@@ -562,7 +562,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_cc_co.paa"
         };
     };
-    class Shirt_CCI: Shirt_Colorbase
+    class Bags_Shirt_CCI: Shirt_Colorbase
     {
         scope = 2;
         displayName = "Iraqi Hot-Weather Shirt";
@@ -575,7 +575,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_irq_co.paa"
         };
     };
-    class Shirt_DCU: Shirt_Colorbase
+    class Bags_Shirt_DCU: Shirt_Colorbase
     {
         scope = 2;
         displayName = "DCU Hot-Weather Shirt";
@@ -588,7 +588,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_dcu_co.paa"
         };
     };
-    class Shirt_Multicam: Shirt_Colorbase
+    class Bags_Shirt_Multicam: Shirt_Colorbase
     {
         scope = 2;
         displayName = "Multicam Hot-Weather Shirt";
@@ -601,7 +601,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_multicam_co.paa"
         };
     };
-    class Shirt_MulticamG: Shirt_Colorbase
+    class Bags_Shirt_MulticamG: Shirt_Colorbase
     {
         scope = 2;
         displayName = "Multicam Green Hot-Weather Shirt";
@@ -614,7 +614,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_gmulti_co.paa"
         };
     };
-    class Shirt_MulticamB: Shirt_Colorbase
+    class Bags_Shirt_MulticamB: Shirt_Colorbase
     {
         scope = 2;
         displayName = "Multicam Black Hot-Weather Shirt";
@@ -627,7 +627,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_bmulti_co.paa"
         };
     };
-    class Shirt_OP4: Shirt_Colorbase
+    class Bags_Shirt_OP4: Shirt_Colorbase
     {
         scope = 2;
         displayName = "OPFOR Hot-Weather Shirt";
@@ -640,7 +640,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_op4_co.paa"
         };
     };
-    class Shirt_Pink: Shirt_Colorbase
+    class Bags_Shirt_Pink: Shirt_Colorbase
     {
         scope = 2;
         displayName = "Pink Camo Hot-Weather Shirt";
@@ -653,7 +653,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_pink_co.paa"
         };
     };
-    class Shirt_TGR: Shirt_Colorbase
+    class Bags_Shirt_TGR: Shirt_Colorbase
     {
         scope = 2;
         displayName = "Tiger-Stripe Hot-Weather Shirt";
@@ -666,7 +666,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_tgr_co.paa"
         };
     };
-    class Shirt_TRK: Shirt_Colorbase
+    class Bags_Shirt_TRK: Shirt_Colorbase
     {
         scope = 2;
         displayName = "M2008 Hot-Weather Shirt";
@@ -679,7 +679,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_trk_co.paa"
         };
     };
-    class Shirt_URB: Shirt_Colorbase
+    class Bags_Shirt_URB: Shirt_Colorbase
     {
         scope = 2;
         displayName = "Urban Camo Hot-Weather Shirt";
@@ -692,7 +692,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Shirts\shirt_urb_co.paa"
         };
     };
-    class Shirt_USN2: Shirt_Colorbase
+    class Bags_Shirt_USN2: Shirt_Colorbase
     {
         scope = 2;
         displayName = "NWU III Hot-Weather Shirt";
@@ -709,7 +709,7 @@ class CfgVehicles
 
 //Gorka Jacket Hot Weather
     class GorkaEJacket_ColorBase;
-    class GorkaEJacket_CHN: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_CHN: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "PLA Hot-Weather Jacket";
@@ -721,7 +721,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_chn_co.paa"
         };
     };
-    class GorkaEJacket_Digi: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_Digi: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "EMR Arid Hot-Weather Jacket";
@@ -733,7 +733,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_digi_co.paa"
         };
     };
-    class GorkaEJacket_DST: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_DST: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "Gorka Flat-Tan Hot-Weather Jacket";
@@ -745,7 +745,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_dst_co.paa"
         };
     };
-    class GorkaEJacket_EGT: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_EGT: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "Egyptian Hot-Weather Jacket";
@@ -757,7 +757,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_egt_co.paa"
         };
     };
-    class GorkaEJacket_FLK: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_FLK: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "Fletktarn Hot-Weather Jacket";
@@ -769,7 +769,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_flk_co.paa"
         };
     };
-    class GorkaEJacket_NK: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_NK: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "KPA Hot-Weather Jacket";
@@ -781,7 +781,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_nk_co.paa"
         };
     };
-    class GorkaEJacket_RUS: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_RUS: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "EMR Tsifra Hot-Weather Jacket";
@@ -793,7 +793,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_rus_co.paa"
         };
     };
-    class GorkaEJacket_SAF: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_SAF: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "SANDF Hot-Weather Jacket";
@@ -805,7 +805,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_saf_co.paa"
         };
     };
-    class GorkaEJacket_SWD: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_SWD: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "M90 Hot-Weather Jacket";
@@ -817,7 +817,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_swd_co.paa"
         };
     };
-    class GorkaEJacket_UKR: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_UKR: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "MM-14 Hot-Weather Jacket";
@@ -829,7 +829,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_ukr_co.paa"
         };
     };
-    class GorkaEJacket_USN: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_USN: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "Kamysh Digital Hot-Weather Jacket";
@@ -841,7 +841,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_usn_co.paa"
         };
     };
-    class GorkaEJacket_WW2: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacket_WW2: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "WW2 Hot-Weather Jacket";
@@ -856,7 +856,7 @@ class CfgVehicles
 
 
 //Gorka Jacket Cold Weather
-    class GorkaEJacketCJacket_Chn: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_Chn: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "PLA Cold-Weather Jacket";
@@ -869,7 +869,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_chn_co.paa"
         };
     };
-    class GorkaEJacketCJacket_Digi: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_Digi: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "EMR Arid Cold-Weather Jacket";
@@ -882,7 +882,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_digi_co.paa"
         };
     };
-    class GorkaEJacketCJacket_DST: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_DST: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "Gorka Flat-Tan Cold-Weather Jacket";
@@ -895,7 +895,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_dst_co.paa"
         };
     };
-    class GorkaEJacketCJacket_EGT: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_EGT: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "Egyptian Gorka Cold-Weather Jacket";
@@ -908,7 +908,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_egt_co.paa"
         };
     };
-    class GorkaEJacketCJacket_FLK: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_FLK: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "Fletktarn Cold-Weather Jacket";
@@ -921,7 +921,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_flk_co.paa"
         };
     };
-    class GorkaEJacketCJacket_NK: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_NK: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "KPA Cold-Weather Jacket";
@@ -934,7 +934,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_nk_co.paa"
         };
     };
-    class GorkaEJacketCJacket_RUS: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_RUS: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "EMR Tsifra Cold-Weather Jacket";
@@ -947,7 +947,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_rus_co.paa"
         };
     };
-    class GorkaEJacketCJacket_SAF: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_SAF: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "SANDF Cold-Weather Jacket";
@@ -960,7 +960,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_saf_co.paa"
         };
     };
-    class GorkaEJacketCJacket_SWD: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_SWD: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "M90 Cold-Weather Jacket";
@@ -973,7 +973,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_swd_co.paa"
         };
     };
-    class GorkaEJacketCJacket_UKR: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_UKR: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "MM-14 Cold-Weather Jacket";
@@ -986,7 +986,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_ukr_co.paa"
         };
     };
-    class GorkaEJacketCJacket_USN: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_USN: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "Kamysh Digital Cold-Weather Jacket";
@@ -999,7 +999,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Jackets\gorka_upper_usn_co.paa"
         };
     };
-    class GorkaEJacketCJacket_WW2: GorkaEJacket_ColorBase
+    class Bags_GorkaEJacketCJacket_WW2: GorkaEJacket_ColorBase
     {
         scope = 2;
         displayName = "WW2 Cold-Weather Jacket";
@@ -1016,7 +1016,7 @@ class CfgVehicles
 
 //Cargo Pants Hot Weather
     class CargoPants_ColorBase;
-    class CargoPants_ACU: CargoPants_ColorBase
+    class Bags_CargoPants_ACU: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "UCP Hot-Weather Pants";
@@ -1029,7 +1029,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_acu_co.paa"
         };  
     };
-    class CargoPants_CAN: CargoPants_ColorBase
+    class Bags_CargoPants_CAN: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "CADPAT Hot-Weather Pants";
@@ -1042,7 +1042,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_can_co.paa"
         };  
     };
-    class CargoPants_CC: CargoPants_ColorBase
+    class Bags_CargoPants_CC: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "6-Color Desert Hot-Weather Pants";
@@ -1055,7 +1055,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_cc_co.paa"
         };  
     };
-    class CargoPants_CCI: CargoPants_ColorBase
+    class Bags_CargoPants_CCI: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Iraqi Hot-Weather Pants";
@@ -1068,7 +1068,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_irq_co.paa"
         };  
     };
-    class CargoPants_DCU: CargoPants_ColorBase
+    class Bags_CargoPants_DCU: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "DCU Hot-Weather Pants";
@@ -1081,7 +1081,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_dcu_co.paa"
         };  
     };
-    class CargoPants_Multicam: CargoPants_ColorBase
+    class Bags_CargoPants_Multicam: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Multicam Hot-Weather Pants";
@@ -1094,7 +1094,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_multicam_co.paa"
         };  
     };
-    class CargoPants_MulticamG: CargoPants_ColorBase
+    class Bags_CargoPants_MulticamG: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Multicam Green Hot-Weather Pants";
@@ -1107,7 +1107,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_gmulti_co.paa"
         };  
     };
-    class CargoPants_MulticamB: CargoPants_ColorBase
+    class Bags_CargoPants_MulticamB: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Multicam Black Hot-Weather Pants";
@@ -1120,7 +1120,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_bmulti_co.paa"
         };  
     };
-    class CargoPants_OP4: CargoPants_ColorBase
+    class Bags_CargoPants_OP4: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "OPFOR Hot-Weather Pants";
@@ -1133,7 +1133,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_op4_co.paa"
         };  
     };
-    class CargoPants_Pink: CargoPants_ColorBase
+    class Bags_CargoPants_Pink: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Pink Camo Hot-Weather Pants";
@@ -1146,7 +1146,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_pink_co.paa"
         };  
     };
-    class CargoPants_TGR: CargoPants_ColorBase
+    class Bags_CargoPants_TGR: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Tiger-Stripe Hot-Weather Pants";
@@ -1159,7 +1159,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_tgr_co.paa"
         };  
     };
-    class CargoPants_TRK: CargoPants_ColorBase
+    class Bags_CargoPants_TRK: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "M2008 Hot-Weather Pants";
@@ -1172,7 +1172,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_trk_co.paa"
         };  
     };
-    class CargoPants_URB: CargoPants_ColorBase
+    class Bags_CargoPants_URB: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Urban Camo Hot-Weather Pants";
@@ -1185,7 +1185,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_urb_co.paa"
         };  
     };
-    class CargoPants_USN2: CargoPants_ColorBase
+    class Bags_CargoPants_USN2: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "NWU III Hot-Weather Pants";
@@ -1201,7 +1201,7 @@ class CfgVehicles
 
 
 //Cargo Pants Cold Weather
-    class CargoPantsC_ACU: CargoPants_ColorBase
+    class Bags_CargoPantsC_ACU: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "UCP Cold-Weather Pants";
@@ -1213,7 +1213,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_acu_co.paa"
         };  
     };
-    class CargoPantsC_CAN: CargoPants_ColorBase
+    class Bags_CargoPantsC_CAN: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "CADPAT Cold-Weather Pants";
@@ -1225,7 +1225,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_can_co.paa"
         };  
     };
-    class CargoPantsC_CC: CargoPants_ColorBase
+    class Bags_CargoPantsC_CC: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "6-Color Desert Cold-Weather Pants";
@@ -1237,7 +1237,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_cc_co.paa"
         };  
     };
-    class CargoPantsC_CCI: CargoPants_ColorBase
+    class Bags_CargoPantsC_CCI: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Iraqi Cold-Weather Pants";
@@ -1249,7 +1249,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_irq_co.paa"
         };  
     };
-    class CargoPantsC_DCU: CargoPants_ColorBase
+    class Bags_CargoPantsC_DCU: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "DCU Cold-Weather Pants";
@@ -1261,7 +1261,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_dcu_co.paa"
         };  
     };
-    class CargoPantsC_Multicam: CargoPants_ColorBase
+    class Bags_CargoPantsC_Multicam: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Multicam Cold-Weather Pants";
@@ -1273,7 +1273,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_multicam_co.paa"
         };  
     };
-    class CargoPantsC_MulticamG: CargoPants_ColorBase
+    class Bags_CargoPantsC_MulticamG: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Multicam Green Cold-Weather Pants";
@@ -1285,7 +1285,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_gmulti_co.paa"
         };  
     };
-    class CargoPantsC_MulticamB: CargoPants_ColorBase
+    class Bags_CargoPantsC_MulticamB: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Multicam Black Cold-Weather Pants";
@@ -1297,7 +1297,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_bmulti_co.paa"
         };  
     };
-    class CargoPantsC_OP4: CargoPants_ColorBase
+    class Bags_CargoPantsC_OP4: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "OPFOR Cold-Weather Pants";
@@ -1309,7 +1309,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_op4_co.paa"
         };  
     };
-    class CargoPantsC_Pink: CargoPants_ColorBase
+    class Bags_CargoPantsC_Pink: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Pink Camo Cold-Weather Pants";
@@ -1321,7 +1321,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_pink_co.paa"
         };  
     };
-    class CargoPantsC_TGR: CargoPants_ColorBase
+    class Bags_CargoPantsC_TGR: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Tiger-Stripe Cold-Weather Pants";
@@ -1333,7 +1333,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_tgr_co.paa"
         };  
     };
-    class CargoPantsC_TRK: CargoPants_ColorBase
+    class Bags_CargoPantsC_TRK: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "M2008 Cold-Weather Pants";
@@ -1345,7 +1345,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_trk_co.paa"
         };  
     };
-    class CargoPantsC_URB: CargoPants_ColorBase
+    class Bags_CargoPantsC_URB: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "Urban Camo Cold-Weather Pants";
@@ -1357,7 +1357,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\cargopants_urb_co.paa"
         };  
     };
-    class CargoPantsC_USN2: CargoPants_ColorBase
+    class Bags_CargoPantsC_USN2: CargoPants_ColorBase
     {
         scope = 2;
         displayName = "NWU III Cold-Weather Pants";
@@ -1373,7 +1373,7 @@ class CfgVehicles
 
 //Gorka Pants Hot Weather
     class GorkaPants_ColorBase;
-    class GorkaPants_CHN: GorkaPants_ColorBase
+    class Bags_GorkaPants_CHN: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "PLA Hot-Weather Pants";
@@ -1385,7 +1385,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_chn_co.paa"
         };  
     };
-    class GorkaPants_Digi: GorkaPants_ColorBase
+    class Bags_GorkaPants_Digi: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "EMR Arid Hot-Weather Pants";
@@ -1397,7 +1397,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_digi_co.paa"
         };  
     };
-    class GorkaPants_DST: GorkaPants_ColorBase
+    class Bags_GorkaPants_DST: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "Gorka Flat-Tan Hot-Weather Pants";
@@ -1409,7 +1409,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_dst_co.paa"
         };  
     };
-    class GorkaPants_EGT: GorkaPants_ColorBase
+    class Bags_GorkaPants_EGT: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "Egyptian Gorka Hot-Weather Pants";
@@ -1421,7 +1421,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_egt_co.paa"
         };  
     };
-    class GorkaPants_FLK: GorkaPants_ColorBase
+    class Bags_GorkaPants_FLK: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "Flektarn Hot-Weather Pants";
@@ -1433,7 +1433,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_flk_co.paa"
         };  
     };
-    class GorkaPants_NK: GorkaPants_ColorBase
+    class Bags_GorkaPants_NK: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "KPA Hot-Weather Pants";
@@ -1445,7 +1445,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_nk_co.paa"
         };  
     };
-    class GorkaPants_RUS: GorkaPants_ColorBase
+    class Bags_GorkaPants_RUS: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "EMR Tsifra Hot-Weather Pants";
@@ -1457,7 +1457,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_rus_co.paa"
         };  
     };
-    class GorkaPants_SAF: GorkaPants_ColorBase
+    class Bags_GorkaPants_SAF: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "SANDF Hot-Weather Pants";
@@ -1469,7 +1469,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_saf_co.paa"
         };  
     };
-    class GorkaPants_SWD: GorkaPants_ColorBase
+    class Bags_GorkaPants_SWD: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "M90 Hot-Weather Pants";
@@ -1481,7 +1481,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_swd_co.paa"
         };  
     };
-    class GorkaPants_UKR: GorkaPants_ColorBase
+    class Bags_GorkaPants_UKR: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "MM-14 Hot-Weather Pants";
@@ -1493,7 +1493,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_ukr_co.paa"
         };  
     };
-    class GorkaPants_USN: GorkaPants_ColorBase
+    class Bags_GorkaPants_USN: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "Kamysh Hot-Weather Pants";
@@ -1505,7 +1505,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_usn_co.paa"
         };  
     };
-    class GorkaPants_WW2: GorkaPants_ColorBase
+    class Bags_GorkaPants_WW2: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "WW2 Hot-Weather Pants";
@@ -1520,7 +1520,7 @@ class CfgVehicles
 
 
 //Gorka Pants Cold Weather
-    class GorkaPantsC_CHN: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_CHN: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "PLA Cold-Weather Pants";
@@ -1533,7 +1533,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_chn_co.paa"
         };  
     };
-    class GorkaPantsC_Digi: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_Digi: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "EMR Arid Cold-Weather Pants";
@@ -1546,7 +1546,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_digi_co.paa"
         };  
     };
-    class GorkaPantsC_DST: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_DST: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "Gorka Flat-Tan Cold-Weather Pants";
@@ -1559,7 +1559,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_dst_co.paa"
         };  
     };
-    class GorkaPantsC_EGT: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_EGT: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "Egyptian Gorka Cold-Weather Pants";
@@ -1572,7 +1572,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_egt_co.paa"
         };  
     };
-    class GorkaPantsC_FLK: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_FLK: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "Flektarn Cold-Weather Pants";
@@ -1585,7 +1585,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_flk_co.paa"
         };  
     };
-    class GorkaPantsC_NK: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_NK: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "KPA Cold-Weather Pants";
@@ -1598,7 +1598,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_nk_co.paa"
         };  
     };
-    class GorkaPantsC_RUS: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_RUS: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "EMR Tsifra Cold-Weather Pants";
@@ -1611,7 +1611,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_rus_co.paa"
         };  
     };
-    class GorkaPantsC_SAF: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_SAF: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "SANDF Cold-Weather Pants";
@@ -1624,7 +1624,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_saf_co.paa"
         };  
     };
-    class GorkaPantsC_SWD: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_SWD: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "M90 Cold-Weather Pants";
@@ -1637,7 +1637,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_swd_co.paa"
         };  
     };
-    class GorkaPantsC_UKR: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_UKR: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "MM-14 Cold-Weather Pants";
@@ -1650,7 +1650,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_ukr_co.paa"
         };  
     };
-    class GorkaPantsC_USN: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_USN: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "Kamysh Cold-Weather Pants";
@@ -1663,7 +1663,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Pants\gorka_pants_usn_co.paa"
         };  
     };
-    class GorkaPantsC_WW2: GorkaPants_ColorBase
+    class Bags_GorkaPantsC_WW2: GorkaPants_ColorBase
     {
         scope = 2;
         displayName = "WW2 Cold-Weather Pants";
@@ -1680,7 +1680,7 @@ class CfgVehicles
 
 //Boonie Hat
     class BoonieHat_ColorBase;
-    class BoonieHat_ACU: BoonieHat_ColorBase
+    class Bags_BoonieHat_ACU: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "UCP Booniehat";
@@ -1692,7 +1692,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_acu_co.paa"
         };
     }; 
-    class BoonieHat_CAN: BoonieHat_ColorBase
+    class Bags_BoonieHat_CAN: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "CADPAT Booniehat";
@@ -1704,7 +1704,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_can_co.paa"
         };
     };    
-    class BoonieHat_CC: BoonieHat_ColorBase
+    class Bags_BoonieHat_CC: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "6-Color Desert Booniehat";
@@ -1716,7 +1716,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_cc_co.paa"
         };
     };  
-    class BoonieHat_CCI: BoonieHat_ColorBase
+    class Bags_BoonieHat_CCI: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Iraqi Booniehat";
@@ -1728,7 +1728,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_irq_co.paa"
         };
     }; 
-    class BoonieHat_CHN: BoonieHat_ColorBase
+    class Bags_BoonieHat_CHN: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "PLA Booniehat";
@@ -1740,7 +1740,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_chn_co.paa"
         };
     };  
-    class BoonieHat_DCU: BoonieHat_ColorBase
+    class Bags_BoonieHat_DCU: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "DCU Booniehat";
@@ -1752,7 +1752,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_dcu_co.paa"
         };
     };   
-    class BoonieHat_Digi: BoonieHat_ColorBase
+    class Bags_BoonieHat_Digi: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "EMR Arid Booniehat";
@@ -1764,7 +1764,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_digi_co.paa"
         };
     };  
-    class BoonieHat_EGT: BoonieHat_ColorBase
+    class Bags_BoonieHat_EGT: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Egpytian Booniehat";
@@ -1776,7 +1776,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_egt_co.paa"
         };
     };  
-    class BoonieHat_FLK: BoonieHat_ColorBase
+    class Bags_BoonieHat_FLK: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Flektarn Booniehat";
@@ -1788,7 +1788,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_flk_co.paa"
         };
     };    
-    class BoonieHat_Multicam: BoonieHat_ColorBase
+    class Bags_BoonieHat_Multicam: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Multicam Booniehat";
@@ -1800,7 +1800,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_multicam_co.paa"
         };
     }; 
-    class BoonieHat_MulticamG: BoonieHat_ColorBase
+    class Bags_BoonieHat_MulticamG: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Multicam Green Booniehat";
@@ -1812,7 +1812,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_gmulti_co.paa"
         };
     };  
-    class BoonieHat_MulticamB: BoonieHat_ColorBase
+    class Bags_BoonieHat_MulticamB: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Multicam Black Booniehat";
@@ -1824,7 +1824,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_bmulti_co.paa"
         };
     };   
-    class BoonieHat_NK: BoonieHat_ColorBase
+    class Bags_BoonieHat_NK: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "KPA Booniehat";
@@ -1836,7 +1836,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_nk_co.paa"
         };
     };  
-    class BoonieHat_OP4: BoonieHat_ColorBase
+    class Bags_BoonieHat_OP4: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "OPFOR Booniehat";
@@ -1848,7 +1848,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_op4_co.paa"
         };
     };    
-    class BoonieHat_Pink: BoonieHat_ColorBase
+    class Bags_BoonieHat_Pink: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Pink Camo Booniehat";
@@ -1860,7 +1860,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_pink_co.paa"
         };
     };   
-    class BoonieHat_TGR: BoonieHat_ColorBase
+    class Bags_BoonieHat_TGR: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Tiger-Stripe Booniehat";
@@ -1872,7 +1872,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_tgr_co.paa"
         };
     };  
-    class BoonieHat_TRK: BoonieHat_ColorBase
+    class Bags_BoonieHat_TRK: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "M2008 Booniehat";
@@ -1884,7 +1884,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_trk_co.paa"
         };
     }; 
-    class BoonieHat_RUS: BoonieHat_ColorBase
+    class Bags_BoonieHat_RUS: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "EMR Tsifra Booniehat";
@@ -1896,7 +1896,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_rus_co.paa"
         };
     };
-    class BoonieHat_SAF: BoonieHat_ColorBase
+    class Bags_BoonieHat_SAF: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "SANDF Booniehat";
@@ -1908,7 +1908,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_saf_co.paa"
         };
     };
-    class BoonieHat_SWD: BoonieHat_ColorBase
+    class Bags_BoonieHat_SWD: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "M90 Booniehat";
@@ -1920,7 +1920,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_swd_co.paa"
         };
     };
-    class BoonieHat_UKR: BoonieHat_ColorBase
+    class Bags_BoonieHat_UKR: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "MM-14 Booniehat";
@@ -1933,7 +1933,7 @@ class CfgVehicles
         };
     };
     
-    class BoonieHat_URB: BoonieHat_ColorBase
+    class Bags_BoonieHat_URB: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Urban Camo Booniehat";
@@ -1945,7 +1945,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_urb_co.paa"
         };
     };    
-    class BoonieHat_USN: BoonieHat_ColorBase
+    class Bags_BoonieHat_USN: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "Kamysh Booniehat";
@@ -1957,7 +1957,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_usn_co.paa"
         };
     };
-    class BoonieHat_USN2: BoonieHat_ColorBase
+    class Bags_BoonieHat_USN2: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "NWU III Booniehat";
@@ -1969,7 +1969,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\booniehat_usn2_co.paa"
         };
     };
-    class BoonieHat_WW2: BoonieHat_ColorBase
+    class Bags_BoonieHat_WW2: BoonieHat_ColorBase
     {
         scope = 2;
         displayName = "WW2 Booniehat";
@@ -1985,7 +1985,7 @@ class CfgVehicles
 
 //Military Cap
     class MilitaryCap_ColorBase;
-    class BaseballCap_ACU: MilitaryCap_ColorBase
+    class Bags_BaseballCap_ACU: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "UCP Patrol Cap";
@@ -1997,7 +1997,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_acu_co.paa"
         };
     };
-    class BaseballCap_CC: MilitaryCap_ColorBase
+    class Bags_BaseballCap_CC: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "6-Color Desert Patrol Cap";
@@ -2009,7 +2009,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_cc_co.paa"
         };
     };
-    class BaseballCap_CCI: MilitaryCap_ColorBase
+    class Bags_BaseballCap_CCI: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "Iraqi Patrol Cap";
@@ -2021,7 +2021,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_irq_co.paa"
         };
     };
-    class BaseballCap_CHN: MilitaryCap_ColorBase
+    class Bags_BaseballCap_CHN: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "PLA Patrol Cap";
@@ -2033,7 +2033,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_chn_co.paa"
         };
     };
-    class BaseballCap_DCU: MilitaryCap_ColorBase
+    class Bags_BaseballCap_DCU: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "DCU Patrol Cap";
@@ -2045,7 +2045,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_dcu_co.paa"
         };
     };
-    class BaseballCap_Digi: MilitaryCap_ColorBase
+    class Bags_BaseballCap_Digi: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "EMR Arid Patrol Cap";
@@ -2057,7 +2057,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_digi_co.paa"
         };
     };
-    class BaseballCap_Multicam: MilitaryCap_ColorBase
+    class Bags_BaseballCap_Multicam: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "Multicam Patrol Cap";
@@ -2069,7 +2069,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_multicam_co.paa"
         };
     };
-    class BaseballCap_MulticamG: MilitaryCap_ColorBase
+    class Bags_BaseballCap_MulticamG: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "Multicam Green Patrol Cap";
@@ -2081,7 +2081,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_gmulti_co.paa"
         };
     };
-    class BaseballCap_MulticamB: MilitaryCap_ColorBase
+    class Bags_BaseballCap_MulticamB: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "Multicam Black Patrol Cap";
@@ -2093,7 +2093,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_bmulti_co.paa"
         };
     };
-    class BaseballCap_Rus: MilitaryCap_ColorBase
+    class Bags_BaseballCap_Rus: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "EMR Tsifra Patrol Cap";
@@ -2105,7 +2105,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_rus_co.paa"
         };
     };
-    class BaseballCap_TGR: MilitaryCap_ColorBase
+    class Bags_BaseballCap_TGR: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "Tiger-Stripe Patrol Cap";
@@ -2117,7 +2117,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\militarycap_tgr_co.paa"
         };
     };
-    class BaseballCap_TRK: MilitaryCap_ColorBase
+    class Bags_BaseballCap_TRK: MilitaryCap_ColorBase
     {
         scope = 2;
         displayName = "M2008 Patrol Cap";
@@ -2133,7 +2133,7 @@ class CfgVehicles
 
 //Baseball Cap
     class BaseballCap_ColorBase;
-    class BaseballCap_CAF: BaseballCap_ColorBase
+    class Bags_BaseballCap_CAF: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "CAF Baseball Cap";
@@ -2145,7 +2145,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_caf_co.paa"
         };
     };
-    class BaseballCap_CAN: BaseballCap_ColorBase
+    class Bags_BaseballCap_CAN: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "CADPAT Baseball Cap";
@@ -2157,7 +2157,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_can_co.paa"
         };
     };
-    class BaseballCap_Deez: BaseballCap_ColorBase
+    class Bags_BaseballCap_Deez: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Deez Nuts Baseball Cap";
@@ -2169,7 +2169,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_deez_co.paa"
         };
     };
-    class BaseballCap_EGT: BaseballCap_ColorBase
+    class Bags_BaseballCap_EGT: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Egyptian Baseball Cap";
@@ -2181,7 +2181,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_egt_co.paa"
         };
     };
-    class BaseballCap_FLK: BaseballCap_ColorBase
+    class Bags_BaseballCap_FLK: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Flektarn Baseball Cap";
@@ -2193,7 +2193,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_flk_co.paa"
         };
     };
-    class BaseballCap_KRG: BaseballCap_ColorBase
+    class Bags_BaseballCap_KRG: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Krieger Gaming Baseball Cap";
@@ -2205,7 +2205,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_krg_co.paa"
         };
     };
-    class BaseballCap_MJ: BaseballCap_ColorBase
+    class Bags_BaseballCap_MJ: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "MJ Medic Baseball Cap";
@@ -2217,7 +2217,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_mj_co.paa"
         };
     };
-    class BaseballCap_NK: BaseballCap_ColorBase
+    class Bags_BaseballCap_NK: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "KPA Baseball Cap";
@@ -2229,7 +2229,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_nk_co.paa"
         };
     };
-    class BaseballCap_OP4: BaseballCap_ColorBase
+    class Bags_BaseballCap_OP4: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "OPFOR Baseball Cap";
@@ -2241,7 +2241,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_op4_co.paa"
         };
     };
-    class BaseballCap_Peace: BaseballCap_ColorBase
+    class Bags_BaseballCap_Peace: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Peace Baseball Cap";
@@ -2253,7 +2253,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_peace_co.paa"
         };
     };
-    class BaseballCap_PinkII: BaseballCap_ColorBase
+    class Bags_BaseballCap_PinkII: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Pink Camo Baseball Cap";
@@ -2265,7 +2265,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_pink_co.paa"
         };
     };
-    class BaseballCap_Pride: BaseballCap_ColorBase
+    class Bags_BaseballCap_Pride: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Pride Baseball Cap";
@@ -2277,7 +2277,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_prd_co.paa"
         };
     };
-    class BaseballCap_SAF: BaseballCap_ColorBase
+    class Bags_BaseballCap_SAF: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "SANDF Baseball Cap";
@@ -2289,7 +2289,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_saf_co.paa"
         };
     };
-    class BaseballCap_SWD: BaseballCap_ColorBase
+    class Bags_BaseballCap_SWD: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "M90 Baseball Cap";
@@ -2301,7 +2301,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_swd_co.paa"
         };
     };
-    class BaseballCap_UKR: BaseballCap_ColorBase
+    class Bags_BaseballCap_UKR: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "MM-14 Baseball Cap";
@@ -2313,7 +2313,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_ukr_co.paa"
         };
     };
-    class BaseballCap_UKR2: BaseballCap_ColorBase
+    class Bags_BaseballCap_UKR2: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Ukrainian Crest Baseball Cap";
@@ -2325,7 +2325,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_ukr2_co.paa"
         };
     };
-    class BaseballCap_URB: BaseballCap_ColorBase
+    class Bags_BaseballCap_URB: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Urban Camo Baseball Cap";
@@ -2337,7 +2337,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_urb_co.paa"
         };
     };
-    class BaseballCap_USCG: BaseballCap_ColorBase
+    class Bags_BaseballCap_USCG: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "USCG Baseball Cap";
@@ -2349,7 +2349,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_uscg_co.paa"
         };
     };
-    class BaseballCap_USN: BaseballCap_ColorBase
+    class Bags_BaseballCap_USN: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "Kamysh Baseball Cap";
@@ -2361,7 +2361,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_usn_co.paa"
         };
     };
-    class BaseballCap_USN2: BaseballCap_ColorBase
+    class Bags_BaseballCap_USN2: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "NWU III Baseball Cap";
@@ -2373,7 +2373,7 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\Hats\baseballcapii_usn2_co.paa"
         };
     };
-    class BaseballCap_WW2: BaseballCap_ColorBase
+    class Bags_BaseballCap_WW2: BaseballCap_ColorBase
     {
         scope = 2;
         displayName = "WW2 Baseball Cap";
@@ -2389,7 +2389,7 @@ class CfgVehicles
 
 //NBC Gear    
     class NBCJacketBase;
-    class NBCJacketERDL: NBCJacketBase
+    class Bags_NBCJacketERDL: NBCJacketBase
     {
         scope = 2;
         displayName = "NBC Woodland Jacket";
@@ -2408,7 +2408,7 @@ class CfgVehicles
         };
     };
     class NBCPantsBase;
-    class NBCPantsERDL: NBCPantsBase
+    class Bags_NBCPantsERDL: NBCPantsBase
     {
         scope = 2;
         displayName = "NBC Woodland Pants";
@@ -2427,7 +2427,7 @@ class CfgVehicles
         };
     };
     class NBCHoodBase;
-    class NBCHoodERDL: NBCHoodBase
+    class Bags_NBCHoodERDL: NBCHoodBase
     {
         scope = 2;
         displayName = "NBC Woodland Hood";
@@ -2446,7 +2446,7 @@ class CfgVehicles
         };
     };
     class NBCBootsBase;
-    class NBCBootsERDL: NBCBootsBase
+    class Bags_NBCBootsERDL: NBCBootsBase
     {
         scope = 2;
         displayName = "NBC Woodland Boots";

@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class AR15
+	class Bags_AR15
 	{
 		units[]={};
 		weapons[]={
 
-			"AR15"
+			"Bags_AR15"
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -19,7 +19,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class AR15_Base: Rifle_Base
+	class Bags_AR15_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2276;
@@ -180,7 +180,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR15: AR15_Base
+	class Bags_AR15: Bags_AR15_Base
 	{
 		scope=2;
 		displayName="AR15-545";
@@ -343,7 +343,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class AR15_Green: AR15
+	class Bags_AR15_Green: Bags_AR15
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -355,7 +355,7 @@ class cfgWeapons
 			"dz\weapons\firearms\m4\data\m4_body.rvmat"
 		};
 	};
-	class AR15_Tan: AR15
+	class Bags_AR15_Tan: Bags_AR15
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=

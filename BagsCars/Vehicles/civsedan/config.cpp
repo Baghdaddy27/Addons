@@ -1,17 +1,17 @@
 class CfgPatches
 {
-    class BagsCivSedan
+    class Bags_Olga
     {
         units[] = {
-            "CivSedan2_blue",
-            "CivSedan2_cc",
-            "CivSedan2_erdl",
-            "CivSedan2_green",
-            "CivSedan2_orange",
-            "CivSedan2_pink",
-            "CivSedan2_teal",
-            "CivSedan2_urb",
-            "CivSedan2_yellow"
+            "Bags_Olga_blue",
+            "Bags_Olga_cc",
+            "Bags_Olga_erdl",
+            "Bags_Olga_green",
+            "Bags_Olga_orange",
+            "Bags_Olga_pink",
+            "Bags_Olga_teal",
+            "Bags_Olga_urb",
+            "Bags_Olga_yellow"
         };
         weapons[] = {};
         requiredVersion = 0.1;
@@ -29,15 +29,15 @@ class cfgVehicles
     class CivilianSedan;
     class Reflector_1_1;
 	class Reflector_2_1;
-	class CivSedanHood;
-	class CivSedanTrunk;
-	class CivSedanDoors_Driver;
-	class CivSedanDoors_CoDriver;
-	class CivSedanDoors_BackLeft;
-	class CivSedanDoors_BackRight;
+	class CivSedan_Hood;
+	class CivSedan_Trunk;
+	class CivSedan_Doors_Driver;
+	class CivSedan_Doors_CoDriver;
+	class CivSedan_Doors_BackLeft;
+	class CivSedan_Doors_BackRight;
 
     // Blue
-    class CivSedan2_Blue: CivilianSedan
+    class Bags_Olga_Blue: CivilianSedan
     {
         scope = 2;
         displayName = "Olga Blue";
@@ -228,7 +228,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class CivSedanDoors_Driver_Blue: CivSedanDoors_Driver
+    class Bags_Olga_Doors_Driver_Blue: CivSedanDoors_Driver
     {
         scope = 2;
         displayName = "Olga Driver Door Blue";
@@ -264,7 +264,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class CivSedanDoors_CoDriver_Blue: CivSedanDoors_CoDriver
+    class Bags_Olga_Doors_CoDriver_Blue: CivSedanDoors_CoDriver
     {
         scope = 2;
         displayName = "Olga Co-Driver Door Blue";
@@ -300,7 +300,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class CivSedanDoors_BackRight_Blue: CivSedanDoors_BackRight
+    class Bags_Olga_Doors_BackRight_Blue: CivSedanDoors_BackRight
     {
         scope = 2;
         displayName = "Olga Back Right Door Blue";
@@ -336,7 +336,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class CivSedanDoors_BackLeft_Blue: CivSedanDoors_BackLeft
+    class Bags_Olga_Doors_BackLeft_Blue: CivSedanDoors_BackLeft
     {
         scope = 2;
         displayName = "Olga Back Left Door Blue";
@@ -372,7 +372,7 @@ class cfgVehicles
     };
 
     // Hood
-    class CivSedanHood_Blue: CivSedanHood
+    class Bags_Olga_Hood_Blue: CivSedanHood
     {
         scope = 2;
         displayName = "Olga Hood Blue";
@@ -400,7 +400,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class CivSedanTrunk_Blue: CivSedanTrunk
+    class Bags_Olga_Trunk_Blue: CivSedanTrunk
     {
         scope = 2;
         displayName = "Olga Trunk Blue";
@@ -436,7 +436,7 @@ class cfgVehicles
     };
 
     // CC
-    class CivSedan2_CC: CivilianSedan
+    class Bags_Olga_CC: CivilianSedan
     {
         scope = 2;
         displayName = "Olga 6-Color Desert (CC)";
@@ -627,7 +627,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class CivSedanDoors_Driver_cc: CivSedanDoors_Driver
+    class Bags_Olga_Doors_Driver_cc: CivSedanDoors_Driver
     {
         scope = 2;
         displayName = "Olga Driver Door CC";
@@ -663,7 +663,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class CivSedanDoors_CoDriver_CC: CivSedanDoors_CoDriver
+    class Bags_Olga_Doors_CoDriver_CC: CivSedanDoors_CoDriver
     {
         scope = 2;
         displayName = "Olga CoDriver Door CC";
@@ -700,7 +700,7 @@ class cfgVehicles
 
 
     // BackRight Door
-    class CivSedanDoors_BackRight_CC: CivSedanDoors_BackRight
+    class Bags_Olga_Doors_BackRight_CC: CivSedanDoors_BackRight
     {
         scope = 2;
         displayName = "Olga Back Right Door CC";
@@ -736,7 +736,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class CivSedanDoors_BackLeft_CC: CivSedanDoors_BackLeft
+    class Bags_Olga_Doors_BackLeft_CC: CivSedanDoors_BackLeft
     {
         scope = 2;
         displayName = "Olga Back Left Door CC";
@@ -772,7 +772,7 @@ class cfgVehicles
     };
 
     // Hood
-    class CivSedanHood_CC: CivSedanHood
+    class Bags_Olga_Hood_CC: CivSedanHood
     {
         scope = 2;
         displayName = "Olga CC Hood";
@@ -800,7 +800,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class CivSedanTrunk_CC: CivSedanTrunk
+    class Bags_Olga_Trunk_CC: CivSedanTrunk
     {
         scope = 2;
         displayName = "Olga Trunk CC";
@@ -836,7 +836,7 @@ class cfgVehicles
     };
 
     // Erdl
-    class CivSedan2_ERDL: CivilianSedan
+    class Bags_Olga_ERDL: CivilianSedan
     {
         scope = 2;
         displayName = "Olga Woodland (ERDL)";
@@ -1027,7 +1027,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class CivSedanDoors_Driver_ERDL: CivSedanDoors_Driver
+    class Bags_Olga_Doors_Driver_ERDL: CivSedanDoors_Driver
     {
         scope = 2;
         displayName = "Olga Driver Door ERDL";
@@ -1063,7 +1063,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class CivSedanDoors_CoDriver_ERDL: CivSedanDoors_CoDriver
+    class Bags_Olga_Doors_CoDriver_ERDL: CivSedanDoors_CoDriver
     {
         scope = 2;
         displayName = "Olga Co-Driver Door ERDL";
@@ -1099,7 +1099,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class CivSedanDoors_BackRight_ERDL: CivSedanDoors_BackRight
+    class Bags_Olga_Doors_BackRight_ERDL: CivSedanDoors_BackRight
     {
         scope = 2;
         displayName = "Olga Back Right Door ERDL";
@@ -1135,7 +1135,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class CivSedanDoors_BackLeft_ERDL: CivSedanDoors_BackLeft
+    class Bags_Olga_Doors_BackLeft_ERDL: CivSedanDoors_BackLeft
     {
         scope = 2;
         displayName = "Olga Back Left Door ERDL";
@@ -1171,7 +1171,7 @@ class cfgVehicles
     };
 
     // Hood
-    class CivSedanHood_ERDL: CivSedanHood
+    class Bags_Olga_Hood_ERDL: CivSedanHood
     {
         scope = 2;
         displayName = "Olga Hood ERDL";
@@ -1199,7 +1199,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class CivSedanTrunk_ERDL: CivSedanTrunk
+    class Bags_Olga_Trunk_ERDL: CivSedanTrunk
     {
         scope = 2;
         displayName = "Olga Trunk ERDL";
@@ -1235,7 +1235,7 @@ class cfgVehicles
     };
 
     // Green
-    class CivSedan2_Green: CivilianSedan
+    class Bags_Olga_Green: CivilianSedan
     {
         scope = 2;
         displayName = "Olga Green";
@@ -1426,7 +1426,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class CivSedanDoors_Driver_Green: CivSedanDoors_Driver
+    class Bags_Olga_Doors_Driver_Green: CivSedanDoors_Driver
     {
         scope = 2;
         displayName = "Olga Driver Door Green";
@@ -1462,7 +1462,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class CivSedanDoors_CoDriver_Green: CivSedanDoors_CoDriver
+    class Bags_Olga_Doors_CoDriver_Green: CivSedanDoors_CoDriver
     {
         scope = 2;
         displayName = "Olga Co-Driver Door Green";
@@ -1498,7 +1498,7 @@ class cfgVehicles
     };
 
     // BackRight Door
-    class CivSedanDoors_BackRight_Green: CivSedanDoors_BackRight
+    class Bags_Olga_Doors_BackRight_Green: CivSedanDoors_BackRight
     {
         scope = 2;
         displayName = "Olga Back Right Door Green";
@@ -1534,7 +1534,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class CivSedanDoors_BackLeft_Green: CivSedanDoors_BackLeft
+    class Bags_Olga_Doors_BackLeft_Green: CivSedanDoors_BackLeft
     {
         scope = 2;
         displayName = "Olga Back Left Door Green";
@@ -1570,7 +1570,7 @@ class cfgVehicles
     };
 
     // Hood
-    class CivSedanHood_Green: CivSedanHood
+    class Bags_Olga_Hood_Green: CivSedanHood
     {
         scope = 2;
         displayName = "Olga Hood Green";
@@ -1598,7 +1598,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class CivSedanTrunk_Green: CivSedanTrunk
+    class Bags_Olga_Trunk_Green: CivSedanTrunk
     {
         scope = 2;
         displayName = "Olga Trunk Green";
@@ -1634,7 +1634,7 @@ class cfgVehicles
     };
 
     // Orange
-    class CivSedan2_Orange: CivilianSedan
+    class Bags_Olga_Orange: CivilianSedan
     {
         scope = 2;
         displayName = "Olga Orange";
@@ -1825,7 +1825,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class CivSedanDoors_Driver_Orange: CivSedanDoors_Driver
+    class Bags_Olga_Doors_Driver_Orange: CivSedanDoors_Driver
     {
         scope = 2;
         displayName = "Olga Driver Door Orange";
@@ -1861,7 +1861,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class CivSedanDoors_CoDriver_Orange: CivSedanDoors_CoDriver
+    class Bags_Olga_Doors_CoDriver_Orange: CivSedanDoors_CoDriver
     {
         scope = 2;
         displayName = "Olga Co-Driver Door Orange";
@@ -1898,7 +1898,7 @@ class cfgVehicles
 
 
     // BackRight Door
-    class CivSedanDoors_BackRight_Orange: CivSedanDoors_BackRight
+    class Bags_Olga_Doors_BackRight_Orange: CivSedanDoors_BackRight
     {
         scope = 2;
         displayName = "Olga Back Right Door Orange";
@@ -1934,7 +1934,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class CivSedanDoors_BackLeft_Orange: CivSedanDoors_BackLeft
+    class Bags_Olga_Doors_BackLeft_Orange: CivSedanDoors_BackLeft
     {
         scope = 2;
         displayName = "Olga Back left Door Orange";
@@ -1970,7 +1970,7 @@ class cfgVehicles
     };
 
     // Hood
-    class CivSedanHood_Orange: CivSedanHood
+    class Bags_Olga_Hood_Orange: CivSedanHood
     {
         scope = 2;
         displayName = "Olga Hood Orange";
@@ -1998,7 +1998,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class CivSedanTrunk_Orange: CivSedanTrunk
+    class Bags_Olga_Trunk_Orange: CivSedanTrunk
     {
         scope = 2;
         displayName = "Olga Trunk Orange";
@@ -2034,7 +2034,7 @@ class cfgVehicles
     };
     
     // Pink
-    class CivSedan2_Pink: CivilianSedan
+    class Bags_Olga_Pink: CivilianSedan
     {
         scope = 2;
         displayName = "Olga Pink";
@@ -2225,7 +2225,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class CivSedanDoors_Driver_Pink: CivSedanDoors_Driver
+    class Bags_Olga_Doors_Driver_Pink: CivSedanDoors_Driver
     {
         scope = 2;
         displayName = "Olga Driver Door Pink";
@@ -2261,7 +2261,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class CivSedanDoors_CoDriver_Pink: CivSedanDoors_CoDriver
+    class Bags_Olga_Doors_CoDriver_Pink: CivSedanDoors_CoDriver
     {
         scope = 2;
         displayName = "Olga Co-Driver Door Pink";
@@ -2298,7 +2298,7 @@ class cfgVehicles
 
 
     // BackRight Door
-    class CivSedanDoors_BackRight_Pink: CivSedanDoors_BackRight
+    class Bags_Olga_Doors_BackRight_Pink: CivSedanDoors_BackRight
     {
         scope = 2;
         displayName = "Olga Back Right Door Pink";
@@ -2334,7 +2334,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class CivSedanDoors_BackLeft_Pink: CivSedanDoors_BackLeft
+    class Bags_Olga_Doors_BackLeft_Pink: CivSedanDoors_BackLeft
     {
         scope = 2;
         displayName = "Olga Back Left Door Pink";
@@ -2370,7 +2370,7 @@ class cfgVehicles
     };
 
     // Hood
-    class CivSedanHood_Pink: CivSedanHood
+    class Bags_Olga_Hood_Pink: CivSedanHood
     {
         scope = 2;
         displayName = "Olga Hood Pink";
@@ -2398,7 +2398,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class CivSedanTrunk_Pink: CivSedanTrunk
+    class Bags_Olga_Trunk_Pink: CivSedanTrunk
     {
         scope = 2;
         displayName = "Olga Trunk Pink";
@@ -2434,7 +2434,7 @@ class cfgVehicles
     };
 
     // Teal
-    class CivSedan2_Teal: CivilianSedan
+    class Bags_Olga_Teal: CivilianSedan
     {
         scope = 2;
         displayName = "Olga Teal";
@@ -2625,7 +2625,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class CivSedanDoors_Driver_Teal: CivSedanDoors_Driver
+    class Bags_Olga_Doors_Driver_Teal: CivSedanDoors_Driver
     {
         scope = 2;
         displayName = "Olga Driver Door Teal";
@@ -2661,7 +2661,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class CivSedanDoors_CoDriver_Teal: CivSedanDoors_CoDriver
+    class Bags_Olga_Doors_CoDriver_Teal: CivSedanDoors_CoDriver
     {
         scope = 2;
         displayName = "Olga Co-Driver Door Teal";
@@ -2698,7 +2698,7 @@ class cfgVehicles
 
 
     // BackRight Door
-    class CivSedanDoors_BackRight_Teal: CivSedanDoors_BackRight
+    class Bags_Olga_Doors_BackRight_Teal: CivSedanDoors_BackRight
     {
         scope = 2;
         displayName = "Olga Back Right Door Teal";
@@ -2734,7 +2734,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class CivSedanDoors_BackLeft_Teal: CivSedanDoors_BackLeft
+    class Bags_Olga_Doors_BackLeft_Teal: CivSedanDoors_BackLeft
     {
         scope = 2;
         displayName = "Olga Back Left Door Teal";
@@ -2770,7 +2770,7 @@ class cfgVehicles
     };
 
     // Hood
-    class CivSedanHood_Teal: CivSedanHood
+    class Bags_Olga_Hood_Teal: CivSedanHood
     {
         scope = 2;
         displayName = "Olga Hood Teal";
@@ -2798,7 +2798,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class CivSedanTrunk_Teal: CivSedanTrunk
+    class Bags_Olga_Trunk_Teal: CivSedanTrunk
     {
         scope = 2;
         displayName = "Olga Trunk Teal";
@@ -2834,7 +2834,7 @@ class cfgVehicles
     };
 
     // Urb
-    class CivSedan2_Urb: CivilianSedan
+    class Bags_Olga_Urb: CivilianSedan
     {
         scope = 2;
         displayName = "Olga Urban";
@@ -3025,7 +3025,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class CivSedanDoors_Driver_Urb: CivSedanDoors_Driver
+    class Bags_Olga_Doors_Driver_Urb: CivSedanDoors_Driver
     {
         scope = 2;
         displayName = "Olga Driver Door Urb";
@@ -3061,7 +3061,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class CivSedanDoors_CoDriver_Urb: CivSedanDoors_CoDriver
+    class Bags_Olga_Doors_CoDriver_Urb: CivSedanDoors_CoDriver
     {
         scope = 2;
         displayName = "Olga Co-Driver Door Urb";
@@ -3098,7 +3098,7 @@ class cfgVehicles
 
 
     // BackRight Door
-    class CivSedanDoors_BackRight_Urb: CivSedanDoors_BackRight
+    class Bags_Olga_Doors_BackRight_Urb: CivSedanDoors_BackRight
     {
         scope = 2;
         displayName = "Olga Back Right Door Urb";
@@ -3134,7 +3134,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class CivSedanDoors_BackLeft_Urb: CivSedanDoors_BackLeft
+    class Bags_Olga_Doors_BackLeft_Urb: CivSedanDoors_BackLeft
     {
         scope = 2;
         displayName = "Olga Back Left Door Urb";
@@ -3170,7 +3170,7 @@ class cfgVehicles
     };
 
     // Hood
-    class CivSedanHood_Urb: CivSedanHood
+    class Bags_Olga_Hood_Urb: CivSedanHood
     {
         scope = 2;
         displayName = "Olga Hood Urb";
@@ -3198,7 +3198,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class CivSedanTrunk_Urb: CivSedanTrunk
+    class Bags_Olga_Trunk_Urb: CivSedanTrunk
     {
         scope = 2;
         displayName = "Olga Trunk Urb";
@@ -3234,7 +3234,7 @@ class cfgVehicles
     };
 
     // Yellow
-    class CivSedan2_Yellow: CivilianSedan
+    class Bags_Olga_Yellow: CivilianSedan
     {
         scope = 2;
         displayName = "Olga Yellow";
@@ -3425,7 +3425,7 @@ class cfgVehicles
     };
 
     // Driver Door
-    class CivSedanDoors_Driver_Yellow: CivSedanDoors_Driver
+    class Bags_Olga_Doors_Driver_Yellow: CivSedanDoors_Driver
     {
         scope = 2;
         displayName = "Olga Driver Door Yellow";
@@ -3461,7 +3461,7 @@ class cfgVehicles
     };
 
     // Co-Driver Door
-    class CivSedanDoors_CoDriver_Yellow: CivSedanDoors_CoDriver
+    class Bags_Olga_Doors_CoDriver_Yellow: CivSedanDoors_CoDriver
     {
         scope = 2;
         displayName = "Olga Co-Driver Door Yellow";
@@ -3498,7 +3498,7 @@ class cfgVehicles
 
 
     // BackRight Door
-    class CivSedanDoors_BackRight_Yellow: CivSedanDoors_BackRight
+    class Bags_Olga_Doors_BackRight_Yellow: CivSedanDoors_BackRight
     {
         scope = 2;
         displayName = "Olga Back Right Door Yellow";
@@ -3534,7 +3534,7 @@ class cfgVehicles
     };
 
     // BackLeft Door
-    class CivSedanDoors_BackLeft_Yellow: CivSedanDoors_BackLeft
+    class Bags_Olga_Doors_BackLeft_Yellow: CivSedanDoors_BackLeft
     {
         scope = 2;
         displayName = "Olga Back Left Door Yellow";
@@ -3570,7 +3570,7 @@ class cfgVehicles
     };
 
     // Hood
-    class CivSedanHood_Yellow: CivSedanHood
+    class Bags_Olga_Hood_Yellow: CivSedanHood
     {
         scope = 2;
         displayName = "Olga Hood Yellow";
@@ -3598,7 +3598,7 @@ class cfgVehicles
     };
 
     // Trunk
-    class CivSedanTrunk_Yellow: CivSedanTrunk
+    class Bags_Olga_Trunk_Yellow: CivSedanTrunk
     {
         scope = 2;
         displayName = "Olga Trunk Yellow";
