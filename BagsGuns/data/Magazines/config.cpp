@@ -291,7 +291,7 @@ class CfgMagazines
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"dz\weapons\attachments\magazine\data\val_mag_co.paa"
+			"BagsGuns\data\Magazines\300bk_mag_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -439,7 +439,7 @@ class CfgMagazines
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"dz\weapons\attachments\magazine\data\val_mag_co.paa"
+			"BagsGuns\data\Magazines\300bk_mag_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -707,6 +707,14 @@ class CfgMagazines
 		displayName="UMP-40 Magazine";
 		descriptionShort="A 30 round magazine chambered for .40 S&W.";
 		model="\DZ\weapons\attachments\magazine\magazine_ump45_25rnd.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\Magazines\ump40_mag_co.paa"
+		};
 		weight=350;
 		weightPerQuantityUnit=12;
 		itemSize[]={1,3};
@@ -843,6 +851,14 @@ class CfgMagazines
 		displayName="Glock-21 Magazine";
 		descriptionShort="A 15 round magazine chambered for .40 S&W.";
 		model="\DZ\weapons\attachments\magazine\magazine_glock19.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\Magazines\glock21_mag_co.paa"
+		};
 		weight=131;
 		weightPerQuantityUnit=8;
 		itemSize[]={1,2};

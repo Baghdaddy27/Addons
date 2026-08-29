@@ -2,12 +2,17 @@ class CfgPatches
 {
 	class Glock21
 	{
-		units[]={};
-		weapons[]={
+		units[]=
+		{
 			"Glock21"
 		};
+		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
+		requiredAddons[]=
+		{
+			"DZ_Data",
+			"DZ_Pistols"
+		};
 	};
 };
 class Mode_Safe;
@@ -56,25 +61,25 @@ class cfgWeapons
 		{
 			soundSetShot[]=
 			{
-				"Glock19_Shot_SoundSet",
-				"Glock19_Tail_2D_SoundSet",
-				"Glock19_Shot_iterior_SoundSet",
-				"Glock19_Tail_SoundSet",
-				"Glock19_InteriorTail_SoundSet"
+				"colt1911_Shot_SoundSet",
+				"colt1911_Tail_2D_SoundSet",
+				"colt1911_Shot_iterior_SoundSet",
+				"colt1911_Tail_SoundSet",
+				"colt1911_InteriorTail_SoundSet"
 			};
 			soundSetShotExt[]=
 			{
 				
 				{
-					"Glock19_silencer_SoundSet",
-					"Glock19_silencerTail_SoundSet",
-					"Glock19_silencerInteriorTail_SoundSet"
+					"colt1911_silencer_SoundSet",
+					"colt1911_silencerTail_SoundSet",
+					"colt1911_silencerInteriorTail_SoundSet"
 				},
 				
 				{
-					"Glock19_silencerHomeMade_SoundSet",
-					"Glock19_silencerHomeMadeTail_SoundSet",
-					"Glock19_silencerInteriorHomeMadeTail_SoundSet"
+					"colt1911_silencerHomeMade_SoundSet",
+					"colt1911_silencerHomeMadeTail_SoundSet",
+					"colt1911_silencerInteriorHomeMadeTail_SoundSet"
 				}
 			};
 			reloadTime=0.13;
@@ -204,15 +209,5 @@ class cfgWeapons
 				};
 			};
 		};
-	};
-};
-class CfgNonAIVehicles
-{
-	class ProxyAttachment;
-	class ProxyGlock: ProxyAttachment
-	{
-		scope=2;
-		inventorySlot="pistol";
-		model="\dz\weapons\pistols\glock\Glock19.p3d";
 	};
 };

@@ -71,33 +71,73 @@ class cfgWeapons
 		};
 		modes[]=
 		{
-			"SemiAuto"
+			"SemiAuto",
+			"FullAuto"
 		};
 		class SemiAuto: Mode_SemiAuto
 		{
 			soundSetShot[]=
 			{
-				"Repeater_Shot_SoundSet",
-				"Repeater_Shot_iterior_SoundSet",
-				"Repeater_Tail_SoundSet",
-				"Repeater_InteriorTail_SoundSet",
-				"Repeater_Tail_2D_SoundSet"
+				"FAL_Shot_1st_SoundSet",
+				"FAL_Shot_1st_iterior_SoundSet",
+				"FAL_Tail_SoundSet",
+				"FAL_InteriorTail_SoundSet",
+				"FAL_Slapback_SoundSet",
+				"FAL_Tail_2D_SoundSet"
 			};
 			soundSetShotExt[]=
 			{
 				
 				{
-					"Repeater_silencerHomeMade_SoundSet",
-					"Repeater_silencerHomeMadeTail_SoundSet",
-					"Repeater_silencerInteriorHomeMadeTail_SoundSet"
+					"FAL_1st_silencerHomeMade_SoundSet",
+					"FAL_silencerHomeMadeTail_SoundSet",
+					"FAL_silencerInteriorHomeMadeTail_SoundSet"
 				}
 			};
 			reloadTime=0.12;
-			recoil="recoil_m4";
-			recoilProne="recoil_m4_prone";
+			recoil="recoil_fal";
+			recoilProne="recoil_fal_prone";
 			dispersion=0.0020000001;
 			magazineSlot="magazine";
 		};
+		class FullAuto: Mode_FullAuto
+		{
+			soundSetShot1st[]=
+			{
+				"FAL_Shot_1st_SoundSet",
+				"FAL_Shot_1st_iterior_SoundSet"
+			};
+			soundSetShot[]=
+			{
+				"FAL_Shot_SoundSet",
+				"FAL_Shot_iterior_SoundSet",
+				"FAL_Tail_SoundSet",
+				"FAL_InteriorTail_SoundSet",
+				"FAL_Slapback_SoundSet",
+				"FAL_Tail_2D_SoundSet"
+			};
+			soundSetShotExt1st[]=
+			{
+				
+				{
+					"FAL_1st_silencerHomeMade_SoundSet"
+				}
+			};
+			soundSetShotExt[]=
+			{
+				
+				{
+					"FAL_silencerHomeMade_SoundSet",
+					"FAL_silencerHomeMadeTail_SoundSet",
+					"FAL_silencerInteriorHomeMadeTail_SoundSet"
+				}
+			};
+			reloadTime=0.097999997;
+			recoil="recoil_fal";
+			recoilProne="recoil_fal_prone";
+			dispersion=0.0020000001;
+			magazineSlot="magazine";
+		};		
 		class OpticsInfo: OpticsInfoRifle
 		{
 			memoryPointCamera="eye";
