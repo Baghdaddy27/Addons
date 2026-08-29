@@ -210,4 +210,242 @@ class cfgWeapons
 			};
 		};
 	};
+	class Glock21_Green: Glock21_Base
+	{
+		scope=2;
+		displayName="Glock-21";
+		descriptionShort="A Glock pistol in .40 S&W.";
+		model="\dz\weapons\pistols\glock\Glock19.p3d";
+		hiddenSelections[]=
+		{
+			"zbytek"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\glock21\glock_green_co.paa"
+		};
+		attachments[]=
+		{
+			"pistolOptics",
+			"pistolFlashlight",
+			"pistolMuzzle"
+		};
+		itemSize[]={3,2};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=150;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class Particles
+		{
+			class OnFire
+			{
+				class SmokeCloud
+				{
+					overrideParticle="weapon_shot_winded_smoke";
+				};
+				class MuzzleFlash
+				{
+					overrideParticle="weapon_shot_fnx_01";
+					ignoreIfSuppressed=1;
+					illuminateWorld=1;
+					positionOffset[]={0,0,0};
+				};
+			};
+			class OnOverheating
+			{
+				maxOverheatingValue=8;
+				shotsToStartOverheating=8;
+				overheatingDecayInterval=1;
+				class SmokingBarrel1
+				{
+					overrideParticle="smoking_barrel_small";
+					onlyWithinOverheatLimits[]={0,1};
+					positionOffset[]={0,0,0};
+					onlyWithinRainLimits[]={0,1};
+				};
+				class OpenChamberSmoke
+				{
+					onlyIfBoltIsOpen=1;
+					overrideParticle="smoking_barrel_small";
+					overridePoint="Nabojnicestart";
+				};
+			};
+			class OnBulletCasingEject
+			{
+				class ChamberSmokeRaise
+				{
+					overrideParticle="weapon_shot_chamber_smoke";
+					overridePoint="Nabojnicestart";
+				};
+			};
+		};
+	};
+	class Glock21_Tan: Glock21_Base
+	{
+		scope=2;
+		displayName="Glock-21";
+		descriptionShort="A Glock pistol in .40 S&W.";
+		model="\dz\weapons\pistols\glock\Glock19.p3d";
+		hiddenSelections[]=
+		{
+			"zbytek"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\glock21\glock_tan_co.paa"
+		};
+		attachments[]=
+		{
+			"pistolOptics",
+			"pistolFlashlight",
+			"pistolMuzzle"
+		};
+		itemSize[]={3,2};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=150;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class Particles
+		{
+			class OnFire
+			{
+				class SmokeCloud
+				{
+					overrideParticle="weapon_shot_winded_smoke";
+				};
+				class MuzzleFlash
+				{
+					overrideParticle="weapon_shot_fnx_01";
+					ignoreIfSuppressed=1;
+					illuminateWorld=1;
+					positionOffset[]={0,0,0};
+				};
+			};
+			class OnOverheating
+			{
+				maxOverheatingValue=8;
+				shotsToStartOverheating=8;
+				overheatingDecayInterval=1;
+				class SmokingBarrel1
+				{
+					overrideParticle="smoking_barrel_small";
+					onlyWithinOverheatLimits[]={0,1};
+					positionOffset[]={0,0,0};
+					onlyWithinRainLimits[]={0,1};
+				};
+				class OpenChamberSmoke
+				{
+					onlyIfBoltIsOpen=1;
+					overrideParticle="smoking_barrel_small";
+					overridePoint="Nabojnicestart";
+				};
+			};
+			class OnBulletCasingEject
+			{
+				class ChamberSmokeRaise
+				{
+					overrideParticle="weapon_shot_chamber_smoke";
+					overridePoint="Nabojnicestart";
+				};
+			};
+		};
+	};
 };

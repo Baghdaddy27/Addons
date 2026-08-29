@@ -435,8 +435,8 @@ class CfgAmmo
         tracerScale=1;
         caliber=0.80000001;
         deflecting=30;
-        initSpeed=315;
-        typicalSpeed=340;
+        initSpeed=305;
+        typicalSpeed=335;
         airFriction=-0.00165;
         supersonicCrackNear[]={};
         supersonicCrackFar[]={};

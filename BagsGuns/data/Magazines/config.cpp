@@ -709,7 +709,7 @@ class CfgMagazines
 		model="\DZ\weapons\attachments\magazine\magazine_ump45_25rnd.p3d";
 		hiddenSelections[]=
 		{
-			"camo"
+			"zbytek"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -853,7 +853,7 @@ class CfgMagazines
 		model="\DZ\weapons\attachments\magazine\magazine_glock19.p3d";
 		hiddenSelections[]=
 		{
-			"camo"
+			"zbytek"
 		};
 		hiddenSelectionsTextures[]=
 		{

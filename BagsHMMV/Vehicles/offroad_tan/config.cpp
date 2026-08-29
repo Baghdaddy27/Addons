@@ -50,7 +50,8 @@ class cfgVehicles
             "light_reverse_2_2",
             "light_1_2",
             "light_2_2",
-            "light_dashboard"
+            "light_dashboard",
+            "Camo_Base_Init"
         };
         hiddenSelectionsTextures[]=
         {

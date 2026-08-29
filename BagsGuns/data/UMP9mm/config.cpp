@@ -315,4 +315,165 @@ class cfgWeapons
 			};
 		};
 	};
+		class UMP9mm_Green: UMP9mm_Base
+	{
+		scope=2;
+		displayName="UMP-9MM";
+		descriptionShort="A UMP chambered in 9x19 MM. The Heckler & Koch UMP is a submachine gun developed and manufactured by Heckler & Koch. Heckler & Koch developed the UMP as a lighter and cheaper successor to the MP5.";
+		model="\dz\weapons\firearms\UMP45\ump.p3d";
+		attachments[]=
+		{
+			"weaponWrap",
+			"weaponOptics",
+			"weaponFlashlight",
+			"pistolMuzzle"
+		};
+		itemSize[]={6,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\UMP9mm\ump_green_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
+		};
+
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=250;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+	};
+	class UMP9mm_Tan: UMP9mm_Base
+	{
+		scope=2;
+		displayName="UMP-9MM";
+		descriptionShort="A UMP chambered in 9x19 MM. The Heckler & Koch UMP is a submachine gun developed and manufactured by Heckler & Koch. Heckler & Koch developed the UMP as a lighter and cheaper successor to the MP5.";
+		model="\dz\weapons\firearms\UMP45\ump.p3d";
+		attachments[]=
+		{
+			"weaponWrap",
+			"weaponOptics",
+			"weaponFlashlight",
+			"pistolMuzzle"
+		};
+		itemSize[]={6,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\UMP9mm\ump_tan_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=250;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\firearms\UMP45\data\ump45_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+	};
 };

@@ -306,4 +306,233 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
 	};
+	class VAL556_Tan: VAL556_Base
+	{
+		scope=2;
+		displayName="VAL-556";
+		descriptionShort="AN ASVAL Chambered in 5.56x45.";
+		model="\dz\weapons\firearms\VSS\VAL.p3d";
+		PPDOFProperties[]={1,0.5,50,180.10001,4,10};
+		attachments[]=
+		{
+			"weaponWrap",
+			"WeaponOptics",
+			"weaponFlashlight"
+		};
+		magazines[]=
+		{
+			"Mag_CMAG_10Rnd",
+			"Mag_CMAG_20Rnd",
+			"Mag_CMAG_30Rnd",
+			"Mag_CMAG_40Rnd",
+			"Mag_CMAG_10Rnd_Green",
+			"Mag_CMAG_20Rnd_Green",
+			"Mag_CMAG_30Rnd_Green",
+			"Mag_CMAG_40Rnd_Green",
+			"Mag_CMAG_10Rnd_Black",
+			"Mag_CMAG_20Rnd_Black",
+			"Mag_CMAG_30Rnd_Black",
+			"Mag_CMAG_40Rnd_Black"
+		};
+		WeaponLength=0.89999998;
+		ObstructionDistance=0.67799997;
+		itemSize[]={8,3};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo_rails"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\val556\val_tan.paa",
+			"dz\weapons\firearms\VSS\data\val_rails_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"dz\weapons\firearms\VSS\data\val.rvmat",
+			"dz\weapons\firearms\VSS\data\val_rails.rvmat"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=250;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val_destruct.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class OpticsInfo: OpticsInfoRifle
+		{
+			discreteDistance[]={50,100,200};
+			discreteDistanceInitIndex=1;
+			modelOptics="-";
+			distanceZoomMin=160;
+			distanceZoomMax=160;
+		};
+		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
+	};
+
+	class VAL556_Green: VAL556_Base
+	{
+		scope=2;
+		displayName="VAL-556";
+		descriptionShort="AN ASVAL Chambered in 5.56x45.";
+		model="\dz\weapons\firearms\VSS\VAL.p3d";
+		PPDOFProperties[]={1,0.5,50,180.10001,4,10};
+		attachments[]=
+		{
+			"weaponWrap",
+			"WeaponOptics",
+			"weaponFlashlight"
+		};
+		magazines[]=
+		{
+			"Mag_CMAG_10Rnd",
+			"Mag_CMAG_20Rnd",
+			"Mag_CMAG_30Rnd",
+			"Mag_CMAG_40Rnd",
+			"Mag_CMAG_10Rnd_Green",
+			"Mag_CMAG_20Rnd_Green",
+			"Mag_CMAG_30Rnd_Green",
+			"Mag_CMAG_40Rnd_Green",
+			"Mag_CMAG_10Rnd_Black",
+			"Mag_CMAG_20Rnd_Black",
+			"Mag_CMAG_30Rnd_Black",
+			"Mag_CMAG_40Rnd_Black"
+		};
+		WeaponLength=0.89999998;
+		ObstructionDistance=0.67799997;
+		itemSize[]={8,3};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo_rails"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\val556\val_green.paa",
+			"dz\weapons\firearms\VSS\data\val_rails_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"dz\weapons\firearms\VSS\data\val.rvmat",
+			"dz\weapons\firearms\VSS\data\val_rails.rvmat"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=250;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"dz\weapons\firearms\VSS\data\val_destruct.rvmat",
+								"dz\weapons\firearms\VSS\data\val_rails_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class OpticsInfo: OpticsInfoRifle
+		{
+			discreteDistance[]={50,100,200};
+			discreteDistanceInitIndex=1;
+			modelOptics="-";
+			distanceZoomMin=160;
+			distanceZoomMax=160;
+		};
+		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
+	};
 };
