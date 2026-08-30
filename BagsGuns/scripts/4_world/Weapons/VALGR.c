@@ -15,7 +15,7 @@ class Bags_VALGR_Base : RifleBoltFree_Base
 		inventory.CreateInInventory( "Battery9V" );
 		inventory.CreateInInventory( "Battery9V" );
 		
-		SpawnAttachedMagazine("Bags_Mag_VALGR_30Rnd");
+		SpawnAttachedMagazine("Bags_Mag_VALGR_20Rnd");
 	}
 };
 

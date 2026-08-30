@@ -36,7 +36,7 @@ class cfgWeapons
 		};
 		magazines[]=
 		{
-			"Bags_Mag_VALGR_30Rnd"
+			"Bags_Mag_VALGR_20Rnd"
 		};
 		magazineSwitchTime=0.38;
 		ejectType=1;

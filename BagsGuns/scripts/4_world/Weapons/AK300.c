@@ -29,7 +29,7 @@ class Bags_AK300_Base : RifleBoltFree_Base
 		inventory.CreateInInventory( "Battery9V" );
 		inventory.CreateInInventory( "Battery9V" );
 
-		SpawnAttachedMagazine("Bags_Mag_AK300_30Rnd");
+		SpawnAttachedMagazine("Bags_Mag_AK300_20Rnd");
 	}
 };
 
