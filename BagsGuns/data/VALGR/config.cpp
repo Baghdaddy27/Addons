@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class Bags_VAL556
+	class Bags_VALGR
 	{
 		units[]={};
 		weapons[]={
 			
-			"Bags_VAL556"
+			"Bags_VALGR"
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -19,7 +19,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class Bags_VAL556_Base: Rifle_Base
+	class Bags_VALGR_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2600;
@@ -32,23 +32,11 @@ class cfgWeapons
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_556x45",
-			"Ammo_556x45Tracer"
+			"Bags_Ammo_65GR"
 		};
 		magazines[]=
 		{
-			"Mag_CMAG_10Rnd",
-			"Mag_CMAG_20Rnd",
-			"Mag_CMAG_30Rnd",
-			"Mag_CMAG_40Rnd",
-			"Mag_CMAG_10Rnd_Green",
-			"Mag_CMAG_20Rnd_Green",
-			"Mag_CMAG_30Rnd_Green",
-			"Mag_CMAG_40Rnd_Green",
-			"Mag_CMAG_10Rnd_Black",
-			"Mag_CMAG_20Rnd_Black",
-			"Mag_CMAG_30Rnd_Black",
-			"Mag_CMAG_40Rnd_Black"
+			"Bags_Mag_VALGR_30Rnd"
 		};
 		magazineSwitchTime=0.38;
 		ejectType=1;
@@ -69,8 +57,7 @@ class cfgWeapons
 		};
 		modes[]=
 		{
-			"SemiAuto",
-			"FullAuto"
+			"SemiAuto"
 		};
 		class SemiAuto: Mode_SemiAuto
 		{
@@ -82,25 +69,6 @@ class cfgWeapons
 			};
 			envShootingDecrease=0.050000001;
 			reloadTime=0.12;
-			recoil="recoil_VSS";
-			recoilProne="recoil_VSS_prone";
-			dispersion=0.0020000001;
-			magazineSlot="magazine";
-		};
-		class FullAuto: Mode_FullAuto
-		{
-			soundSetShot1st[]=
-			{
-				"VSS_1st_silencer_SoundSet",
-				"VSS_Shot_1st_iterior_SoundSet"
-			};
-			soundSetShot[]=
-			{
-				"VSS_silencer_SoundSet",
-				"VSS_silencerTail_SoundSet",
-				"VSS_silencerInteriorTail_SoundSet"
-			};
-			reloadTime=0.064999998;
 			recoil="recoil_VSS";
 			recoilProne="recoil_VSS_prone";
 			dispersion=0.0020000001;
@@ -192,11 +160,11 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
 	};
-	class Bags_VAL556: Bags_VAL556_Base
+	class Bags_VALGR: Bags_VALGR_Base
 	{
 		scope=2;
-		displayName="VAL-556";
-		descriptionShort="AN ASVAL Chambered in 5.56x45.";
+		displayName="VAL 6.5mm Grendel";
+		descriptionShort="A custom ASVAL Chambered in 6.5mm Grendel. The AS Val is a Soviet-designed integrally suppressed assault rifle introduced in the late 1980s. It was developed for special forces and military units that needed a compact weapon with reduced muzzle sound and flash.";
 		model="\dz\weapons\firearms\VSS\VAL.p3d";
 		PPDOFProperties[]={1,0.5,50,180.10001,4,10};
 		attachments[]=
@@ -204,21 +172,6 @@ class cfgWeapons
 			"weaponWrap",
 			"WeaponOptics",
 			"weaponFlashlight"
-		};
-		magazines[]=
-		{
-			"Mag_CMAG_10Rnd",
-			"Mag_CMAG_20Rnd",
-			"Mag_CMAG_30Rnd",
-			"Mag_CMAG_40Rnd",
-			"Mag_CMAG_10Rnd_Green",
-			"Mag_CMAG_20Rnd_Green",
-			"Mag_CMAG_30Rnd_Green",
-			"Mag_CMAG_40Rnd_Green",
-			"Mag_CMAG_10Rnd_Black",
-			"Mag_CMAG_20Rnd_Black",
-			"Mag_CMAG_30Rnd_Black",
-			"Mag_CMAG_40Rnd_Black"
 		};
 		WeaponLength=0.89999998;
 		ObstructionDistance=0.67799997;
@@ -235,7 +188,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"dz\weapons\firearms\VSS\data\val.rvmat",
+			"BagsGuns\data\VALGR\val.rvmat",
 			"dz\weapons\firearms\VSS\data\val_rails.rvmat"
 		};
 		class DamageSystem
@@ -252,7 +205,7 @@ class cfgWeapons
 							1,
 							
 							{
-								"dz\weapons\firearms\VSS\data\val.rvmat",
+								"BagsGuns\data\VALGR\val.rvmat",
 								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
 							}
 						},
@@ -261,7 +214,7 @@ class cfgWeapons
 							0.69999999,
 							
 							{
-								"dz\weapons\firearms\VSS\data\val.rvmat",
+								"BagsGuns\data\VALGR\val.rvmat",
 								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
 							}
 						},
@@ -270,7 +223,7 @@ class cfgWeapons
 							0.5,
 							
 							{
-								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
+								"BagsGuns\data\VALGR\val_damage.rvmat",
 								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
 							}
 						},
@@ -279,7 +232,7 @@ class cfgWeapons
 							0.30000001,
 							
 							{
-								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
+								"BagsGuns\data\VALGR\val_damage.rvmat",
 								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
 							}
 						},
@@ -288,7 +241,7 @@ class cfgWeapons
 							0,
 							
 							{
-								"dz\weapons\firearms\VSS\data\val_destruct.rvmat",
+								"BagsGuns\data\VALGR\val_destruct.rvmat",
 								"dz\weapons\firearms\VSS\data\val_rails_destruct.rvmat"
 							}
 						}
@@ -306,13 +259,12 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
 	};
-	class Bags_VAL556_Tan: Bags_VAL556_Base
+	class Bags_VALGR_Black: Bags_VALGR
 	{
 		scope=2;
-		displayName="VAL-556";
-		descriptionShort="AN ASVAL Chambered in 5.56x45.";
+		displayName="VAL 6.5mm Grendel";
+		descriptionShort="A custom ASVAL Chambered in 6.5mm Grendel. The AS Val is a Soviet-designed integrally suppressed assault rifle introduced in the late 1980s. It was developed for special forces and military units that needed a compact weapon with reduced muzzle sound and flash.";
 		model="\dz\weapons\firearms\VSS\VAL.p3d";
-		PPDOFProperties[]={1,0.5,50,180.10001,4,10};
 		hiddenSelections[]=
 		{
 			"camo",
@@ -320,7 +272,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\val556\val_tan.paa",
+			"BagsGuns\data\VALGR\val_black.paa",
 			"dz\weapons\firearms\VSS\data\val_rails_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
@@ -328,79 +280,12 @@ class cfgWeapons
 			"dz\weapons\firearms\VSS\data\val.rvmat",
 			"dz\weapons\firearms\VSS\data\val_rails.rvmat"
 		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=250;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val_destruct.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-		};
-		class OpticsInfo: OpticsInfoRifle
-		{
-			discreteDistance[]={50,100,200};
-			discreteDistanceInitIndex=1;
-			modelOptics="-";
-			distanceZoomMin=160;
-			distanceZoomMax=160;
-		};
-		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
 	};
-	class Bags_VAL556_Green: Bags_VAL556_Base
+	class Bags_VALGR_Tan: Bags_VALGR
 	{
 		scope=2;
-		displayName="VAL-556";
-		descriptionShort="AN ASVAL Chambered in 5.56x45.";
+		displayName="VAL 6.5mm Grendel";
+		descriptionShort="A custom ASVAL Chambered in 6.5mm Grendel. The AS Val is a Soviet-designed integrally suppressed assault rifle introduced in the late 1980s. It was developed for special forces and military units that needed a compact weapon with reduced muzzle sound and flash.";
 		model="\dz\weapons\firearms\VSS\VAL.p3d";
 		hiddenSelections[]=
 		{
@@ -409,7 +294,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\val556\val_green.paa",
+			"BagsGuns\data\VALGR\val_tan.paa",
 			"dz\weapons\firearms\VSS\data\val_rails_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
@@ -417,72 +302,26 @@ class cfgWeapons
 			"dz\weapons\firearms\VSS\data\val.rvmat",
 			"dz\weapons\firearms\VSS\data\val_rails.rvmat"
 		};
-		class DamageSystem
+	};
+	class Bags_VALGR_Green: Bags_VALGR
+	{
+		scope=2;
+		displayName="VAL 6.5mm Grendel";
+		descriptionShort="A custom ASVAL Chambered in 6.5mm Grendel. The AS Val is a Soviet-designed integrally suppressed assault rifle introduced in the late 1980s. It was developed for special forces and military units that needed a compact weapon with reduced muzzle sound and flash.";
+		hiddenSelections[]=
 		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=250;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val_damage.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"dz\weapons\firearms\VSS\data\val_destruct.rvmat",
-								"dz\weapons\firearms\VSS\data\val_rails_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
+			"camo",
+			"camo_rails"
 		};
-		class OpticsInfo: OpticsInfoRifle
+		hiddenSelectionsTextures[]=
 		{
-			discreteDistance[]={50,100,200};
-			discreteDistanceInitIndex=1;
-			modelOptics="-";
-			distanceZoomMin=160;
-			distanceZoomMax=160;
+			"BagsGuns\data\VALGR\val_green.paa",
+			"dz\weapons\firearms\VSS\data\val_rails_co.paa"
 		};
-		weaponStateAnim="dz\anims\anm\player\reloads\VSS\w_VSS_states.anm";
+		hiddenSelectionsMaterials[]=
+		{
+			"dz\weapons\firearms\VSS\data\val.rvmat",
+			"dz\weapons\firearms\VSS\data\val_rails.rvmat"
+		};
 	};
 };

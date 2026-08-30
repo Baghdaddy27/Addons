@@ -90,7 +90,7 @@ class Bags_SCARX_Base : RifleBoltLock_Base
         inventory.CreateInInventory( "M4_T3NRDSOptic" );
         inventory.CreateInInventory( "Battery9V" );
 
-        SpawnAttachedMagazine("Mag_SCARX_30Rnd");
+        SpawnAttachedMagazine("Bags_Mag_SCARX_30Rnd");
     }
 };
 

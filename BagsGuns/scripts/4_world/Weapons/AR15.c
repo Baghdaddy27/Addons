@@ -18,6 +18,8 @@ class Bags_AR15_Base : RifleBoltLock_Base
 		inventory.CreateInInventory( "M4_T3NRDSOptic" );	
 		inventory.CreateInInventory( "Battery9V" );
 		inventory.CreateInInventory( "Battery9V" );	
+
+		SpawnAttachedMagazine("Mag_AK74_30Rnd_Black");
 	}
 };
 

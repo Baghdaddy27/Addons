@@ -1,12 +1,11 @@
 class CfgPatches
 {
-	class Bags_AR10
+	class Bags_AK300
 	{
 		units[]={};
 		weapons[]={
 
-			"Bags_AR10"
-			
+			"Bags_AK300"
 		};
 		requiredVersion=0.1;
 		requiredAddons[] = {"DZ_Weapons_Firearms","DZ_Weapons_Magazines"};
@@ -20,42 +19,38 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class Bags_AR10_Base: Rifle_Base
+	class Bags_AK300_Base: Rifle_Base
 	{
 		scope=0;
-		weight=2276;
+		weight=2140;
 		absorbency=0;
 		repairableWithKits[]={1};
 		repairCosts[]={25};
-		PPDOFProperties[]={1,0.60000002,50,200,4,10};
+		PPDOFProperties[]={1,0.5,50,160,4,10};
 		ironsightsExcludingOptics[]=
 		{
-			"M4_CarryHandleOptic",
-			"BUISOptic",
-			"M68Optic",
-			"M4_T3NRDSOptic",
-			"ReflexOptic",
-			"ACOGOptic"
+			"KashtanOptic",
+			"GrozaOptic",
+			"KobraOptic"
 		};
-		WeaponLength=0.77999997;
-		ObstructionDistance=0.52600002;
-		ShoulderDistance=0.050000001;
-		barrelArmor=2.5;
+		WeaponLength=0.89999998;
+		ObstructionDistance=0.61199999;
+		barrelArmor=4.4439998;
 		initSpeedMultiplier=0.89999998;
 		chamberSize=1;
 		chamberedRound="";
 		chamberableFrom[]=
 		{
-			"Ammo_357"
+			"Bags_Ammo_65GR"
 		};
 		magazines[]=
 		{
-			"Bags_Mag_AR10_20Rnd"
+			"Bags_Mag_AR300_30Rnd"
 		};
-		magazineSwitchTime=0.5;
+		magazineSwitchTime=0.2;
 		ejectType=1;
 		recoilModifier[]={1,1,1};
-		swayModifier[]={2,2,0.75};
+		swayModifier[]={2,2,0.85000002};
 		simpleHiddenSelections[]=
 		{
 			"hide_barrel"
@@ -64,14 +59,14 @@ class cfgWeapons
 		{
 			"camo"
 		};
+		modes[]=
+		{
+			"SemiAuto"
+		};
 		class NoiseShoot
 		{
 			strength=80;
 			type="shot";
-		};
-		modes[]=
-		{
-			"SemiAuto"
 		};
 		class SemiAuto: Mode_SemiAuto
 		{
@@ -101,105 +96,51 @@ class cfgWeapons
 		class OpticsInfo: OpticsInfoRifle
 		{
 			memoryPointCamera="eye";
-			discreteDistance[]={25};
+			discreteDistance[]={100,200,300,400,500,600,700,800,900,1000};
 			discreteDistanceInitIndex=0;
 			modelOptics="-";
-			distanceZoomMin=25;
-			distanceZoomMax=25;
+			distanceZoomMin=100;
+			distanceZoomMax=1000;
 		};
-		weaponStateAnim="dz\anims\anm\player\reloads\M4A1\w_M4A1_states.anm";
 		class InventorySlotsOffsets
 		{
 			class Shoulder
 			{
-				position[]={-0.1,0,0.029999999};
-				orientation[]={0,0,0};
+				position[]={0,0,0.1};
+				orientation[]={0,45,0};
 			};
 			class Melee
 			{
-				position[]={-0.1,0,-0.039999999};
-				orientation[]={0,0,0};
+				position[]={0,0,-0.1};
+				orientation[]={0,-45,0};
 			};
 		};
+		weaponStateAnim="dz\anims\anm\player\reloads\AKM\w_AKM_states.anm";
 	};
-	class Bags_AR10: Bags_AR10_Base
+	class Bags_AK300: Bags_AK300_Base
 	{
 		scope=2;
-		displayName="AR15-357 Magnum";
-		descriptionShort="A custom AR15 chambered in .357 Magnum. An AR-15 style rifle is a lightweight semi-automatic rifle based on or similar to the Colt AR-15 design.";
-		model="\dz\weapons\firearms\m4\m4a1.p3d";
+		displayName="AK-300";
+		descriptionShort="A custom AKM chambered in 300 Blackout. An AK-47 is a type of gas-operated, magazine-fed assault rifle originally designed in the Soviet Union by Mikhail Kalashnikov. The name stands for Avtomat Kalashnikova, 1947.";
+		model="\dz\weapons\firearms\AKM\AKM.p3d";
 		attachments[]=
 		{
-			"weaponButtstockM4",
-			"WeaponHandguardM4",
+			"weaponButtstockAK",
+			"WeaponHandguardAK",
 			"weaponWrap",
-			"weaponOptics",
+			"weaponOpticsAK",
 			"weaponFlashlight",
-			"weaponMuzzleM4",
-			"weaponBayonet"
+			"weaponMuzzleAK",
+			"weaponBayonetAK"
 		};
 		itemSize[]={8,3};
-		spawnDamageRange[]={0,0.60000002};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR10\ar10_black_co.paa"
+			"BagsGuns\data\AK300\ak300_nocolor.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"dz\weapons\firearms\m4\data\m4_body.rvmat"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=200;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"DZ\weapons\firearms\M4\Data\m4_body.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"DZ\weapons\firearms\M4\Data\m4_body.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"DZ\weapons\firearms\M4\Data\m4_body_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"DZ\weapons\firearms\M4\Data\m4_body_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"DZ\weapons\firearms\M4\Data\m4_body_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
+			"dz\weapons\firearms\AKM\data\AKM.rvmat"
 		};
 		class Particles
 		{
@@ -211,17 +152,10 @@ class cfgWeapons
 				};
 				class MuzzleFlash
 				{
-					overrideParticle="weapon_shot_ump45_01";
+					overrideParticle="weapon_shot_akm_01";
 					ignoreIfSuppressed=1;
 					illuminateWorld=1;
-					positionOffset[]={0,0,0};
-				};
-				class MuzzleFlashStar
-				{
-					overrideParticle="weapon_shot_Flame_3D_4star";
-					ignoreIfSuppressed=1;
-					overrideDirectionVector[]={0,45,0};
-					positionOffset[]={0.0099999998,0,0};
+					positionOffset[]={-0.050000001,0,0};
 				};
 				class ChamberSmoke
 				{
@@ -239,33 +173,33 @@ class cfgWeapons
 				{
 					overrideParticle="smoking_barrel_small";
 					onlyWithinOverheatLimits[]={0,0.5};
-					positionOffset[]={0.2,0,0};
+					positionOffset[]={0.1,0,0};
 					onlyWithinRainLimits[]={0,0.2};
 				};
 				class SmokingBarrel2
 				{
 					overrideParticle="smoking_barrel";
 					onlyWithinOverheatLimits[]={0.5,0.69999999};
-					positionOffset[]={0.2,0,0};
+					positionOffset[]={0.1,0,0};
 					onlyWithinRainLimits[]={0,0.2};
 				};
 				class SmokingBarrel3
 				{
 					overrideParticle="smoking_barrel_heavy";
 					onlyWithinOverheatLimits[]={0.69999999,1};
-					positionOffset[]={0.2,0,0};
+					positionOffset[]={0.1,0,0};
 					onlyWithinRainLimits[]={0,0.2};
 				};
 				class SmokingBarrelHotSteamSmall
 				{
 					overrideParticle="smoking_barrel_steam_small";
-					positionOffset[]={0.34999999,0,0};
+					positionOffset[]={0.1,0,0};
 					onlyWithinRainLimits[]={0.2,0.5};
 				};
 				class SmokingBarrelHotSteam
 				{
 					overrideParticle="smoking_barrel_steam";
-					positionOffset[]={0.34999999,0,0};
+					positionOffset[]={0.1,0,0};
 					onlyWithinRainLimits[]={0.5,1};
 				};
 				class OpenChamberSmoke
@@ -284,29 +218,94 @@ class cfgWeapons
 				};
 			};
 		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=300;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"BagsGuns\data\AK300\ak300.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"BagsGuns\data\AK300\ak300.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"BagsGuns\data\AK300\ak300_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"BagsGuns\data\AK300\ak300_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"BagsGuns\data\AK300\ak300_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
 	};
-	class Bags_AR10_Green: Bags_AR10
+	class Bags_AK300_Black: Bags_AK300
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR10\ar10_green_co.paa"
+			"BagsGuns\data\AK300\ak300_black.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"dz\weapons\firearms\m4\data\m4_body.rvmat"
+			"BagsGuns\data\AK300\ak300.rvmat"
 		};
 	};
-	class Bags_AR10_Tan: Bags_AR10
+	class Bags_AK300_Green: Bags_AK300
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR10\ar10_tan_co.paa"
+			"BagsGuns\data\AK300\ak300_green.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"dz\weapons\firearms\m4\data\m4_body.rvmat"
+			"BagsGuns\data\AK300\ak300.rvmat"
+		};
+	};
+	class Bags_AK300_Tan: Bags_AK300
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\AK300\ak300_tan.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"BagsGuns\data\AK300\ak300.rvmat"
 		};
 	};
 };

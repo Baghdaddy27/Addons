@@ -198,13 +198,9 @@ class cfgWeapons
 		};
 		itemSize[]={8,3};
 		spawnDamageRange[]={0,0.60000002};
-		hiddenSelectionsTextures[]=
-		{
-			"BagsGuns\data\AR10\ar10_black_co.paa"
-		};
 		hiddenSelectionsMaterials[]=
 		{
-			"dz\weapons\firearms\m4\data\m4_body.rvmat"
+			"BagsGuns\data\AR15\ar15_body.rvmat"
 		};
 		class DamageSystem
 		{
@@ -220,7 +216,7 @@ class cfgWeapons
 							1,
 							
 							{
-								"DZ\weapons\firearms\M4\Data\m4_body.rvmat"
+								"BagsGuns\data\AR15\ar15_body.rvmat"
 							}
 						},
 						
@@ -228,7 +224,7 @@ class cfgWeapons
 							0.69999999,
 							
 							{
-								"DZ\weapons\firearms\M4\Data\m4_body.rvmat"
+								"BagsGuns\data\AR15\ar15_body.rvmat"
 							}
 						},
 						
@@ -236,7 +232,7 @@ class cfgWeapons
 							0.5,
 							
 							{
-								"DZ\weapons\firearms\M4\Data\m4_body_damage.rvmat"
+								"BagsGuns\data\AR15\ar15_body_damage.rvmat"
 							}
 						},
 						
@@ -244,7 +240,7 @@ class cfgWeapons
 							0.30000001,
 							
 							{
-								"DZ\weapons\firearms\M4\Data\m4_body_damage.rvmat"
+								"BagsGuns\data\AR15\ar15_body_damage.rvmat"
 							}
 						},
 						
@@ -252,7 +248,7 @@ class cfgWeapons
 							0,
 							
 							{
-								"DZ\weapons\firearms\M4\Data\m4_body_destruct.rvmat"
+								"BagsGuns\data\AR15\ar15_body_destruct.rvmat"
 							}
 						}
 					};
@@ -343,16 +339,28 @@ class cfgWeapons
 			};
 		};
 	};
+	class Bags_AR15_Black: Bags_AR15
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\AR15\ar15_black_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"BagsGuns\data\AR15\ar15_body.rvmat"
+		};
+	};
 	class Bags_AR15_Green: Bags_AR15
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR10\ar10_green_co.paa"
+			"BagsGuns\data\ar15\ar15_green_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"dz\weapons\firearms\m4\data\m4_body.rvmat"
+			"BagsGuns\data\AR15\ar15_body.rvmat"
 		};
 	};
 	class Bags_AR15_Tan: Bags_AR15
@@ -360,11 +368,11 @@ class cfgWeapons
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\AR10\ar10_tan_co.paa"
+			"BagsGuns\data\ar15\ar15_tan_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"dz\weapons\firearms\m4\data\m4_body.rvmat"
+			"BagsGuns\data\AR15\ar15_body.rvmat"
 		};
 	};
 };

@@ -1,4 +1,4 @@
-class Bags_VAL556_Base : RifleBoltFree_Base
+class Bags_VALGR_Base : RifleBoltFree_Base
 {
 	override RecoilBase SpawnRecoilObject()
 	{
@@ -15,8 +15,8 @@ class Bags_VAL556_Base : RifleBoltFree_Base
 		inventory.CreateInInventory( "Battery9V" );
 		inventory.CreateInInventory( "Battery9V" );
 		
-		SpawnAttachedMagazine("Mag_CMAG_30Rnd");
+		SpawnAttachedMagazine("Bags_Mag_VALGR_30Rnd");
 	}
 };
 
-class Bags_VAL556 : Bags_VAL556_Base {};
+class Bags_VALGR : Bags_VALGR_Base {};

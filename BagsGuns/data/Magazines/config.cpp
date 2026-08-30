@@ -5,9 +5,9 @@ class CfgPatches
         units[]=
         {
 			"Bags_Mag_AR300_30Rnd",
-			"Bags_Mag_UMP9mm_30Rnd",
+			"Bags_Mag_VALGR_30Rnd",
 			"Bags_Mag_Glock21_15Rnd",
-			"Bags_Mag_AR10_20Rnd",
+			"Bags_Mag_UMP9mm_30Rnd",
 			"Bags_Mag_UMP40_30Rnd",
 			"Bags_Mag_SCARX_30Rnd"
         };
@@ -269,20 +269,21 @@ class CfgMagazines
 			};
 		};
 	};
-	class Bags_Mag_AR10_20Rnd: Magazine_Base
+	class Bags_Mag_AR300_30Rnd: Magazine_Base
 	{
 		scope=2;
-		displayName="AR15-357 Magazine";
-		descriptionShort="A 20 round magazine chambered for .357 Magnum.";
-		model="\DZ\weapons\attachments\magazine\magazine_val.p3d";
-		weight=550;
-		weightPerQuantityUnit=16;
-		itemSize[]={1,2};
-		count=20;
-		ammo="Bullet_357";
+		displayName="300 Blackout Magazine";
+		descriptionShort="A 30 round magazine chambered for the .300 Blackout.";
+		color="300BK";
+		model="\DZ\weapons\attachments\magazine\magazine_akm_palm30.p3d";
+		weight=430;
+		weightPerQuantityUnit=9;
+		itemSize[]={1,3};
+		count=30;
+		ammo="Bags_Bullet_300BK";
 		ammoItems[]=
 		{
-			"Ammo_357"
+			"Bags_Ammo_300BK"
 		};
 		tracersEvery=0;
 		hiddenSelections[]=
@@ -291,11 +292,11 @@ class CfgMagazines
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\Magazines\300bk_mag_co.paa"
+			"BagsGuns\data\Magazines\mag_300bk_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"dz\weapons\attachments\magazine\data\val_mag.rvmat"
+			"DZ\weapons\attachments\data\akm_accessories.rvmat"
 		};
 		class DamageSystem
 		{
@@ -311,15 +312,14 @@ class CfgMagazines
 							1,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag.rvmat"
+								"DZ\weapons\attachments\data\akm_accessories.rvmat"
 							}
 						},
-						
 						{
 							0.69999999,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag.rvmat"
+								"DZ\weapons\attachments\data\akm_accessories.rvmat"
 							}
 						},
 						
@@ -327,7 +327,7 @@ class CfgMagazines
 							0.5,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag_damage.rvmat"
+								"DZ\weapons\attachments\data\akm_accessories_damage.rvmat"
 							}
 						},
 						
@@ -335,7 +335,7 @@ class CfgMagazines
 							0.30000001,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag_damage.rvmat"
+								"DZ\weapons\attachments\data\akm_accessories_damage.rvmat"
 							}
 						},
 						
@@ -343,13 +343,13 @@ class CfgMagazines
 							0,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag_destruct.rvmat"
+								"DZ\weapons\attachments\data\akm_accessories_destruct.rvmat"
 							}
 						}
 					};
 				};
 			};
-		};
+		};		
 		class AnimEvents
 		{
 			class SoundWeapon
@@ -417,20 +417,20 @@ class CfgMagazines
 			};
 		};
 	};
-	class Bags_Mag_AR300_30Rnd: Magazine_Base
+	class Bags_Mag_VALGR_30Rnd: Magazine_Base
 	{
 		scope=2;
-		displayName="AR15-300 Blackout Magazine";
-		descriptionShort="A 30 round magazine chambered for .300 Blackout.";
-		model="\DZ\weapons\attachments\magazine\magazine_val.p3d";
-		weight=550;
+		displayName="VAL-GR Magazine";
+		descriptionShort="A 30 round magazine chambered for the 6.5mm Grendel.";
+		model="\DZ\weapons\attachments\magazine\magazine_vikhr_30rnd.p3d";
+		weight=750;
 		weightPerQuantityUnit=16;
-		itemSize[]={1,2};
+		itemSize[]={1,3};
 		count=30;
-		ammo="Bags_Bullet_300BK";
+		ammo="Bags_Bullet_65GR";
 		ammoItems[]=
 		{
-			"Bags_Ammo_300BK"
+			"Bags_Ammo_65GR"
 		};
 		tracersEvery=0;
 		hiddenSelections[]=
@@ -439,11 +439,11 @@ class CfgMagazines
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\Magazines\300bk_mag_co.paa"
+			"BagsGuns\data\Magazines\magazine_65gr_30rnd_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"dz\weapons\attachments\magazine\data\val_mag.rvmat"
+			"BagsGuns\data\Magazines\magazine_valgr_30rnd.rvmat"
 		};
 		class DamageSystem
 		{
@@ -459,7 +459,7 @@ class CfgMagazines
 							1,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag.rvmat"
+								"BagsGuns\data\Magazines\magazine_valgr_30rnd.rvmat"
 							}
 						},
 						
@@ -467,7 +467,7 @@ class CfgMagazines
 							0.69999999,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag.rvmat"
+								"BagsGuns\data\Magazines\magazine_valgr_30rnd.rvmat"
 							}
 						},
 						
@@ -475,7 +475,7 @@ class CfgMagazines
 							0.5,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag_damage.rvmat"
+								"BagsGuns\data\Magazines\magazine_valgr_30rnd_damage.rvmat"
 							}
 						},
 						
@@ -483,7 +483,7 @@ class CfgMagazines
 							0.30000001,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag_damage.rvmat"
+								"BagsGuns\data\Magazines\magazine_valgr_30rnd_damage.rvmat"
 							}
 						},
 						
@@ -491,7 +491,7 @@ class CfgMagazines
 							0,
 							
 							{
-								"DZ\weapons\attachments\magazine\data\val_mag_destruct.rvmat"
+								"BagsGuns\data\Magazines\magazine_valgr_30rnd_destruct.rvmat"
 							}
 						}
 					};

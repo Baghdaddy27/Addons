@@ -17,7 +17,7 @@ class Bags_Glock21_Base : Pistol_Base
 		inventory.CreateInInventory( "Battery9V" );
 		inventory.CreateInInventory( "Battery9V" );
 		
-		SpawnAttachedMagazine("Mag_Glock21_15Rnd");
+		SpawnAttachedMagazine("Bags_Mag_Glock21_15Rnd");
 	}
 };
 

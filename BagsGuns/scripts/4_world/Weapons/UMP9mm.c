@@ -15,7 +15,7 @@ class Bags_UMP9mm_Base : RifleBoltLock_Base
 		inventory.CreateInInventory( "Battery9V" );
 		inventory.CreateInInventory( "Battery9V" );
 		
-		SpawnAttachedMagazine("Mag_UMP9mm_30Rnd");
+		SpawnAttachedMagazine("Bags_Mag_UMP9mm_30Rnd");
 	}
 };
 
