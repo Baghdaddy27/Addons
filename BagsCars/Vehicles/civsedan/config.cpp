@@ -29,14 +29,14 @@ class cfgVehicles
     class CivilianSedan;
     class Reflector_1_1;
 	class Reflector_2_1;
-	class CivSedan_Hood;
-	class CivSedan_Trunk;
-	class CivSedan_Doors_Driver;
-	class CivSedan_Doors_CoDriver;
-	class CivSedan_Doors_BackLeft;
-	class CivSedan_Doors_BackRight;
+	class CivSedanHood;
+	class CivSedanTrunk;
+	class CivSedanDoors_Driver;
+	class CivSedanDoors_CoDriver;
+	class CivSedanDoors_BackLeft;
+	class CivSedanDoors_BackRight;
 
-    // Blue
+    // MAIN Blue
     class Bags_Olga_Blue: CivilianSedan
     {
         scope = 2;
@@ -435,7 +435,7 @@ class cfgVehicles
         };
     };
 
-    // CC
+    // MAIN  CC
     class Bags_Olga_CC: CivilianSedan
     {
         scope = 2;
@@ -835,7 +835,7 @@ class cfgVehicles
         };
     };
 
-    // Erdl
+    // MAIN Erdl
     class Bags_Olga_ERDL: CivilianSedan
     {
         scope = 2;
@@ -1234,7 +1234,7 @@ class cfgVehicles
         };
     };
 
-    // Green
+    // MAIN  Green
     class Bags_Olga_Green: CivilianSedan
     {
         scope = 2;
@@ -1633,7 +1633,7 @@ class cfgVehicles
         };
     };
 
-    // Orange
+    // MAIN Orange
     class Bags_Olga_Orange: CivilianSedan
     {
         scope = 2;

@@ -353,7 +353,7 @@ class cfgVehicles
     };
 
     // CC
-    class OffroadHatchback_CC: OffroadHatchback
+    class Bags_Ada_CC: OffroadHatchback
     {
         scope = 2;
         displayName = "ADA 4x4 Desert (CC)";

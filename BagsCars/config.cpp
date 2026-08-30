@@ -29,6 +29,14 @@ class CfgMods
 		version = "1.0";
 		extra = 0;
 		type = "mod";
-		dependencies[] = {};
+		dependencies[] = {"World"};
+		class defs
+		{
+			class worldScriptModule
+			{
+				value = "";
+				files[] = {"BagsGuns\scripts\4_world"};
+			};
+		};
 	};
 };
