@@ -125,16 +125,16 @@ class CfgMagazines
 	};
 
 	// MAGS
-	class Bags_Mag_SCARX_30Rnd: Magazine_Base
+	class Bags_Mag_SCARX_20Rnd: Magazine_Base
 	{
 		scope=2;
 		displayName="SCAR-X Magazine";
-		descriptionShort="A 30 round magazine chambered for 6.5mm Grendel.";
+		descriptionShort="A 20 round magazine chambered for 6.5mm Grendel.";
 		model="dz\weapons\attachments\magazine\magazine_SCARH_20rnd.p3d";
 		weight=275;
 		weightPerQuantityUnit=10;
 		itemSize[]={1,2};
-		count=30;
+		count=20;
 		ammo="Bags_Bullet_65GR";
 		ammoItems[]=
 		{
@@ -147,7 +147,7 @@ class CfgMagazines
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"BagsGuns\data\Magazines\magazine_scar_30rnd_co.paa"
+			"BagsGuns\data\Magazines\magazine_scar_20rnd_co.paa"
 		};
 		class DamageSystem
 		{
@@ -417,11 +417,11 @@ class CfgMagazines
 			};
 		};
 	};
-	class Bags_Mag_VALGR_30Rnd: Magazine_Base
+	class Bags_Mag_VALGR_20Rnd: Magazine_Base
 	{
 		scope=2;
 		displayName="VAL-GR Magazine";
-		descriptionShort="A 30 round magazine chambered for the 6.5mm Grendel.";
+		descriptionShort="A 20 round magazine chambered for the 6.5mm Grendel.";
 		model="\DZ\weapons\attachments\magazine\magazine_val.p3d";
 		weight=750;
 		weightPerQuantityUnit=16;
