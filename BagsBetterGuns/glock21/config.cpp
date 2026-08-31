@@ -1,0 +1,612 @@
+class CfgPatches
+{
+	class Bags_Glock21
+	{
+		units[]=
+		{
+			"Bags_Glock21"
+		};
+		weapons[]={};
+		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"DZ_Data",
+			"DZ_Pistols"
+		};
+	};
+};
+class Mode_Safe;
+class Mode_SemiAuto;
+class Mode_Burst;
+class Mode_FullAuto;
+class OpticsInfoPistol;
+class cfgWeapons
+{
+	class Pistol_Base;
+	class Bags_Glock21_Base: Pistol_Base
+	{
+		scope=0;
+		weight=1000;
+		absorbency=0;
+		repairableWithKits[]={1};
+		repairCosts[]={25};
+		PPDOFProperties[]={1,0.5,10,250,4,10};
+		WeaponLength=0.20999999;
+		ShoulderDistance=0.40000001;
+		ObstructionDistance=0.43099999;
+		barrelArmor=1.5;
+		chamberSize=1;
+		chamberedRound="";
+		magazines[]=
+		{
+			"Bags_Mag_Glock21_15Rnd"
+		};
+		chamberableFrom[]=
+		{
+			"Ammo_Bags_40CAL"
+		};
+		ejectType=1;
+		recoilModifier[]={1,1,1};
+		swayModifier[]={1.1,1.1,0.5};
+		class NoiseShoot
+		{
+			strength=40;
+			type="shot";
+		};
+		modes[]=
+		{
+			"SemiAuto"
+		};
+		class SemiAuto: Mode_SemiAuto
+		{
+			soundSetShot[]=
+			{
+				"colt1911_Shot_SoundSet",
+				"colt1911_Tail_2D_SoundSet",
+				"colt1911_Shot_iterior_SoundSet",
+				"colt1911_Tail_SoundSet",
+				"colt1911_InteriorTail_SoundSet"
+			};
+			soundSetShotExt[]=
+			{
+				
+				{
+					"colt1911_silencer_SoundSet",
+					"colt1911_silencerTail_SoundSet",
+					"colt1911_silencerInteriorTail_SoundSet"
+				},
+				
+				{
+					"colt1911_silencerHomeMade_SoundSet",
+					"colt1911_silencerHomeMadeTail_SoundSet",
+					"colt1911_silencerInteriorHomeMadeTail_SoundSet"
+				}
+			};
+			reloadTime=0.13;
+			recoil="recoil_Glock";
+			recoilProne="recoil_Glock_prone";
+			dispersion=0.003;
+			magazineSlot="magazine";
+		};
+		class OpticsInfo: OpticsInfoPistol
+		{
+			memoryPointCamera="eye";
+			discreteDistance[]={25};
+			discreteDistanceInitIndex=0;
+			modelOptics="-";
+			distanceZoomMin=100;
+			distanceZoomMax=100;
+		};
+		weaponStateAnim="dz\anims\anm\player\reloads\Glock\w_Glock19_states.anm";
+	};
+	class Bags_Glock21: Bags_Glock21_Base
+	{
+		scope=2;
+		displayName="Glock-21";
+		descriptionShort="A Glock pistol in .40 S&W.";
+		model="\dz\weapons\pistols\glock\Glock19.p3d";
+		attachments[]=
+		{
+			"pistolOptics",
+			"pistolFlashlight",
+			"pistolMuzzle"
+		};
+		itemSize[]={3,2};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=150;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class Particles
+		{
+			class OnFire
+			{
+				class SmokeCloud
+				{
+					overrideParticle="weapon_shot_winded_smoke";
+				};
+				class MuzzleFlash
+				{
+					overrideParticle="weapon_shot_fnx_01";
+					ignoreIfSuppressed=1;
+					illuminateWorld=1;
+					positionOffset[]={0,0,0};
+				};
+			};
+			class OnOverheating
+			{
+				maxOverheatingValue=8;
+				shotsToStartOverheating=8;
+				overheatingDecayInterval=1;
+				class SmokingBarrel1
+				{
+					overrideParticle="smoking_barrel_small";
+					onlyWithinOverheatLimits[]={0,1};
+					positionOffset[]={0,0,0};
+					onlyWithinRainLimits[]={0,1};
+				};
+				class OpenChamberSmoke
+				{
+					onlyIfBoltIsOpen=1;
+					overrideParticle="smoking_barrel_small";
+					overridePoint="Nabojnicestart";
+				};
+			};
+			class OnBulletCasingEject
+			{
+				class ChamberSmokeRaise
+				{
+					overrideParticle="weapon_shot_chamber_smoke";
+					overridePoint="Nabojnicestart";
+				};
+			};
+		};
+	};
+	class Bags_Glock21_Green: Bags_Glock21_Base
+	{
+		scope=2;
+		displayName="Glock-21";
+		descriptionShort="A Glock pistol in .40 S&W.";
+		model="\dz\weapons\pistols\glock\Glock19.p3d";
+		hiddenSelections[]=
+		{
+			"zbytek"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\glock21\glock_green_co.paa"
+		};
+		attachments[]=
+		{
+			"pistolOptics",
+			"pistolFlashlight",
+			"pistolMuzzle"
+		};
+		itemSize[]={3,2};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=150;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class Particles
+		{
+			class OnFire
+			{
+				class SmokeCloud
+				{
+					overrideParticle="weapon_shot_winded_smoke";
+				};
+				class MuzzleFlash
+				{
+					overrideParticle="weapon_shot_fnx_01";
+					ignoreIfSuppressed=1;
+					illuminateWorld=1;
+					positionOffset[]={0,0,0};
+				};
+			};
+			class OnOverheating
+			{
+				maxOverheatingValue=8;
+				shotsToStartOverheating=8;
+				overheatingDecayInterval=1;
+				class SmokingBarrel1
+				{
+					overrideParticle="smoking_barrel_small";
+					onlyWithinOverheatLimits[]={0,1};
+					positionOffset[]={0,0,0};
+					onlyWithinRainLimits[]={0,1};
+				};
+				class OpenChamberSmoke
+				{
+					onlyIfBoltIsOpen=1;
+					overrideParticle="smoking_barrel_small";
+					overridePoint="Nabojnicestart";
+				};
+			};
+			class OnBulletCasingEject
+			{
+				class ChamberSmokeRaise
+				{
+					overrideParticle="weapon_shot_chamber_smoke";
+					overridePoint="Nabojnicestart";
+				};
+			};
+		};
+	};
+	class Bags_Glock21_Tan: Bags_Glock21_Base
+	{
+		scope=2;
+		displayName="Glock-21";
+		descriptionShort="A Glock pistol in .40 S&W.";
+		model="\dz\weapons\pistols\glock\Glock19.p3d";
+		hiddenSelections[]=
+		{
+			"zbytek"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\glock21\glock_tan_co.paa"
+		};
+		attachments[]=
+		{
+			"pistolOptics",
+			"pistolFlashlight",
+			"pistolMuzzle"
+		};
+		itemSize[]={3,2};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=150;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\pistols\glock\data\glock19_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class Particles
+		{
+			class OnFire
+			{
+				class SmokeCloud
+				{
+					overrideParticle="weapon_shot_winded_smoke";
+				};
+				class MuzzleFlash
+				{
+					overrideParticle="weapon_shot_fnx_01";
+					ignoreIfSuppressed=1;
+					illuminateWorld=1;
+					positionOffset[]={0,0,0};
+				};
+			};
+			class OnOverheating
+			{
+				maxOverheatingValue=8;
+				shotsToStartOverheating=8;
+				overheatingDecayInterval=1;
+				class SmokingBarrel1
+				{
+					overrideParticle="smoking_barrel_small";
+					onlyWithinOverheatLimits[]={0,1};
+					positionOffset[]={0,0,0};
+					onlyWithinRainLimits[]={0,1};
+				};
+				class OpenChamberSmoke
+				{
+					onlyIfBoltIsOpen=1;
+					overrideParticle="smoking_barrel_small";
+					overridePoint="Nabojnicestart";
+				};
+			};
+			class OnBulletCasingEject
+			{
+				class ChamberSmokeRaise
+				{
+					overrideParticle="weapon_shot_chamber_smoke";
+					overridePoint="Nabojnicestart";
+				};
+			};
+		};
+	};
+};
+
+// MAGAZINE
+class cfgMagazines
+{
+	class Magazine_Base;
+	class Bags_Mag_Glock21_15Rnd: Magazine_Base
+	{
+		scope=2;
+		displayName="Glock-21 Magazine";
+		descriptionShort="A 15 round magazine chambered for .40 S&W.";
+		model="\DZ\weapons\attachments\magazine\magazine_glock19.p3d";
+		hiddenSelections[]=
+		{
+			"zbytek"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"BagsGuns\data\Magazines\glock21_mag_co.paa"
+		};
+		weight=131;
+		weightPerQuantityUnit=8;
+		itemSize[]={1,2};
+		count=15;
+		ammo="Bullet_Bags_40CAL";
+		ammoItems[]=
+		{
+			"Ammo_Bags_40CAL"
+		};
+		tracersEvery=0;
+		mass=10;
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=100;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\glock19_mag.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\glock19_mag.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\glock19_mag_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\glock19_mag_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\weapons\attachments\magazine\data\glock19_mag_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class MagRifle_fill_in
+				{
+					soundSet="MagRifle_fill_in_SoundSet";
+					id=1;
+				};
+				class MagRifle_fill_loop
+				{
+					soundSet="MagRifle_fill_loop_SoundSet";
+					id=2;
+				};
+				class MagRifle_fill_out
+				{
+					soundSet="MagRifle_fill_out_SoundSet";
+					id=3;
+				};
+				class MagRifle_empty_in
+				{
+					soundSet="MagRifle_empty_in_SoundSet";
+					id=4;
+				};
+				class MagRifle_empty_loop
+				{
+					soundSet="MagRifle_empty_loop_SoundSet";
+					id=5;
+				};
+				class MagRifle_empty_out
+				{
+					soundSet="MagRifle_empty_out_SoundSet";
+					id=6;
+				};
+				class MagPistol_fill_in
+				{
+					soundSet="MagPistol_fill_in_SoundSet";
+					id=7;
+				};
+				class MagPistol_fill_loop
+				{
+					soundSet="MagPistol_fill_loop_SoundSet";
+					id=8;
+				};
+				class MagPistol_fill_out
+				{
+					soundSet="MagPistol_fill_out_SoundSet";
+					id=9;
+				};
+				class MagPistol_empty_in
+				{
+					soundSet="MagPistol_empty_in_SoundSet";
+					id=10;
+				};
+				class MagPistol_empty_loop
+				{
+					soundSet="MagPistol_empty_loop_SoundSet";
+					id=11;
+				};
+				class MagPistol_empty_out
+				{
+					soundSet="MagPistol_empty_out_SoundSet";
+					id=12;
+				};
+			};
+		};
+	};
+};
+class CfgNonAIVehicles
+{
+	class ProxyAttachment;
+	class ProxyBags_Mag_Glock21_15Rnd: ProxyAttachment
+	{
+		scope = 0;
+		inventorySlot = "magazine";
+		model="\DZ\weapons\attachments\magazine\magazine_glock19.p3d";
+	};
+};

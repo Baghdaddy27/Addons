@@ -270,7 +270,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="SCAR-L";
-		descriptionShort="A custom SCAR chambered in 5.56x45 NATO. The FN SCAR Combat Assault Rifle is a family of gas-operated short-stroke gas piston automatic rifles developed by Belgian manufacturer FN Herstal in 2004.";
+		descriptionShort="A custom SCAR chambered in 5.56x45 NATO. Can accept all 5.56 CMAGs but not STANAG. The FN SCAR Combat Assault Rifle is a family of gas-operated short-stroke gas piston automatic rifles developed by Belgian manufacturer FN Herstal in 2004.";
 		model="\DZ\weapons\firearms\SCARH\ScarH.p3d";
 		attachments[]=
 		{

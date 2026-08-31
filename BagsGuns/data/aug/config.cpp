@@ -276,20 +276,7 @@ class cfgWeapons
 		{
 			"Mag_Aug_30Rnd",
 			"Mag_STANAG_30Rnd",
-			"Mag_STANAGCoupled_30Rnd",
-			"Mag_STANAG_60Rnd",
-			"Mag_CMAG_10Rnd",
-			"Mag_CMAG_20Rnd",
-			"Mag_CMAG_30Rnd",
-			"Mag_CMAG_40Rnd",
-			"Mag_CMAG_10Rnd_Green",
-			"Mag_CMAG_20Rnd_Green",
-			"Mag_CMAG_30Rnd_Green",
-			"Mag_CMAG_40Rnd_Green",
-			"Mag_CMAG_10Rnd_Black",
-			"Mag_CMAG_20Rnd_Black",
-			"Mag_CMAG_30Rnd_Black",
-			"Mag_CMAG_40Rnd_Black"
+			"Mag_STANAG_60Rnd"
 		};
 		attachments[]=
 		{

@@ -124,7 +124,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Bags_AmmoBox_300BK_20Rnd">
+    <type name="AmmoBox_Bags_300_Blackout_20Rnd">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -134,7 +134,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Bags_AmmoBox_40CAL_25Rnd">
+    <type name="AmmoBox_Bags_40CAL_25Rnd">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -144,7 +144,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Bags_AmmoBox_65GR_20Rnd">
+    <type name="AmmoBox_Bags_65_Grendel_20Rnd">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -154,7 +154,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Bags_Ammo_300BK">
+    <type name="Ammo_Bags_300_Blackout">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -164,7 +164,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Bags_Ammo_40CAL">
+    <type name="Ammo_Bags_40CAL">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -174,7 +174,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Bags_Ammo_65GR">
+    <type name="Ammo_Bags_65_Grendel">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
