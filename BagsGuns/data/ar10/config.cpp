@@ -133,8 +133,8 @@ class cfgWeapons
 	class Bags_AR10: Bags_AR10_Base
 	{
 		scope=2;
-		displayName="AR15-545";
-		descriptionShort="A custom AR15 chambered in 5.45x39. An AR-15 style rifle is a lightweight semi-automatic rifle based on or similar to the Colt AR-15 design.";
+		displayName="AR10";
+		descriptionShort="A custom AR15 chambered in 7.62x39. Can accept Polymer AKM Magazines. An AR-15 style rifle is a lightweight semi-automatic rifle based on or similar to the Colt AR-15 design.";
 		model="\dz\weapons\firearms\m4\m4a1.p3d";
 		attachments[]=
 		{
