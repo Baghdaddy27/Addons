@@ -190,7 +190,7 @@ class Bags_Gunter_Teal extends Hatchback_02
 	}
 };
 
-class Bags_Gunter_URB extends Hatchback_02
+class Bags_Gunter_Urb extends Hatchback_02
 {
     override void OnDebugSpawn()
     {

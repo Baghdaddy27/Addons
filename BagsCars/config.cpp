@@ -35,7 +35,7 @@ class CfgMods
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"BagsGuns\scripts\4_world"};
+				files[] = {"BagsCars\scripts\4_world"};
 			};
 		};
 	};

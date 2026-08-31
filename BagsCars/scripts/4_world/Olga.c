@@ -222,7 +222,7 @@ class Bags_Olga_Teal extends CivilianSedan
 	}
 }
 
-class Bags_Olga_URB extends CivilianSedan
+class Bags_Olga_Urb extends CivilianSedan
 {
     override void OnDebugSpawn()
     {

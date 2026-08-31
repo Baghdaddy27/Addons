@@ -254,7 +254,7 @@ class Bags_Sarka_Teal extends Sedan_02
 	}
 }
 
-class Bags_Sarka_URB extends Sedan_02
+class Bags_Sarka_Urb extends Sedan_02
 {
     override void OnDebugSpawn()
     {
