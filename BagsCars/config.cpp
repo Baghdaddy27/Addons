@@ -26,7 +26,7 @@ class CfgMods
 		credits = "Baghdaddy27";
 		author = "Baghdaddy27";
 		authorID = "76561197977560525";
-		version = "1.0";
+		version = "1.5";
 		extra = 0;
 		type = "mod";
 		dependencies[] = {"World"};
