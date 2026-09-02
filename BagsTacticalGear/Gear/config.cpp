@@ -627,42 +627,6 @@ class CfgVehicles
 
 // PLATE CARRIERS
     class PlateCarrierVest;
-    class Bags_PressVest_Bag: PlateCarrierVest
-    {
-        scope = 2;
-        displayName = "Ballistic Vest UCP";
-        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
-		hiddenSelections[]=
-		{
-			"camoGround",
-			"camoMale",
-			"camoFemale"
-		};
-		hiddenSelectionsTextures[]=
-        {
-            "BagsTacticalGear\Gear\Vests\ballisticvest_bag_co.paa",
-            "BagsTacticalGear\Gear\Vests\ballisticvest_bag_co.paa",
-            "BagsTacticalGear\Gear\Vests\ballisticvest_bag_co.paa"
-        };
-    };
-    class Bags_PressVest_Smith: PlateCarrierVest
-    {
-        scope = 2;
-        displayName = "Ballistic Vest UCP";
-        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
-		hiddenSelections[]=
-		{
-			"camoGround",
-			"camoMale",
-			"camoFemale"
-		};
-		hiddenSelectionsTextures[]=
-        {
-            "BagsTacticalGear\Gear\Vests\ballisticvest_smith_co.paa",
-            "BagsTacticalGear\Gear\Vests\ballisticvest_smith_co.paa",
-            "BagsTacticalGear\Gear\Vests\ballisticvest_smith_co.paa"
-        };
-    };
     class Bags_PressVest_ACU: PlateCarrierVest
     {
         scope = 2;
@@ -1923,6 +1887,22 @@ class CfgVehicles
     };
 
 
+// Flat Helmet
+class BallisticHelmet_Colorbase;
+class Bags_BallisticHelmet_DST: BallisticHelmet_Colorbase
+    {
+        scope = 2;
+        displayName = "Ballistic Helmet Flat-Tan";
+        descriptionShort = "A Ballistic Helmet with a Flat-Tan hue.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa",
+            "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa"
+        };
+    };
+
+
 //BallisticHelmet
     class BallisticHelmet_BDU;
     class Bags_BallisticHelmet_ACU: BallisticHelmet_BDU
@@ -2050,18 +2030,6 @@ class CfgVehicles
 			male="\DZ\characters\headgear\pasgt_m.p3d";
 			female="\DZ\characters\headgear\pasgt_f.p3d";
 		};
-    };
-    class Bags_BallisticHelmet_DST: BallisticHelmet_BDU
-    {
-        scope = 2;
-        displayName = "Ballistic Helmet Flat-Tan";
-        descriptionShort = "A Ballistic Helmet with a Flat-Tan hue.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa",
-            "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa",
-            "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa"
-        };
     };
     class Bags_BallisticHelmet_EGT: BallisticHelmet_BDU
     {
@@ -2899,24 +2867,6 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_acu.paa"
         };
     };
-    class Bags_Tortillabag_BLK: TortillaBag
-    {
-        scope = 2;
-        displayName = "Tortillabag Black";
-        descriptionShort = "A Tortillabag with a Black Hue.";
-        hiddenSelections[]=
-		{
-			"camoGround",
-			"camoMale",
-			"camoFemale"
-		};
-        hiddenSelectionsTextures[] =
-        {
-            "\BagsTacticalGear\Gear\Bags\tortilla_blk.paa",
-            "\BagsTacticalGear\Gear\Bags\tortilla_blk.paa",
-            "\BagsTacticalGear\Gear\Bags\tortilla_blk.paa"
-        };
-    };
     class Bags_Tortillabag_CAN: TortillaBag
     {
         scope = 2;
@@ -3023,24 +2973,6 @@ class CfgVehicles
             "\BagsTacticalGear\Gear\Bags\tortilla_digi.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_digi.paa",
             "\BagsTacticalGear\Gear\Bags\tortilla_digi.paa"
-        };
-    };
-    class Bags_Tortillabag_DST: TortillaBag
-    {
-        scope = 2;
-        displayName = "Tortillabag Flat-Tan";
-        descriptionShort = "A Tortillabag with a Flat-Tan hue.";
-        hiddenSelections[]=
-		{
-			"camoGround",
-			"camoMale",
-			"camoFemale"
-		};
-        hiddenSelectionsTextures[] =
-        {
-            "\BagsTacticalGear\Gear\Bags\tortilla_dst.paa",
-            "\BagsTacticalGear\Gear\Bags\tortilla_dst.paa",
-            "\BagsTacticalGear\Gear\Bags\tortilla_dst.paa"
         };
     };
     class Bags_Tortillabag_EGT: TortillaBag
