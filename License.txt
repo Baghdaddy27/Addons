@@ -1,8 +1,7 @@
 License — Bags Mods (Baghdaddy27)
 
 Copyright (c) Baghdaddy27. All Bags Mods are the work of Baghdaddy27,
-distributed via Steam Workshop and GitHub. Copyright 2026 Baghdaddy's Mods. 
-This item is not authorized for posting on Steam, except under the Steam account https://steamcommunity.com/id/baghdaddy27
+distributed via Steam Workshop and GitHub.
 
 You may:
 - Use these mods freely in your own DayZ server(s), including public and

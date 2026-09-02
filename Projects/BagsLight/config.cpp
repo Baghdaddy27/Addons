@@ -1,0 +1,37 @@
+class CfgPatches
+{
+	class BagsGuns
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {};
+	};
+};
+class CfgMods
+{
+	class BagsWeapons
+	{
+		dir = "BagsGuns";
+		picture = "";
+		action = "";
+		hideName = 1;
+		hidePicture = 1;
+		name = "Bags-Guns";
+		credits = "Baghdaddy27";
+		author = "Baghdaddy27";
+		authorID = "76561197977560525";
+		version = "1.5";
+		extra = 0;
+		type = "mod";
+		dependencies[] = {"World"};
+		class defs
+		{
+			class worldScriptModule
+			{
+				value = "";
+				files[] = {"BagsGuns\scripts\4_world"};
+			};
+		};
+	};
+};

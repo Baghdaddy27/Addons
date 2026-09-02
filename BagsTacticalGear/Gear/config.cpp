@@ -568,20 +568,8 @@ class CfgVehicles
         };
     };    
 
-    //Press Vest
+//Press Vest
     class PressVest_ColorBase;
-    class Bags_PressVest_ACU: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest UCP";
-        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa"
-        };
-    };
     class Bags_PressVest_BLK: PressVest_ColorBase
     {
         scope = 2;
@@ -592,78 +580,6 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_blk_co.paa"
-        };
-    };
-    class Bags_PressVest_CAN: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest CADPAT";
-        descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa"
-        };
-    };
-    class Bags_PressVest_CC: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest 6-Color Desert";
-        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa"
-        };
-    };
-    class Bags_PressVest_CCI: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Iraqi";
-        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa"
-        };
-    };
-    class Bags_PressVest_CHN: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest PLA";
-        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa"
-        };
-    };
-    class Bags_PressVest_DCU: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest DCU";
-        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa"
-        };
-    };
-    class Bags_PressVest_Digi: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest EMR Arid";
-        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa"
         };
     };
     class Bags_PressVest_DST: PressVest_ColorBase
@@ -678,88 +594,22 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_dst_co.paa"
         };
     };
-    class Bags_PressVest_EGT: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Egyptian";
-        descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa"
-        };
-    };
     class Bags_PressVest_ERDL: PressVest_ColorBase
     {
         scope = 2;
         displayName = "Ballistic Vest Woodland";
         descriptionShort = "ERDL camo, also known as the Leaf or Woodland pattern, is a military camouflage design developed by the United States Army in 1948.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_erdl_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_erdl_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_erdl_co.paa"
-        };
-    };
-    class Bags_PressVest_FLK: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Flektarn";
-        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa"
-        };
-    };
-    class Bags_PressVest_Multicam: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Multicam";
-        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa"
-        };
-    };
-    class Bags_PressVest_MulticamG: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Multicam Green";
-        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa"
-        };
-    };
-    class Bags_PressVest_MulticamB: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Multicam Black";
-        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa"
-        };
-    };
-    class Bags_PressVest_NK: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest KPA";
-        descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa"
         };
     };
     class Bags_PressVest_OLV: PressVest_ColorBase
@@ -774,168 +624,1297 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Vests\pressvest_olv_co.paa"
         };
     };
-    class Bags_PressVest_OP4: PressVest_ColorBase
+
+// PLATE CARRIERS
+    class PlateCarrierVest;
+    class Bags_PressVest_Bag: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest UCP";
+        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\ballisticvest_bag_co.paa",
+            "BagsTacticalGear\Gear\Vests\ballisticvest_bag_co.paa",
+            "BagsTacticalGear\Gear\Vests\ballisticvest_bag_co.paa"
+        };
+    };
+    class Bags_PressVest_Smith: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest UCP";
+        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\ballisticvest_smith_co.paa",
+            "BagsTacticalGear\Gear\Vests\ballisticvest_smith_co.paa",
+            "BagsTacticalGear\Gear\Vests\ballisticvest_smith_co.paa"
+        };
+    };
+    class Bags_PressVest_ACU: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest UCP";
+        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa"
+        };
+    };
+    class Bags_PressVest_CAN: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest CADPAT";
+        descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa"
+        };
+    };
+    class Bags_PressVest_CC: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest 6-Color Desert";
+        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa"
+        };
+    };
+    class Bags_PressVest_CCI: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Iraqi";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa"
+        };
+    };
+    class Bags_PressVest_CHN: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest PLA";
+        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa"
+        };
+    };
+    class Bags_PressVest_DCU: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest DCU";
+        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa"
+        };
+    };
+    class Bags_PressVest_Digi: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest EMR Arid";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa"
+        };
+    };
+    class Bags_PressVest_EGT: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Egyptian";
+        descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa"
+        };
+    };
+    class Bags_PressVest_FLK: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Flektarn";
+        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa"
+        };
+    };
+    class Bags_PressVest_Multicam: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Multicam";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa"
+        };
+    };
+    class Bags_PressVest_MulticamG: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Multicam Green";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa"
+        };
+    };
+    class Bags_PressVest_MulticamB: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest Multicam Black";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa"
+        };
+    };
+    class Bags_PressVest_NK: PlateCarrierVest
+    {
+        scope = 2;
+        displayName = "Ballistic Vest KPA";
+        descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa"
+        };
+    };
+    class Bags_PressVest_OP4: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest OPFOR";
         descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa"
         };
     };
-    class Bags_PressVest_Pink: PressVest_ColorBase
+    class Bags_PressVest_Pink: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest Pink";
         descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa"
         };
     };
-    class Bags_PressVest_TGR: PressVest_ColorBase
+    class Bags_PressVest_TGR: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest Tiger-Stripe";
         descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa"
         };
     };
-    class Bags_PressVest_TRK: PressVest_ColorBase
+    class Bags_PressVest_TRK: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest M2008";
         descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa"
         };
     };
-    class Bags_PressVest_RUS: PressVest_ColorBase
+    class Bags_PressVest_RUS: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest EMR Tsifra";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa"
         };
     };
-    class Bags_PressVest_SAF: PressVest_ColorBase
+    class Bags_PressVest_SAF: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest SANDF";
         descriptionShort = "Soldier 2000 is a military camouflage pattern developed by the Council for Scientific and Industrial Research and is in use with the South African National Defence Force.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa"
         };
     };
-    class Bags_PressVest_SPN: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest Policia Nacional";
-        descriptionShort = "A vest stylized after the Policia Nacional or National Police of Spain.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_spn_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_spn_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_spn_co.paa"
-        };
-    };
-    class Bags_PressVest_SWD: PressVest_ColorBase
+    class Bags_PressVest_SWD: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest M90";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa"
         };
     };
-    class Bags_PressVest_UKR: PressVest_ColorBase
+    class Bags_PressVest_UKR: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest MM-14";
         descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa"
         };
     };
-    class Bags_PressVest_URB: PressVest_ColorBase
+    class Bags_PressVest_URB: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest Urban";
         descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa"
         };
     };
-    class Bags_PressVest_USCG: PressVest_ColorBase
-    {
-        scope = 2;
-        displayName = "Ballistic Vest USCG";
-        descriptionShort = "A Ballistic Vest with USCG insigna. Used by Boarding Team members while conducting Law Enforcement on the high seas.";
-        hiddenSelectionsTextures[] =
-        {
-            "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa",
-            "BagsTacticalGear\Gear\Vests\pressvest_uscg_co.paa"
-        };
-    };
-    class Bags_PressVest_USN: PressVest_ColorBase
+    class Bags_PressVest_USN: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest Kamysh";
         descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa"
         };
     };
-    class Bags_PressVest_USN2: PressVest_ColorBase
+    class Bags_PressVest_USN2: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest NWU III";
         descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa"
         };
     };
-    class Bags_PressVest_WW2: PressVest_ColorBase
+    class Bags_PressVest_WW2: PlateCarrierVest
     {
         scope = 2;
         displayName = "Ballistic Vest WW2";
         descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
-        hiddenSelectionsTextures[] =
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa"
+        };
+    };
+
+    // HOLSTER
+    class PlateCarrierHolster;
+    class Bags_Holster_ACU: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster UCP";
+        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa"
+        };
+    };
+    class Bags_Holster_CAN: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster CADPAT";
+        descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa"
+        };
+    };
+    class Bags_Holster_CC: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster 6-Color Desert";
+        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa"
+        };
+    };
+    class Bags_Holster_CCI: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Iraqi";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa"
+        };
+    };
+    class Bags_Holster_CHN: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster PLA";
+        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa"
+        };
+    };
+    class Bags_Holster_DCU: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster DCU";
+        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa"
+        };
+    };
+    class Bags_Holster_Digi: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster EMR Arid";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa"
+        };
+    };
+    class Bags_Holster_EGT: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Egyptian";
+        descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa"
+        };
+    };
+    class Bags_Holster_FLK: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Flektarn";
+        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa"
+        };
+    };
+    class Bags_Holster_Multicam: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Multicam";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa"
+        };
+    };
+    class Bags_Holster_MulticamG: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Multicam Green";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa"
+        };
+    };
+    class Bags_Holster_MulticamB: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Multicam Black";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa"
+        };
+    };
+    class Bags_Holster_NK: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster KPA";
+        descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa"
+        };
+    };
+    class Bags_Holster_OP4: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster OPFOR";
+        descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa"
+        };
+    };
+    class Bags_Holster_Pink: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Pink";
+        descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa"
+        };
+    };
+    class Bags_Holster_TGR: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Tiger-Stripe";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa"
+        };
+    };
+    class Bags_Holster_TRK: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster M2008";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa"
+        };
+    };
+    class Bags_Holster_RUS: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster EMR Tsifra";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa"
+        };
+    };
+    class Bags_Holster_SAF: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster SANDF";
+        descriptionShort = "Soldier 2000 is a military camouflage pattern developed by the Council for Scientific and Industrial Research and is in use with the South African National Defence Force.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa"
+        };
+    };
+    class Bags_Holster_SWD: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster M90";
+        descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa"
+        };
+    };
+    class Bags_Holster_UKR: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster MM-14";
+        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa"
+        };
+    };
+    class Bags_Holster_URB: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Urban";
+        descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa"
+        };
+    };
+    class Bags_Holster_USN: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster Kamysh";
+        descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa"
+        };
+    };
+    class Bags_Holster_USN2: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster NWU III";
+        descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa"
+        };
+    };
+    class Bags_Holster_WW2: PlateCarrierHolster
+    {
+        scope = 2;
+        displayName = "Holster WW2";
+        descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa"
+        };
+    };
+
+// POUCHES
+    class PlateCarrierPouches;
+    class Bags_Pouches_ACU: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches UCP";
+        descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_acu_co.paa"
+        };
+    };
+    class Bags_Pouches_CAN: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches CADPAT";
+        descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_can_co.paa"
+        };
+    };
+    class Bags_Pouches_CC: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches 6-Color Desert";
+        descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_cc_co.paa"
+        };
+    };
+    class Bags_Pouches_CCI: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Iraqi";
+        descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_irq_co.paa"
+        };
+    };
+    class Bags_Pouches_CHN: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches PLA";
+        descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_chn_co.paa"
+        };
+    };
+    class Bags_Pouches_DCU: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches DCU";
+        descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_dcu_co.paa"
+        };
+    };
+    class Bags_Pouches_Digi: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches EMR Arid";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_digi_co.paa"
+        };
+    };
+    class Bags_Pouches_EGT: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Egyptian";
+        descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_egt_co.paa"
+        };
+    };
+    class Bags_Pouches_FLK: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Flektarn";
+        descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_flk_co.paa"
+        };
+    };
+    class Bags_Pouches_Multicam: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Multicam";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_multicam_co.paa"
+        };
+    };
+    class Bags_Pouches_MulticamG: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Multicam Green";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_gmulti_co.paa"
+        };
+    };
+    class Bags_Pouches_MulticamB: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Multicam Black";
+        descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_bmulti_co.paa"
+        };
+    };
+    class Bags_Pouches_NK: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches KPA";
+        descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_nk_co.paa"
+        };
+    };
+    class Bags_Pouches_OP4: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches OPFOR";
+        descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_op4_co.paa"
+        };
+    };
+    class Bags_Pouches_Pink: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Pink";
+        descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_pink_co.paa"
+        };
+    };
+    class Bags_Pouches_TGR: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Tiger-Stripe";
+        descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_tgr_co.paa"
+        };
+    };
+    class Bags_Pouches_TRK: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches M2008";
+        descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_trk_co.paa"
+        };
+    };
+    class Bags_Pouches_RUS: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches EMR Tsifra";
+        descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_rus_co.paa"
+        };
+    };
+    class Bags_Pouches_SAF: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches SANDF";
+        descriptionShort = "Soldier 2000 is a military camouflage pattern developed by the Council for Scientific and Industrial Research and is in use with the South African National Defence Force.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_saf_co.paa"
+        };
+    };
+    class Bags_Pouches_SWD: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches M90";
+        descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_swd_co.paa"
+        };
+    };
+    class Bags_Pouches_UKR: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches MM-14";
+        descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_ukr_co.paa"
+        };
+    };
+    class Bags_Pouches_URB: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Urban";
+        descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_urb_co.paa"
+        };
+    };
+    class Bags_Pouches_USN: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches Kamysh";
+        descriptionShort = "Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn_co.paa"
+        };
+    };
+    class Bags_Pouches_USN2: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches NWU III";
+        descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
+        {
+            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa",
+            "BagsTacticalGear\Gear\Vests\pressvest_usn2_co.paa"
+        };
+    };
+    class Bags_Pouches_WW2: PlateCarrierPouches
+    {
+        scope = 2;
+        displayName = "Pouches WW2";
+        descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
+		hiddenSelections[]=
+		{
+			"camoGround"
+		};
+		hiddenSelectionsTextures[]=
         {
             "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa",
             "BagsTacticalGear\Gear\Vests\pressvest_ww2_co.paa",
@@ -945,92 +1924,134 @@ class CfgVehicles
 
 
 //BallisticHelmet
-    class BallisticHelmet_ColorBase;
-    class Bags_BallisticHelmet_ACU: BallisticHelmet_ColorBase
+    class BallisticHelmet_BDU;
+    class Bags_BallisticHelmet_ACU: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet UCP";
         descriptionShort = "The American ACU (Army Combat Uniform) features the Universal Camouflage Pattern (UCP), which was used by the U.S. Army from 2005 until it was phased out in 2019.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_acu_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_acu_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_acu_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_CAN: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_CAN: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet CADPAT";
         descriptionShort = "CADPAT stands for Canadian Disruptive Pattern, which is a digital camouflage pattern used by the Canadian Armed Forces.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_can_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_can_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_can_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_CC: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_CC: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet 6-Color Desert";
         descriptionShort = "Desert Storm Camo, or the 6-Color Desert Pattern, is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_cc_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_cc_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_cc_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_CCI: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_CCI: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Iraqi";
         descriptionShort = "Iraqi Variation of the 6-Color Desert Pattern, which is commonly known as Chocolate Chip Camouflage due to its resemblance to chocolate chip cookie dough.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_irq_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_irq_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_irq_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_CHN: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_CHN: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet PLA";
         descriptionShort = "Chinese woodland camouflage is called Xingkong, which was adopted by the People's Liberation Army in 2019.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_chn_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_chn_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_chn_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_DCU: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_DCU: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet DCU";
         descriptionShort = "The DCU camo pattern is officially known as the three-color desert camouflage pattern.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_dcu_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_dcu_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_dcu_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_Digi: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_Digi: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet EMR Arid";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_digi_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_digi_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_digi_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_DST: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_DST: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Flat-Tan";
@@ -1042,221 +2063,329 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa"
         };
     };
-    class Bags_BallisticHelmet_EGT: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_EGT: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Egyptian";
         descriptionShort = "This camouflage is part of the Egyptian Army's field service uniform, adopted around 1989.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_egt_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_egt_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_egt_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_FLK: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_FLK: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Flektarn";
         descriptionShort = "Flecktarn translates to mottled camouflage in German, and has been in service since 1990.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_flk_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_flk_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_flk_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_Multicam: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_Multicam: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Multicam";
         descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_multicam_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_MulticamG: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_MulticamG: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Multicam Green";
         descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_gmulti_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_gmulti_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_gmulti_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_MulticamB: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_MulticamB: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Multicam Black";
         descriptionShort = "MultiCam is the name of the camouflage pattern developed by Crye Precision, designed for use in various environments and conditions.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_bmulti_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_bmulti_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_bmulti_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_NK: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_NK: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet KPA";
         descriptionShort = "The North Korean digital camouflage pattern is often referred to simply as the Digital Camouflage or Digital Pattern, and it is the most modern uniform worn by the Korean People's Army.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_nk_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_nk_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_nk_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_OP4: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_OP4: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet OPFOR";
         descriptionShort = "OPFOR or Red Urban camo is designed to blend into urban environments, typically featuring shades of red, black, and grey to provide concealment in city settings.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_op4_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_op4_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_op4_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_Pink: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_Pink: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Pink";
         descriptionShort = "High-Visibility Pink is often used in various applications, but it is not a traditional camouflage pattern like those used in military contexts.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_pink_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_pink_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_pink_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_TGR: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_TGR: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Tiger-Stripe";
         descriptionShort = "Tiger stripe camo is a type of camouflage pattern originally developed for jungle warfare, characterized by narrow stripes resembling a tiger's stripes, typically in green and brown colors.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_tgr_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_TRK: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_TRK: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet M2008";
         descriptionShort = "Turkey adopted the M2008 Camouflage, often called nano, in 2008.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_trk_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_trk_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_trk_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_RUS: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_RUS: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet EMR Tsifra";
         descriptionShort = "EMR camouflage is the standard camouflage pattern of the Russian Military's V.K.B.O.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_rus_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_rus_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_rus_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_SAF: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_SAF: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet SANDF";
         descriptionShort = "Soldier 2000 is a military camouflage pattern developed by the Council for Scientific and Industrial Research and is in use with the South African National Defence Force.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_saf_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_saf_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_saf_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_SWD: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_SWD: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet M90";
         descriptionShort = "Swedish camouflage is called M90 camouflage, which was introduced in the late 1980s for the Swedish Armed Forces.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_swd_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_swd_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_swd_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_UKR: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_UKR: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet MM-14";
         descriptionShort = "MM-14, also known as Pixel or Poroh-1, has been in use by the Armed Forces of Ukraine since 2014.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_ukr_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_ukr_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_ukr_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_URB: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_URB: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Urban";
         descriptionShort = "Urban Camouflage is designed to blend into urban environments, utilizing grayscale colors to enhance concealment in city settings.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_urb_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_urb_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_urb_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_USN: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_USN: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet Kamysh Digital";
         descriptionShort = "The Russian blue camouflage is commonly referred to as Kamysh camo, which is used by police forces and some spetsnaz units operating in urban areas.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_USN2: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_USN2: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet NWU III";
         descriptionShort = "This green navy camouflage pattern is known as AOR2, which is part of the Navy Working Uniform Type III designed for temperate environments.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn2_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn2_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_usn2_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
-    class Bags_BallisticHelmet_WW2: BallisticHelmet_ColorBase
+    class Bags_BallisticHelmet_WW2: BallisticHelmet_BDU
     {
         scope = 2;
         displayName = "Ballistic Helmet WW2";
         descriptionShort = "The USMC WW2 camouflage pattern was designed for jungle and beach environments and was first issued in 1942.";
+        model="\DZ\characters\headgear\pasgt_g.p3d";
         hiddenSelectionsTextures[] =
         {
             "BagsTacticalGear\Gear\Helmets\helmetmich_ww2_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_ww2_co.paa",
             "BagsTacticalGear\Gear\Helmets\helmetmich_ww2_co.paa"
         };
+        class ClothingTypes
+		{
+			male="\DZ\characters\headgear\pasgt_m.p3d";
+			female="\DZ\characters\headgear\pasgt_f.p3d";
+		};
     };
 
 
@@ -2424,5 +3553,95 @@ class CfgVehicles
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagH_kufbk_co.paa",
 			"\BagsTacticalGear\Gear\Shemaghs\ShemagF_kufbk_co.paa"
         };
+	};
+
+    // First Aid Kit
+    class Container_Base;
+    class FirstAidKit: Container_Base
+	{
+		scope=2;
+		displayName="$STR_CfgVehicles_FirstAidKit0";
+		descriptionShort="$STR_CfgVehicles_FirstAidKit1";
+		model="\dz\gear\containers\FirstAidKit.p3d";
+		rotationFlags=17;
+		weight=140;
+		itemSize[]={3,3};
+		itemsCargoSize[]={4,4};
+		allowOwnedCargoManipulation=1;
+		randomQuantity=2;
+		canBeDigged=1;
+		repairableWithKits[]={2};
+		repairCosts[]={25};
+		isMeleeWeapon=1;
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=80;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\gear\containers\data\FirsAidKit.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\gear\containers\data\FirsAidKit.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\gear\containers\data\FirsAidKit_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\gear\containers\data\FirsAidKit_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\gear\containers\data\FirsAidKit_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		soundImpactType="textile";
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem_Light
+				{
+					soundSet="pickUpCourierBag_Light_SoundSet";
+					id=796;
+				};
+				class pickUpItem
+				{
+					soundSet="pickUpCourierBag_SoundSet";
+					id=797;
+				};
+			};
+		};
 	};
 };

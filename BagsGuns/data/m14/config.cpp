@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class Bags_M14_Extension
+	class M14_Extension
 	{
 		units[]={
-			"Bags_M14_Black",
-			"Bags_M14_Tan",
-			"Bags_M14_Wood"
+			"M14_Black",
+			"M14_Tan",
+			"M14_Wood"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -18,7 +18,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class Rifle_Base;
-	class M14_Base: Rifle_Base
+	class Bags_M14_Base: Rifle_Base
 	{
 		scope=0;
 		weight=2700;
@@ -184,7 +184,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Bags_M14_Black: M14_Base
+	class Bags_M14_Black: Bags_M14_Base
 	{
 		scope=2;
 		displayName="$STR_cfgWeapons_M140";
@@ -267,7 +267,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Bags_M14_Tan: M14_Base
+	class Bags_M14_Tan: Bags_M14_Base
 	{
 		scope=2;
 		displayName="$STR_cfgWeapons_M140";
@@ -350,7 +350,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Bags_M14_Wood: M14_Base
+	class Bags_M14_Wood: Bags_M14_Base
 	{
 		scope=2;
 		displayName="$STR_cfgWeapons_M140";
@@ -432,6 +432,5 @@ class cfgWeapons
 				};
 			};
 		};
-
 	};
 };

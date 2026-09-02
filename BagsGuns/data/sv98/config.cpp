@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Bags_SV98_EXtension
+	class Bags_SV98_Extension
 	{
 		units[]={
 			"Bags_SV98_Black",
@@ -24,7 +24,7 @@ class OpticsInfoRifle;
 class cfgWeapons
 {
 	class BoltActionRifle_ExternalMagazine_Base;
-	class SV98_Base: BoltActionRifle_ExternalMagazine_Base
+	class Bags_SV98_Base: BoltActionRifle_ExternalMagazine_Base
 	{
 		scope=0;
 		PPDOFProperties[]={1,0.1,20,200,10,10};
@@ -96,7 +96,7 @@ class cfgWeapons
 		};
 		weaponStateAnim="dz\anims\anm\player\reloads\SSG82\w_SSG82_states.anm";
 	};
-	class SV98: SV98_Base
+	class Bags_SV98_Black: Bags_SV98_Base
 	{
 		scope=2;
 		displayName="$STR_cfgweapons_SV980";
@@ -137,7 +137,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"dz\weapons\firearms\sv98\data\sv98_wood_co.paa",
+			"BagsGuns\data\SV98\sv98_wood3_co.paa",
 			"dz\weapons\firearms\sv98\data\sv98_metal_co.paa",
 			""
 		};
@@ -200,20 +200,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Bags_SV98_Black: SV98
-	{
-		scope=2;
-		displayName="$STR_cfgweapons_SV980";
-		descriptionShort="$STR_cfgweapons_SV981";
-		model="\dz\weapons\firearms\sv98\sv98.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"BagsGuns\data\SV98\sv98_wood3_co.paa",
-			"dz\weapons\firearms\sv98\data\sv98_metal_co.paa",
-			""
-		};
-	};
-	class Bags_SV98_Tan: SV98
+	class Bags_SV98_Tan: Bags_SV98_Black
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=

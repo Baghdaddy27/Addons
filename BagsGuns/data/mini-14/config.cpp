@@ -287,6 +287,8 @@ class cfgWeapons
 	class Bags_Mini14_Black: Bags_Mini14_Base
 	{
 		scope=2;
+		displayName="M14-556";
+		descriptionShort="A custom M14 in 5.56. Can accept all 5.56 CMAGs but not STANAG. The M14-556 is a lightweight semi-automatic rifle manufactured by Sturm, Ruger & Co. Introduced in 1973, the design was outwardly similar to the M14 rifle.";
 		model="\dz\weapons\firearms\m14\m14.p3d";
 		attachments[]=
 		{
@@ -368,6 +370,8 @@ class cfgWeapons
 	class Bags_Mini14_Tan: Bags_Mini14_Base
 	{
 		scope=2;
+		displayName="M14-556";
+		descriptionShort="A custom M14 in 5.56. Can accept all 5.56 CMAGs but not STANAG. The M14-556 is a lightweight semi-automatic rifle manufactured by Sturm, Ruger & Co. Introduced in 1973, the design was outwardly similar to the M14 rifle.";
 		model="\dz\weapons\firearms\m14\m14.p3d";
 		attachments[]=
 		{
@@ -449,6 +453,8 @@ class cfgWeapons
 	class Bags_Mini14_Wood: Bags_Mini14_Base
 	{
 		scope=2;
+		displayName="M14-556";
+		descriptionShort="A custom M14 in 5.56. Can accept all 5.56 CMAGs but not STANAG. The M14-556 is a lightweight semi-automatic rifle manufactured by Sturm, Ruger & Co. Introduced in 1973, the design was outwardly similar to the M14 rifle.";
 		model="\dz\weapons\firearms\m14\m14.p3d";
 		attachments[]=
 		{
