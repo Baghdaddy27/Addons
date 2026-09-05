@@ -3576,4 +3576,277 @@ class Bags_BallisticHelmet_DST: BallisticHelmet_Colorbase
 			};
 		};
 	};
+
+//Ghillie Suit
+    class GhillieSuit_ColorBase;
+    class Bags_GhillieSuit_Arid: GhillieSuit_ColorBase
+	{
+		scope=2;
+        displayName="Ghillie Suit Arid";
+		descriptionShort="A Ghillie Suit for arid or desert environments.";
+		visibilityModifier=0.60000002;
+        heatIsolation=0.40000001;
+		hiddenSelectionsTextures[]=
+		{
+			"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+			"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+			"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=50;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+							    "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_destruct_co.paa"
+							}
+						}
+					};
+				};
+			};
+		};
+	};
+    
+// Ghillie Wrap
+    class GhillieAtt_ColorBase;
+    class Bags_GhillieAtt_Arid: GhillieAtt_ColorBase
+	{
+		scope=2;
+        displayName="Ghillie Wrap Arid";
+		descriptionShort="A Ghillie weapon wrap for arid or desert environments.";
+        heatIsolation=0.40000001;
+		hiddenSelectionsTextures[]=
+		{
+			"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=300;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+							    "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_destruct_co.paa"
+							}
+						}
+					};
+				};
+			};
+        };	
+    };
+
+    // Ghillie Top
+    class GhillieTop_ColorBase;
+    class GhillieTop_Tan: GhillieTop_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.60000002;
+        heatIsolation=0.40000001;
+		hiddenSelectionsTextures[]=
+		{
+			"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+            "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+            "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=300;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+							    "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_destruct_co.paa"
+							}
+						}
+					};
+				};
+			};
+        };	
+    };
+
+    //Ghillie Bushrag
+    class GhillieBushrag_ColorBase;
+    class GhillieBushrag_Tan: GhillieBushrag_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.69999999;
+        heatIsolation=0.40000001;
+		hiddenSelectionsTextures[]=
+		{
+			"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+            "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+            "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=300;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+							    "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_destruct_co.paa"
+							}
+						}
+					};
+				};
+			};
+        };	
+    };
 };
