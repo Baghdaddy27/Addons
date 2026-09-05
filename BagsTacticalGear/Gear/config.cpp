@@ -240,6 +240,72 @@ class CfgVehicles
         };
         color="NOD";
     };
+    class Bags_Flag_ENC: Flag_Base
+    {
+        scope = 2;
+        displayName = "Enclave Flag";
+        descriptionShort = "The flag of the Enclave from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa"
+        };
+        color="ENC";
+    };
+    class Bags_Flag_BHS: Flag_Base
+    {
+        scope = 2;
+        displayName = "Brotherhood of Steel Flag";
+        descriptionShort = "The flag of the Brotherhood of Steel from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa"
+        };
+        color="BHS";
+    };
+    class Bags_Flag_INST: Flag_Base
+    {
+        scope = 2;
+        displayName = "Institute Flag";
+        descriptionShort = "The flag of the Institute from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa"
+        };
+        color="INST";
+    };
+    class Bags_Flag_LEG: Flag_Base
+    {
+        scope = 2;
+        displayName = "Legion Flag";
+        descriptionShort = "The flag of Caesar Legion from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa"
+        };
+        color="LEG";
+    };
+    class Bags_Flag_MM: Flag_Base
+    {
+        scope = 2;
+        displayName = "Minutemen Flag";
+        descriptionShort = "The flag of the Minutemen from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa"
+        };
+        color="MM";
+    };
+    class Bags_Flag_NCR: Flag_Base
+    {
+        scope = 2;
+        displayName = "New California Republic Flag";
+        descriptionShort = "The flag of the New California Republic from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa"
+        };
+        color="NCR";
+    };
 
 
     //Armbands
@@ -381,7 +447,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "US Air Force Armband";
-        descriptionShort = "The flag of the US Air Force. Pinky out fancy branch.";
+        descriptionShort = "The Armband of the US Air Force. Pinky out fancy branch.";
         color="USAF";
         hiddenSelectionsTextures[] =
         {
@@ -400,7 +466,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "US Army Armband";
-        descriptionShort = "The flag of the US Army. Hooah or whatever.";
+        descriptionShort = "The Armband of the US Army. Hooah or whatever.";
         color="USArmy";
         hiddenSelectionsTextures[] =
         {
@@ -419,7 +485,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "US Coast Guard Armband";
-        descriptionShort = "The flag of the US Coast Guard. Puddle Pirates to the rescue!";
+        descriptionShort = "The Armband of the US Coast Guard. Puddle Pirates to the rescue!";
         color="USCG";
         hiddenSelectionsTextures[] =
         {
@@ -438,7 +504,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "US Marine Corps Armband";
-        descriptionShort = "The flag of the USMC. Oorah Devil Dogs. Yut, Kill, Nut.";
+        descriptionShort = "The Armband of the USMC. Oorah Devil Dogs. Yut, Kill, Nut.";
         color="USMC";
         hiddenSelectionsTextures[] =
         {
@@ -457,7 +523,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "US Navy Armband";
-        descriptionShort = "The flag of the US Navy. Ahoy there sailor, UwU!";
+        descriptionShort = "The Armband of the US Navy. Ahoy there sailor, UwU!";
         color="USN";
         hiddenSelectionsTextures[] =
         {
@@ -476,7 +542,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "US Space Force Armband";
-        descriptionShort = "The flag of the US Space Force. Robotic noises 01001010010011010";
+        descriptionShort = "The Armband of the US Space Force. Robotic noises 01001010010011010";
         color="USSF";
         hiddenSelectionsTextures[] =
         {
@@ -533,7 +599,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "GDI Armband";
-        descriptionShort = "The flag of the Global Defense Initiaive (GDI) from Tiberian Sun.";
+        descriptionShort = "The Armband of the Global Defense Initiaive (GDI) from Tiberian Sun.";
         color="GDI";
         hiddenSelectionsTextures[] =
         {
@@ -552,7 +618,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "NOD Armband";
-        descriptionShort = "The flag of the Brotherhood of Nod from Tiberian Sun.";
+        descriptionShort = "The Armband of the Brotherhood of Nod from Tiberian Sun.";
         color="Nod";
         hiddenSelectionsTextures[] =
         {
@@ -566,7 +632,128 @@ class CfgVehicles
             "BagsTacticalGear\Gear\Flags\flag_nod_co.paa",
             "BagsTacticalGear\Gear\Flags\flag_nod_co.paa"
         };
-    };    
+    }; 
+    class Bags_Armband_ENC: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Enclave Armband";
+        descriptionShort = "The Armband of the Enclave from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_enc_co.paa"
+        };
+        color="ENC";
+    };
+    class Bags_Armband_BHS: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Brotherhood of Steel Armband";
+        descriptionShort = "The Armband of the Brotherhood of Steel from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_bhs_co.paa"
+        };
+        color="BHS";
+    };
+    class Bags_Armband_INST: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Institute Armband";
+        descriptionShort = "The Armband of the Institute from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_inst_co.paa"
+        };
+        color="INST";
+    };
+    class Bags_Armband_LEG: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Legion Armband";
+        descriptionShort = "The Armband of Caesar Legion from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_leg_co.paa"
+        };
+        color="LEG";
+    };
+    class Bags_Armband_MM: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "Minutemen Armband";
+        descriptionShort = "The Armband of the Minutemen from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_mm_co.paa"
+        };
+        color="MM";
+    };
+    class Bags_Armband_NCR: Armband_ColorBase
+    {
+        scope = 2;
+        displayName = "New California Republic Armband";
+        descriptionShort = "The Armband of the New California Republic from Fallout.";
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa",
+            "BagsTacticalGear\Gear\Flags\flag_NCR_co.paa"
+        };
+        color="NCR";
+    };   
+
 
 //Press Vest
     class PressVest_ColorBase;
@@ -1901,7 +2088,6 @@ class Bags_BallisticHelmet_DST: BallisticHelmet_Colorbase
             "BagsTacticalGear\Gear\Helmets\helmetmich_dst_co.paa"
         };
     };
-
 
 //BallisticHelmet
     class BallisticHelmet_BDU;
@@ -3716,11 +3902,13 @@ class Bags_BallisticHelmet_DST: BallisticHelmet_Colorbase
 
     // Ghillie Top
     class GhillieTop_ColorBase;
-    class GhillieTop_Tan: GhillieTop_ColorBase
+    class Bags_GhillieTop_Arid: GhillieTop_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.60000002;
+        displayName="Ghillie Top Arid";
+		descriptionShort="Ghillie clothing for arid or desert environments.";
         heatIsolation=0.40000001;
+        visibilityModifier=0.60000002;
 		hiddenSelectionsTextures[]=
 		{
 			"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
@@ -3784,10 +3972,81 @@ class Bags_BallisticHelmet_DST: BallisticHelmet_Colorbase
 
     //Ghillie Bushrag
     class GhillieBushrag_ColorBase;
-    class GhillieBushrag_Tan: GhillieBushrag_ColorBase
+    class Bags_GhillieBushrag_Arid: GhillieBushrag_ColorBase
 	{
 		scope=2;
 		visibilityModifier=0.69999999;
+        displayName="Ghillie Bushrag Arid";
+		descriptionShort="Ghillie clothing for arid or desert environments.";
+        heatIsolation=0.40000001;
+		hiddenSelectionsTextures[]=
+		{
+			"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+            "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+            "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=300;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+							    "BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_co.paa",
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_damage_co.paa"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"BagsTacticalGear\Gear\Ghillie\ghillie_arid_destruct_co.paa"
+							}
+						}
+					};
+				};
+			};
+        };	
+    };
+
+    class GhillieHood_ColorBase;
+    class Bags_GhillieHood_Arid: GhillieHood_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.69999999;
+        displayName="Ghillie Hood Arid";
+		descriptionShort="Ghillie clothing for arid or desert environments.";
         heatIsolation=0.40000001;
 		hiddenSelectionsTextures[]=
 		{

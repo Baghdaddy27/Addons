@@ -2392,8 +2392,8 @@ class CfgVehicles
     class Bags_NBCJacketERDL: NBCJacketBase
     {
         scope = 2;
-        displayName = "NBC Woodland Jacket";
-        descriptionShort = "MOPP is protective gear used by U.S. military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
+        displayName = "NBC Jacket Woodland";
+        descriptionShort = "MOPP gear, also known as NBC, is protective gear used by military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
         hiddenSelections[]=
         {
             "camoGround",
@@ -2402,17 +2402,35 @@ class CfgVehicles
         };
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\NBC\nbc_jacket_erdl_co.paa",
-            "BagsTacticalGear\Clothes\NBC\nbc_jacket_erdl_co.paa",
-            "BagsTacticalGear\Clothes\NBC\nbc_jacket_erdl_co.paa"
+            "BagsTacticalGear\Clothes\NBC\nbcjacket_erdl_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbcjacket_erdl_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbcjacket_erdl_co.paa"
+        };
+    };
+    class Bags_NBCJacketRUS: NBCJacketBase
+    {
+        scope = 2;
+        displayName = "NBC Jacket Soviet";
+        descriptionShort = "MOPP gear, also known as NBC, is protective gear used by military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
+        hiddenSelections[]=
+        {
+            "camoGround",
+            "camoMale",
+            "camoFemale"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\NBC\nbcjacket_rus_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbcjacket_rus_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbcjacket_rus_co.paa"
         };
     };
     class NBCPantsBase;
     class Bags_NBCPantsERDL: NBCPantsBase
     {
         scope = 2;
-        displayName = "NBC Woodland Pants";
-        descriptionShort = "MOPP is protective gear used by U.S. military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
+        displayName = "NBC Pants Woodland";
+        descriptionShort = "MOPP gear, also known as NBC, is protective gear used by military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
         hiddenSelections[]=
         {
             "camoGround",
@@ -2421,17 +2439,35 @@ class CfgVehicles
         };
         hiddenSelectionsTextures[] =
         {
-            "BagsTacticalGear\Clothes\NBC\nbc_pants_erdl_co.paa",
-            "BagsTacticalGear\Clothes\NBC\nbc_pants_erdl_co.paa",
-            "BagsTacticalGear\Clothes\NBC\nbc_pants_erdl_co.paa"
+            "BagsTacticalGear\Clothes\NBC\nbcpants_erdl_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbcpants_erdl_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbcpants_erdl_co.paa"
+        };
+    };
+    class Bags_NBCPantsRUS: NBCPantsBase
+    {
+        scope = 2;
+        displayName = "NBC Pants Soviet";
+        descriptionShort = "MOPP gear, also known as NBC, is protective gear used by military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
+        hiddenSelections[]=
+        {
+            "camoGround",
+            "camoMale",
+            "camoFemale"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\NBC\nbcpants_rus_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbcpants_rus_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbcpants_rus_co.paa"
         };
     };
     class NBCHoodBase;
     class Bags_NBCHoodERDL: NBCHoodBase
     {
         scope = 2;
-        displayName = "NBC Woodland Hood";
-        descriptionShort = "MOPP is protective gear used by U.S. military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
+        displayName = "NBC Hood Woodland";
+        descriptionShort = "MOPP gear, also known as NBC, is protective gear used by military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
         hiddenSelections[]=
         {
             "camoGround",
@@ -2445,12 +2481,30 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\NBC\nbc_hood_erdl_co.paa"
         };
     };
+    class Bags_NBCHoodRUS: NBCHoodBase
+    {
+        scope = 2;
+        displayName = "NBC Hood Soviet";
+        descriptionShort = "MOPP gear, also known as NBC, is protective gear used by military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
+        hiddenSelections[]=
+        {
+            "camoGround",
+            "camoMale",
+            "camoFemale"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\NBC\nbc_hood_rus_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbc_hood_rus_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbc_hood_rus_co.paa"
+        };
+    };
     class NBCBootsBase;
     class Bags_NBCBootsERDL: NBCBootsBase
     {
         scope = 2;
-        displayName = "NBC Woodland Boots";
-        descriptionShort = "MOPP is protective gear used by U.S. military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
+        displayName = "NBC Boots Woodland";
+        descriptionShort = "MOPP gear, also known as NBC, is protective gear used by military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
         hiddenSelections[]=
         {
             "camoGround",
@@ -2463,5 +2517,25 @@ class CfgVehicles
             "BagsTacticalGear\Clothes\NBC\nbc_boots_erdl_co.paa",
             "BagsTacticalGear\Clothes\NBC\nbc_boots_erdl_co.paa"
         };
+        
+    };
+    class Bags_NBCBootsRUS: NBCBootsBase
+    {
+        scope = 2;
+        displayName = "NBC Boots Soviet";
+        descriptionShort = "MOPP gear, also known as NBC, is protective gear used by military personnel in a toxic environment, for example, during a chemical, biological, radiological, or nuclear strike.";
+        hiddenSelections[]=
+        {
+            "camoGround",
+            "camoMale",
+            "camoFemale"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "BagsTacticalGear\Clothes\NBC\nbc_boots_rus_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbc_boots_rus_co.paa",
+            "BagsTacticalGear\Clothes\NBC\nbc_boots_rus_co.paa"
+        };
+        
     };
 };
